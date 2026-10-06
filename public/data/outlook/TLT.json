@@ -1,0 +1,37 @@
+{
+ "ticker": "TLT",
+ "name": "20+ year US Treasuries",
+ "outlook": "Cautious",
+ "reasons": [
+  {
+   "kind": "price",
+   "text": "Past 3 months: -7%; past 12 months: -9% (historical closes).",
+   "sourceUrl": null,
+   "publishedAt": "2026-10-06"
+  },
+  {
+   "kind": "price",
+   "text": "Trades -7% vs its 200-day average and -12% from its 52-week high.",
+   "sourceUrl": null,
+   "publishedAt": "2026-10-06"
+  },
+  {
+   "kind": "note",
+   "text": "No headlines could be fetched, so this outlook uses price data only.",
+   "sourceUrl": null,
+   "publishedAt": null
+  }
+ ],
+ "historical12m": {
+  "p5": -0.26710961574720615,
+  "p50": -0.06168488359468438,
+  "p95": 0.07996247136071344,
+  "min": -0.36207801740736567,
+  "max": 0.1829550567318068,
+  "windows": 1449
+ },
+ "asOf": "2026-10-06T23:43:36+00:00",
+ "priceAsOf": "2026-10-06",
+ "method": "rules+headline-lexicon",
+ "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+}

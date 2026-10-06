@@ -1,0 +1,37 @@
+{
+ "ticker": "MSFT",
+ "name": "Microsoft",
+ "outlook": "Positive",
+ "reasons": [
+  {
+   "kind": "price",
+   "text": "Past 3 months: +39%; past 12 months: +3% (historical closes).",
+   "sourceUrl": null,
+   "publishedAt": "2026-10-06"
+  },
+  {
+   "kind": "price",
+   "text": "Trades +23% vs its 200-day average and -1% from its 52-week high.",
+   "sourceUrl": null,
+   "publishedAt": "2026-10-06"
+  },
+  {
+   "kind": "note",
+   "text": "No headlines could be fetched, so this outlook uses price data only.",
+   "sourceUrl": null,
+   "publishedAt": null
+  }
+ ],
+ "historical12m": {
+  "p5": -0.22126722062129334,
+  "p50": 0.21305352824487733,
+  "p95": 0.5874939766558624,
+  "min": -0.35316074795396846,
+  "max": 0.7731916500710374,
+  "windows": 1449
+ },
+ "asOf": "2026-10-06T23:43:31+00:00",
+ "priceAsOf": "2026-10-06",
+ "method": "rules+headline-lexicon",
+ "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+}
