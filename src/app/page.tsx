@@ -6,7 +6,7 @@ export default function Home() {
   const tick = Object.entries(man.assets).filter(([, v]) => v.kind !== 'commodity' || true);
   return (<>
     <header className="top"><div className="wrap" style={{ display: 'flex', width: '100%', padding: 0, maxWidth: 'none' }}>
-      <div className="brand" style={{ paddingLeft: 28 }}><span className="logo">⊕</span>OFFSET</div>
+      <div className="brand" style={{ paddingLeft: 28 }}><span className="logo">⊕</span>KEEL</div>
       <nav className="mono"><a href="#how">The mechanism</a><a href="#pools">The proof</a><a className="cta" href="#pools">Open app</a></nav></div></header>
     <div className="ticker mono">{tick.map(([k, v]) => <span key={k}><b>{k}</b> {v.last?.toFixed(2)} <i>●</i></span>)}<span>BSC MAINNET · SPOT ONLY</span><span>DATA THROUGH {man.asOf}</span></div>
     <div className="wrap">
@@ -14,7 +14,7 @@ export default function Home() {
         <div className="hero-l">
           <div className="tag mono">Hedged tokenized stocks on BNB Chain</div>
           <h1>Stocks that<em>soften each<br />other’s falls.</em></h1>
-          <p className="lede">Offset pairs a company stock with an asset that has historically held up when it fell. Pick a pool, enter an amount, confirm once. An agent splits it equally, finds the best route across issuers and buys every leg.</p>
+          <p className="lede">Keel pairs a company stock with an asset that has historically held up when it fell. Pick a pool, enter an amount, confirm once. An agent splits it equally, finds the best route across issuers and buys every leg.</p>
           <div className="btns"><a className="btn acc" href="#pools">Browse pools</a><a className="btn" href="#how">How it works</a></div>
         </div>
         <div className="fig" style={{ alignSelf: 'center' }}>

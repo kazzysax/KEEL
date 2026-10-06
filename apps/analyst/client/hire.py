@@ -1,4 +1,4 @@
-"""Buyer side: the Offset app's agent hires the Analyst before a purchase.
+"""Buyer side: the Keel app's agent hires the Analyst before a purchase.
 createJob -> registerJob -> setBudget -> fund -> (provider delivers) -> settle after the dispute window.
 Writes the job record to ../../public/data/outlook/jobs.json so the UI can link "verify on-chain".
 

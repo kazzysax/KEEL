@@ -1,4 +1,4 @@
-# Offset: hedged tokenized-stock pools (BNB Hack: Tokenized Stocks Edition)
+# Keel: hedged tokenized-stock pools (BNB Hack: Tokenized Stocks Edition)
 Next.js 15 app. Pools are precomputed from daily prices (`npm run precompute`, data in `data/prices`).
 ## Run
 ```bash
@@ -11,7 +11,7 @@ Live mode: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`. Agent mode: install
 - `src/app/api/agent` operator-run purchase through the Binance Agentic Wallet (`baw market-order quote/swap`).
 - `scripts/precompute.py` pool statistics and 2-year chart series.
 ## Agent identity (BNB Agent Studio)
-`apps/analyst` is the **Offset Outlook Analyst**, an ERC-8183 provider agent built on `bnbagent-sdk` (Python). It takes a job like `outlook AAPL,WMT,GLD`, builds a cited outlook per ticker (price facts + fetched headlines, no price targets, URLs validated against what was fetched), commits the deliverable hash on-chain, and is discoverable via ERC-8004.
+`apps/analyst` is the **Keel Outlook Analyst**, an ERC-8183 provider agent built on `bnbagent-sdk` (Python). It takes a job like `outlook AAPL,WMT,GLD`, builds a cited outlook per ticker (price facts + fetched headlines, no price targets, URLs validated against what was fetched), commits the deliverable hash on-chain, and is discoverable via ERC-8004.
 ```bash
 cd apps/analyst && pip install -r requirements.txt && cp .env.example .env   # fund the wallet with testnet BNB
 python scripts/register.py          # one-time ERC-8004 identity; write the id to public/data/outlook/agent.json

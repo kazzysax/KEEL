@@ -1,5 +1,5 @@
 """
-Register Offset Outlook Analyst on ERC-8004 Identity Registry.
+Register Keel Outlook Analyst on ERC-8004 Identity Registry.
 
 This is a one-time operation to register the agent on-chain.
 After registration, clients can discover this agent via the registry.
@@ -41,7 +41,7 @@ def main():
         print("Set a strong, unique value in .env at the project root")
         sys.exit(1)
 
-    agent_name = os.getenv("AGENT_NAME", "offset-analyst")
+    agent_name = os.getenv("AGENT_NAME", "keel-analyst")
     agent_description = os.getenv(
         "AGENT_DESCRIPTION",
         "Sells cited per-asset outlooks (Positive / Neutral / Cautious) for tokenized stocks and ETFs, "

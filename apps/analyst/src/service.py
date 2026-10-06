@@ -1,6 +1,6 @@
-"""Offset Outlook Analyst: an ERC-8183 provider agent (BNB Agent Studio / bnbagent-sdk).
+"""Keel Outlook Analyst: an ERC-8183 provider agent (BNB Agent Studio / bnbagent-sdk).
 
-A buyer (the Offset app's agent) opens a job whose task is a comma-separated list of tickers, e.g. "AAPL,WMT,GLD".
+A buyer (the Keel app's agent) opens a job whose task is a comma-separated list of tickers, e.g. "AAPL,WMT,GLD".
 When the job is funded the agent builds a cited outlook per ticker (src/outlook.py), the SDK stores the deliverable,
 and its hash is committed on-chain via commerce.submit. Settlement is optimistic (dispute window, then settle).
 Identity: registered on the ERC-8004 registry with scripts/register.py.
@@ -41,12 +41,12 @@ def process_task(job: dict) -> tuple[str, dict]:
     parsed = JobDescription.from_str(raw); task = parsed.task if parsed else raw
     tickers = parse_tickers(task)
     log.info("job %s -> outlook for %s", job.get("jobId", "?"), tickers)
-    report = {"agent": "offset-analyst", "schema": 1, "outlooks": [outlook.build(t) for t in tickers]}
-    return json.dumps(report, indent=1), {"agent": "offset-analyst", "tickers": tickers, "content_type": "application/json"}
+    report = {"agent": "keel-analyst", "schema": 1, "outlooks": [outlook.build(t) for t in tickers]}
+    return json.dumps(report, indent=1), {"agent": "keel-analyst", "tickers": tickers, "content_type": "application/json"}
 
 
 app = create_erc8183_app(config=config, on_job=process_task)
-print(f"\n  Offset Outlook Analyst  ·  port {PORT}  ·  price {int(config.service_price) / 10**18} U  ·  commerce {config.effective_commerce_address}\n")
+print(f"\n  Keel Outlook Analyst  ·  port {PORT}  ·  price {int(config.service_price) / 10**18} U  ·  commerce {config.effective_commerce_address}\n")
 
 if __name__ == "__main__":
     import uvicorn

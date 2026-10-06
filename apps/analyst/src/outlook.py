@@ -1,4 +1,4 @@
-"""Outlook engine for the Offset Analyst agent.
+"""Outlook engine for the Keel Analyst agent.
 
 Rules (so the output is safe to show next to a buy button):
   * every number comes from a tool result (price CSV or fetched headlines), never from a model's memory

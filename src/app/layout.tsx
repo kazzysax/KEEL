@@ -1,6 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
-export const metadata: Metadata = { title: 'Offset: hedged stock pools on BNB Chain', description: 'Curated pairs and trios of tokenized stocks and gold, chosen so one leg softens the other\'s falls. Bought in one confirmation.' };
+export const metadata: Metadata = { title: 'Keel: hedged stock pools on BNB Chain', description: 'Curated pairs and trios of tokenized stocks and gold, chosen so one leg softens the other\'s falls. Bought in one confirmation.' };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (<html lang="en"><head>
     <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
