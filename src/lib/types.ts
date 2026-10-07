@@ -1,7 +1,7 @@
 export type Pool = {
   id: string; kind: 'duo' | 'trio' | 'pair'; legs: string[]; weights: number[]; name: string;
   maxDD: number; avgYear: number; bestYear: number; worstYear: number; years: Record<string, number>;
-  offset: number; corr: number; ddToGrowth: number;
+  offset: number; corr: number; ddToGrowth: number; spark?: number[];
   r12: { p5: number; p50: number; p95: number; min: number; max: number; pctPositive: number };
   series?: Record<string, number | string>[];
 };

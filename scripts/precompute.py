@@ -76,7 +76,8 @@ for kind,lst in sel.items():
         rec=dict(id=pid,kind=kind,legs=legs,weights=[round(1/len(legs),4)]*len(legs),
             name=' + '.join(A[l][2].split(' (')[0] for l in legs),**{k:v for k,v in c.items() if k!='legs'},series=series)
         json.dump(rec,open(f'{OUT}/pools/{pid}.json','w'),separators=(',',':'))
-        pools.append({k:v for k,v in rec.items() if k!='series'})
+        step=max(1,len(pool)//48); sp=[round(float(v),1) for v in pool.iloc[::step]]
+        pools.append({**{k:v for k,v in rec.items() if k!='series'},'spark':sp})
 json.dump(dict(asOf=str(last.date()),from_=str(df.index[0].date()),assets={k:dict(group=v[0],kind=v[1],label=v[2],historySource=v[3],last=round(float(df[k].iloc[-1]),2)) for k,v in A.items()},pools=pools),open(f'{OUT}/pools.json','w'),indent=1)
 for p in pools: print(p['id'],p['name'],f"dd {p['maxDD']:.1%} avg {p['avgYear']:.1%} best {p['bestYear']:.1%} off {p['offset']} corr {p['corr']} ddg {p['ddToGrowth']:.2f}")
 print(df.index[0],df.index[-1],len(df))

@@ -21,9 +21,10 @@ function Row({ p, open, toggle, labels, short }: { p: Pool; open: boolean; toggl
     <button className="prow" onClick={toggle} aria-expanded={open}>
       <span className="mono pid">{p.id}</span>
       <div><div className="pname">{p.legs.map(l => labels[l]).join(' + ')}</div><div className="legs mono">{p.legs.map(l => <span className="chip" key={l}>{short(l)}</span>)}</div></div>
+      <Spark v={p.spark ?? []} />
       <div className="kv"><div className="k mono">Worst drawdown</div><div className="v neg">{pct(p.maxDD)}</div></div>
       <div className="kv"><div className="k mono">Avg / year</div><div className="v">{pct(p.avgYear)}</div></div>
-      <div className="kv"><div className="k mono">Offset score</div><div className="v">{p.offset}<span style={{ fontSize: 14, color: 'var(--mute)' }}>/100</span></div></div>
+      <div className="kv"><div className="k mono">Offset score</div><div className="v">{p.offset}<span style={{ fontSize: 13, opacity: .6 }}> /100</span></div><div className="meter"><i style={{ width: `${p.offset}%` }} /></div></div>
       <span className="chev mono">▶</span>
     </button>
     {open && <div className="pbody">
@@ -43,4 +44,11 @@ function Row({ p, open, toggle, labels, short }: { p: Pool; open: boolean; toggl
       <BuyPanel pool={p} labels={labels} />
     </div>}
   </div>);
+}
+
+function Spark({ v }: { v: number[] }) {
+  if (v.length < 2) return <span />;
+  const W = 132, H = 34, lo = Math.min(...v), hi = Math.max(...v);
+  const d = v.map((n, i) => `${i ? 'L' : 'M'}${((i / (v.length - 1)) * W).toFixed(1)},${(2 + (1 - (n - lo) / (hi - lo || 1)) * (H - 4)).toFixed(1)}`).join('');
+  return <svg className="spark" viewBox={`0 0 ${W} ${H}`} width="100%" height={H} aria-hidden="true"><path d={d} fill="none" stroke="#121212" strokeWidth="1.5" /></svg>;
 }
