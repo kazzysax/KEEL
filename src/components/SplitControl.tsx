@@ -15,7 +15,7 @@ export function rebalance(cur: number[], i: number, v: number): number[] {
 export default function SplitControl({ legs, labels, pct, onChange, custom }: { legs: string[]; labels: Record<string, string>; pct: number[]; onChange: (p: number[]) => void; custom: boolean }) {
   const equal = legs.map(() => 100 / legs.length);
   return (<div className="split-ctl">
-    <div className="sh2"><span className="mono">Your split</span>{custom ? <button className="btn" style={{ padding: '6px 10px' }} onClick={() => onChange(equal)}>Reset to equal</button> : <span className="mono" style={{ color: 'var(--mute)' }}>Equal by default · drag to change</span>}</div>
+    <div className="sh2"><span className="mono">Your split</span>{custom ? <button className="btn" style={{ padding: '6px 10px' }} onClick={() => onChange(equal)}>Reset to equal</button> : <span className="mono" style={{ color: 'var(--mute)' }}>Equal by default · in our past-data tests, tilting did not reliably do better</span>}</div>
     {legs.map((l, i) => <label key={l} className="srow"><span>{labels[l]}</span>
       <input type="range" min={MIN} max={100 - MIN * (legs.length - 1)} step={1} value={Math.round(pct[i])} onChange={e => onChange(rebalance(pct, i, Number(e.target.value)))} aria-label={`${labels[l]} share`} />
       <b className="mono">{pct[i] % 1 ? pct[i].toFixed(1) : pct[i]}%</b></label>)}
