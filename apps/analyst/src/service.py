@@ -54,11 +54,13 @@ def process_proposal(job: dict) -> tuple[str, dict]:
     """Job text: {"legs": ["WMT","GLD"], "rationale": "...", "proposer": {"agent": "...", "agentId": "..."}}  (JSON) or "propose WMT,GLD"."""
     task = _task(job).strip()
     try: p = json.loads(task)
-    except ValueError: p = {"legs": parse_tickers(task.replace("propose", "", 1)), "rationale": ""}
-    proposer = {"agent": (p.get("proposer") or {}).get("agent", "unknown"), "agentId": (p.get("proposer") or {}).get("agentId"),
-                "mode": "on-chain", "jobId": str(job.get("jobId", "")), "client": job.get("client")}
-    res = community.submit(p.get("legs", []), p.get("rationale", ""), proposer)
-    daily.log_event({"agent": AGENT, "type": "grade", "jobId": proposer["jobId"], "summary": f"Graded {'+'.join(p.get('legs', []))}: " + (f"listed as {res['id']}" if res["listed"] else "rejected, " + res["reasons"][0])})
+    except ValueError: p = {"legs": [t.strip() for t in task.replace("propose", "", 1).replace(";", ",").split(",") if t.strip()], "rationale": ""}
+    if not isinstance(p, dict): p = {"legs": None}
+    who = p.get("proposer") if isinstance(p.get("proposer"), dict) else {}
+    proposer = {"agent": who.get("agent", "unknown"), "agentId": who.get("agentId"), "mode": "on-chain", "jobId": str(job.get("jobId", "")), "client": job.get("client")}
+    res = community.submit(p.get("legs"), p.get("rationale", ""), proposer)
+    shown = "+".join(str(x)[:8] for x in p["legs"][:4]) if isinstance(p.get("legs"), list) else "(malformed)"
+    daily.log_event({"agent": AGENT, "type": "grade", "jobId": proposer["jobId"], "summary": f"Graded {shown}: " + (f"listed as {res['id']}" if res["listed"] else "rejected, " + res["reasons"][0][:140])})
     return json.dumps({"agent": AGENT, "schema": 1, **res}, indent=1), {"agent": AGENT, "content_type": "application/json"}
 
 

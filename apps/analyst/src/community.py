@@ -37,13 +37,21 @@ def _kind(legs, df) -> str:
     return "pair" if len(legs) == 2 and stocks else KINDS[len(legs)]
 
 
-def submit(legs: list[str], rationale: str, proposer: dict, df=None) -> dict:
-    """Grade one proposal. Returns {"listed": bool, "id": str|None, "checks": [...], "reasons": [...]}."""
+def _clean(legs) -> tuple[list[str], str | None]:
+    """Normalise whatever a proposer sent. Returns (tickers, error). Lengths are capped so nothing huge is stored or shown."""
+    if not isinstance(legs, (list, tuple)): return [], "Proposal must contain a list of tickers."
+    if not all(isinstance(l, str) for l in legs): return [], "Every ticker must be text."
+    return [l.upper().strip()[:12] for l in legs[:10]], None
+
+
+def submit(legs, rationale, proposer: dict, df=None) -> dict:
+    """Grade one proposal. Never raises on bad input. Returns {"listed": bool, "id": str|None, "checks": [...], "reasons": [...]}."""
     df = df if df is not None else pm.load_prices()
-    legs = [str(l).upper().strip() for l in legs][:4]
+    legs, bad = _clean(legs)
+    proposer = {k: (str(v)[:80] if v is not None else None) for k, v in (proposer if isinstance(proposer, dict) else {}).items()}
     store = load_store()
-    g = pm.grade(legs, df, taken=curated_sets() + [p["legs"] for p in store["pools"]])
-    rationale = (rationale or "").strip()[:500]
+    g = pm.grade(legs, df, taken=curated_sets() + [p["legs"] for p in store["pools"]]) if not bad else {"pass_": False, "checks": [{"name": "Well-formed proposal", "ok": False, "detail": bad}]}
+    rationale = (rationale if isinstance(rationale, str) else "").strip()[:500]
     now = _now()
     if not g["pass_"]:
         reasons = [f"{c['name']}: {c['detail']}" for c in g["checks"] if not c["ok"]]

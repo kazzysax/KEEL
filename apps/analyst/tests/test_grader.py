@@ -42,3 +42,11 @@ def test_drawdown_bar_and_listing():
     st = community.load_store(); assert [p["id"] for p in st["pools"]] == ["C1"] and len(st["rejected"]) == 2
     p = st["pools"][0]; assert p["grade"]["windows"]["recent"]["from"] >= "2025-01-01" and p["community"] is True
     assert (community.OUT / "pools" / "C1.json").exists()
+
+
+def test_malformed_input_never_crashes_or_lists():
+    for bad in (None, "AAPL", {"a": 1}, [1, 2], [], ["<script>x</script>", "WMT"], ["WMT"] * 5000, ["AAPL", "WMT", "GLD", "KO", "XOM"]):
+        r = community.submit(bad, "x" * 10000, {"agent": "t" * 500}, DF)
+        assert r["listed"] is False and r["reasons"], bad
+    r = community.submit(["AAPL", "WMT", "GLD", "KO", "XOM"], "", {"agent": "t"}, DF); assert "5 assets" in " ".join(r["reasons"])
+    st = community.load_store(); assert all(len(x) <= 12 for rj in st["rejected"] for x in rj["legs"]) and all(len(rj["proposer"].get("agent", "")) <= 80 for rj in st["rejected"])
