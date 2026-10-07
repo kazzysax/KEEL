@@ -133,5 +133,18 @@ def export_history(path: Path | str | None = None) -> Path:
     import json
     df = load_prices(); out = Path(path or ROOT / 'public' / 'data' / 'history.json')
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({'dates': [d.strftime('%Y-%m-%d') for d in df.index], 'px': {k: [round(float(v), 3) for v in df[k]] for k in df.columns}}, separators=(',', ':')))
+    out.write_text(json.dumps({'dates': [d.strftime('%Y-%m-%d') for d in df.index], 'px': {k: [round(float(v), 5) for v in df[k]] for k in df.columns}}, separators=(',', ':')))
+    return out
+
+
+def export_rules(path: Path | str | None = None) -> Path:
+    """The grading rules as data, so the website and the "bring your agent" page quote exactly what the Grader enforces."""
+    import json
+    out = Path(path or ROOT / 'public' / 'data' / 'rules.json'); out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({
+        'assets': {k: {'label': v[2], 'group': v[0], 'kind': v[1]} for k, v in A.items()},
+        'ddToGrowthMax': DD_TO_GROWTH_MAX, 'listMinScore': LIST_MIN_SCORE, 'tierA': 70,
+        'heldUp': {'since': '2025-01-01', 'maxFallRatio': 1.25}, 'earlyEnd': '2024-12-31',
+        'parts': [{'name': n, 'weight': w, 'poor': p, 'great': g, 'what': t} for n, w, p, g, t in SCORE_PARTS],
+        'legs': {'min': 2, 'max': 3}}, indent=1))
     return out

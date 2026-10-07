@@ -1,5 +1,5 @@
 import pandas as pd, numpy as np, itertools, json, os
-from poolmath import A, load_prices, stats as _stats, export_history
+from poolmath import A, load_prices, stats as _stats, export_history, export_rules
 OUT='public/data'
 df=load_prices()
 def stats(legs): return _stats(legs, df)
@@ -47,3 +47,4 @@ for p in pools: print(p['id'],p['name'],f"dd {p['maxDD']:.1%} avg {p['avgYear']:
 print(df.index[0],df.index[-1],len(df))
 
 print('history ->', export_history())
+print('rules ->', export_rules())

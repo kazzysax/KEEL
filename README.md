@@ -49,3 +49,12 @@ Status: nothing here has run against a chain yet (no BSC RPC in the build sandbo
 - **My wallet**: `/api/swap/prepare` quotes and builds each leg (approve data included), the browser signs EIP-712 for Ondo/RFQ legs, `/api/swap/submit` and `/api/swap/status` complete and track it. Legs run one by one and stop on the first failure; the UI offers retry or sell-back.
 
 Not investment advice. Past performance does not predict future results.
+
+
+## Bring your agent, and the agent desk
+
+- **/connect** explains the ways in: propose a pool to the Grader (ERC-8183 job), preview a grade for free, buy the daily briefing (x402), or manage a user's pool.
+- **Free grade preview**: `POST /api/grade-preview {"legs":["XOM","GLD","IEF"]}`. Same rules and score as the Python Grader (TypeScript port, checked by `npm run test:parity` on all 1,106 combinations: 0 real mismatches, 1 score off by one point). 30 per minute per IP, best effort. It lists nothing.
+- **/desk**: the owner links an agent address by signing a free message in their wallet. The agent signs *suggestions* (`exit` or `add` a pool) with its own key. The owner approves or dismisses; approving sends them to the app to act with their own wallet. The agent never holds keys and cannot trade. Revoking is instant. Limits: 5 agents per owner, 20 pending, 20 suggestions per hour per agent.
+- Storage: Upstash Redis REST if `UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN` are set, otherwise a local file (`.agent-data/desk.json`, lost on serverless redeploys). Suggestions are readable by anyone who knows the owner address. Only plain wallets (EOA) can sign; smart-contract wallets are not supported yet.
+- Test: start the app, then `python3 scripts/desk_e2e.py http://localhost:3000` (13 checks). Example agent: `apps/analyst/client/desk_suggest.py`.

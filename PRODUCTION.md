@@ -67,3 +67,6 @@ Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human
 4. Deploy web app (EU region) with env vars; deploy the analyst; register identity.
 5. README "verify it yourself" table, demo video (4 minutes or less), Developer Experience Report written by the owner, submit before Oct 11, 12:00 UTC (aim for 10:00).
 6. After the hackathon: sections 4 to 6 in order, then rotate keys, add monitoring and alerts (failed legs, API error codes, stale data), and set up a status page.
+
+| Agent desk storage | Set `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` on the host. Without them desk data sits in a local file and disappears on redeploy. |
+| Grade preview rate limit | In memory per server instance. Put a real limiter in front (Vercel firewall) if the endpoint gets abused. |

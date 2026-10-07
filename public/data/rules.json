@@ -1,0 +1,111 @@
+{
+ "assets": {
+  "AAPL": {
+   "label": "Apple",
+   "group": "tech",
+   "kind": "stock"
+  },
+  "MSFT": {
+   "label": "Microsoft",
+   "group": "tech",
+   "kind": "stock"
+  },
+  "WMT": {
+   "label": "Walmart",
+   "group": "retail",
+   "kind": "stock"
+  },
+  "COST": {
+   "label": "Costco",
+   "group": "retail2",
+   "kind": "stock"
+  },
+  "KO": {
+   "label": "Coca-Cola",
+   "group": "bev",
+   "kind": "stock"
+  },
+  "JNJ": {
+   "label": "Johnson & Johnson",
+   "group": "health",
+   "kind": "stock"
+  },
+  "XOM": {
+   "label": "Exxon Mobil",
+   "group": "energy",
+   "kind": "stock"
+  },
+  "SPY": {
+   "label": "S&P 500 ETF",
+   "group": "index",
+   "kind": "etf"
+  },
+  "QQQ": {
+   "label": "Nasdaq-100 ETF",
+   "group": "ndx",
+   "kind": "etf"
+  },
+  "GLD": {
+   "label": "Gold ETF",
+   "group": "gold",
+   "kind": "commodity"
+  },
+  "SHY": {
+   "label": "1-3Y Treasuries",
+   "group": "bond",
+   "kind": "bond"
+  },
+  "IEF": {
+   "label": "7-10Y Treasuries",
+   "group": "bond",
+   "kind": "bond"
+  },
+  "TLT": {
+   "label": "20Y+ Treasuries",
+   "group": "bond",
+   "kind": "bond"
+  }
+ },
+ "ddToGrowthMax": 1.5,
+ "listMinScore": 50,
+ "tierA": 70,
+ "heldUp": {
+  "since": "2025-01-01",
+  "maxFallRatio": 1.25
+ },
+ "earlyEnd": "2024-12-31",
+ "parts": [
+  {
+   "name": "Fall vs growth",
+   "weight": 40,
+   "poor": 1.5,
+   "great": 0.9,
+   "what": "Worst drawdown divided by average yearly growth. Lower is better."
+  },
+  {
+   "name": "Offset score",
+   "weight": 30,
+   "poor": 25,
+   "great": 50,
+   "what": "How often the pool held flat or rose on days an asset fell."
+  },
+  {
+   "name": "Consistency",
+   "weight": 20,
+   "poor": 0.75,
+   "great": 1.0,
+   "what": "Share of rolling 12-month windows with a positive return."
+  },
+  {
+   "name": "Recent fall",
+   "weight": 10,
+   "poor": 0.3,
+   "great": 0.1,
+   "what": "Worst drawdown since Jan 2025. Shallower is better."
+  }
+ ],
+ "legs": {
+  "min": 2,
+  "max": 3
+ }
+}
