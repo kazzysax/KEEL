@@ -1,44 +1,8 @@
 import pandas as pd, numpy as np, itertools, json, os
-P='data/prices'; OUT='public/data'
-# asset -> (group, kind, label, source csv)
-A={
- 'AAPL':('tech','stock','Apple','AAPL'),
- 'MSFT':('tech','stock','Microsoft','MSFT'),
- 'WMT':('retail','stock','Walmart','WMT'),
- 'COST':('retail2','stock','Costco','COST'),
- 'KO':('bev','stock','Coca-Cola','KO'),
- 'JNJ':('health','stock','Johnson & Johnson','JNJ'),
- 'XOM':('energy','stock','Exxon Mobil','XOM'),
- 'SPY':('index','etf','S&P 500 ETF','SPY'),
- 'QQQ':('ndx','etf','Nasdaq-100 ETF','QQQ'),
- 'GLD':('gold','commodity','Gold ETF','GLD'),
- 'SHY':('bond','bond','1-3Y Treasuries','SHY'),
- 'IEF':('bond','bond','7-10Y Treasuries','IEF'),
- 'TLT':('bond','bond','20Y+ Treasuries','TLT'),
-}
-px={}
-for k,(g,kind,l,src) in A.items():
-    d=pd.read_csv(f'{P}/{src}.csv',parse_dates=['date']).set_index('date')['adjclose']
-    px[k]=d
-df=pd.DataFrame(px).dropna()
-df=df[df.index>='2020-01-02']
-def stats(legs):
-    w=1/len(legs); rel=df[legs]/df[legs].iloc[0]; pool=(rel*w).sum(axis=1)
-    mdd=(pool/pool.cummax()-1).min()
-    yrs=df.index.year.unique(); yr=[]
-    for y in yrs:
-        s=pool[pool.index.year==y]; prev=pool[pool.index<f'{y}-01-01']
-        base=prev.iloc[-1] if len(prev) else s.iloc[0]
-        yr.append((y,float(s.iloc[-1]/base-1)))
-    full=[r for y,r in yr if y<2026]  # complete calendar years
-    cagr=pool.iloc[-1]**(365.25/(df.index[-1]-df.index[0]).days)-1
-    ret=df[legs].pct_change().dropna(); pr=pool.pct_change().dropna()
-    down=(ret<0).any(axis=1); off=float((pr[down]>=0).mean()*100)
-    cm=ret.corr().values; corr=float(cm[np.triu_indices(len(legs),1)].mean())
-    r12=(pool/pool.shift(252)-1).dropna()
-    return dict(maxDD=float(mdd),avgYear=float(cagr),bestYear=float(max(r for y,r in yr)),worstYear=float(min(r for y,r in yr)),
-      years={str(y):round(r,4) for y,r in yr},offset=round(off),corr=round(corr,2),
-      r12=dict(p5=float(r12.quantile(.05)),p50=float(r12.median()),p95=float(r12.quantile(.95)),min=float(r12.min()),max=float(r12.max()),pctPositive=float((r12>0).mean())))
+from poolmath import A, load_prices, stats as _stats
+OUT='public/data'
+df=load_prices()
+def stats(legs): return _stats(legs, df)
 cands=[]
 for n in (2,3):
     for legs in itertools.combinations(A,n):

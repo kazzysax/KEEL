@@ -4,3 +4,4 @@ uvicorn[standard]>=0.24
 httpx>=0.25
 ddgs
 python-dotenv
+pytest

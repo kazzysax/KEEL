@@ -1,0 +1,103 @@
+{
+ "agents": [
+  {
+   "name": "keel-analyst",
+   "role": "Analyst",
+   "does": "Publishes a sourced outlook for every tradable asset each day, unprompted. Sells the briefing to other agents over x402.",
+   "agentId": null,
+   "explorer": null,
+   "network": "bsc-testnet",
+   "status": "not registered yet"
+  },
+  {
+   "name": "keel-grader",
+   "role": "Grader",
+   "does": "Scores pools proposed by any agent with the same rules as the curated pools. Lists the ones that pass.",
+   "agentId": null,
+   "explorer": null,
+   "network": "bsc-testnet",
+   "status": "not registered yet"
+  },
+  {
+   "name": "keel-scout",
+   "role": "Scout",
+   "does": "Buys the Analyst's briefing, looks for new pool ideas and sends them to the Grader.",
+   "agentId": null,
+   "explorer": null,
+   "network": "bsc-testnet",
+   "status": "not registered yet"
+  }
+ ],
+ "events": [
+  {
+   "at": "2026-10-07T18:54:07+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + GLD + TLT from keel-scout: listed as C4"
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded KO + GLD + SHY from keel-scout: listed as C3"
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + QQQ + IEF from keel-scout: listed as C2"
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + QQQ + TLT from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.54x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded MSFT + XOM + TLT from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.57x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded JNJ + SPY + IEF from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.79x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + GLD + IEF from keel-scout: listed as C1"
+  },
+  {
+   "at": "2026-10-07T18:54:06+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded KO + GLD + IEF from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.55x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T18:50:53+00:00",
+   "agent": "keel-analyst",
+   "type": "daily-run",
+   "summary": "Daily outlook for 13 assets: 6 positive, 2 neutral, 5 cautious. Prices to 2026-10-06 (refresh failed for 13 assets)",
+   "reportHash": "0xfb015ae6680fa7caab88f5a512cc02556d7753dbfbfd4f98f55dd34f3190103f",
+   "seconds": 4.8
+  }
+ ],
+ "ledger": {
+  "earnedU": 0,
+  "spentU": 0,
+  "gasBNB": 0,
+  "note": "No on-chain activity yet. Figures fill in once the agents run against BSC testnet."
+ }
+}

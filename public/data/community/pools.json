@@ -1,0 +1,723 @@
+{
+ "asOf": "2026-10-07T18:54:07+00:00",
+ "pools": [
+  {
+   "id": "C1",
+   "kind": "trio",
+   "legs": [
+    "XOM",
+    "GLD",
+    "IEF"
+   ],
+   "weights": [
+    0.3333,
+    0.3333,
+    0.3333
+   ],
+   "name": "Exxon Mobil + Gold ETF + 7-10Y Treasuries",
+   "maxDD": -0.17476080897294344,
+   "avgYear": 0.12757967695929473,
+   "bestYear": 0.3202852771461988,
+   "worstYear": -0.012714986779094217,
+   "years": {
+    "2020": -0.0127,
+    "2021": 0.0924,
+    "2022": 0.2148,
+    "2023": 0.0168,
+    "2024": 0.1361,
+    "2025": 0.3203,
+    "2026": 0.1268
+   },
+   "offset": 46,
+   "corr": 0.05,
+   "r12": {
+    "p5": 0.020869732006007613,
+    "p50": 0.1391995329722575,
+    "p95": 0.37189078713957285,
+    "min": -0.04332013017232894,
+    "max": 0.5267304051704118,
+    "pctPositive": 0.9744298548721493
+   },
+   "ddToGrowth": 1.3698169891800416,
+   "spark": [
+    100.0,
+    99.2,
+    98.8,
+    97.7,
+    97.9,
+    95.0,
+    94.7,
+    96.5,
+    96.8,
+    99.3,
+    99.3,
+    102.3,
+    105.2,
+    101.9,
+    104.0,
+    102.4,
+    103.2,
+    106.2,
+    104.9,
+    106.8,
+    105.8,
+    105.2,
+    107.3,
+    110.9,
+    113.4,
+    116.2,
+    117.7,
+    115.8,
+    119.1,
+    120.7,
+    122.1,
+    123.4,
+    128.5,
+    131.6,
+    137.5,
+    141.9,
+    142.3,
+    141.1,
+    136.9,
+    135.1,
+    135.9,
+    132.6,
+    128.9,
+    124.6,
+    125.4,
+    129.3,
+    134.5,
+    139.4,
+    134.5,
+    133.6,
+    132.5
+   ],
+   "community": true,
+   "rationale": "Falls rarely line up: offset score 46 over 2020 to today. Today's Analyst outlook: Exxon Mobil positive, Gold ETF cautious, 7-10Y Treasuries cautious.",
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "listedAt": "2026-10-07T18:54:06+00:00",
+   "listedPrices": {
+    "XOM": 165.34,
+    "GLD": 382.51,
+    "IEF": 89.18
+   },
+   "priceAsOf": "2026-10-06",
+   "grade": {
+    "pass": true,
+    "checks": [
+     {
+      "name": "Tradable assets only",
+      "ok": true,
+      "detail": "All assets are tradable on BSC as Ondo tokens."
+     },
+     {
+      "name": "Two or three different assets",
+      "ok": true,
+      "detail": "3 assets proposed."
+     },
+     {
+      "name": "Includes a company stock",
+      "ok": true,
+      "detail": "At least one company stock is required."
+     },
+     {
+      "name": "Different sectors",
+      "ok": true,
+      "detail": "No two assets from the same group (for example two tech stocks, or two bond funds)."
+     },
+     {
+      "name": "No overlapping holdings",
+      "ok": true,
+      "detail": "An index fund and its own biggest holdings count the same exposure twice."
+     },
+     {
+      "name": "Not already listed",
+      "ok": true,
+      "detail": "New combination."
+     },
+     {
+      "name": "Fall is small next to growth",
+      "ok": true,
+      "detail": "Worst drawdown is 1.37x the average yearly growth (limit 1.5x)."
+     }
+    ],
+    "windows": {
+     "early": {
+      "from": "2020-01-02",
+      "to": "2024-12-31",
+      "ret": 0.5135442739674423,
+      "maxDD": -0.17476080897294355
+     },
+     "recent": {
+      "from": "2025-01-02",
+      "to": "2026-10-06",
+      "ret": 0.4815769139277435,
+      "maxDD": -0.16198438584994412
+     }
+    }
+   }
+  },
+  {
+   "id": "C2",
+   "kind": "trio",
+   "legs": [
+    "XOM",
+    "QQQ",
+    "IEF"
+   ],
+   "weights": [
+    0.3333,
+    0.3333,
+    0.3333
+   ],
+   "name": "Exxon Mobil + Nasdaq-100 ETF + 7-10Y Treasuries",
+   "maxDD": -0.22540387939691608,
+   "avgYear": 0.15090753638964682,
+   "bestYear": 0.25388597410887925,
+   "worstYear": 0.02517649263943489,
+   "years": {
+    "2020": 0.0608,
+    "2021": 0.2279,
+    "2022": 0.0252,
+    "2023": 0.1509,
+    "2024": 0.1489,
+    "2025": 0.168,
+    "2026": 0.2539
+   },
+   "offset": 48,
+   "corr": 0.01,
+   "r12": {
+    "p5": 0.024716828380195996,
+    "p50": 0.15557980684440476,
+    "p95": 0.33547740517022906,
+    "min": -0.06897394859196182,
+    "max": 0.4570313975035549,
+    "pctPositive": 0.9827228749136143
+   },
+   "ddToGrowth": 1.4936555508726743,
+   "spark": [
+    100.0,
+    99.2,
+    97.9,
+    99.4,
+    100.3,
+    98.7,
+    96.5,
+    98.6,
+    97.2,
+    99.7,
+    96.9,
+    96.9,
+    98.7,
+    93.1,
+    95.5,
+    98.4,
+    97.5,
+    100.6,
+    101.8,
+    103.4,
+    103.6,
+    102.8,
+    104.6,
+    105.6,
+    107.7,
+    108.2,
+    108.7,
+    109.4,
+    109.5,
+    111.2,
+    109.3,
+    111.7,
+    114.2,
+    116.9,
+    118.2,
+    119.8,
+    121.6,
+    122.6,
+    121.2,
+    124.2,
+    126.9,
+    127.5,
+    126.1,
+    122.9,
+    124.9,
+    125.8,
+    129.8,
+    130.4,
+    130.1,
+    131.2,
+    133.4
+   ],
+   "community": true,
+   "rationale": "Falls rarely line up: offset score 48 over 2020 to today. Today's Analyst outlook: Exxon Mobil positive, Nasdaq-100 ETF positive, 7-10Y Treasuries cautious.",
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "listedAt": "2026-10-07T18:54:06+00:00",
+   "listedPrices": {
+    "XOM": 165.34,
+    "QQQ": 760.83,
+    "IEF": 89.18
+   },
+   "priceAsOf": "2026-10-06",
+   "grade": {
+    "pass": true,
+    "checks": [
+     {
+      "name": "Tradable assets only",
+      "ok": true,
+      "detail": "All assets are tradable on BSC as Ondo tokens."
+     },
+     {
+      "name": "Two or three different assets",
+      "ok": true,
+      "detail": "3 assets proposed."
+     },
+     {
+      "name": "Includes a company stock",
+      "ok": true,
+      "detail": "At least one company stock is required."
+     },
+     {
+      "name": "Different sectors",
+      "ok": true,
+      "detail": "No two assets from the same group (for example two tech stocks, or two bond funds)."
+     },
+     {
+      "name": "No overlapping holdings",
+      "ok": true,
+      "detail": "An index fund and its own biggest holdings count the same exposure twice."
+     },
+     {
+      "name": "Not already listed",
+      "ok": true,
+      "detail": "New combination."
+     },
+     {
+      "name": "Fall is small next to growth",
+      "ok": true,
+      "detail": "Worst drawdown is 1.49x the average yearly growth (limit 1.5x)."
+     }
+    ],
+    "windows": {
+     "early": {
+      "from": "2020-01-02",
+      "to": "2024-12-31",
+      "ret": 0.7657407770613716,
+      "maxDD": -0.22540387939691586
+     },
+     "recent": {
+      "from": "2025-01-02",
+      "to": "2026-10-06",
+      "ret": 0.46698348503685594,
+      "maxDD": -0.1365770804048282
+     }
+    }
+   }
+  },
+  {
+   "id": "C3",
+   "kind": "trio",
+   "legs": [
+    "KO",
+    "GLD",
+    "SHY"
+   ],
+   "weights": [
+    0.3333,
+    0.3333,
+    0.3333
+   ],
+   "name": "Coca-Cola + Gold ETF + 1-3Y Treasuries",
+   "maxDD": -0.14916930586525423,
+   "avgYear": 0.10001758005357675,
+   "bestYear": 0.32694414237268576,
+   "worstYear": 0.01773163884137241,
+   "years": {
+    "2020": 0.1001,
+    "2021": 0.0177,
+    "2022": 0.0217,
+    "2023": 0.0391,
+    "2024": 0.1407,
+    "2025": 0.3269,
+    "2026": 0.0587
+   },
+   "offset": 44,
+   "corr": 0.14,
+   "r12": {
+    "p5": -0.00043821665565204736,
+    "p50": 0.07537990338889111,
+    "p95": 0.30636174196393623,
+    "min": -0.04337824501122034,
+    "max": 0.4810681784137645,
+    "pctPositive": 0.9488597097442986
+   },
+   "ddToGrowth": 1.491430864307537,
+   "spark": [
+    100.0,
+    101.2,
+    99.3,
+    96.1,
+    97.6,
+    97.6,
+    97.1,
+    98.1,
+    99.9,
+    104.2,
+    104.8,
+    106.1,
+    108.5,
+    110.0,
+    111.3,
+    108.0,
+    110.9,
+    112.3,
+    110.2,
+    110.7,
+    109.7,
+    111.6,
+    110.9,
+    113.9,
+    115.3,
+    118.1,
+    121.9,
+    118.5,
+    121.5,
+    123.4,
+    125.0,
+    124.2,
+    127.9,
+    131.3,
+    136.4,
+    139.0,
+    137.1,
+    132.4,
+    133.5,
+    132.0,
+    134.6,
+    132.2,
+    129.7,
+    128.4,
+    128.2,
+    129.2,
+    134.5,
+    140.5,
+    134.9,
+    135.2,
+    131.9
+   ],
+   "community": true,
+   "rationale": "Falls rarely line up: offset score 44 over 2020 to today. Today's Analyst outlook: Coca-Cola positive, Gold ETF cautious, 1-3Y Treasuries neutral.",
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "listedAt": "2026-10-07T18:54:06+00:00",
+   "listedPrices": {
+    "KO": 86.79,
+    "GLD": 382.51,
+    "SHY": 81.12
+   },
+   "priceAsOf": "2026-10-06",
+   "grade": {
+    "pass": true,
+    "checks": [
+     {
+      "name": "Tradable assets only",
+      "ok": true,
+      "detail": "All assets are tradable on BSC as Ondo tokens."
+     },
+     {
+      "name": "Two or three different assets",
+      "ok": true,
+      "detail": "3 assets proposed."
+     },
+     {
+      "name": "Includes a company stock",
+      "ok": true,
+      "detail": "At least one company stock is required."
+     },
+     {
+      "name": "Different sectors",
+      "ok": true,
+      "detail": "No two assets from the same group (for example two tech stocks, or two bond funds)."
+     },
+     {
+      "name": "No overlapping holdings",
+      "ok": true,
+      "detail": "An index fund and its own biggest holdings count the same exposure twice."
+     },
+     {
+      "name": "Not already listed",
+      "ok": true,
+      "detail": "New combination."
+     },
+     {
+      "name": "Fall is small next to growth",
+      "ok": true,
+      "detail": "Worst drawdown is 1.49x the average yearly growth (limit 1.5x)."
+     }
+    ],
+    "windows": {
+     "early": {
+      "from": "2020-01-02",
+      "to": "2024-12-31",
+      "ret": 0.3559528431948733,
+      "maxDD": -0.14916930586525412
+     },
+     "recent": {
+      "from": "2025-01-02",
+      "to": "2026-10-06",
+      "ret": 0.4000674196778682,
+      "maxDD": -0.1321866568957526
+     }
+    }
+   }
+  },
+  {
+   "id": "C4",
+   "kind": "trio",
+   "legs": [
+    "XOM",
+    "GLD",
+    "TLT"
+   ],
+   "weights": [
+    0.3333,
+    0.3333,
+    0.3333
+   ],
+   "name": "Exxon Mobil + Gold ETF + 20Y+ Treasuries",
+   "maxDD": -0.17307689544305138,
+   "avgYear": 0.121025433808027,
+   "bestYear": 0.3250678385541306,
+   "worstYear": 0.011727435974921985,
+   "years": {
+    "2020": 0.0117,
+    "2021": 0.0845,
+    "2022": 0.1542,
+    "2023": 0.0144,
+    "2024": 0.1262,
+    "2025": 0.3251,
+    "2026": 0.1293
+   },
+   "offset": 45,
+   "corr": 0.01,
+   "r12": {
+    "p5": 0.013638402850327247,
+    "p50": 0.12238020796183258,
+    "p95": 0.38301632388543216,
+    "min": -0.05916762644805551,
+    "max": 0.5395131724738611,
+    "pctPositive": 0.9689011748445059
+   },
+   "ddToGrowth": 1.43008696599749,
+   "spark": [
+    100.0,
+    98.6,
+    98.6,
+    97.0,
+    97.8,
+    94.3,
+    93.4,
+    95.1,
+    95.6,
+    98.2,
+    98.5,
+    101.4,
+    104.3,
+    100.1,
+    102.2,
+    100.1,
+    100.8,
+    104.1,
+    102.6,
+    104.2,
+    103.3,
+    102.9,
+    104.7,
+    108.7,
+    111.4,
+    114.2,
+    116.3,
+    114.0,
+    117.0,
+    118.5,
+    119.6,
+    120.8,
+    126.2,
+    129.0,
+    135.6,
+    139.8,
+    139.8,
+    138.6,
+    134.4,
+    132.4,
+    133.1,
+    130.0,
+    126.5,
+    122.5,
+    122.7,
+    126.5,
+    131.2,
+    136.2,
+    131.6,
+    130.9,
+    128.8
+   ],
+   "community": true,
+   "rationale": "Falls rarely line up: offset score 45 over 2020 to today. Today's Analyst outlook: Exxon Mobil positive, Gold ETF cautious, 20Y+ Treasuries cautious.",
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "listedAt": "2026-10-07T18:54:07+00:00",
+   "listedPrices": {
+    "XOM": 165.34,
+    "GLD": 382.51,
+    "TLT": 77.39
+   },
+   "priceAsOf": "2026-10-06",
+   "grade": {
+    "pass": true,
+    "checks": [
+     {
+      "name": "Tradable assets only",
+      "ok": true,
+      "detail": "All assets are tradable on BSC as Ondo tokens."
+     },
+     {
+      "name": "Two or three different assets",
+      "ok": true,
+      "detail": "3 assets proposed."
+     },
+     {
+      "name": "Includes a company stock",
+      "ok": true,
+      "detail": "At least one company stock is required."
+     },
+     {
+      "name": "Different sectors",
+      "ok": true,
+      "detail": "No two assets from the same group (for example two tech stocks, or two bond funds)."
+     },
+     {
+      "name": "No overlapping holdings",
+      "ok": true,
+      "detail": "An index fund and its own biggest holdings count the same exposure twice."
+     },
+     {
+      "name": "Not already listed",
+      "ok": true,
+      "detail": "New combination."
+     },
+     {
+      "name": "Fall is small next to growth",
+      "ok": true,
+      "detail": "Worst drawdown is 1.43x the average yearly growth (limit 1.5x)."
+     }
+    ],
+    "windows": {
+     "early": {
+      "from": "2020-01-02",
+      "to": "2024-12-31",
+      "ret": 0.44663681109464126,
+      "maxDD": -0.1730768954430516
+     },
+     "recent": {
+      "from": "2025-01-02",
+      "to": "2026-10-06",
+      "ret": 0.4894121451295632,
+      "maxDD": -0.16669566025918248
+     }
+    }
+   }
+  }
+ ],
+ "rejected": [
+  {
+   "legs": [
+    "XOM",
+    "QQQ",
+    "TLT"
+   ],
+   "reasons": [
+    "Fall is small next to growth: Worst drawdown is 1.54x the average yearly growth (limit 1.5x)."
+   ],
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "at": "2026-10-07T18:54:06+00:00",
+   "rationale": "Falls rarely line up: offset score 48 over 2020 to today. Today's Analyst outlook: Exxon Mobil positive, Nasdaq-100 ETF positive, 20Y+ Treasuries cautious."
+  },
+  {
+   "legs": [
+    "MSFT",
+    "XOM",
+    "TLT"
+   ],
+   "reasons": [
+    "Fall is small next to growth: Worst drawdown is 1.57x the average yearly growth (limit 1.5x)."
+   ],
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "at": "2026-10-07T18:54:06+00:00",
+   "rationale": "Falls rarely line up: offset score 48 over 2020 to today. Today's Analyst outlook: Microsoft positive, Exxon Mobil positive, 20Y+ Treasuries cautious."
+  },
+  {
+   "legs": [
+    "JNJ",
+    "SPY",
+    "IEF"
+   ],
+   "reasons": [
+    "Fall is small next to growth: Worst drawdown is 1.79x the average yearly growth (limit 1.5x)."
+   ],
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "at": "2026-10-07T18:54:06+00:00",
+   "rationale": "Falls rarely line up: offset score 46 over 2020 to today. Today's Analyst outlook: Johnson & Johnson neutral, S&P 500 ETF positive, 7-10Y Treasuries cautious."
+  },
+  {
+   "legs": [
+    "KO",
+    "GLD",
+    "IEF"
+   ],
+   "reasons": [
+    "Fall is small next to growth: Worst drawdown is 1.55x the average yearly growth (limit 1.5x)."
+   ],
+   "proposer": {
+    "agent": "keel-scout",
+    "agentId": null,
+    "mode": "local",
+    "jobId": null
+   },
+   "at": "2026-10-07T18:54:06+00:00",
+   "rationale": "Falls rarely line up: offset score 45 over 2020 to today. Today's Analyst outlook: Coca-Cola positive, Gold ETF cautious, 7-10Y Treasuries cautious."
+  }
+ ]
+}

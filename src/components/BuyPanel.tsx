@@ -5,7 +5,6 @@ import { runLegs, type LegResult, type ExecLeg } from '@/lib/execute';
 const usd = (n: number) => '$' + n.toLocaleString('en-US', { maximumFractionDigits: 2 });
 declare global { interface Window { ethereum?: any } }
 export default function BuyPanel({ pool, labels }: { pool: Pool; labels: Record<string, string> }) {
-  const [mode, setMode] = useState<'wallet' | 'agent'>('wallet');
   const [amount, setAmount] = useState('100');
   const [plan, setPlan] = useState<Plan | null>(null);
   const [busy, setBusy] = useState(false); const [err, setErr] = useState(''); const [receipt, setReceipt] = useState<string[] | null>(null);
@@ -24,10 +23,6 @@ export default function BuyPanel({ pool, labels }: { pool: Pool; labels: Record<
     if (!plan) return; setBusy(true); setErr('');
     try {
       if (plan.mode === 'demo') { await new Promise(r => setTimeout(r, 700)); setReceipt(plan.legs.map(l => `${l.symbol}: SIMULATED fill of ${l.quoteOut} for ${usd(l.usd)}`)); return; }
-      if (mode === 'agent') {
-        const r = await fetch('/api/agent', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ poolId: pool.id, amountUsd: amt, confirm: true }) });
-        const j = await r.json(); if (!r.ok) throw new Error(j.error ?? 'Agent failed'); setReceipt((j.log ?? []).map((l: any) => `${l.asset}: ${l.status}`)); return;
-      }
       if (!wallet) throw new Error('Connect your wallet first');
       const legs: ExecLeg[] = plan.legs.map(l => ({ asset: l.asset, symbol: l.symbol, token: l.token!, side: 'buy', amountUnits: (BigInt(Math.round(l.usd * 100)) * 10n ** 16n).toString() }));
       setResults(legs.map(l => ({ asset: l.asset, symbol: l.symbol, side: 'buy', status: 'skipped' })));
@@ -36,11 +31,10 @@ export default function BuyPanel({ pool, labels }: { pool: Pool; labels: Record<
   }
   return (<div className="buy">
     <h3>Buy this pool</h3>
-    <div className="seg"><button className={mode === 'wallet' ? 'on' : ''} onClick={() => { setMode('wallet'); setPlan(null); }}>My wallet</button><button className={mode === 'agent' ? 'on' : ''} onClick={() => { setMode('agent'); setPlan(null); }}>Agent · Agentic Wallet</button></div>
     <div className="mono" style={{ marginBottom: 6, color: 'var(--mute)' }}>Amount (USDT)</div>
     <div className="amt"><span className="mono">USDT</span><input inputMode="decimal" value={amount} onChange={e => { setAmount(e.target.value.replace(/[^0-9.]/g, '')); setPlan(null); }} /></div>
     <div className="split mono">{pool.legs.map(l => <div key={l}><span>{labels[l]}</span><b>{usd(each)} · {(100 / n).toFixed(n === 3 ? 1 : 0)}%</b></div>)}</div>
-    {mode === 'wallet' && <button className="btn" style={{ width: '100%', justifyContent: 'center', marginBottom: 10 }} onClick={connect}>{wallet ? `Connected ${wallet.slice(0, 6)}…${wallet.slice(-4)}` : 'Connect wallet'}</button>}
+    <button className="btn" style={{ width: '100%', justifyContent: 'center', marginBottom: 10 }} onClick={connect}>{wallet ? `Connected ${wallet.slice(0, 6)}…${wallet.slice(-4)}` : 'Connect wallet'}</button>
     <button className="btn acc" disabled={busy || amt < 10} style={{ width: '100%', justifyContent: 'space-between' }} onClick={build}>{busy && !plan ? 'Checking every leg…' : 'Check quotes & plan'}</button>
     {err && <div className="err mono">{err}</div>}
     {plan && <>
@@ -66,7 +60,6 @@ export default function BuyPanel({ pool, labels }: { pool: Pool; labels: Record<
       } catch (e: any) { setErr(e.message); } finally { setBusy(false); }
     }} />}
     {receipt && <div className="note mono" style={{ color: 'var(--ink)' }}>{receipt.map((r, i) => <div key={i}>✓ {r}</div>)}</div>}
-    {mode === 'agent' && !plan && <div className="note">The agent buys inside the spending limit you set in the Binance App. It cannot raise the limit.</div>}
   </div>);
 }
 

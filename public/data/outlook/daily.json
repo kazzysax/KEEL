@@ -1,0 +1,512 @@
+{
+ "schema": 1,
+ "date": "2026-10-07",
+ "generatedAt": "2026-10-07T18:50:53+00:00",
+ "agent": "keel-analyst",
+ "priceAsOf": "2026-10-06",
+ "pricesRefreshed": false,
+ "refreshFailed": [
+  "AAPL",
+  "MSFT",
+  "WMT",
+  "COST",
+  "KO",
+  "JNJ",
+  "XOM",
+  "SPY",
+  "QQQ",
+  "GLD",
+  "SHY",
+  "IEF",
+  "TLT"
+ ],
+ "counts": {
+  "Positive": 6,
+  "Neutral": 2,
+  "Cautious": 5
+ },
+ "reportHash": "0xfb015ae6680fa7caab88f5a512cc02556d7753dbfbfd4f98f55dd34f3190103f",
+ "outlooks": [
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +6%; past 12 months: +30% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +15% vs its 200-day average and -2% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.08086337032624513,
+    "p50": 0.22404426457474869,
+    "p95": 0.6826632824339633,
+    "min": -0.3017231649837372,
+    "max": 1.2015402862477123,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +39%; past 12 months: +3% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +23% vs its 200-day average and -1% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.22126722062129334,
+    "p50": 0.21305352824487733,
+    "p95": 0.5874939766558624,
+    "min": -0.35316074795396846,
+    "max": 0.7731916500710374,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -5%; past 12 months: +6% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -9% vs its 200-day average and -20% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.06696371720636296,
+    "p50": 0.2003061165820419,
+    "p95": 0.6530028297052501,
+    "min": -0.1511637091502398,
+    "max": 0.9019919854400682,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -2%; past 12 months: +3% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -3% vs its 200-day average and -14% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.08550978303000178,
+    "p50": 0.2211202600154798,
+    "p95": 0.6619625080653859,
+    "min": -0.1967779267526213,
+    "max": 0.7517844965197293,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "KO",
+   "name": "Coca-Cola",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +5%; past 12 months: +34% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +9% vs its 200-day average and -5% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.04321166352430017,
+    "p50": 0.12401767168303701,
+    "p95": 0.294795410163347,
+    "min": -0.15396303665947697,
+    "max": 0.4144057262988128,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "outlook": "Neutral",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -3%; past 12 months: +38% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +6% vs its 200-day average and -8% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.08648594479589111,
+    "p50": 0.08072017237730833,
+    "p95": 0.5648364638634509,
+    "min": -0.13020710595441287,
+    "max": 0.7557674082585883,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "XOM",
+   "name": "Exxon Mobil",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +18%; past 12 months: +50% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +12% vs its 200-day average and -2% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.07267073571624738,
+    "p50": 0.2824476723289506,
+    "p95": 0.8268186919003051,
+    "min": -0.3721870299963359,
+    "max": 1.1851240958603309,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "SPY",
+   "name": "S&P 500 ETF",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +5%; past 12 months: +18% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +9% vs its 200-day average and +0% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.1274709331599796,
+    "p50": 0.18593595882752534,
+    "p95": 0.4055083747391195,
+    "min": -0.19732690669469255,
+    "max": 0.7750444604115636,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "QQQ",
+   "name": "Nasdaq-100 ETF",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +7%; past 12 months: +27% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +14% vs its 200-day average and +0% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.24454630784916231,
+    "p50": 0.2557825865251333,
+    "p95": 0.5038058390521556,
+    "min": -0.3475838939819028,
+    "max": 0.9043423510863611,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "GLD",
+   "name": "gold",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +2%; past 12 months: +7% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -8% vs its 200-day average and -23% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.07349650140319974,
+    "p50": 0.135175213726632,
+    "p95": 0.5903732453003978,
+    "min": -0.15245530480633074,
+    "max": 0.9548598237884027,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "SHY",
+   "name": "short-term US Treasuries",
+   "outlook": "Neutral",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +0% vs its 200-day average and -1% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.03993360469436391,
+    "p50": 0.025167826193091658,
+    "p95": 0.05704098355555964,
+    "min": -0.0537058890793799,
+    "max": 0.06956487375048614,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "IEF",
+   "name": "7-10 year US Treasuries",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -4%; past 12 months: -4% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -4% vs its 200-day average and -7% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.13615811463642558,
+    "p50": -0.015028931688561342,
+    "p95": 0.08173456535899848,
+    "min": -0.18228717258502647,
+    "max": 0.12187064774468692,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "TLT",
+   "name": "20+ year US Treasuries",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -7%; past 12 months: -9% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -7% vs its 200-day average and -12% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-06"
+    },
+    {
+     "kind": "note",
+     "text": "No headlines could be fetched, so this outlook uses price data only.",
+     "sourceUrl": null,
+     "publishedAt": null
+    }
+   ],
+   "historical12m": {
+    "p5": -0.26710961574720615,
+    "p50": -0.06168488359468438,
+    "p95": 0.07996247136071344,
+    "min": -0.36207801740736567,
+    "max": 0.1829550567318068,
+    "windows": 1449
+   },
+   "asOf": "2026-10-07T18:50:53+00:00",
+   "priceAsOf": "2026-10-06",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  }
+ ]
+}

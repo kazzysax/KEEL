@@ -2,7 +2,8 @@ import { manifest, pool as loadPool } from '@/lib/pools';
 import HeroFigure, { legDrawdowns } from '@/components/HeroFigure';
 import PoolBrowser from '@/components/PoolBrowser';
 import Holdings from '@/components/Holdings';
-import Logo from '@/components/Logo';
+import SiteHeader from '@/components/SiteHeader';
+import DailyBrief from '@/components/DailyBrief';
 export default function Home() {
   const man = manifest();
   const labels: Record<string, string> = Object.fromEntries(Object.entries(man.assets).map(([k, v]) => [k, v.label]));
@@ -10,9 +11,7 @@ export default function Home() {
   const hero = man.pools.map(p => loadPool(p.id)).map(p => { const d = legDrawdowns(p); return { p, gap: d.pool - Math.min(...d.legs.map(l => l.dd)) }; }).sort((a, b) => b.gap - a.gap)[0].p;
   const tick = Object.entries(man.assets).filter(([, v]) => v.kind !== 'commodity' || true);
   return (<>
-    <header className="top"><div className="wrap" style={{ display: 'flex', width: '100%', padding: 0, maxWidth: 'none' }}>
-      <div className="brand" style={{ paddingLeft: 28 }}><Logo />KEEL</div>
-      <nav className="mono"><a href="#pools">Pools</a><a href="#positions">Positions</a><a href="#how">How it works</a><a className="cta" href="#pools">Open app</a></nav></div></header>
+    <SiteHeader home />
     <div className="ticker mono">{tick.map(([k, v]) => <span key={k}><b>{k}</b> {v.last?.toFixed(2)} <i>●</i></span>)}<span>BSC MAINNET · SPOT ONLY</span><span>DATA THROUGH {man.asOf}</span></div>
     <div className="wrap">
       <div className="crumbs mono"><span>Tokenized stocks on BNB Chain</span><span>Prices through {man.asOf}</span></div>
@@ -32,14 +31,16 @@ export default function Home() {
         <div><div className="n">{man.from_.slice(0, 4)}</div><div className="l">start of the price history behind every figure</div></div>
         <div><div className="n">1</div><div className="l">confirmation to buy, one to exit</div></div>
       </div>
+      <DailyBrief />
       <section className="block" id="pools"><PoolBrowser man={man} /></section>
       <section className="block" id="positions"><Holdings man={man} /></section>
       <section className="block" id="how">
         <div className="sh"><h2>How it works</h2><span className="mono" style={{ color: 'var(--mute)' }}>Four steps, no rebalancing</span></div>
         <div className="steps">
-          {[['01 / Study', 'Chosen from history', 'Every pool was picked from daily prices since Jan 2020, keeping those where growth is large next to the worst fall.'], ['02 / Plan', 'Every leg simulated first', 'Quotes, price impact and a dry run for each leg. If any leg fails, nothing is bought.'], ['03 / Buy', 'Best issuer per leg', 'Ondo and bStock versions are compared per share, then bought through the Binance Web3 API.'], ['04 / Exit', 'Reverse in one confirmation', 'Sell all legs back to USDT. The pool is left alone while you hold it.']].map(([a, b, c]) => <div key={a}><span className="mono" style={{ color: 'var(--acc)' }}>{a}</span><h4>{b}</h4><p>{c}</p></div>)}
+          {[['01 / Study', 'Chosen from history', 'Every pool was picked from daily prices since Jan 2020, keeping those where growth is large next to the worst fall.'], ['02 / Plan', 'Every leg simulated first', 'Quotes, price impact and a dry run for each leg. If any leg fails, nothing is bought.'], ['03 / Buy', 'Best issuer per leg', 'Ondo and bStock versions are compared per share, then bought from your own wallet through the Binance Web3 API.'], ['04 / Exit', 'Reverse in one confirmation', 'Sell all legs back to USDT. The pool is left alone while you hold it.']].map(([a, b, c]) => <div key={a}><span className="mono" style={{ color: 'var(--acc)' }}>{a}</span><h4>{b}</h4><p>{c}</p></div>)}
         </div>
       </section>
+      <p className="note" style={{ marginTop: 18 }}>Agents run on BNB Agent Studio: the Analyst publishes a daily outlook, the Scout proposes new pools and the Grader scores them. <a href="/agents" style={{ color: 'inherit' }}>See the agents</a>. They never trade for you.</p>
       <footer><span className="mono">Read this first</span>Figures come from historical daily prices of the underlying stocks and funds, equal-weight buy and hold, and do not predict future returns. The worst drawdown shows pools can still fall by double digits. Tokenized stocks are not available to US or UK persons. Not investment advice.</footer>
     </div>
   </>);

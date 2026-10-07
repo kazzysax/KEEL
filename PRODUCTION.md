@@ -11,15 +11,15 @@ Where the project stands, what separates it from a real launch, and the order to
 | Quote, pre-flight and simulate for every leg (`src/lib/plan.ts`) | Written against `@binance-web3/wallet` types. **Not run live** |
 | Buy from user wallet: approve, sign EIP-712 (RFQ), submit, poll (`src/lib/execute.ts`, `/api/swap/*`) | Written. Logic tested with a mocked wallet and API. **Not run live** |
 | Partial-fill handling, retry, sell-back, holdings and exit | Written. Mock-tested only |
-| Agent mode via Binance Agentic Wallet (`/api/agent`, `baw`) | Written. **Never run against a real session**; `baw` flags and output shape unverified |
-| BNB Agent Studio analyst (`apps/analyst/src`) | Written on the SDK reference example. Validator tested offline. **Never run on-chain** (testnet default) |
+| Agentic Wallet mode | **Removed** (optional in the hackathon rules; one account only, so it cannot serve other users) |
+| Agents: Analyst (daily run, x402 `/daily`), Scout, Grader, Community pools tab, Agents page | Built. 10 offline tests pass (grader rules, x402 signing, replay, caps, paid route). Daily price refresh and news fetch failed in the sandbox (blocked), so the seeded briefing is price-only. **Never run on-chain** (testnet default) |
 | Demo mode (synthetic quotes) | Works with no keys |
 | Hosting, domain, CI, monitoring | Not set up |
 
 ## 2. Blockers only the owner can clear
 1. Binance Web3 API key (free during the hackathon): unlocks every live call.
-2. Binance account with an Agentic Wallet, spend limit set in the Binance App, `baw auth signin` (QR).
-3. A little USDT and BNB on BSC for real swaps; testnet BNB for the analyst agent.
+2. A little USDT and BNB on BSC for real swaps (about 15 to 20 USDT and 1 USD of BNB).
+3. Testnet BNB (bnbchain.org/en/testnet-faucet) and U tokens (united-coin-u.github.io/u-faucet) for three agent wallets: analyst, scout, grader.
 4. Vercel (or other host) access; European region, because the API refuses US regions (`40304`).
 5. Eligibility: US and UK persons are excluded by the hackathon and by all three issuers.
 
@@ -29,7 +29,7 @@ Where the project stands, what separates it from a real launch, and the order to
 - RFQ flow end to end: `typedDataToSign` format (hex vs JSON), approve spender per vendor, `requestId` semantics, status values.
 - Ondo behaviour out of US market hours, per-leg $5 floor, `marketStatus` handling.
 - bStock addresses for AAPL, MSFT, SPY, QQQ (via `searchRwaToken`) so the cheaper-issuer comparison has two sides.
-- `baw market-order list` output so the agent poll can read status and tx hash reliably.
+- Agents: does the testnet U token's `transferWithAuthorization` take `(v,r,s)` or a packed `bytes` signature (our seller assumes v,r,s)? Does the SDK expose an ERC-8183 evaluator role? Does Yahoo's chart endpoint answer from the host (daily price refresh)?
 Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human-written Developer Experience Report).
 
 ## 4. Build still needed for production
@@ -40,7 +40,7 @@ Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human
 5. **Data refresh**: scheduled job to re-run `precompute.py` and the outlook snapshots; show "data through" date; version the pool list.
 6. **Outlook inputs**: headlines work from a normal server (blocked in the build sandbox); add Finnhub or similar for earnings dates; keep "no price targets" validator.
 7. **Analyst agent on mainnet**: deploy with `bag` (AWS AgentCore), register ERC-8004, fund for ERC-8183 writes (not gas-sponsored on mainnet), write the agent id to `public/data/outlook/agent.json`.
-8. **Agent mode hardening**: runner service on an always-on EU host, re-sign the 48-hour `baw` session on a schedule, refuse plans above remaining daily quota, never auto-retry a failed leg more than once.
+8. **Agents on an always-on host**: run analyst, grader and scout as services (the daily loop lives inside the analyst process); persist `public/data/{outlook,community,agents}` somewhere the web app can read (object storage or a small API) instead of committing files; try `bag` deploy to AgentCore.
 9. **Tests**: unit tests for pool math; integration tests against the API in dry-run (simulate) mode; a browser test for the buy and partial-fill flows.
 
 ## 5. Security checklist
@@ -48,7 +48,7 @@ Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human
 - Exact-amount token approvals, never unlimited; show and offer revoke.
 - Request validation on every route (zod; present); amount caps; rate limiting per IP on `/api/*`.
 - Server clock NTP-synced (a 30-second drift triggers `40103`).
-- Agentic Wallet: limited token scope (pool tokens plus USDT), small daily limit, App confirmation for high-risk transactions.
+- Agents: separate wallet per agent holding only testnet or small amounts; X402 caps (`max_per_call`, session budget) on the buyer; seller key never reused for anything else.
 - Pre-flight everything, execute nothing if any leg fails; never continue after a failed leg without the user.
 - Secrets scanning in CI; `.env*` ignored (present).
 - Dependency audit; pin versions; review the SDK's unauthenticated-endpoint notes before exposing the analyst publicly (the debug search route in the reference example is intentionally not included).
@@ -63,7 +63,7 @@ Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human
 ## 7. Launch sequence
 1. Day one with key: section 3 checks, fix mismatches.
 2. Wire a real wallet connector, run a $15 to $20 live buy and exit; capture BscScan links.
-3. Run the agent-mode buy with the Agentic Wallet; capture the spend limit screen and links.
+3. Register the three agent identities, run the Scout against the Grader on testnet, and let the Analyst's daily run fire once on its own; capture the job and x402 transaction links for the Agents page and the demo.
 4. Deploy web app (EU region) with env vars; deploy the analyst; register identity.
 5. README "verify it yourself" table, demo video (4 minutes or less), Developer Experience Report written by the owner, submit before Oct 11, 12:00 UTC (aim for 10:00).
 6. After the hackathon: sections 4 to 6 in order, then rotate keys, add monitoring and alerts (failed legs, API error codes, stale data), and set up a status page.

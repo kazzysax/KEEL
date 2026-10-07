@@ -8,12 +8,13 @@ Rules (so the output is safe to show next to a buy button):
 """
 from __future__ import annotations
 
-import csv, json, logging, math, os, re, statistics
+import csv, json, logging, math, os, re, statistics, time
 from datetime import datetime, timezone
 from pathlib import Path
 
 log = logging.getLogger("outlook")
-DATA = Path(__file__).resolve().parent.parent / "data"
+_ROOT = Path(__file__).resolve().parents[3]
+DATA = Path(os.environ.get("KEEL_PRICES", _ROOT / "data" / "prices"))
 NAMES = {"AAPL": "Apple", "MSFT": "Microsoft", "WMT": "Walmart", "COST": "Costco", "KO": "Coca-Cola", "JNJ": "Johnson & Johnson",
          "XOM": "Exxon Mobil", "SPY": "S&P 500 ETF", "QQQ": "Nasdaq-100 ETF", "GLD": "gold", "SHY": "short-term US Treasuries",
          "IEF": "7-10 year US Treasuries", "TLT": "20+ year US Treasuries"}
@@ -43,7 +44,13 @@ def price_facts(t: str) -> dict:
             "vol30": vol30, "hist12m": {"p5": q(.05), "p50": q(.5), "p95": q(.95), "min": r12[0], "max": r12[-1], "windows": len(r12)}}
 
 
+_NEWS_DOWN_UNTIL = 0.0   # after a failed fetch, skip the network for a while instead of retrying every ticker
+
+
 def fetch_news(t: str, n: int = 6) -> list[dict]:
+    global _NEWS_DOWN_UNTIL
+    if time.time() < _NEWS_DOWN_UNTIL: return []
+    logging.getLogger("ddgs").setLevel(logging.CRITICAL)
     try:
         from ddgs import DDGS
         q = f"{NAMES.get(t, t)} {'stock' if t not in ('GLD','SHY','IEF','TLT') else 'price'} news"
@@ -54,7 +61,7 @@ def fetch_news(t: str, n: int = 6) -> list[dict]:
                 out.append({"title": r["title"], "url": url, "date": r.get("date", ""), "source": r.get("source", "")})
         return out
     except Exception as e:  # network blocked or rate limited: price-only outlook, said so in output
-        log.warning("news fetch failed for %s: %s", t, e); return []
+        log.warning("news fetch failed (%s): %s. Price-only outlooks for the next 10 minutes.", t, str(e)[:120]); _NEWS_DOWN_UNTIL = time.time() + 600; return []
 
 
 def headline_score(items: list[dict]) -> int:
