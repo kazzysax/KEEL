@@ -12,7 +12,7 @@ Built for *BNB Hack: Tokenized Stocks Edition*. **Target network: BNB Smart Chai
 |---|---|
 | **Pools** (`/`) | 11 curated pools (duos, trios, stock pairs) plus a **Community** tab of agent-proposed pools. Each opens to worst fall, best and worst year, average per year, offset score, rolling 12-month range, a 2-year chart, yearly bars, and today's outlook. Community pools show their **Keel score**. |
 | **Your split** | Every pool opens at an equal split (50/50, 33/33/33). Sliders (each asset at least 5%) recalculate every figure in the browser. A custom mix is labelled "not graded by Keel". |
-| **Buy and positions** | Connect a browser wallet or any mobile wallet (WalletConnect v2). Every leg is quoted, pre-flighted and simulated first; if one fails nothing is bought. Orders sign in your wallet (EIP-712 for Ondo RFQ legs). Positions show your holdings with one-tap exit. |
+| **Buy and positions** | Connect your browser wallet (MetaMask, Binance Web3 Wallet, Trust, OKX, Rabby). On a phone, open Keel inside your wallet app's built-in browser. The app switches the wallet to BNB Smart Chain. Every leg is quoted, pre-flighted and simulated first; if one fails nothing is bought. Orders sign in your wallet (EIP-712 for Ondo RFQ legs). Positions show your holdings with one-tap exit. |
 | **Today's outlook** | The Analyst agent publishes a sourced Positive / Neutral / Cautious outlook for all 13 assets every day. No price targets. Every reason links to a page that was actually fetched. |
 | **Agents** (`/agents`) | The Analyst, Scout and Grader: role, on-chain id and address, activity log, earnings. |
 | **Bring your agent** (`/connect`) | How any agent proposes a pool, previews a grade for free, buys the briefing, or manages a user's pool. Rules and tradable tickers are read live from the Grader's config. |
@@ -58,7 +58,7 @@ Three agents share one codebase in `apps/analyst` (Python, `bnbagent` SDK). Each
 npm i && cp .env.example .env.local     # DEMO_MODE=1 works with no keys (synthetic quotes)
 npm run dev
 ```
-Live: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`. Mobile wallets: set `NEXT_PUBLIC_WC_PROJECT_ID` (free at cloud.reown.com) and add the site's domain there.
+Live: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`.
 
 ```bash
 # agents (apps/analyst)
@@ -92,11 +92,11 @@ Full runbook, costs and the verify-first list are in **[PRODUCTION.md](PRODUCTIO
 ## Layout
 - `src/lib/plan.ts` quote every leg across issuers, pick cheapest per share, pre-flight (impact, $5 floor, market status), build and simulate. All legs must pass.
 - `src/lib/execute.ts`, `src/app/api/swap/*` approve, sign, submit and track each leg; partial-fill handling, retry, sell-back.
-- `src/lib/grade.ts`, `src/app/api/grade-preview` the free grade preview. `src/lib/desk.ts`, `src/app/api/desk/*` the agent desk. `src/lib/wallet.ts` browser wallet and WalletConnect behind one provider.
+- `src/lib/grade.ts`, `src/app/api/grade-preview` the free grade preview. `src/lib/desk.ts`, `src/app/api/desk/*` the agent desk. `src/lib/wallet.ts` browser wallet connection (EIP-1193).
 - `scripts/poolmath.py` shared pool math, rules and score. `scripts/precompute.py` regenerates pools, history and rules.
 - `apps/analyst` the agents. `docs/DEVEX-NOTES.md` raw log for the Developer Experience Report.
 
 ## Status, honestly
-Built and tested offline: pool math, grading (both languages), custom split, desk, x402 signing and verification, daily runner, wallet connection with a mock wallet. **Not yet run live** (needs your keys and funds): Binance quote, build and RFQ submit; on-chain agent registration, jobs and x402 settlement; WalletConnect with a real phone wallet; the daily price and news fetch from a real host. See PRODUCTION.md section 3.
+Built and tested offline: pool math, grading (both languages), custom split, desk, x402 signing and verification, daily runner, wallet connection with a mock wallet. **Not yet run live** (needs your keys and funds): Binance quote, build and RFQ submit; on-chain agent registration, jobs and x402 settlement; connecting a real wallet in a browser and in a wallet app's browser; the daily price and news fetch from a real host. See PRODUCTION.md section 3.
 
 Not investment advice.

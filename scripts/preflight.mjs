@@ -5,7 +5,6 @@ const web = { ...load('.env.local'), ...process.env }, ag = load('apps/analyst/.
 const rows = []; const chk = (name, ok, fix) => rows.push([ok ? 'OK  ' : 'TODO', name, ok ? '' : fix]);
 chk('Binance Web3 API key and secret', !!web.BINANCE_WEB3_API_KEY && !!web.BINANCE_WEB3_API_SECRET, 'set BINANCE_WEB3_API_KEY / _SECRET');
 chk('Live mode (DEMO_MODE=0)', web.DEMO_MODE === '0', 'set DEMO_MODE=0');
-chk('WalletConnect project id', !!web.NEXT_PUBLIC_WC_PROJECT_ID, 'set NEXT_PUBLIC_WC_PROJECT_ID and add the site domain at cloud.reown.com');
 chk('Agent desk storage (Upstash)', !!web.UPSTASH_REDIS_REST_URL && !!web.UPSTASH_REDIS_REST_TOKEN, 'set UPSTASH_REDIS_REST_URL / _TOKEN');
 chk('Agents on mainnet (NETWORK=bsc-mainnet)', ag.NETWORK === 'bsc-mainnet', 'set NETWORK=bsc-mainnet in apps/analyst/.env');
 chk('x402 on mainnet (X402=1, eip155:56)', ag.X402 === '1' && ag.X402_NETWORK === 'eip155:56', 'set X402=1 and X402_NETWORK=eip155:56');
