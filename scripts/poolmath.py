@@ -88,6 +88,7 @@ SCORE_PARTS = [  # name, weight, poor, great, what it measures
     ('Consistency', 20, 0.75, 1.0, 'Share of rolling 12-month windows with a positive return.'),
     ('Recent fall', 10, 0.30, 0.10, 'Worst drawdown since Jan 2025. Shallower is better.'),
 ]
+CURATED_MIN_SCORE = 41  # our own pools are dropped at 40 or lower
 LIST_MIN_SCORE = 50   # a proposal must score at least this to be listed; 70 and above is tier A
 
 

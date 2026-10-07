@@ -6,7 +6,7 @@ Where the project stands, what separates it from a real launch, and the order to
 
 | Area | State |
 |---|---|
-| Pool study (10 to 14 pools, equal-weight buy and hold, drawdown, avg and best year, offset score, rolling 12-month range) | Built. Computed from daily closes Jan 2020 to Oct 6, 2026 (`scripts/precompute.py`) |
+| Pool study (11 curated pools, equal-weight buy and hold, drawdown, avg and best year, offset score, rolling 12-month range) | Built. Computed from daily closes Jan 2020 to Oct 6, 2026 (`scripts/precompute.py`) |
 | UI (pool list, dropdown with 4 figures, 2-year chart, yearly bars, outlook card, buy panel, positions) | Built and viewed in a browser |
 | Quote, pre-flight and simulate for every leg (`src/lib/plan.ts`) | Written against `@binance-web3/wallet` types. **Not run live** |
 | Buy from user wallet: approve, sign EIP-712 (RFQ), submit, poll (`src/lib/execute.ts`, `/api/swap/*`) | Written. Logic tested with a mocked wallet and API. **Not run live** |

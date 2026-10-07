@@ -1,5 +1,5 @@
 import pandas as pd, numpy as np, itertools, json, os
-from poolmath import A, load_prices, stats as _stats, export_history, export_rules
+from poolmath import A, load_prices, grade, CURATED_MIN_SCORE, stats as _stats, export_history, export_rules
 OUT='public/data'
 df=load_prices()
 def stats(legs): return _stats(legs, df)
@@ -26,7 +26,14 @@ def pick(lst,k,maxuse=2):
             for l in c['legs']: use[l]=use.get(l,0)+1
         if len(out)==k: break
     return out
+def _score(c):
+    sc = grade(c['legs'], df, [])['score']
+    return sc['score'] if isinstance(sc, dict) else sc
 sel={'duo':pick(duos,5),'trio':pick(trios,5),'pair':pick(pairs,5)}
+dropped=[(c['legs'],_score(c)) for l in sel.values() for c in l if _score(c)<CURATED_MIN_SCORE]
+sel={k:[c for c in l if _score(c)>=CURATED_MIN_SCORE] for k,l in sel.items()}
+print('dropped below Keel score',CURATED_MIN_SCORE,':',dropped)
+for f in os.listdir(f'{OUT}/pools'): os.remove(f'{OUT}/pools/{f}')
 # 2-year chart series
 last=df.index[-1]; w2=df[df.index>=last-pd.DateOffset(years=2)]
 w2=w2.iloc[::2] if False else w2
