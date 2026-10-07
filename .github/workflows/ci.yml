@@ -10,7 +10,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - run: npm ci
-      - run: pip install -r apps/analyst/requirements.txt pandas numpy eth-account
+      - run: pip install -r apps/analyst/requirements.txt
       - run: npx tsc --noEmit
       - run: npm run test:parity
       - run: python -I -m pytest apps/analyst/tests -q
