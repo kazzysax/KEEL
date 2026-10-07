@@ -5,7 +5,7 @@ Next.js 15 app. Pools are precomputed from daily prices (`npm run precompute`, d
 npm i && cp .env.example .env.local   # DEMO_MODE=1 works with no keys (synthetic quotes)
 npm run dev
 ```
-Live mode: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`.
+Live mode: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`. Wallets: browser wallet works as is; for mobile wallets (WalletConnect QR) set `NEXT_PUBLIC_WC_PROJECT_ID` (free at cloud.reown.com) and add your site's domain there.
 ## Layout
 - `src/lib/plan.ts` quote every leg across issuers, pick cheapest per share, pre-flight (impact, $5 floor, market status), build + simulate. All legs must pass.
 - `src/app/agents` public page: the three agents, their activity log and earnings.

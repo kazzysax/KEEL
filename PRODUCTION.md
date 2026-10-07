@@ -33,7 +33,7 @@ Where the project stands, what separates it from a real launch, and the order to
 Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human-written Developer Experience Report).
 
 ## 4. Build still needed for production
-1. **Wallet connection**: replace raw `window.ethereum` with wagmi plus WalletConnect v2 so mobile wallets and the Binance Web3 Wallet work.
+1. **Wallet connection**: built (`src/lib/wallet.ts`, `ConnectButton`): browser wallet and WalletConnect v2 behind one provider. Browser path tested with a mock wallet; **WalletConnect path never tested with a real phone wallet** and needs `NEXT_PUBLIC_WC_PROJECT_ID`. Test with the Binance app and one other wallet, including the chain switch to BSC and `eth_signTypedData_v4`.
 2. **Multi-issuer router**: add bStock (and xStock where quotable) options per leg; show "bought via X, Y% cheaper per share" with the share multiplier applied.
 3. **Receipts**: derive fills from transaction Transfer logs, not from the quote; store an order journal (Upstash Redis or Postgres).
 4. **Rate and cost control**: one paced queue and cache for Binance calls (exists in-process; needs a shared store when running more than one instance).
