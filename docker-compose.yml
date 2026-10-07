@@ -1,0 +1,27 @@
+# Always-on host for the agents (any VPS, Railway, Fly). Web app goes to Vercel.
+#   cp apps/analyst/.env.example apps/analyst/.env          (analyst wallet)
+#   cp apps/analyst/.env.example apps/analyst/.env.grader   (grader wallet, AGENT_ROLE=grader, PORT=8004, AGENT_NAME=keel-grader)
+#   docker compose up -d --build
+services:
+  analyst:
+    build: { context: ., dockerfile: Dockerfile.agents }
+    command: python scripts/run_agent.py
+    env_file: apps/analyst/.env
+    ports: ["8003:8003"]
+    volumes: [ "keel-data:/app/public/data", "keel-wallets:/root/.bnbagent" ]
+    restart: unless-stopped
+  grader:
+    build: { context: ., dockerfile: Dockerfile.agents }
+    command: python scripts/run_agent.py --env .env.grader
+    env_file: apps/analyst/.env.grader
+    ports: ["8004:8004"]
+    volumes: [ "keel-data:/app/public/data", "keel-wallets:/root/.bnbagent-grader" ]
+    restart: unless-stopped
+  # Pushes new briefings, community pools and agent activity to GitHub; Vercel redeploys on push. Needs a deploy key with write access.
+  publisher:
+    build: { context: ., dockerfile: Dockerfile.agents }
+    command: sh /app/scripts/publish_data.sh
+    environment: [ "KEEL_REPO=${KEEL_REPO}", "KEEL_BRANCH=${KEEL_BRANCH:-main}" ]
+    volumes: [ "keel-data:/data-in:ro", "./deploy_key:/root/.ssh/id_ed25519:ro" ]
+    restart: unless-stopped
+volumes: { keel-data: {}, keel-wallets: {} }

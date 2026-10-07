@@ -1,0 +1,21 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: npm ci
+      - run: pip install -r apps/analyst/requirements.txt pandas numpy eth-account
+      - run: npx tsc --noEmit
+      - run: npm run test:parity
+      - run: python -I -m pytest apps/analyst/tests -q
+      - run: npm run build
+      - name: Desk end to end
+        run: |
+          npm start -- -p 3100 & sleep 8
+          KEEL_DESK_DIR=$RUNNER_TEMP python3 scripts/desk_e2e.py http://localhost:3100

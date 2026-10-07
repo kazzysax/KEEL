@@ -90,7 +90,7 @@ def _demo_network(network: str):
     return network
 
 
-def make_client(pk: str, network: str = "bsc-testnet") -> ERC8183Client:
+def make_client(pk: str, network: str = os.environ.get("NETWORK", "bsc-testnet")) -> ERC8183Client:
     return ERC8183Client(make_wallet(pk), network=_demo_network(network))
 
 

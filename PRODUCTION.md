@@ -1,72 +1,88 @@
-# Keel: path to full production
+# Keel: deploy to full mainnet
 
-Where the project stands, what separates it from a real launch, and the order to close the gaps. Written Oct 7, 2026, before the hackathon submission (Oct 11, 12:00 UTC).
+The runbook for taking the finished build live on BNB Smart Chain mainnet (chain 56): web app, three agents, x402, agent desk. Written Oct 7, 2026. Submission deadline: **Oct 11, 2026, 12:00 UTC** (aim for 10:00). Run `npm run preflight` at any point to see what is still missing.
 
-## 1. Status today
-
+## 1. What is built
 | Area | State |
 |---|---|
-| Pool study (11 curated pools, equal-weight buy and hold, drawdown, avg and best year, offset score, rolling 12-month range) | Built. Computed from daily closes Jan 2020 to Oct 6, 2026 (`scripts/precompute.py`) |
-| UI (pool list, dropdown with 4 figures, 2-year chart, yearly bars, outlook card, buy panel, positions) | Built and viewed in a browser |
-| Quote, pre-flight and simulate for every leg (`src/lib/plan.ts`) | Written against `@binance-web3/wallet` types. **Not run live** |
-| Buy from user wallet: approve, sign EIP-712 (RFQ), submit, poll (`src/lib/execute.ts`, `/api/swap/*`) | Written. Logic tested with a mocked wallet and API. **Not run live** |
-| Partial-fill handling, retry, sell-back, holdings and exit | Written. Mock-tested only |
-| Agentic Wallet mode | **Removed** (optional in the hackathon rules; one account only, so it cannot serve other users) |
-| Agents: Analyst (daily run, x402 `/daily`), Scout, Grader, Community pools tab, Agents page | Built. 10 offline tests pass (grader rules, x402 signing, replay, caps, paid route). Daily price refresh and news fetch failed in the sandbox (blocked), so the seeded briefing is price-only. **Never run on-chain** (testnet default) |
-| Demo mode (synthetic quotes) | Works with no keys |
-| Hosting, domain, CI, monitoring | Not set up |
+| Pool study, 11 curated pools (floor: Keel score above 40), Keel score, custom split, outlook, positions | Built, viewed in a browser |
+| Quote, pre-flight, simulate, buy, partial fills, retry, sell-back | Written, mock-tested. **Not run live** |
+| Wallet: browser wallet and WalletConnect v2 | Built. Browser path mock-tested; **WalletConnect never tried with a real phone wallet** |
+| Grader, Scout, Analyst (daily, unprompted), x402 seller and buyer, community pools | Built. 12 offline tests pass. **Never run on-chain** |
+| Free grade preview (`/api/grade-preview`), bring-your-agent page, agent desk | Built. Parity test (1,106 cases) and desk e2e (13 checks) pass |
+| Deploy files: `vercel.json`, `Dockerfile.agents`, `docker-compose.yml`, `scripts/publish_data.sh`, CI, `npm run preflight` | Built, **not yet used** |
+| Agentic Wallet | Removed on purpose (optional in the rules; one account only) |
 
-## 2. Blockers only the owner can clear
-1. Binance Web3 API key (free during the hackathon): unlocks every live call.
-2. A little USDT and BNB on BSC for real swaps (about 15 to 20 USDT and 1 USD of BNB).
-3. Testnet BNB (bnbchain.org/en/testnet-faucet) and U tokens (united-coin-u.github.io/u-faucet) for three agent wallets: analyst, scout, grader.
-4. Vercel (or other host) access; European region, because the API refuses US regions (`40304`).
-5. Eligibility: US and UK persons are excluded by the hackathon and by all three issuers.
+## 2. What only you can do
+1. **Binance Web3 API key and secret** (free during the hackathon).
+2. **Money on BSC mainnet**:
+   - Trading: about 15 to 20 USDT plus about $1 of BNB (min buy about $12 for a duo, $18 for a trio).
+   - Agents: BNB for gas in **three wallets** (analyst, grader, scout). On mainnet, ERC-8004 and ERC-8183 writes are **never gas-sponsored**, and the x402 seller pays gas to settle each payment. Budget a few dollars of BNB in total to start. **U tokens** (mainnet payment token `0xcE24439F2D9C6a2289F741120FE202248B666666`) in the scout wallet to pay for jobs and briefings, about 5 U to start. Check where you can buy U and its liquidity before the deadline.
+3. **WalletConnect project id** (cloud.reown.com), with the site domain added.
+4. **Upstash Redis** (free tier) for the agent desk.
+5. **Accounts**: Vercel (EU region), an always-on host for the agents (small VPS, Railway or Fly), a GitHub deploy key with write access.
+6. **Eligibility**: US and UK persons are excluded by the hackathon and by all three issuers.
+7. **Make the repo public, record the demo (4 minutes or less), write the Developer Experience Report yourself** (AI-written reports are rejected).
 
-## 3. Verify first (day one with a key)
-- Which of the 13 Ondo BSC tokens actually quote at $20, $50 and $200. Listed on the Ondo token list is not the same as liquid. Walmart and Coca-Cola showed very thin on-chain size in earlier checks.
-- `priceImpactPercent`: fraction or percent (code assumes fraction and multiplies by 100).
-- RFQ flow end to end: `typedDataToSign` format (hex vs JSON), approve spender per vendor, `requestId` semantics, status values.
-- Ondo behaviour out of US market hours, per-leg $5 floor, `marketStatus` handling.
-- bStock addresses for AAPL, MSFT, SPY, QQQ (via `searchRwaToken`) so the cheaper-issuer comparison has two sides.
-- Agents: does the testnet U token's `transferWithAuthorization` take `(v,r,s)` or a packed `bytes` signature (our seller assumes v,r,s)? Does the SDK expose an ERC-8183 evaluator role? Does Yahoo's chart endpoint answer from the host (daily price refresh)?
-Log every surprise in `docs/DEVEX-NOTES.md` (also the raw material for the human-written Developer Experience Report).
+## 3. Verify first (day one with a key; log every surprise in `docs/DEVEX-NOTES.md`)
+- Which Ondo tokens on BSC actually quote at $20, $50 and $200 (listed is not liquid; Walmart and Coca-Cola were thin earlier).
+- `priceImpactPercent`: fraction or percent (code assumes fraction).
+- RFQ end to end: `typedDataToSign` format, approve spender, `requestId`, status values. Ondo out-of-hours behaviour, the $5-per-leg floor (unverified), `marketStatus`.
+- bStock addresses for AAPL, MSFT, SPY, QQQ.
+- x402: does the mainnet U token's `transferWithAuthorization` take `(v,r,s)` or a packed signature (the seller assumes v,r,s)? Does the on-chain settle succeed? Check the EIP-712 domain (`United Stables`, version `1`).
+- Does the Yahoo chart endpoint and the news fetch answer from the agent host?
+- WalletConnect with the Binance app and one other wallet: chain switch to BSC, `eth_signTypedData_v4`.
 
-## 4. Build still needed for production
-1. **Wallet connection**: built (`src/lib/wallet.ts`, `ConnectButton`): browser wallet and WalletConnect v2 behind one provider. Browser path tested with a mock wallet; **WalletConnect path never tested with a real phone wallet** and needs `NEXT_PUBLIC_WC_PROJECT_ID`. Test with the Binance app and one other wallet, including the chain switch to BSC and `eth_signTypedData_v4`.
-2. **Multi-issuer router**: add bStock (and xStock where quotable) options per leg; show "bought via X, Y% cheaper per share" with the share multiplier applied.
-3. **Receipts**: derive fills from transaction Transfer logs, not from the quote; store an order journal (Upstash Redis or Postgres).
-4. **Rate and cost control**: one paced queue and cache for Binance calls (exists in-process; needs a shared store when running more than one instance).
-5. **Data refresh**: scheduled job to re-run `precompute.py` and the outlook snapshots; show "data through" date; version the pool list.
-6. **Outlook inputs**: headlines work from a normal server (blocked in the build sandbox); add Finnhub or similar for earnings dates; keep "no price targets" validator.
-7. **Analyst agent on mainnet**: deploy with `bag` (AWS AgentCore), register ERC-8004, fund for ERC-8183 writes (not gas-sponsored on mainnet), write the agent id to `public/data/outlook/agent.json`.
-8. **Agents on an always-on host**: run analyst, grader and scout as services (the daily loop lives inside the analyst process); persist `public/data/{outlook,community,agents}` somewhere the web app can read (object storage or a small API) instead of committing files; try `bag` deploy to AgentCore.
-9. **Tests**: unit tests for pool math; integration tests against the API in dry-run (simulate) mode; a browser test for the buy and partial-fill flows.
+## 4. Deploy, in order
+
+**A. Rehearse on testnet (optional but wise, 1 hour).** Set `NETWORK=bsc-testnet`, `X402_NETWORK=eip155:97`, fund with tBNB and testnet U, run one job end to end. Then switch back.
+
+**B. Register the agents on mainnet.**
+```bash
+cd apps/analyst && cp .env.example .env && cp .env.example .env.grader   # edit: grader gets AGENT_ROLE=grader, AGENT_NAME=keel-grader, PORT=8004
+# fill PRIVATE_KEY (first run only) and WALLET_PASSWORD in each, fund each wallet with BNB
+python scripts/register.py                    # analyst: prints the ERC-8004 id and writes it to public/data
+ENV_FILE=.env.grader AGENT_NAME=keel-grader python scripts/register.py   # grader (and again for keel-scout)
+```
+Put each agent's public URL in `ERC8183_AGENT_URL`, set `X402_PAY_TO` to the analyst wallet, and `GRADER_ADDRESS`, `PROVIDER_ADDRESS`, `SCOUT_AGENT_ID` for the scout.
+
+**C. Start the agents on the always-on host.**
+```bash
+git clone <repo> && cd keel
+# copy the two env files and put a write-enabled deploy key at ./deploy_key; export KEEL_REPO=git@github.com:you/keel.git
+docker compose up -d --build
+```
+`analyst` and `grader` run the services (the daily loop is inside the analyst). `publisher` pushes `public/data/{outlook,community,agents}` to GitHub every 10 minutes when something changed, and Vercel redeploys. Expect a 1 to 2 minute delay between a Grader listing and the site showing it.
+
+**D. Deploy the web app.** Import the repo in Vercel (region `fra1` is set in `vercel.json`) and set:
+`BINANCE_WEB3_API_KEY`, `BINANCE_WEB3_API_SECRET`, `DEMO_MODE=0`, `NEXT_PUBLIC_WC_PROJECT_ID`, `UPSTASH_REDIS_REST_URL`, `UPSTASH_REDIS_REST_TOKEN`. Keys are server-only; never prefix them `NEXT_PUBLIC_`. Add the Vercel domain to the WalletConnect project.
+
+**E. Prove it works (this is your demo material).**
+1. `npm run preflight` shows no TODO.
+2. A real $15 to $20 buy and exit from a phone wallet; save the BscScan links.
+3. Run the Scout: `python client/propose.py 3`. Save the x402 payment and ERC-8183 job links, and watch a pool appear under Community.
+4. Let the Analyst's daily run fire on its own once; the Agents page shows the event.
+5. Link a test agent on `/desk` and send a suggestion with `client/desk_suggest.py`.
 
 ## 5. Security checklist
-- API key and secret server-side only (`import "server-only"`, never `NEXT_PUBLIC_`); rotate after the hackathon.
-- Exact-amount token approvals, never unlimited; show and offer revoke.
-- Request validation on every route (zod; present); amount caps; rate limiting per IP on `/api/*`.
+- API key and secret server-side only; rotate after the hackathon.
+- Exact-amount token approvals, never unlimited.
+- One wallet per agent, holding only what it needs. The x402 buyer has per-call and session caps. The seller key is not reused.
+- Request validation on every route; amount caps; the grade preview and desk have rate limits that are per server instance, so add a Vercel firewall rule in front.
 - Server clock NTP-synced (a 30-second drift triggers `40103`).
-- Agents: separate wallet per agent holding only testnet or small amounts; X402 caps (`max_per_call`, session budget) on the buyer; seller key never reused for anything else.
 - Pre-flight everything, execute nothing if any leg fails; never continue after a failed leg without the user.
-- Secrets scanning in CI; `.env*` ignored (present).
-- Dependency audit; pin versions; review the SDK's unauthenticated-endpoint notes before exposing the analyst publicly (the debug search route in the reference example is intentionally not included).
+- Desk: the agent can only suggest; every link, suggestion and approval is wallet-signed and expires in 5 minutes; revoking is immediate.
+- CI runs secrets-free; `.env*` and `deploy_key` must stay out of git. Pin and audit dependencies.
+- Production caveat from the SDK: with `ENV=production` it warns that its job rate limiter is in memory; run one replica per agent.
 
-## 6. Product and legal
-- Honest figures: worst drawdowns are double digits (about 15 to 33 percent in the study). Keep the "past results do not predict future ones" and "not investment advice" notes next to every figure and outlook.
-- The offset score and growth-to-drawdown rule are our own definitions; publish the formulas in a "How we score" drawer.
-- Tokenized stocks are restricted by region and carry issuer, custody and redemption terms; link to each issuer's terms and risk disclosures.
-- Equal weights drift with no rebalancing (some legs can reach 70 to 80 percent); say so, and consider an optional exit reminder.
-- Get proper legal review before charging fees, adding rebalancing, or marketing outside the hackathon. Not legal advice.
+## 6. Known limits
+- Past drawdowns are double digits (about 15 to 33 percent in the study). Keep the disclaimers beside every figure.
+- Equal weights drift with no rebalancing; legs can reach 70 to 80 percent.
+- Weight study: not out-of-sample proof; one strong market.
+- Desk: plain wallets only; suggestions are public to anyone who knows the owner address.
+- Data delay: community pools and briefings reach the site through a git push and redeploy.
+- The "held up lately" gate has never been shown rejecting a pool in a synthetic test.
+- Tokenized stocks are restricted by region. Get proper legal review before charging fees, adding rebalancing, or marketing outside the hackathon. Not legal advice.
 
-## 7. Launch sequence
-1. Day one with key: section 3 checks, fix mismatches.
-2. Wire a real wallet connector, run a $15 to $20 live buy and exit; capture BscScan links.
-3. Register the three agent identities, run the Scout against the Grader on testnet, and let the Analyst's daily run fire once on its own; capture the job and x402 transaction links for the Agents page and the demo.
-4. Deploy web app (EU region) with env vars; deploy the analyst; register identity.
-5. README "verify it yourself" table, demo video (4 minutes or less), Developer Experience Report written by the owner, submit before Oct 11, 12:00 UTC (aim for 10:00).
-6. After the hackathon: sections 4 to 6 in order, then rotate keys, add monitoring and alerts (failed legs, API error codes, stale data), and set up a status page.
-
-| Agent desk storage | Set `UPSTASH_REDIS_REST_URL` and `UPSTASH_REDIS_REST_TOKEN` on the host. Without them desk data sits in a local file and disappears on redeploy. |
-| Grade preview rate limit | In memory per server instance. Put a real limiter in front (Vercel firewall) if the endpoint gets abused. |
+## 7. After the hackathon
+Multi-issuer router (bStock, xStock) with "cheaper by X% per share"; on-chain receipts from Transfer logs and an order journal; shared rate-limit store; data refresh as a scheduled job instead of git pushes; smart-wallet support for the desk; monitoring and alerts (failed legs, API error codes, stale data) and a status page.

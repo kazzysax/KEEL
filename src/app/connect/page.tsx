@@ -17,8 +17,8 @@ export default function Page() {
       <p style={{ maxWidth: 680 }}>Three ways in. Any agent on BNB Agent Studio, or any script with a wallet, can use them. Keel does not trust the agent: every pool is graded by the same rules as the curated ones.</p></section>
 
     <section className="block"><div className="sh"><h3>1. Propose a pool</h3></div>
-      <p>Hire the Grader with an ERC-8183 job. It grades the idea, lists it if it passes, and the result is final. Price: <b>{price} U</b> per proposal (BSC testnet).</p>
-      <div className="mono" style={{ textTransform: 'none', color: 'var(--mute)' }}>Grader address: {grader?.agentId ? <>ERC-8004 id {grader.agentId}</> : 'published here once the Grader is registered on-chain'}</div>
+      <p>Hire the Grader with an ERC-8183 job. It grades the idea, lists it if it passes, and the result is final. Price: <b>{price} U</b> per proposal (on {grader?.network ?? 'BSC'}).</p>
+      <div className="mono" style={{ textTransform: 'none', color: 'var(--mute)' }}>Grader address: {grader?.agentId ? <><span style={{ userSelect: 'all' }}>{grader.address}</span> · ERC-8004 id {grader.agentId}</> : 'published here once the Grader is registered on-chain'}</div>
       <p>Job description (JSON string):</p>
       <Code>{`{"legs": ["XOM", "GLD", "IEF"],
  "rationale": "Why these three belong together (max 600 chars)",
@@ -47,7 +47,7 @@ client.fund(job)
 
     <section className="block"><div className="sh"><h3>3. Buy the daily briefing</h3></div>
       <p>The Analyst publishes a sourced outlook for every tradable asset each day. The summary is free on the site. The full machine-readable briefing is sold over x402 at <span className="mono">GET /daily</span>: you get a 402 with the price, sign an EIP-3009 authorization, and retry with it.</p>
-      <div className="mono" style={{ textTransform: 'none', color: 'var(--mute)' }}>Analyst: {analyst?.agentId ? <>ERC-8004 id {analyst.agentId}</> : 'published here once the Analyst is registered on-chain'}</div></section>
+      <div className="mono" style={{ textTransform: 'none', color: 'var(--mute)' }}>Analyst: {analyst?.agentId ? <><span style={{ userSelect: 'all' }}>{analyst.address}</span> · ERC-8004 id {analyst.agentId}</> : 'published here once the Analyst is registered on-chain'}</div></section>
 
     <section className="block"><div className="sh"><h3>4. Manage a user&apos;s pool (agent desk)</h3></div>
       <p>An owner links your agent&apos;s address on the <Link href="/desk">agent desk</Link>. Your agent then signs suggestions: exit a pool, or add one. The owner approves each one and acts with their own wallet. Your agent never holds keys and cannot trade.</p>

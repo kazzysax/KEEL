@@ -1,60 +1,102 @@
-# Keel: hedged tokenized-stock pools (BNB Hack: Tokenized Stocks Edition)
-Next.js 15 app. Pools are precomputed from daily prices (`npm run precompute`, data in `data/prices`).
-## Run
-```bash
-npm i && cp .env.example .env.local   # DEMO_MODE=1 works with no keys (synthetic quotes)
-npm run dev
-```
-Live mode: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`. Wallets: browser wallet works as is; for mobile wallets (WalletConnect QR) set `NEXT_PUBLIC_WC_PROJECT_ID` (free at cloud.reown.com) and add your site's domain there.
-## Layout
-- `src/lib/plan.ts` quote every leg across issuers, pick cheapest per share, pre-flight (impact, $5 floor, market status), build + simulate. All legs must pass.
-- `src/app/agents` public page: the three agents, their activity log and earnings.
-- `scripts/precompute.py` pool statistics and 2-year chart series.
-## How a proposed pool is graded
-A proposal is listed only if it passes every check, then ranked by its **Keel score** (0 to 100; 50 to list, 70+ is tier A):
-1. Structure: 2 or 3 different tradable assets, at least one company stock, no two from the same sector, no index fund together with its own top holdings, not already listed.
-2. Fall vs growth: worst drawdown at most 1.5x the average yearly growth (the bar the curated pools were chosen with).
-3. Held up lately: positive return since Jan 2025, and a worst fall since then no deeper than 1.25x the full-period fall.
-4. Score of at least 50, from four parts: fall vs growth 40 points, offset score 30, share of positive rolling 12-month windows 20, fall since Jan 2025 10. Formulas and scales live in `scripts/poolmath.py` (`SCORE_PARTS`).
-Curated pools were picked for variety, not by this score (the equal-split duos with Nasdaq-100 score below 50), so the curated list is not held to the listing bar.
+# Keel
 
-## Custom split
-Every pool opens with an equal split. "Your split" sliders (each asset at least 5%) recalculate worst drawdown, best year, average per year, offset score, rolling range, yearly bars and the chart in the browser from `public/data/history.json` (`src/lib/mix.ts`; checked against all 14 published pools at equal weights). The buy plan uses the same split (`weights` in `/api/plan`). A custom mix is labelled "not graded by Keel".
+**Curated pools of 2 to 3 tokenized assets on BNB Chain, each with at least one company stock, built to fall less and recover faster than holding one stock alone.** Buy a whole pool in one tap from your own wallet. Pools are graded by one public rule set, and AI agents can propose new pools that Keel grades, lists or rejects.
 
-## Is a tilted split better than equal? (we tested it)
-`PYTHONPATH=scripts python3 scripts/weight_study.py` runs two checks on the 11 curated pools. (1) Rolling 12-month holds from 57 start dates, with the split chosen only from earlier prices by inverse volatility, momentum tilt, or minimum variance: none beat equal in a way that matters (average 12-month return 17.3 to 19.4% vs 19.2% equal; average worst fall within 0.1 points; minimum variance had a deeper worst case, 30.9% vs 27.2%). (2) A fixed split picked on 2020 to 2023 and judged on 2024 to today: it had a shallower fall in 10 of 14 pools but a worse one in 4 (up to 3.3 points), and on average the same fall (17.4% vs 17.2%) and the same return (75.5% vs 76.1%). Equal stays the default. Limits: 14 pools, one strong market, overlapping windows, a few rules tried.
+Built for *BNB Hack: Tokenized Stocks Edition*. **Target network: BNB Smart Chain mainnet (56) for everything**: stock tokens, the Binance Web3 API calls, the agents' identities (ERC-8004), jobs (ERC-8183) and x402 payments. Testnet is for rehearsal only.
+
+> Not investment advice. Past performance does not predict future results. Tokenized stocks are restricted by region (US and UK persons are excluded) and carry issuer, custody and redemption terms.
+
+## What is in the app
+
+| Page | What it does |
+|---|---|
+| **Pools** (`/`) | 11 curated pools (duos, trios, stock pairs) plus a **Community** tab of agent-proposed pools. Each opens to worst fall, best and worst year, average per year, offset score, rolling 12-month range, a 2-year chart, yearly bars, and today's outlook. Community pools show their **Keel score**. |
+| **Your split** | Every pool opens at an equal split (50/50, 33/33/33). Sliders (each asset at least 5%) recalculate every figure in the browser. A custom mix is labelled "not graded by Keel". |
+| **Buy and positions** | Connect a browser wallet or any mobile wallet (WalletConnect v2). Every leg is quoted, pre-flighted and simulated first; if one fails nothing is bought. Orders sign in your wallet (EIP-712 for Ondo RFQ legs). Positions show your holdings with one-tap exit. |
+| **Today's outlook** | The Analyst agent publishes a sourced Positive / Neutral / Cautious outlook for all 13 assets every day. No price targets. Every reason links to a page that was actually fetched. |
+| **Agents** (`/agents`) | The Analyst, Scout and Grader: role, on-chain id and address, activity log, earnings. |
+| **Bring your agent** (`/connect`) | How any agent proposes a pool, previews a grade for free, buys the briefing, or manages a user's pool. Rules and tradable tickers are read live from the Grader's config. |
+| **Agent desk** (`/desk`) | An owner links an agent. The agent signs suggestions (exit or add a pool). The owner approves or dismisses; approving sends them to the app to act with their own wallet. |
+
+## How pools are graded
+
+Curated and proposed pools use the same math (`scripts/poolmath.py`; a TypeScript port in `src/lib/grade.ts` powers the free preview). A **proposal is listed only if it passes every check**, then ranked by its **Keel score** (0 to 100, 50 to list, 70+ is tier A):
+
+1. **Structure**: 2 or 3 different tradable assets, at least one company stock, no two from the same sector, no SPY with QQQ, no QQQ with AAPL or MSFT, not already listed.
+2. **Fall vs growth**: worst drawdown at most 1.5x the average yearly growth.
+3. **Held up lately**: positive return since Jan 2025, and a worst fall since then no deeper than 1.25x the full-period fall.
+4. **Score of at least 50**, from four parts: fall vs growth 40 points, offset score 30, share of positive rolling 12-month windows 20, fall since Jan 2025 10.
+
+Prices: dividend-adjusted daily closes, Jan 2, 2020 to the latest close, 13 assets (AAPL, MSFT, WMT, COST, KO, JNJ, XOM, SPY, QQQ, GLD, SHY, IEF, TLT). Equal-weight, buy and hold, no rebalancing.
+
+**Curated pools** were picked with the fall-vs-growth bar for variety. Our own list is held to a floor: pools scoring **40 or lower are dropped** (D3, D4, D5 were removed), leaving 11. Several curated pools still score under the 50 listing bar for community pools (S1 50, S4 48, S2 45, S3 41); that is stated, not hidden.
+
+### Is a tilted split better than equal? (we tested it)
+`PYTHONPATH=scripts python3 scripts/weight_study.py`. (1) Rolling 12-month holds from 57 start dates, split chosen only from earlier prices by inverse volatility, momentum, or minimum variance: none beat equal in a way that matters. (2) A fixed split picked on 2020 to 2023 and judged on 2024 to today: a shallower fall in most pools but worse in some, the same on average. Equal stays the default. Limits: few pools, one strong market, overlapping windows. This is not true out-of-sample proof.
 
 ## Agents (BNB Agent Studio)
-Three agents share one codebase in `apps/analyst` (Python, `bnbagent` SDK). Each has its own wallet and ERC-8004 identity (`AGENT_ROLE` + `AGENT_NAME` + its own env file and port).
-| Agent | What it does without being asked | What others can pay it for |
+
+Three agents share one codebase in `apps/analyst` (Python, `bnbagent` SDK). Each has its own wallet and ERC-8004 identity.
+
+| Agent | Works without being asked | Others can pay it for |
 |---|---|---|
-| **keel-analyst** | Every day (21:30 UTC, after the US close) refreshes prices, builds a sourced Positive/Neutral/Cautious outlook for all 13 assets, writes `public/data/outlook/daily.json` and a dated history file. No price targets; every news reason must link to a page that was actually fetched. | `GET /daily` over **x402** (default 0.05 U), or an ERC-8183 `outlook AAPL,WMT` job |
-| **keel-scout** | Buys the Analyst's briefing over x402, looks for new 2 to 3 asset pools, sends each idea to the Grader as an ERC-8183 job. | n/a (it is the buyer) |
-| **keel-grader** | Scores any proposed pool with `scripts/poolmath.py`, the same code that produced the curated 14, and lists passing pools under "Community" with the proposer's identity. Rejections are kept with their reasons. | A grading job (default 1 U) |
-Anyone can run their own Scout: send the Grader an ERC-8183 job whose task is `{"legs":["WMT","GLD"],"rationale":"...","proposer":{"agent":"my-agent","agentId":"123"}}`.
+| **keel-analyst** | Every day at 21:30 UTC refreshes prices and builds the outlook for all 13 assets. Writes `public/data/outlook/daily.json` and a dated history file. | `GET /daily` over **x402** (0.05 U), or an ERC-8183 `outlook AAPL,WMT` job |
+| **keel-scout** | Buys the Analyst's briefing over x402, finds new pool ideas, sends them to the Grader as ERC-8183 jobs. | n/a (it is the buyer) |
+| **keel-grader** | Scores any proposed pool with the same code as the curated pools; lists passing pools under Community with the proposer's identity; keeps rejections with reasons. | A grading job (1 U) |
+
+**Ways for other agents in**
+- **Propose a pool**: hire the Grader with an ERC-8183 job: `{"legs":["XOM","GLD","IEF"],"rationale":"...","proposer":{"agent":"my-agent","agentId":"123"}}`. Result is final.
+- **Check first, free**: `POST /api/grade-preview {"legs":["XOM","GLD","IEF"]}` returns the same checks and score. Lists nothing. 30 per minute per IP. Parity with the Python Grader is tested on all 1,106 asset combinations (`npm run test:parity`: 0 real mismatches, 1 score off by one point).
+- **Buy the briefing**: x402. A 402 reply carries the price; sign an EIP-3009 authorization and retry. `bnbagent` ships only the buyer side, so `apps/analyst/src/x402_seller.py` is a small self-hosted seller that verifies the signature, checks the nonce, then submits `transferWithAuthorization` itself (the seller pays gas).
+- **Manage a user's pool**: the agent desk (below).
+
+**Agent desk.** The owner signs a free message in their wallet to link an agent's address. The agent signs *suggestions* with its own key; the owner approves or dismisses each. The agent never holds keys and cannot trade. Revoking is instant. Limits: 5 agents per owner, 20 pending, 20 suggestions per hour per agent. Storage is Upstash Redis (local file fallback). Suggestions are readable by anyone who knows the owner address. Only plain wallets (EOA) can sign. Example agent: `apps/analyst/client/desk_suggest.py`.
+
+## Run it
+
 ```bash
-cd apps/analyst && pip install -r requirements.txt && cp .env.example .env    # then fund the wallets with tBNB and U (testnet faucets)
-python scripts/register.py                      # one-time ERC-8004 identity per agent (AGENT_NAME)
-python scripts/run_agent.py                     # analyst: provider loop + daily loop + /daily
-python scripts/run_agent.py --env .env.grader   # grader (AGENT_ROLE=grader, own port)
-python client/propose.py 3                      # scout: pay for the briefing (x402), propose 3 pools
-python src/scout.py --local                     # no chain: dry run of Scout + Grader (what the app currently shows, labelled "dry run")
-python src/daily.py --once                      # one daily run now
-python -I -m pytest tests -q                    # 10 offline tests: grader rules, x402 signing/replay/caps, paid route
+npm i && cp .env.example .env.local     # DEMO_MODE=1 works with no keys (synthetic quotes)
+npm run dev
 ```
-x402: `bnbagent` ships the buyer side only, and the public B402 facilitator needs merchant approval, so `src/x402_seller.py` is a small self-hosted seller. It verifies the EIP-3009 signature, then submits `transferWithAuthorization` itself (the seller pays gas: free on testnet, cents on mainnet). Set `X402=1`. Status: signing, verification and replay protection are tested offline; the on-chain submit has not run.
-Status: nothing here has run against a chain yet (no BSC RPC in the build sandbox). The app's Agents page says "not registered yet" and "dry run" until it has.
+Live: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`. Mobile wallets: set `NEXT_PUBLIC_WC_PROJECT_ID` (free at cloud.reown.com) and add the site's domain there.
 
-## Execution modes
-- **My wallet**: `/api/swap/prepare` quotes and builds each leg (approve data included), the browser signs EIP-712 for Ondo/RFQ legs, `/api/swap/submit` and `/api/swap/status` complete and track it. Legs run one by one and stop on the first failure; the UI offers retry or sell-back.
+```bash
+# agents (apps/analyst)
+pip install -r requirements.txt && cp .env.example .env          # mainnet by default; fund the wallet with BNB and U
+python scripts/register.py                      # one-time ERC-8004 identity; also writes the id to public/data for the Agents page
+python scripts/run_agent.py                     # analyst: provider loop + daily loop + /daily
+python scripts/run_agent.py --env .env.grader   # grader
+python client/propose.py 3                      # scout: pay for the briefing (x402), propose 3 pools
+python src/scout.py --local                     # no chain: dry run of Scout + Grader (labelled "dry run")
+python src/daily.py --once                      # one daily run now
+```
 
-Not investment advice. Past performance does not predict future results.
+## Test
 
+```bash
+npx tsc --noEmit
+npm run test:parity                                  # TS grader vs Python grader, 1,106 combinations
+python -I -m pytest apps/analyst/tests -q            # 12 offline tests: grader rules, hostile input, x402 signing/replay/caps, paid route
+python3 scripts/desk_e2e.py http://localhost:3000    # 13 agent-desk checks against a running app
+npm run preflight                                    # what is still missing before submission
+```
+CI (`.github/workflows/ci.yml`) runs all of these on every push.
 
-## Bring your agent, and the agent desk
+## Deploy (full mainnet)
 
-- **/connect** explains the ways in: propose a pool to the Grader (ERC-8183 job), preview a grade for free, buy the daily briefing (x402), or manage a user's pool.
-- **Free grade preview**: `POST /api/grade-preview {"legs":["XOM","GLD","IEF"]}`. Same rules and score as the Python Grader (TypeScript port, checked by `npm run test:parity` on all 1,106 combinations: 0 real mismatches, 1 score off by one point). 30 per minute per IP, best effort. It lists nothing.
-- **/desk**: the owner links an agent address by signing a free message in their wallet. The agent signs *suggestions* (`exit` or `add` a pool) with its own key. The owner approves or dismisses; approving sends them to the app to act with their own wallet. The agent never holds keys and cannot trade. Revoking is instant. Limits: 5 agents per owner, 20 pending, 20 suggestions per hour per agent.
-- Storage: Upstash Redis REST if `UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN` are set, otherwise a local file (`.agent-data/desk.json`, lost on serverless redeploys). Suggestions are readable by anyone who knows the owner address. Only plain wallets (EOA) can sign; smart-contract wallets are not supported yet.
-- Test: start the app, then `python3 scripts/desk_e2e.py http://localhost:3000` (13 checks). Example agent: `apps/analyst/client/desk_suggest.py`.
+Full runbook, costs and the verify-first list are in **[PRODUCTION.md](PRODUCTION.md)**. In short:
+- **Web app → Vercel**, EU region (`vercel.json` sets `fra1`; the Binance API refuses US regions).
+- **Agents → any always-on host**: `docker compose up -d --build` (`docker-compose.yml`, `Dockerfile.agents`). A `publisher` service pushes new briefings, community pools and agent activity to GitHub; Vercel redeploys on push.
+- `npm run preflight` lists every missing setting.
+
+## Layout
+- `src/lib/plan.ts` quote every leg across issuers, pick cheapest per share, pre-flight (impact, $5 floor, market status), build and simulate. All legs must pass.
+- `src/lib/execute.ts`, `src/app/api/swap/*` approve, sign, submit and track each leg; partial-fill handling, retry, sell-back.
+- `src/lib/grade.ts`, `src/app/api/grade-preview` the free grade preview. `src/lib/desk.ts`, `src/app/api/desk/*` the agent desk. `src/lib/wallet.ts` browser wallet and WalletConnect behind one provider.
+- `scripts/poolmath.py` shared pool math, rules and score. `scripts/precompute.py` regenerates pools, history and rules.
+- `apps/analyst` the agents. `docs/DEVEX-NOTES.md` raw log for the Developer Experience Report.
+
+## Status, honestly
+Built and tested offline: pool math, grading (both languages), custom split, desk, x402 signing and verification, daily runner, wallet connection with a mock wallet. **Not yet run live** (needs your keys and funds): Binance quote, build and RFQ submit; on-chain agent registration, jobs and x402 settlement; WalletConnect with a real phone wallet; the daily price and news fetch from a real host. See PRODUCTION.md section 3.
+
+Not investment advice.

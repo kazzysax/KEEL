@@ -71,7 +71,7 @@ def main():
         # through the wallet's own executor, so twak signs + broadcasts.
         from bnbagent.wallets import TWAK_CHAIN_FOR_NETWORK, create_wallet_provider
 
-        twak_kwargs = {"chain": TWAK_CHAIN_FOR_NETWORK["bsc-testnet"]}
+        twak_kwargs = {"chain": TWAK_CHAIN_FOR_NETWORK[os.getenv("NETWORK", "bsc-testnet")]}
         if os.getenv("TWAK_BIN"):
             twak_kwargs["twak_bin"] = os.environ["TWAK_BIN"]
         wallet = create_wallet_provider("twak", **twak_kwargs)
@@ -82,7 +82,7 @@ def main():
         )
 
     sdk = ERC8004Agent(
-        network="bsc-testnet",
+        network=os.getenv("NETWORK", "bsc-testnet"),
         wallet_provider=wallet,
         debug=True,
     )
@@ -147,13 +147,17 @@ def main():
   Owner:       {sdk.wallet_address}
 
   View on explorer:
-    https://testnet.bscscan.com/tx/{result["transactionHash"]}
+    {"https://bscscan.com" if os.getenv("NETWORK") == "bsc-mainnet" else "https://testnet.bscscan.com"}/tx/{result["transactionHash"]}
 
   Save this Agent ID for client configuration:
     AGENT_ID={result["agentId"]}
 
 {"=" * 60}
 """)
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
+        from identity import announce
+        announce(os.getenv("AGENT_NAME", "keel-analyst"), result["agentId"], sdk.wallet_address, os.getenv("NETWORK", "bsc-testnet"))
+        print("  Wrote the id to public/data (agents page). Commit it, or let the publisher service push it.")
 
     except Exception as e:
         print(f"\n  Registration failed: {e}")
