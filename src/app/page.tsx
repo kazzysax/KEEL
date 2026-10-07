@@ -2,6 +2,7 @@ import { manifest, pool as loadPool } from '@/lib/pools';
 import HeroFigure, { legDrawdowns } from '@/components/HeroFigure';
 import PoolBrowser from '@/components/PoolBrowser';
 import Holdings from '@/components/Holdings';
+import Logo from '@/components/Logo';
 export default function Home() {
   const man = manifest();
   const labels: Record<string, string> = Object.fromEntries(Object.entries(man.assets).map(([k, v]) => [k, v.label]));
@@ -10,7 +11,7 @@ export default function Home() {
   const tick = Object.entries(man.assets).filter(([, v]) => v.kind !== 'commodity' || true);
   return (<>
     <header className="top"><div className="wrap" style={{ display: 'flex', width: '100%', padding: 0, maxWidth: 'none' }}>
-      <div className="brand" style={{ paddingLeft: 28 }}><span className="logo">⊕</span>KEEL</div>
+      <div className="brand" style={{ paddingLeft: 28 }}><Logo />KEEL</div>
       <nav className="mono"><a href="#pools">Pools</a><a href="#positions">Positions</a><a href="#how">How it works</a><a className="cta" href="#pools">Open app</a></nav></div></header>
     <div className="ticker mono">{tick.map(([k, v]) => <span key={k}><b>{k}</b> {v.last?.toFixed(2)} <i>●</i></span>)}<span>BSC MAINNET · SPOT ONLY</span><span>DATA THROUGH {man.asOf}</span></div>
     <div className="wrap">

@@ -1,0 +1,9 @@
+// Keel mark: a hull on the waterline with the keel fin beneath it. The fin is the only colored part.
+export default function Logo({ size = 28 }: { size?: number }) {
+  return (<svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
+    <rect width="32" height="32" fill="#121212" />
+    <path d="M5 12h22" stroke="#ecebe6" strokeWidth="2" strokeLinecap="square" />
+    <path d="M7 12c2.2 4.6 5.2 6.4 9 6.4s6.8-1.8 9-6.4" fill="none" stroke="#ecebe6" strokeWidth="2" />
+    <path d="M13.2 18.2h5.6L17.3 27h-2.6z" fill="#f1481b" />
+  </svg>);
+}

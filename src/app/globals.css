@@ -5,7 +5,7 @@ body{background:var(--paper);color:var(--ink);font-family:'Archivo Variable','He
 .mono{font-family:'JetBrains Mono Variable',ui-monospace,monospace;font-size:11px;letter-spacing:.04em;text-transform:uppercase}
 .wrap{max-width:1240px;margin:0 auto;padding:0 28px}
 header.top{display:flex;align-items:stretch;border-bottom:1px solid var(--line);background:var(--paper)}
-header.top .brand{display:flex;align-items:center;gap:10px;padding:14px 28px 14px 0;font-weight:800;font-size:15px;letter-spacing:.02em}
+header.top .brand{display:flex;align-items:center;gap:11px;padding:13px 28px 13px 0;font-weight:800;font-stretch:88%;font-size:19px;letter-spacing:.01em}
 .logo{width:26px;height:26px;border:1.5px solid var(--ink);display:grid;place-items:center;font-size:13px}
 header.top nav{margin-left:auto;display:flex}
 header.top nav a{display:flex;align-items:center;padding:0 28px;border-left:1px solid var(--line);color:var(--ink);text-decoration:none}
