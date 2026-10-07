@@ -1,5 +1,5 @@
 import pandas as pd, numpy as np, itertools, json, os
-from poolmath import A, load_prices, stats as _stats
+from poolmath import A, load_prices, stats as _stats, export_history
 OUT='public/data'
 df=load_prices()
 def stats(legs): return _stats(legs, df)
@@ -45,3 +45,5 @@ for kind,lst in sel.items():
 json.dump(dict(asOf=str(last.date()),from_=str(df.index[0].date()),assets={k:dict(group=v[0],kind=v[1],label=v[2],historySource=v[3],last=round(float(df[k].iloc[-1]),2)) for k,v in A.items()},pools=pools),open(f'{OUT}/pools.json','w'),indent=1)
 for p in pools: print(p['id'],p['name'],f"dd {p['maxDD']:.1%} avg {p['avgYear']:.1%} best {p['bestYear']:.1%} off {p['offset']} corr {p['corr']} ddg {p['ddToGrowth']:.2f}")
 print(df.index[0],df.index[-1],len(df))
+
+print('history ->', export_history())

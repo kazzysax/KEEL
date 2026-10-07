@@ -1,5 +1,7 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { computeMix, type History } from '@/lib/mix';
+import SplitControl from './SplitControl';
 import type { Manifest, Pool, CommunityFile } from '@/lib/types';
 import Chart from './Chart'; import BuyPanel from './BuyPanel'; import OutlookCard from './OutlookCard';
 const pct = (v: number, d = 1) => (v * 100).toFixed(d) + '%';
@@ -9,7 +11,7 @@ export default function PoolBrowser({ man }: { man: Manifest }) {
   const [kind, setKind] = useState<Tab>('duo'); const [open, setOpen] = useState<string | null>(null);
   const [com, setCom] = useState<CommunityFile | null>(null);
   useEffect(() => { fetch('/data/community/pools.json').then(r => (r.ok ? r.json() : null)).then(j => setCom(j && Array.isArray(j.pools) ? j : null)).catch(() => setCom(null)); }, []);
-  const cPools = com?.pools ?? []; const rejected = com?.rejected ?? [];
+  const cPools = [...(com?.pools ?? [])].sort((a, b) => (b.grade?.score ?? 0) - (a.grade?.score ?? 0)); const rejected = com?.rejected ?? [];
   const labels: Record<string, string> = Object.fromEntries(Object.entries(man.assets).map(([k, v]) => [k, v.label]));
   const short = (l: string) => l;
   return (<div>
@@ -31,11 +33,16 @@ export default function PoolBrowser({ man }: { man: Manifest }) {
 function Row({ p, open, toggle, labels, short }: { p: Pool; open: boolean; toggle: () => void; labels: Record<string, string>; short: (s: string) => string }) {
   const [full, setFull] = useState<Pool | null>(null);
   useEffect(() => { if (open && !full) fetch(p.community ? `/data/community/pools/${p.id}.json` : `/data/pools/${p.id}.json`).then(r => r.json()).then(setFull); }, [open]); // eslint-disable-line
-  const ys = Object.entries(p.years); const maxAbs = Math.max(...ys.map(([, v]) => Math.abs(v)), 0.01);
+  const [split, setSplit] = useState<number[]>(p.legs.map(() => 100 / p.legs.length)); const [hist, setHist] = useState<History | null>(null);
+  const custom = split.some(x => Math.abs(x - 100 / p.legs.length) > 0.6);
+  useEffect(() => { if (custom && !hist) fetch('/data/history.json').then(r => r.json()).then(setHist).catch(() => {}); }, [custom]); // eslint-disable-line
+  const mix = useMemo(() => (custom && hist ? computeMix(hist, p.legs, split.map(x => x / 100)) : null), [custom, hist, split.join()]); // eslint-disable-line
+  const m = mix ?? p; const series = mix ? mix.series : full?.series;
+  const ys = Object.entries(m.years); const maxAbs = Math.max(...ys.map(([, v]) => Math.abs(v)), 0.01);
   return (<div className={'pool' + (open ? ' open' : '')}>
     <button className="prow" onClick={toggle} aria-expanded={open}>
       <span className="mono pid">{p.id}</span>
-      <div><div className="pname">{p.legs.map(l => labels[l]).join(' + ')}</div><div className="legs mono">{p.legs.map(l => <span className="chip" key={l}>{short(l)}</span>)}{p.community && <span className="chip comm">Community{p.proposer ? ` · ${p.proposer.agent}` : ''}</span>}</div></div>
+      <div><div className="pname">{p.legs.map(l => labels[l]).join(' + ')}</div><div className="legs mono">{p.legs.map(l => <span className="chip" key={l}>{short(l)}</span>)}{p.community && <span className="chip comm">Community{p.proposer ? ` · ${p.proposer.agent}` : ''}</span>}{p.grade?.score != null && <span className="chip comm">Keel score {p.grade.score} · tier {p.grade.tier}</span>}</div></div>
       <Spark v={p.spark ?? []} />
       <div className="kv"><div className="k mono">Worst drawdown</div><div className="v neg">{pct(p.maxDD)}</div></div>
       <div className="kv"><div className="k mono">Avg / year</div><div className="v">{pct(p.avgYear)}</div></div>
@@ -44,20 +51,22 @@ function Row({ p, open, toggle, labels, short }: { p: Pool; open: boolean; toggl
     </button>
     {open && <div className="pbody">
       <div>
+        <SplitControl legs={p.legs} labels={labels} pct={split} onChange={setSplit} custom={custom} />
+        {custom && !mix && <div className="note">Loading price history…</div>}
         <div className="figs">
-          <div><div className="mono">Worst drawdown</div><div className="v" style={{ color: 'var(--acc)' }}>{pct(p.maxDD)}</div><div className="n">Biggest fall of the combined pool from a peak, Jan 2020 to today.</div></div>
-          <div><div className="mono">Best year</div><div className="v">+{pct(p.bestYear, 0)}</div><div className="n">Strongest calendar-year return of the pool.</div></div>
-          <div><div className="mono">Average / year</div><div className="v">+{pct(p.avgYear)}</div><div className="n">Compounded yearly growth over the whole period.</div></div>
-          <div><div className="mono">Offset score</div><div className="v">{p.offset}</div><div className="n">On days one asset fell, how often the pool still held flat or rose. 100 = always.</div></div>
+          <div><div className="mono">Worst drawdown</div><div className="v" style={{ color: 'var(--acc)' }}>{pct(m.maxDD)}</div><div className="n">Biggest fall of the combined pool from a peak, Jan 2020 to today.</div></div>
+          <div><div className="mono">Best year</div><div className="v">+{pct(m.bestYear, 0)}</div><div className="n">Strongest calendar-year return of the pool.</div></div>
+          <div><div className="mono">Average / year</div><div className="v">+{pct(m.avgYear)}</div><div className="n">Compounded yearly growth over the whole period.</div></div>
+          <div><div className="mono">Offset score</div><div className="v">{m.offset}</div><div className="n">On days one asset fell, how often the pool still held flat or rose. 100 = always.</div></div>
         </div>
-        {full?.series ? <Chart series={full.series} legs={p.legs} labels={labels} /> : <div className="chartbox mono" style={{ height: 330, display: 'grid', placeItems: 'center', color: 'var(--mute)' }}>Loading chart…</div>}
+        {series ? <Chart series={series} legs={p.legs} labels={labels} /> : <div className="chartbox mono" style={{ height: 330, display: 'grid', placeItems: 'center', color: 'var(--mute)' }}>Loading chart…</div>}
         <div className="mono" style={{ margin: '22px 0 0', color: 'var(--mute)' }}>Pool return by calendar year</div>
         <div className="yrs">{ys.map(([y, v]) => <div className="yr" key={y}><span className="lab mono">{v >= 0 ? '+' : ''}{(v * 100).toFixed(0)}%</span><div className={'bar' + (v < 0 ? ' neg' : '')} style={{ height: `${(Math.abs(v) / maxAbs) * 60}%`, minHeight: 2 }} /><span className="lab mono">{y === '2026' ? '26*' : y.slice(2)}</span></div>)}</div>
-        <div className="note mono" style={{ textTransform: 'none' }}>Rolling 12-month outcomes: 5th–95th percentile {pct(p.r12.p5, 0)} to +{pct(p.r12.p95, 0)} · worst {pct(p.r12.min, 0)} · best +{pct(p.r12.max, 0)} · positive in {pct(p.r12.pctPositive, 0)} of windows. Past results do not predict future ones. *2026 is year to date.</div>
+        <div className="note mono" style={{ textTransform: 'none' }}>Rolling 12-month outcomes: 5th–95th percentile {pct(m.r12.p5, 0)} to +{pct(m.r12.p95, 0)} · worst {pct(m.r12.min, 0)} · best +{pct(m.r12.max, 0)} · positive in {pct(m.r12.pctPositive, 0)} of windows. Past results do not predict future ones. *2026 is year to date.</div>
         {p.community && p.grade && <GradeBlock p={p} />}
         <OutlookCard legs={p.legs} labels={labels} />
       </div>
-      <BuyPanel pool={p} labels={labels} />
+      <BuyPanel pool={p} labels={labels} weights={custom ? split.map(x => x / 100) : undefined} />
     </div>}
   </div>);
 }
@@ -74,6 +83,11 @@ function GradeBlock({ p }: { p: Pool }) {
   const win = (label: string, x: typeof w.early) => <div><div className="mono">{label}</div>{x ? <><div className="v">{x.ret >= 0 ? '+' : ''}{pct(x.ret, 0)}</div><div className="n">Pool return, {x.from} to {x.to}.</div><div className="v neg" style={{ fontSize: 22 }}>{pct(x.maxDD)}</div><div className="n">Worst drawdown in this period.</div></> : <div className="n">Not enough history.</div>}</div>;
   return (<div className="grade">
     <div className="mono" style={{ color: 'var(--mute)', marginBottom: 10 }}>Keel grade</div>
+    {g.score != null && <div style={{ marginBottom: 14 }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: 14 }}><span className="v" style={{ fontSize: 44, lineHeight: 1 }}>{g.score}</span><span className="mono">/100 · tier {g.tier}{g.tier === 'A' ? ' (top)' : ''}</span></div>
+      <table className="plan" style={{ marginTop: 10 }}><thead><tr className="mono"><th>Part</th><th>Value</th><th>Points</th></tr></thead><tbody>{(g.parts ?? []).map(x => <tr key={x.name}><td><b>{x.name}</b><div className="note" style={{ margin: 0 }}>{x.what}</div></td><td className="mono">{x.name === 'Offset score' ? x.value : x.name === 'Fall vs growth' ? x.value.toFixed(2) + 'x' : (x.value * 100).toFixed(0) + '%'}</td><td className="mono">{x.points} / {x.weight}</td></tr>)}</tbody></table>
+      <div className="note">To be listed a proposal must pass every check above, including a Keel score of at least 50. Pools are ranked by score; tier A is 70 and up.</div>
+    </div>}
     <ul className="checks">{g.checks.map(c => <li key={c.name}><span className={'mono st ' + (c.ok ? 'ok' : 'bad')}>{c.ok ? '✓' : '✗'}</span><div><b>{c.name}</b><div className="note" style={{ margin: 0 }}>{c.detail}</div></div></li>)}</ul>
     {p.rationale && <p className="rat">{p.rationale}</p>}
     {pr && <div className="mono" style={{ textTransform: 'none', margin: '10px 0' }}>Proposed by {pr.agent}{pr.agentId ? <> · ERC-8004 id {pr.agentId}</> : null}{pr.mode === 'local' && <span className="badge">Off-chain dry run</span>}</div>}

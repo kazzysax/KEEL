@@ -9,7 +9,7 @@ export type Pool = {
 };
 export type Proposer = { agent: string; agentId: string | null; mode: 'local' | 'on-chain'; jobId: string | null };
 export type GradeWindow = { from: string; to: string; ret: number; maxDD: number };
-export type Grade = { pass: boolean; checks: { name: string; ok: boolean; detail: string }[]; windows: { early: GradeWindow | null; recent: GradeWindow | null } };
+export type Grade = { pass: boolean; checks: { name: string; ok: boolean; detail: string }[]; windows: { early: GradeWindow | null; recent: GradeWindow | null }; score?: number; tier?: 'A' | 'B' | 'C'; parts?: { name: string; weight: number; value: number; points: number; what: string }[] };
 export type Rejected = { legs: string[]; reasons: string[]; proposer: Proposer; at: string; rationale: string };
 export type CommunityFile = { asOf: string; pools: Pool[]; rejected: Rejected[] };
 export type Manifest = { asOf: string; from_: string; assets: Record<string, { group: string; kind: string; label: string; historySource: string; last?: number }>; pools: Pool[] };

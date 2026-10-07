@@ -30,6 +30,76 @@
  ],
  "events": [
   {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded JNJ + QQQ + IEF from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.63x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded JNJ + QQQ + SHY from keel-scout: rejected, Keel score: 48 out of 100 (tier C); at least 50 is needed to be listed."
+  },
+  {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + GLD + TLT from keel-scout: listed as C3"
+  },
+  {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded KO + GLD + SHY from keel-scout: rejected, Keel score: 48 out of 100 (tier C); at least 50 is needed to be listed."
+  },
+  {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + QQQ + IEF from keel-scout: listed as C2"
+  },
+  {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + QQQ + TLT from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.54x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T19:26:36+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded MSFT + XOM + TLT from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.57x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T19:26:35+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded JNJ + SPY + IEF from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.79x the average yearly growth (limit 1.5x)."
+  },
+  {
+   "at": "2026-10-07T19:26:35+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded XOM + GLD + IEF from keel-scout: listed as C1"
+  },
+  {
+   "at": "2026-10-07T19:26:35+00:00",
+   "agent": "keel-grader",
+   "type": "grade",
+   "mode": "local",
+   "summary": "Graded KO + GLD + IEF from keel-scout: rejected, Fall is small next to growth: Worst drawdown is 1.55x the average yearly growth (limit 1.5x)."
+  },
+  {
    "at": "2026-10-07T18:54:07+00:00",
    "agent": "keel-grader",
    "type": "grade",

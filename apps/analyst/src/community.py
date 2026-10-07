@@ -61,7 +61,7 @@ def submit(legs: list[str], rationale: str, proposer: dict, df=None) -> dict:
     (OUT / "pools" / f"{pid}.json").write_text(json.dumps({**rec, "series": series}, separators=(",", ":")))
     store["pools"].append({**rec, "spark": spark, "community": True, "rationale": rationale, "proposer": proposer, "listedAt": now,
                            "listedPrices": {l: round(float(df[l].iloc[-1]), 2) for l in legs}, "priceAsOf": str(last.date()),
-                           "grade": {"pass": True, "checks": g["checks"], "windows": g["windows"]}})
+                           "grade": {"pass": True, "checks": g["checks"], "windows": g["windows"], "score": g["score"]["score"], "tier": g["score"]["tier"], "parts": g["score"]["parts"]}})
     store["asOf"] = now; _write(store)
     return {"listed": True, "id": pid, "checks": g["checks"], "reasons": []}
 

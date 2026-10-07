@@ -10,6 +10,17 @@ Live mode: set `BINANCE_WEB3_API_KEY/SECRET`, `DEMO_MODE=0`. Wallets: browser wa
 - `src/lib/plan.ts` quote every leg across issuers, pick cheapest per share, pre-flight (impact, $5 floor, market status), build + simulate. All legs must pass.
 - `src/app/agents` public page: the three agents, their activity log and earnings.
 - `scripts/precompute.py` pool statistics and 2-year chart series.
+## How a proposed pool is graded
+A proposal is listed only if it passes every check, then ranked by its **Keel score** (0 to 100; 50 to list, 70+ is tier A):
+1. Structure: 2 or 3 different tradable assets, at least one company stock, no two from the same sector, no index fund together with its own top holdings, not already listed.
+2. Fall vs growth: worst drawdown at most 1.5x the average yearly growth (the bar the curated pools were chosen with).
+3. Held up lately: positive return since Jan 2025, and a worst fall since then no deeper than 1.25x the full-period fall.
+4. Score of at least 50, from four parts: fall vs growth 40 points, offset score 30, share of positive rolling 12-month windows 20, fall since Jan 2025 10. Formulas and scales live in `scripts/poolmath.py` (`SCORE_PARTS`).
+Curated pools were picked for variety, not by this score (the equal-split duos with Nasdaq-100 score below 50), so the curated list is not held to the listing bar.
+
+## Custom split
+Every pool opens with an equal split. "Your split" sliders (each asset at least 5%) recalculate worst drawdown, best year, average per year, offset score, rolling range, yearly bars and the chart in the browser from `public/data/history.json` (`src/lib/mix.ts`; checked against all 14 published pools at equal weights). The buy plan uses the same split (`weights` in `/api/plan`). A custom mix is labelled "not graded by Keel".
+
 ## Agents (BNB Agent Studio)
 Three agents share one codebase in `apps/analyst` (Python, `bnbagent` SDK). Each has its own wallet and ERC-8004 identity (`AGENT_ROLE` + `AGENT_NAME` + its own env file and port).
 | Agent | What it does without being asked | What others can pay it for |

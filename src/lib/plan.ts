@@ -30,11 +30,13 @@ async function rwaMeta() {
   }, 60_000);
 }
 
-export async function buildPlan(poolId: string, amountUsd: number, wallet?: string): Promise<Plan> {
-  const p = loadPool(poolId); const man = manifest(); const per = Math.floor((amountUsd / p.legs.length) * 100) / 100;
+export async function buildPlan(poolId: string, amountUsd: number, wallet?: string, weights?: number[]): Promise<Plan> {
+  const p = loadPool(poolId); const man = manifest();
+  if (weights && (weights.length !== p.legs.length || Math.abs(weights.reduce((a, b) => a + b, 0) - 1) > 0.001 || weights.some(w => w < 0.05))) throw new Error('Invalid split: one weight per asset, each at least 5%, totalling 100%');
   const meta = DEMO ? null : await rwaMeta();
   const legs: LegPlan[] = [];
-  for (const asset of p.legs) {
+  for (const [idx, asset] of p.legs.entries()) {
+    const per = Math.floor(amountUsd * (weights?.[idx] ?? 1 / p.legs.length) * 100) / 100;
     const label = man.assets[asset].label; const options = await resolve(asset);
     const base: LegPlan = { asset, label, issuer: '', symbol: '', token: null, usd: per, quoteOut: null, minOut: null, impactPct: null, status: 'unverified', simulated: false };
     const usable = options.filter(o => o.address);

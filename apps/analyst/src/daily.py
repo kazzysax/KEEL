@@ -70,6 +70,9 @@ def log_event(ev: dict) -> None:
 def run_once(fetch=_http_json, news=None, refresh: bool = True) -> dict:
     t0 = time.time()
     pr = refresh_prices(fetch) if refresh else {"updated": 0, "failed": [], "latest": ""}
+    if pr["updated"]:
+        try: __import__("community").pm.export_history()           # keep the browser's price history (custom splits) current
+        except Exception: log.exception("history export failed")
     outs = [outlook.build(t, news=None if news is None else news(t)) for t in outlook.NAMES]
     OUT.mkdir(parents=True, exist_ok=True)
     for o in outs: (OUT / f"{o['ticker']}.json").write_text(json.dumps(o, indent=1))

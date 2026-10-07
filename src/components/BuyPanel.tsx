@@ -1,21 +1,22 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import type { Plan, Pool } from '@/lib/types';
 import { runLegs, type LegResult, type ExecLeg } from '@/lib/execute';
 import { getProvider, useWallet } from '@/lib/wallet';
 import ConnectButton from './ConnectButton';
 const usd = (n: number) => '$' + n.toLocaleString('en-US', { maximumFractionDigits: 2 });
-export default function BuyPanel({ pool, labels }: { pool: Pool; labels: Record<string, string> }) {
+export default function BuyPanel({ pool, labels, weights }: { pool: Pool; labels: Record<string, string>; weights?: number[] }) {
   const [amount, setAmount] = useState('100');
   const [plan, setPlan] = useState<Plan | null>(null);
   const [busy, setBusy] = useState(false); const [err, setErr] = useState(''); const [receipt, setReceipt] = useState<string[] | null>(null);
   const { address: wallet } = useWallet();
   const [results, setResults] = useState<LegResult[] | null>(null);
-  const amt = Number(amount) || 0; const n = pool.legs.length; const each = Math.floor((amt / n) * 100) / 100;
+  const amt = Number(amount) || 0; const n = pool.legs.length; const w = weights ?? pool.legs.map(() => 1 / n); const wKey = w.join();
+  useEffect(() => { setPlan(null); setResults(null); }, [wKey]); // a new split needs a new plan
   async function build() {
     setErr(''); setReceipt(null); setPlan(null); setBusy(true);
     try {
-      const r = await fetch('/api/plan', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ poolId: pool.id, amountUsd: amt, wallet: wallet || undefined }) });
+      const r = await fetch('/api/plan', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ poolId: pool.id, amountUsd: amt, wallet: wallet || undefined, weights }) });
       const j = await r.json(); if (!r.ok) throw new Error(j.error); setPlan(j);
     } catch (e: any) { setErr(e.message); } finally { setBusy(false); }
   }
@@ -33,7 +34,7 @@ export default function BuyPanel({ pool, labels }: { pool: Pool; labels: Record<
     <h3>Buy this pool</h3>
     <div className="mono" style={{ marginBottom: 6, color: 'var(--mute)' }}>Amount (USDT)</div>
     <div className="amt"><span className="mono">USDT</span><input inputMode="decimal" value={amount} onChange={e => { setAmount(e.target.value.replace(/[^0-9.]/g, '')); setPlan(null); }} /></div>
-    <div className="split mono">{pool.legs.map(l => <div key={l}><span>{labels[l]}</span><b>{usd(each)} · {(100 / n).toFixed(n === 3 ? 1 : 0)}%</b></div>)}</div>
+    <div className="split mono">{pool.legs.map((l, i) => <div key={l}><span>{labels[l]}</span><b>{usd(Math.floor(amt * w[i] * 100) / 100)} · {(w[i] * 100).toFixed(weights ? 0 : n === 3 ? 1 : 0)}%</b></div>)}</div>
     <ConnectButton style={{ marginBottom: 10 }} />
     <button className="btn acc" disabled={busy || amt < 10} style={{ width: '100%', justifyContent: 'space-between' }} onClick={build}>{busy && !plan ? 'Checking every leg…' : 'Check quotes & plan'}</button>
     {err && <div className="err mono">{err}</div>}
