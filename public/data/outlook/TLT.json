@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale \u2014 Danske Repor...",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/treasury-yields-hit-24-highs-161317619.html",
-   "publishedAt": "2026-10-07T16:32:53+00:00"
+   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
+   "sourceUrl": "https://www.msn.com/en-ae/news/other/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high/ar-AA2dzeX9?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-05T13:37:04+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury Yields Rise, 30-Year Hits New Highs",
-   "sourceUrl": "https://www.gurufocus.com/news/9110189/us-treasury-yields-rise-30year-hits-new-highs",
-   "publishedAt": "2026-10-05T13:32:53+00:00"
+   "text": "India-US bond yield gap at 20-year low, Jefferies sees sustainability",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/india-us-bond-yield-gap-at-20-year-low-jefferies-sees-sustainability/ar-AA2dEEPc?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T13:37:04+00:00"
   },
   {
    "kind": "news",
-   "text": "TLT: Popular Treasury Bond ETF Inflows Are Rising as 30-Year Yield Soars -...",
-   "sourceUrl": "https://www.benzinga.com/etfs/sector-etfs/26/10/62152976/tlt-popular-treasury-bond-etf-inflows-are-rising-as-30-year-yield-soars",
-   "publishedAt": "2026-10-04T13:32:53+00:00"
+   "text": "US Five-Year Yields Exceed 5% for First Time Since 2007",
+   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-five-yields-exceed-5-173419104.html",
+   "publishedAt": "2026-09-23T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.1829550567318068,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:32:53+00:00",
+ "asOf": "2026-10-08T13:37:04+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

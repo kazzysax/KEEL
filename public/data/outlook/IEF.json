@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Home Buying Becomes a Luxury as 10-Year Treasuries Push Mortgage Rates to 7.17%",
-   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/home-buying-becomes-luxury-10-151942231.html",
-   "publishedAt": "2026-09-15T00:00:00+00:00"
+   "text": "Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale \u2014 Danske Repor...",
+   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/treasury-yields-hit-24-highs-161317619.html",
+   "publishedAt": "2026-10-07T16:37:04+00:00"
   },
   {
    "kind": "news",
-   "text": "Bianco sees value in Treasuries as yields top 5% - report",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/bianco-sees-value-in-treasuries-as-yields-top-5-report/ar-AA2dbgJu?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-29T13:32:52+00:00"
+   "text": "Stocks are tumbling as oil prices surge and bond yields hit 24-year highs",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stocks-tumbling-oil-prices-surge-125601706.html",
+   "publishedAt": "2026-10-08T12:56:04+00:00"
   },
   {
    "kind": "news",
-   "text": "Home buying becomes a luxury as 10-year treasuries push mortgage rates to 7.17%",
-   "sourceUrl": "https://www.msn.com/en-us/money/economy/home-buying-becomes-a-luxury-as-10-year-treasuries-push-mortgage-rates-to-7-17/ar-AA2cgQzg?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-15T00:00:00+00:00"
+   "text": "US Treasury Yields Rise, 30-Year Hits New Highs",
+   "sourceUrl": "https://www.gurufocus.com/news/9110189/us-treasury-yields-rise-30year-hits-new-highs",
+   "publishedAt": "2026-10-05T13:37:04+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.12187064774468692,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:32:53+00:00",
+ "asOf": "2026-10-08T13:37:04+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

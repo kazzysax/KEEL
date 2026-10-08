@@ -19,7 +19,7 @@
    "kind": "news",
    "text": "Better Dividend Stock: Walmart vs. Target",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-walmart-vs-170733514.html",
-   "publishedAt": "2026-10-04T13:32:49+00:00"
+   "publishedAt": "2026-10-04T13:37:00+00:00"
   },
   {
    "kind": "news",
@@ -31,7 +31,7 @@
    "kind": "news",
    "text": "Walmart Stock Trades 20% Below Its High: Here\u2019s the Path to $128 by 2029",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-trades-20-below-163121677.html",
-   "publishedAt": "2026-09-30T13:32:49+00:00"
+   "publishedAt": "2026-09-30T13:37:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9019919854400682,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:32:49+00:00",
+ "asOf": "2026-10-08T13:37:00+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
