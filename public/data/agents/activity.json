@@ -4,28 +4,31 @@
    "name": "keel-analyst",
    "role": "Analyst",
    "does": "Publishes a sourced outlook for every tradable asset each day, unprompted. Sells the briefing to other agents over x402.",
-   "agentId": null,
-   "explorer": null,
-   "network": "bsc-testnet",
-   "status": "not registered yet"
+   "agentId": "367795",
+   "explorer": "https://bscscan.com/address/0xc52c09547bcfF9115853F9226bEF4fa43993aD56",
+   "network": "bsc mainnet",
+   "status": "live",
+   "address": "0xc52c09547bcfF9115853F9226bEF4fa43993aD56"
   },
   {
    "name": "keel-grader",
    "role": "Grader",
    "does": "Scores pools proposed by any agent with the same rules as the curated pools. Lists the ones that pass.",
-   "agentId": null,
-   "explorer": null,
-   "network": "bsc-testnet",
-   "status": "not registered yet"
+   "agentId": "367797",
+   "explorer": "https://bscscan.com/address/0x2A55D842c097Dd323a212F561b1Fab39b738E62f",
+   "network": "bsc mainnet",
+   "status": "live",
+   "address": "0x2A55D842c097Dd323a212F561b1Fab39b738E62f"
   },
   {
    "name": "keel-scout",
    "role": "Scout",
    "does": "Buys the Analyst's briefing, looks for new pool ideas and sends them to the Grader.",
-   "agentId": null,
-   "explorer": null,
-   "network": "bsc-testnet",
-   "status": "not registered yet"
+   "agentId": "367798",
+   "explorer": "https://bscscan.com/address/0x3428faEFf4f4775B9edba3F3F7eF4F3b8e3df1B7",
+   "network": "bsc mainnet",
+   "status": "live",
+   "address": "0x3428faEFf4f4775B9edba3F3F7eF4F3b8e3df1B7"
   }
  ],
  "events": [
