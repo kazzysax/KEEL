@@ -21,7 +21,7 @@ def main() -> None:
     print("briefing", briefing["date"], "paid" if paid else "free", paid or "")
     if paid: daily.log_event({"agent": "keel-scout", "type": "x402-payment", "summary": f"Bought the daily briefing for {int(paid['amount']) / 1e18:g} U (x402)", "amountU": -int(paid["amount"]) / 1e18})
     by = {o["ticker"]: o for o in briefing["outlooks"]}
-    grader = os.environ["GRADER_ADDRESS"]; price = int(float(os.getenv("GRADE_PRICE_U", "0.1")) * 10 ** client.token_decimals())
+    grader = os.environ["GRADER_ADDRESS"]; price = int(float(os.getenv("GRADE_PRICE_U", "0.02")) * 10 ** client.token_decimals())
     me = {"agent": "keel-scout", "agentId": os.getenv("SCOUT_AGENT_ID")}
     for idea in scout.plan(n, get_outlook=lambda t: by[t]):
         task = json.dumps({**idea, "proposer": me})

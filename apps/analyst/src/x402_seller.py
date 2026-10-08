@@ -117,7 +117,7 @@ def from_env(wallet_key: str, pay_to: str) -> Seller | None:
     """Build the seller from env, or None if X402 is not enabled. X402=1, X402_NETWORK, X402_ASSET, X402_PRICE_U, RPC_URL."""
     if os.getenv("X402", "0") != "1": return None
     network = os.getenv("X402_NETWORK", "eip155:97"); asset = os.getenv("X402_ASSET", "TEST_U" if network.endswith(":97") else "U")
-    price = int(float(os.getenv("X402_PRICE_U", "0.01")) * 10 ** 18)
+    price = int(float(os.getenv("X402_PRICE_U", "0.005")) * 10 ** 18)
     route = resolve_expected_eip3009_route(network, asset)
     rpc = os.getenv("RPC_URL") or {"eip155:97": "https://data-seed-prebsc-1-s1.bnbchain.org:8545", "eip155:56": "https://bsc-dataseed.bnbchain.org"}[network]
     return Seller(network=network, asset=asset, pay_to=pay_to, price_atomic=price, settler=Web3Settler(Web3(Web3.HTTPProvider(rpc)), route.address, wallet_key))

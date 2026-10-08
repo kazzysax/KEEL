@@ -15,7 +15,7 @@ def main() -> None:
     tickers = sys.argv[1] if len(sys.argv) > 1 else "AAPL,WMT,GLD"
     s = load_settings(); client = make_primary_client(s)
     banner(f"HIRE ANALYST for {tickers}")
-    budget = 10 ** (client.token_decimals() - 1)  # 0.10 U; match the provider's ERC8183_SERVICE_PRICE
+    budget = 2 * 10 ** (client.token_decimals() - 2)  # 0.02 U; match the provider's ERC8183_SERVICE_PRICE
     res = client.create_job(provider=s.provider_address, expired_at=expiry_for(client, slack_minutes=60), description=f"outlook {tickers}")
     job_id = res["jobId"]; print("createJob", job_id)
     client.register_job(job_id); client.set_budget(job_id, budget); client.fund(job_id, budget)
