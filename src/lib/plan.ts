@@ -69,9 +69,9 @@ export async function buildPlan(poolId: string, amountUsd: number, wallet?: stri
         const b = await unwrap<any>(await api().buildSwapTransaction({ binanceChainId: BSC, amount: toUnits(per, USDT.decimals).toString(), fromTokenAddress: USDT.address, toTokenAddress: w.o.address!, userWalletAddress: wallet, quoteId: w.q.quoteId, slippagePercent: '1' }));
         minOut = b?.tx?.minReceiveAmount ?? null; rfq = !!b?.rfq;
         if (b?.tx?.data) {
-          const sim = await unwrap<any>(await api().simulateTransactions({ binanceChainId: BSC, evmTx: { from: wallet, to: b.tx.to, value: b.tx.value ?? '0', data: b.tx.data } } as any));
+          const simRes: any = await api().simulateTransactions({ binanceChainId: BSC, evmTx: { from: wallet, to: b.tx.to, value: b.tx.value ?? '0', data: b.tx.data }, solTx: {}, tronTx: {} } as any); const simRaw: any = await simRes.data(); const sim: any = simRaw?.data ?? simRaw;
           simulated = sim?.status === 'SUCCESS' || sim?.status === 'success';
-          if (!simulated) { ok = false; reason = `Simulation failed: ${sim?.failReason ?? sim?.status}`; }
+          if (!simulated) { ok = false; reason = `Simulation failed: ${sim?.failReason ?? sim?.status ?? `the simulator returned no result (the wallet may need USDT and an approval first)`}`; }
         }
       } catch (e: any) { ok = false; reason = String(e.message ?? e); }
     }
