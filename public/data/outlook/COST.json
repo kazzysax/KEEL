@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Is Costco's stock overdue for a big rally?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/is-costcos-stock-overdue-for-a-big-rally/ar-AA2d7FVQ?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-29T11:26:38+00:00"
+   "text": "Costco's special dividend history",
+   "sourceUrl": "https://www.fool.com/investing/2026/10/01/even-if-costco-doesnt-pay-a-10-or-15-special-divid/",
+   "publishedAt": "2026-10-02T11:29:25+00:00"
   },
   {
    "kind": "news",
    "text": "Has Costco stock become the new recession-resilient retail king?",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/has-costco-stock-become-the-new-recession-resilient-retail-king/ar-AA2dcLeD?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-30T11:26:38+00:00"
+   "publishedAt": "2026-09-30T11:29:25+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco Stock Keeps Defying Expectations. Here\u2019s My 2027 Price Prediction",
-   "sourceUrl": "https://247wallst.com/investing/2026/09/24/costco-stock-keeps-defying-expectations-heres-my-2027-price-prediction/",
-   "publishedAt": "2026-09-25T11:26:38+00:00"
+   "text": "Costco stock: why a special dividend may be coming soon",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-stock-why-a-special-dividend-may-be-coming-soon/ar-AA2cZg4w?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-26T11:29:25+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7517844965197293,
   "windows": 1450
  },
- "asOf": "2026-10-08T11:26:38+00:00",
+ "asOf": "2026-10-08T11:29:25+00:00",
  "priceAsOf": "2026-10-07",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

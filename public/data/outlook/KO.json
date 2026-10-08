@@ -16,10 +16,22 @@
    "publishedAt": "2026-10-07"
   },
   {
-   "kind": "note",
-   "text": "No headlines could be fetched, so this outlook uses price data only.",
-   "sourceUrl": null,
-   "publishedAt": null
+   "kind": "news",
+   "text": "Coca-Cola Stock: The IRS Case Nobody Is Talking About Could Move Shares",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-irs-case-154719984.html",
+   "publishedAt": "2026-09-23T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "PepsiCo vs. Coca-Cola: Which Stock Has the Edge?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/pepsico-vs-coca-cola-stock-001700359.html",
+   "publishedAt": "2026-09-04T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "This dividend stock yielding more than 4x the Nasdaq-100 looks like a buy right now",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/this-dividend-stock-yielding-more-than-4x-the-nasdaq-100-looks-like-a-buy-right-now/ar-AA2dd81x?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-30T11:29:25+00:00"
   }
  ],
  "historical12m": {
@@ -30,7 +42,7 @@
   "max": 0.4144057262988128,
   "windows": 1450
  },
- "asOf": "2026-10-08T11:26:44+00:00",
+ "asOf": "2026-10-08T11:29:25+00:00",
  "priceAsOf": "2026-10-07",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

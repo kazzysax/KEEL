@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
+   "text": "Better Dividend Stock: Walmart vs. Target",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-walmart-vs-170733514.html",
+   "publishedAt": "2026-10-04T11:29:24+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Why Walmart (WMT) Dipped More Than Broader Market Today",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/why-walmart-wmt-dipped-more-204505198.html",
+   "publishedAt": "2026-09-30T11:29:24+00:00"
+  },
+  {
+   "kind": "news",
    "text": "Walmart stock has been sluggish this year. Should you buy it before it reports earnings on Aug. 20?",
    "sourceUrl": "https://www.msn.com/en-us/money/topstocks/walmart-stock-has-been-sluggish-this-year-should-you-buy-it-before-it-reports-earnings-on-aug-20/ar-AA2aecHt?ocid=BingNewsVerp",
-   "publishedAt": "2026-08-15T23:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Walmart Stock Trades 20% Below Its High: Here\u2019s the Path to $128 by 2029",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-trades-20-below-163121677.html",
-   "publishedAt": "2026-09-30T11:26:36+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Walmart stock trades at USD 104.94 after Q2 revenue beat",
-   "sourceUrl": "https://www.ad-hoc-news.de/boerse/news/corporate-news/walmart-stock-trades-at-usd-104-94-after-q2-revenue-beat/70236159",
-   "publishedAt": "2026-10-06T11:26:36+00:00"
+   "publishedAt": "2026-08-16T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9019919854400682,
   "windows": 1450
  },
- "asOf": "2026-10-08T11:26:36+00:00",
+ "asOf": "2026-10-08T11:29:24+00:00",
  "priceAsOf": "2026-10-07",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
