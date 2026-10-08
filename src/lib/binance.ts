@@ -29,7 +29,9 @@ export function paced<T>(key: string, fn: () => Promise<T>, ttl = 30_000): Promi
 }
 // Binance returns errors inside HTTP 200: always check `code`.
 export async function unwrap<T extends { code?: number | string; msg?: string; data?: any }>(r: { data: () => Promise<T> }) {
-  const body = await r.data();
+  const body: any = await r.data();
+  // The SDK may hand back the payload already unwrapped (array, or object without a gateway envelope).
+  if (Array.isArray(body) || body == null || typeof body !== 'object' || !('code' in body || 'msg' in body || 'success' in body)) return body as any;
   const code = String(body.code ?? '000000');
   if (code !== '0' && code !== '000000' && code !== '200') throw new Error(`Binance ${code}: ${body.msg ?? 'error'}`);
   return body.data;
