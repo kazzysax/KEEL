@@ -21,7 +21,7 @@ log = logging.getLogger("daily")
 ROOT = Path(__file__).resolve().parents[3]
 OUT = ROOT / "public" / "data" / "outlook"
 ACT = ROOT / "public" / "data" / "agents" / "activity.json"
-AGENT = os.getenv("AGENT_NAME", "keel-analyst")
+AGENT = "keel-outlook"
 RUN_HOUR_UTC = float(os.getenv("DAILY_UTC_HOUR", "21.5"))
 
 

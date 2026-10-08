@@ -40,7 +40,7 @@ export default function Home() {
           {[['01 / Study', 'Chosen from history', 'Every pool was picked from daily prices since Jan 2020, keeping those where growth is large next to the worst fall.'], ['02 / Plan', 'Every leg simulated first', 'Quotes, price impact and a dry run for each leg. If any leg fails, nothing is bought.'], ['03 / Buy', 'Best issuer per leg', 'Ondo and bStock versions are compared per share, then bought from your own wallet through the Binance Web3 API.'], ['04 / Exit', 'Reverse in one confirmation', 'Sell all legs back to USDT. The pool is left alone while you hold it.']].map(([a, b, c]) => <div key={a}><span className="mono" style={{ color: 'var(--acc)' }}>{a}</span><h4>{b}</h4><p>{c}</p></div>)}
         </div>
       </section>
-      <p className="note" style={{ marginTop: 18 }}>Agents run on BNB Agent Studio: the Analyst publishes a daily outlook, the Scout proposes new pools and the Grader scores them. <a href="/agents" style={{ color: 'inherit' }}>See the agents</a>. They never trade for you.</p>
+      <p className="note" style={{ marginTop: 18 }}>The daily outlook is built automatically from sources and past prices. Outside agents propose new pools and the Grader agent scores them on BNB Agent Studio. <a href="/agents" style={{ color: 'inherit' }}>See the agents</a>. They never trade for you.</p>
       <footer><span className="mono">Read this first</span>Figures come from historical daily prices of the underlying stocks and funds, equal-weight buy and hold, and do not predict future returns. The worst drawdown shows pools can still fall by double digits. Tokenized stocks are not available to US or UK persons. Not investment advice.</footer>
     </div>
   </>);

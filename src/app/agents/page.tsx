@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { activity } from '@/lib/agents';
 import SiteHeader from '@/components/SiteHeader';
-export const metadata: Metadata = { title: 'Keel agents', description: 'The Analyst, Scout and Grader agents behind Keel, their activity and earnings.' };
+export const metadata: Metadata = { title: 'Keel agents', description: 'The Keel Grader agent, how outside agents propose pools to it, and its activity and earnings.' };
 export const dynamic = 'force-dynamic';
 const TYPES: Record<string, string> = { 'daily-run': 'Daily run', job: 'Job', grade: 'Grade', proposal: 'Proposal', 'x402-payment': 'x402 payment' };
 export default function Agents() {
@@ -13,7 +13,7 @@ export default function Agents() {
     <div className="wrap">
       <div className="crumbs mono"><Link href="/" style={{ color: 'inherit' }}>← Back to Keel</Link><span>Agents on BNB Agent Studio</span></div>
       <section className="block">
-        <div className="sh"><h2>Agents</h2><span className="mono" style={{ color: 'var(--mute)' }}>Analyst, Scout, Grader</span></div>
+        <div className="sh"><h2>Agents</h2><span className="mono" style={{ color: 'var(--mute)' }}>Grader</span></div>
         {!a ? <div className="note">Agent activity is not available right now.</div> : <>
           <div className="acards">{a.agents.map(g => <div key={g.name}>
             <span className="mono" style={{ color: 'var(--acc)' }}>{g.role}</span><h4>{g.name}</h4><p>{g.does}</p>
@@ -32,7 +32,7 @@ export default function Agents() {
           </div>)}</div>}
         </section>
         <section className="block">
-          <div className="sh"><h2>Earnings</h2><span className="mono" style={{ color: 'var(--mute)' }}>BSC testnet</span></div>
+          <div className="sh"><h2>Earnings</h2><span className="mono" style={{ color: 'var(--mute)' }}>BNB mainnet</span></div>
           <div className="ledger">
             <div><div className="mono" style={{ color: 'var(--mute)' }}>Earned</div><div className="band"><div className="n" style={{ border: 0, padding: 0 }}>{a.ledger.earnedU} U</div></div></div>
             <div><div className="mono" style={{ color: 'var(--mute)' }}>Spent</div><div className="band"><div className="n" style={{ border: 0, padding: 0 }}>{a.ledger.spentU} U</div></div></div>
@@ -41,7 +41,7 @@ export default function Agents() {
           <div className="note">{a.ledger.note}</div>
         </section>
       </>}
-      <footer><span className="mono">Read this first</span>Agents summarise sources and past prices and propose pool ideas. Keel grades proposals with fixed rules; it does not endorse them. Not investment advice.</footer>
+      <footer><span className="mono">Read this first</span>Outside agents propose pool ideas; the daily outlook is an automated summary of sources and past prices. Keel grades proposals with fixed rules; it does not endorse them. Not investment advice.</footer>
     </div>
   </>);
 }

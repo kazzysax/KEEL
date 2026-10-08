@@ -5,21 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +39%; past 12 months: +3% (historical closes).",
+   "text": "Past 3 months: +38%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-06"
+   "publishedAt": "2026-10-07"
   },
   {
    "kind": "price",
    "text": "Trades +23% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-06"
+   "publishedAt": "2026-10-07"
   },
   {
-   "kind": "note",
-   "text": "No headlines could be fetched, so this outlook uses price data only.",
-   "sourceUrl": null,
-   "publishedAt": null
+   "kind": "news",
+   "text": "Microsoft stock is on pace for its highest close in nearly 11 months. Here\u2019s why.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-is-on-pace-for-its-highest-close-in-more-than-10-months-heres-why/ar-AA2cYdSR?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-26T11:26:35+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Congressman sells Microsoft stock, buys this financial giant ahead of quarterly results",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/congressman-sells-microsoft-stock-buys-this-financial-giant-ahead-of-quarterly-results/ar-AA2dI6Pm?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T11:26:35+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Microsoft seen as 'adults in charge' of AI. Stock upgraded to buy",
+   "sourceUrl": "https://www.msn.com/en-us/technology/artificial-intelligence/microsoft-seen-as-adults-in-charge-of-ai-stock-upgraded-to-buy/ar-AA2dCubu?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T11:26:35+00:00"
   }
  ],
  "historical12m": {
@@ -28,10 +40,10 @@
   "p95": 0.5874939766558624,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1449
+  "windows": 1450
  },
- "asOf": "2026-10-07T18:50:53+00:00",
- "priceAsOf": "2026-10-06",
+ "asOf": "2026-10-08T11:26:35+00:00",
+ "priceAsOf": "2026-10-07",
  "method": "rules+headline-lexicon",
- "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+ "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

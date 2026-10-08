@@ -1,37 +1,63 @@
 {
  "agents": [
   {
-   "name": "keel-analyst",
-   "role": "Analyst",
-   "does": "Publishes a sourced outlook for every tradable asset each day, unprompted. Sells the briefing to other agents over x402.",
-   "agentId": "367795",
-   "explorer": "https://bscscan.com/address/0xc52c09547bcfF9115853F9226bEF4fa43993aD56",
-   "network": "bsc mainnet",
-   "status": "live",
-   "address": "0xc52c09547bcfF9115853F9226bEF4fa43993aD56"
-  },
-  {
    "name": "keel-grader",
    "role": "Grader",
    "does": "Scores pools proposed by any agent with the same rules as the curated pools. Lists the ones that pass.",
-   "agentId": "367797",
+   "agentId": "367808",
    "explorer": "https://bscscan.com/address/0x2A55D842c097Dd323a212F561b1Fab39b738E62f",
    "network": "bsc mainnet",
    "status": "live",
-   "address": "0x2A55D842c097Dd323a212F561b1Fab39b738E62f"
-  },
-  {
-   "name": "keel-scout",
-   "role": "Scout",
-   "does": "Buys the Analyst's briefing, looks for new pool ideas and sends them to the Grader.",
-   "agentId": "367798",
-   "explorer": "https://bscscan.com/address/0x3428faEFf4f4775B9edba3F3F7eF4F3b8e3df1B7",
-   "network": "bsc mainnet",
-   "status": "live",
-   "address": "0x3428faEFf4f4775B9edba3F3F7eF4F3b8e3df1B7"
+   "address": "0x2A55D842c097Dd323a212F561b1Fab39b738E62f",
+   "url": "https://grader-production-2e21.up.railway.app"
   }
  ],
  "events": [
+  {
+   "at": "2026-10-08T11:26:44+00:00",
+   "agent": "keel-outlook",
+   "type": "daily-run",
+   "summary": "Daily outlook for 13 assets: 6 positive, 4 neutral, 3 cautious. Prices to 2026-10-07",
+   "reportHash": "0x7ff8c54237b94d0709ab75666eac5a7e784cce4c637e4c4f390e6b033a2a2a1b",
+   "seconds": 21.2
+  },
+  {
+   "at": "2026-10-08T11:23:08+00:00",
+   "agent": "keel-scout",
+   "type": "daily-run",
+   "summary": "Daily outlook for 13 assets: 6 positive, 4 neutral, 3 cautious. Prices to 2026-10-07",
+   "reportHash": "0x1c0672d193531078321fd77739a772fd273acbd3243aadefabe7c1d460f89302",
+   "seconds": 33.1
+  },
+  {
+   "at": "2026-10-08T11:11:27+00:00",
+   "agent": "keel-scout",
+   "type": "x402-payment",
+   "summary": "Bought the daily briefing for 0.005 U (x402)",
+   "amountU": -0.005
+  },
+  {
+   "at": "2026-10-08T10:50:13+00:00",
+   "agent": "keel-scout",
+   "type": "proposal",
+   "jobId": "56922",
+   "summary": "Proposed COST + XOM + IEF to the Grader (job 56922)"
+  },
+  {
+   "at": "2026-10-08T10:49:44+00:00",
+   "agent": "keel-scout",
+   "type": "x402-payment",
+   "summary": "Bought the daily briefing for 0.005 U (x402)",
+   "amountU": -0.005
+  },
+  {
+   "at": "2026-10-08T09:56:51+00:00",
+   "agent": "keel-analyst",
+   "type": "daily-run",
+   "summary": "Daily outlook for 13 assets: 6 positive, 3 neutral, 4 cautious. Prices to 2026-10-07",
+   "reportHash": "0xd29d34f283c6b44321a38dfd693d6115a92360d7063076f6b41e7dd2d7adeaff",
+   "seconds": 22.6
+  },
   {
    "at": "2026-10-07T19:26:36+00:00",
    "agent": "keel-grader",
@@ -171,6 +197,6 @@
   "earnedU": 0,
   "spentU": 0,
   "gasBNB": 0,
-  "note": "No on-chain activity yet. Figures fill in once the agents run against BSC testnet."
+  "note": "Figures fill in as outside agents hire the Grader on BNB mainnet."
  }
 }

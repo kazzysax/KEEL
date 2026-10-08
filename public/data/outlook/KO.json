@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +34% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +33% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-06"
+   "publishedAt": "2026-10-07"
   },
   {
    "kind": "price",
-   "text": "Trades +9% vs its 200-day average and -5% from its 52-week high.",
+   "text": "Trades +8% vs its 200-day average and -6% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-06"
+   "publishedAt": "2026-10-07"
   },
   {
    "kind": "note",
@@ -24,14 +24,14 @@
  ],
  "historical12m": {
   "p5": -0.04321166352430017,
-  "p50": 0.12401767168303701,
-  "p95": 0.294795410163347,
+  "p50": 0.1240316115792055,
+  "p95": 0.29492464779309624,
   "min": -0.15396303665947697,
   "max": 0.4144057262988128,
-  "windows": 1449
+  "windows": 1450
  },
- "asOf": "2026-10-07T18:50:53+00:00",
- "priceAsOf": "2026-10-06",
+ "asOf": "2026-10-08T11:26:44+00:00",
+ "priceAsOf": "2026-10-07",
  "method": "rules+headline-lexicon",
- "disclaimer": "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+ "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

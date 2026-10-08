@@ -56,6 +56,8 @@ def process_proposal(job: dict) -> tuple[str, dict]:
     try: p = json.loads(task)
     except ValueError: p = {"legs": [t.strip() for t in task.replace("propose", "", 1).replace(";", ",").split(",") if t.strip()], "rationale": ""}
     if not isinstance(p, dict): p = {"legs": None}
+    # On-chain descriptions turn [ ] into ( ), so legs may arrive as "A,B,C" or as a parenthesised list: accept both.
+    if isinstance(p.get("legs"), str): p["legs"] = [t.strip() for t in p["legs"].replace("(", "").replace(")", "").replace(";", ",").split(",") if t.strip()]
     who = p.get("proposer") if isinstance(p.get("proposer"), dict) else {}
     proposer = {"agent": who.get("agent", "unknown"), "agentId": who.get("agentId"), "mode": "on-chain", "jobId": str(job.get("jobId", "")), "client": job.get("client")}
     res = community.submit(p.get("legs"), p.get("rationale", ""), proposer)

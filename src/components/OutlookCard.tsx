@@ -26,7 +26,7 @@ export default function OutlookCard({ legs, labels }: { legs: string[]; labels: 
           <div className="mono" style={{ color: 'var(--mute)', textTransform: 'none' }}>Any past 12 months: typical {pct(o.historical12m.p5)} to {pct(o.historical12m.p95)} · worst {pct(o.historical12m.min)} · best {pct(o.historical12m.max)} · prices to {o.priceAsOf}</div>
         </>}
       </div>); })}
-      <div className="note" style={{ margin: 0, padding: '10px 16px' }}>AI-generated summary of linked sources and past prices. Not investment advice.{agent?.agentId ? <> Produced by the Keel Analyst agent, ERC-8004 id <a href={agent.explorer} target="_blank" rel="noreferrer" style={{ color: 'inherit' }}>{agent.agentId}</a>.</> : <> Analyst agent identity not yet registered on-chain.</>}</div>
+      <div className="note" style={{ margin: 0, padding: '10px 16px' }}>Automated summary of linked sources and past prices. Not investment advice.{agent?.agentId ? <> Produced by the Keel Analyst agent, ERC-8004 id <a href={agent.explorer} target="_blank" rel="noreferrer" style={{ color: 'inherit' }}>{agent.agentId}</a>.</> : <> Analyst agent identity not yet registered on-chain.</>}</div>
     </div>
   </div>);
 }

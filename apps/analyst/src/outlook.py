@@ -18,7 +18,7 @@ DATA = Path(os.environ.get("KEEL_PRICES", _ROOT / "data" / "prices"))
 NAMES = {"AAPL": "Apple", "MSFT": "Microsoft", "WMT": "Walmart", "COST": "Costco", "KO": "Coca-Cola", "JNJ": "Johnson & Johnson",
          "XOM": "Exxon Mobil", "SPY": "S&P 500 ETF", "QQQ": "Nasdaq-100 ETF", "GLD": "gold", "SHY": "short-term US Treasuries",
          "IEF": "7-10 year US Treasuries", "TLT": "20+ year US Treasuries"}
-DISCLAIMER = "AI-generated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+DISCLAIMER = "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 FORBIDDEN = re.compile(r"\b(will (reach|hit|rise|fall|rally|crash)|price target|target price|forecast(ed)? (return|profit)|expected (return|profit)|guaranteed|can't lose)\b", re.I)
 POS = {"beats", "beat", "record", "raises", "raised", "upgrade", "upgraded", "growth", "surge", "surges", "strong", "gains", "profit", "outperform", "buyback", "dividend increase"}
 NEG = {"miss", "misses", "cuts", "cut", "downgrade", "downgraded", "lawsuit", "probe", "recall", "falls", "plunge", "weak", "layoffs", "warning", "warns", "investigation", "decline", "slump"}

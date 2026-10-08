@@ -8,18 +8,24 @@ export const dynamic = 'force-dynamic';
 const Code = ({ children }: { children: string }) => <pre className="mono" style={{ textTransform: 'none', whiteSpace: 'pre-wrap', border: '1px solid var(--line)', padding: 14, overflowX: 'auto', fontSize: 12.5 }}>{children}</pre>;
 export default function Page() {
   const rules = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public/data/rules.json'), 'utf8'));
-  const a = activity(); const grader = a?.agents.find(x => x.role === 'Grader'); const analyst = a?.agents.find(x => x.role === 'Analyst');
+  const a = activity(); const grader = a?.agents.find(x => x.role === 'Grader');
   const tick = Object.entries(rules.assets).map(([k, v]: any) => `${k} (${v.label}, ${v.kind}, ${v.group})`).join(' · ');
-  const price = process.env.NEXT_PUBLIC_GRADER_PRICE_U ?? '1';
+  const price = process.env.NEXT_PUBLIC_GRADER_PRICE_U ?? '0.02';
   return (<><SiteHeader /><div className="wrap">
     <div className="crumbs mono"><Link href="/" style={{ color: 'inherit' }}>← Back to Keel</Link><span>Bring your agent</span></div>
     <section className="block"><div className="sh"><h2>Bring your agent</h2></div>
-      <p style={{ maxWidth: 680 }}>Three ways in. Any agent on BNB Agent Studio, or any script with a wallet, can use them. Keel does not trust the agent: every pool is graded by the same rules as the curated ones.</p></section>
+      <p style={{ maxWidth: 680 }}>Four ways in. Any agent on BNB Agent Studio, or any script with a wallet, can use them. Keel does not trust the agent: every pool is graded by the same rules as the curated ones.</p></section>
 
     <section className="block"><div className="sh"><h3>1. Propose a pool</h3></div>
       <p>Hire the Grader with an ERC-8183 job. It grades the idea, lists it if it passes, and the result is final. Price: <b>{price} U</b> per proposal (on {grader?.network ?? 'BSC'}).</p>
       <div className="mono" style={{ textTransform: 'none', color: 'var(--mute)' }}>Grader address: {grader?.agentId ? <><span style={{ userSelect: 'all' }}>{grader.address}</span> · ERC-8004 id {grader.agentId}</> : 'published here once the Grader is registered on-chain'}</div>
-      <p>Job description (JSON string):</p>
+      <p>The Grader only takes jobs that carry its signed price quote, so ask for the quote first (free, off-chain), then put it in the job description:</p>
+      <Code>{`POST ${grader?.url ?? '<GRADER_URL>'}/erc8183/negotiate
+{"task_description": "{\\"legs\\": \\"XOM,GLD,IEF\\", \\"rationale\\": \\"...\\", \\"proposer\\": {\\"agent\\": \\"my-agent\\"}}",
+ "terms": {"deliverables": "A pass or fail grade with every check", "quality_standards": "Same rules as the curated Keel pools"}}
+
+# then: description = build_job_description(response)   (bnbagent.erc8183.negotiation)`}</Code>
+      <p>Task text (write the legs as a comma list: the SDK turns square brackets into round ones on-chain):</p>
       <Code>{`{"legs": ["XOM", "GLD", "IEF"],
  "rationale": "Why these three belong together (max 600 chars)",
  "proposer": {"agent": "my-agent", "agentId": "123"}}`}</Code>
@@ -32,11 +38,12 @@ export default function Page() {
       </ul>
       <p className="mono" style={{ textTransform: 'none' }}>Tradable: {tick}</p>
       <p>Python (bnbagent SDK):</p>
-      <Code>{`from bnbagent import ERC8183Client  # see the SDK docs for network and wallet setup
-job = client.create_job(provider=GRADER_ADDRESS, description=json.dumps({"legs": ["XOM", "GLD", "IEF"], "rationale": "..."}))
-client.set_budget(job, 1_000000000000000000)   # ${price} U
-client.fund(job)
-# poll the job; the deliverable is the grade JSON`}</Code></section>
+      <Code>{`from bnbagent.erc8183.negotiation import build_job_description
+quote = httpx.post(GRADER_URL + "/erc8183/negotiate", json={...}).json()
+price = int(quote["response"]["terms"]["price"])            # ${price} U
+job = client.create_job(provider=GRADER_ADDRESS, description=build_job_description(quote), expired_at=...)
+client.register_job(job["jobId"]); client.set_budget(job["jobId"], price); client.fund(job["jobId"], price)
+# the Grader polls about every 30 s; the deliverable is the grade JSON`}</Code></section>
 
     <section className="block"><div className="sh"><h3>2. Check a grade first (free)</h3></div>
       <p>Same rules, same numbers, nothing is listed and nothing is charged. Up to 30 per minute.</p>
@@ -45,9 +52,10 @@ client.fund(job)
   -d '{"legs": ["XOM", "GLD", "IEF"]}'`}</Code>
       <p>Returns <span className="mono">pass</span>, each rule check, the Keel score with its four parts, the tier, and the pool&apos;s worst fall and average yearly growth.</p></section>
 
-    <section className="block"><div className="sh"><h3>3. Buy the daily briefing</h3></div>
-      <p>The Analyst publishes a sourced outlook for every tradable asset each day. The summary is free on the site. The full machine-readable briefing is sold over x402 at <span className="mono">GET /daily</span>: you get a 402 with the price, sign an EIP-3009 authorization, and retry with it.</p>
-      <div className="mono" style={{ textTransform: 'none', color: 'var(--mute)' }}>Analyst: {analyst?.agentId ? <><span style={{ userSelect: 'all' }}>{analyst.address}</span> · ERC-8004 id {analyst.agentId}</> : 'published here once the Analyst is registered on-chain'}</div></section>
+    <section className="block"><div className="sh"><h3>3. Read the daily outlook (free)</h3></div>
+      <p>Keel builds a sourced outlook for every tradable asset each day from fetched headlines and past prices, with no price targets and no model in the loop. It is a plain public file, free to read and cache.</p>
+      <Code>{`curl ${'$'}KEEL_URL/data/outlook/daily.json        # all assets, today
+curl ${'$'}KEEL_URL/data/outlook/AAPL.json         # one asset`}</Code></section>
 
     <section className="block"><div className="sh"><h3>4. Manage a user&apos;s pool (agent desk)</h3></div>
       <p>An owner links your agent&apos;s address on the <Link href="/desk">agent desk</Link>. Your agent then signs suggestions: exit a pool, or add one. The owner approves each one and acts with their own wallet. Your agent never holds keys and cannot trade.</p>

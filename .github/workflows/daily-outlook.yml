@@ -1,0 +1,23 @@
+name: daily-outlook
+# Replaces the always-on Analyst agent: a free scheduled job that refreshes prices, rebuilds the outlook and commits it.
+# Vercel redeploys on push, so the site updates itself. Runs after the US close, weekdays.
+on:
+  schedule: [{ cron: '35 21 * * 1-5' }]
+  workflow_dispatch: {}
+permissions: { contents: write }
+jobs:
+  outlook:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install httpx ddgs pandas numpy
+      - name: Refresh prices and build the outlook
+        run: python apps/analyst/src/daily.py --once
+      - name: Commit if changed
+        run: |
+          git config user.name "keel-outlook"
+          git config user.email "keel-outlook@users.noreply.github.com"
+          git add data/prices public/data
+          git diff --cached --quiet || (git commit -m "Daily outlook $(date -u +%F)" && git push)

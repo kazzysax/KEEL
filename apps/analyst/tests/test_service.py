@@ -21,7 +21,7 @@ def test_daily_paid_flow(tmp_path, monkeypatch):
     r = c.get("/daily"); assert r.status_code == 402 and r.json()["accepts"][0]["amount"] == str(5 * 10 ** 16) and "payment-required" in r.headers
     buyer = EVMWalletProvider(password="pw", private_key="0x" + "11" * 32, persist=False)
     j, paid = B.Payer(buyer).fetch("http://testserver/daily", client=c)
-    assert j["agent"] == "keel-analyst" and len(j["outlooks"]) == 13 and paid["amount"] == str(5 * 10 ** 16)
+    assert j["agent"] == "keel-outlook" and len(j["outlooks"]) == 13 and paid["amount"] == str(5 * 10 ** 16)
     assert seller.settler.tx == [str(5 * 10 ** 16)]
     assert c.get("/daily", headers={"PAYMENT-SIGNATURE": "junk"}).status_code == 402
     assert "x402-payment" in (tmp_path / "act.json").read_text()
