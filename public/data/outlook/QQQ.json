@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow futures gain, S&P 500, Nasdaq 100 slip as Iran keeps conditions to reopen",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-futures-gain-s-p-500-nasdaq-100-slip-as-iran-keeps-conditions-to-reopen/vi-AA2dBgAy?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-06T13:37:02+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Stock market today: S&P 500, Dow Jones, Nasdaq 100 futures gain as Scott Bessent doubles down on Iran pressure",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-jones-nasdaq-100-futures-gain-as-scott-bessent-doubles-down-on-iran-pressure/vi-AA2dFHvF?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-06T13:37:02+00:00"
+   "text": "More Nasdaq 100 ETFs Are Coming. That Means More Buyers For SpaceX Stock",
+   "sourceUrl": "https://www.investopedia.com/more-nasdaq-100-etfs-are-coming-that-means-more-buyers-for-spacex-stock-spcx-qqq-12008979",
+   "publishedAt": "2026-06-29T00:00:00+00:00"
   },
   {
    "kind": "news",
    "text": "QQQE: Nasdaq-100 ETF Without Mega-Cap Risk",
    "sourceUrl": "https://seekingalpha.com/article/4949087-qqqe-nasdaq-100-etf-without-mega-cap-risk",
    "publishedAt": "2026-09-23T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "This Unstoppable Vanguard ETF Is Beating the S&P 500 and the Nasdaq-100 in 2026, but It Could Face a Reckoning Next Week",
+   "sourceUrl": "https://www.fool.com/investing/2026/09/09/this-vanguard-etf-sp-500-nasdaq-100-2026-reckoning/",
+   "publishedAt": "2026-09-09T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:37:02+00:00",
+ "asOf": "2026-10-08T13:41:55+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

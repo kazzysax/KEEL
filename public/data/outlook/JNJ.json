@@ -19,19 +19,19 @@
    "kind": "news",
    "text": "Johnson & Johnson (JNJ) IMAAVY Data Puts Its Undervalued Narrative Back In Focus",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-imaavy-data-131104892.html",
-   "publishedAt": "2026-10-02T13:37:01+00:00"
+   "publishedAt": "2026-10-02T13:41:53+00:00"
   },
   {
    "kind": "news",
    "text": "Johnson & Johnson (JNJ) is attracting investor attention: Here is what you should know",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/johnson-johnson-jnj-is-attracting-investor-attention-here-is-what-you-should-know/ar-AA2dcq4A?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-29T13:37:01+00:00"
+   "publishedAt": "2026-09-29T13:41:53+00:00"
   },
   {
    "kind": "news",
    "text": "What Does Johnson & Johnson (JNJ) New Clinical Data Mean For Its Stock?",
    "sourceUrl": "https://finance.yahoo.com/healthcare/articles/does-johnson-johnson-jnj-clinical-061047114.html",
-   "publishedAt": "2026-09-26T13:37:01+00:00"
+   "publishedAt": "2026-09-26T13:41:53+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7557674082585883,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:37:01+00:00",
+ "asOf": "2026-10-08T13:41:54+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

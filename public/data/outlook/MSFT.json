@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
+   "text": "Microsoft Seen As 'Adults In Charge' Of AI. Stock Upgraded To Buy.",
+   "sourceUrl": "https://www.investors.com/news/technology/microsoft-stock-upgraded-adults-in-charge-of-ai/",
+   "publishedAt": "2026-10-05T21:40:00+00:00"
+  },
+  {
+   "kind": "news",
    "text": "Microsoft (MSFT) Stock: New Surface Laptop Ultra Packs Nvidia AI Chip",
    "sourceUrl": "https://coincentral.com/microsoft-msft-stock-new-surface-laptop-ultra-packs-nvidia-ai-chip/",
    "publishedAt": "2026-10-08T08:58:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Congressman sells Microsoft stock, buys this financial giant ahead of quarterly results",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/congressman-sells-microsoft-stock-buys-this-financial-giant-ahead-of-quarterly-results/ar-AA2dI6Pm?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T13:36:59+00:00"
-  },
-  {
-   "kind": "news",
    "text": "Microsoft stock is on pace for its highest close in nearly 11 months. Here\u2019s why.",
    "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-is-on-pace-for-its-highest-close-in-more-than-10-months-heres-why/ar-AA2cYdSR?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-26T13:36:59+00:00"
+   "publishedAt": "2026-09-26T13:41:52+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7731916500710374,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:36:59+00:00",
+ "asOf": "2026-10-08T13:41:52+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

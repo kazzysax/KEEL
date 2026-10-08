@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "10-Year Treasuries Yield 5.3%; Schwab's Dividend ETF Yields 3.4%. Which One...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/10-treasuries-yield-5-3-090500150.html",
-   "publishedAt": "2026-10-07T13:37:03+00:00"
+   "text": "Short-Term Bond ETFs to Gain as Fed Hikes Interest Rates",
+   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/short-term-bond-etfs-gain-182600843.html",
+   "publishedAt": "2026-09-17T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "XRP Price Prediction: Evernorth Listing and Key Levels",
-   "sourceUrl": "https://cryptonews.com/news/xrp-price-prediction-evernorth-delay/",
-   "publishedAt": "2026-10-07T13:37:03+00:00"
+   "text": "Short-Term Treasuries Emerge as Popular Bet on Fed Inflation Win",
+   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/short-term-treasuries-emerge-popular-190000422.html",
+   "publishedAt": "2026-09-20T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "With US diesel at $6.37, G7 approves a 100 million-barrel fuel release after...",
-   "sourceUrl": "https://www.yahoo.com/news/politics/articles/us-diesel-6-37-g7-132000275.html",
-   "publishedAt": "2026-10-08T13:20:03+00:00"
+   "text": "Short-End Treasuries Become Popular Bet on Fed Inflation Win",
+   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-20/short-term-treasuries-emerge-as-popular-bet-on-fed-inflation-win",
+   "publishedAt": "2026-09-20T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.06956487375048614,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:37:03+00:00",
+ "asOf": "2026-10-08T13:41:56+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

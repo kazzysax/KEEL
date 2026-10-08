@@ -1,7 +1,7 @@
 {
  "ticker": "SPY",
  "name": "S&P 500 ETF",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Stock market: Will S&P 500 open up or down today?",
-   "sourceUrl": "https://www.benzinga.com/markets/prediction-markets/26/10/62236979/stock-market-will-sp-500-open-up-or-down-today-53",
-   "publishedAt": "2026-10-08T06:37:02+00:00"
+   "text": "Warren Buffett said buy the S&P 500 \u2014 but this ETF is secretly an AI powerhouse",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/warren-buffett-said-buy-the-s-p-500-but-this-etf-is-secretly-an-ai-powerhouse/ar-AA2dHwXm?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T13:41:54+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500 Information Technology Sector Index Overview (SP500.45) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/indexes/sp500.45",
-   "publishedAt": "2026-10-05T13:37:02+00:00"
+   "text": "2 Vanguard ETFs outpacing the S&P 500 and Nasdaq-100 this year but facing near-term tests",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/2-vanguard-etfs-outpacing-the-s-p-500-and-nasdaq-100-this-year-but-facing-near-term-tests/ar-AA2dKi6W?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T13:41:54+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Dow, Nasdaq futures fall as 30-year Treasury yield ...",
-   "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62210315/stock-market-today-dow-jones-nasdaq-100-futures-decline-as-iran-mocks-us-economy-trump-sparks-bipartisan-backlash-stz-peng-levi-in-focus",
-   "publishedAt": "2026-10-07T13:37:02+00:00"
+   "text": "Vanguard S&P 500 ETF long-term outlook: What history tells investors",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/vanguard-s-p-500-etf-long-term-outlook-what-history-tells-investors/ar-AA2cQ0or?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-23T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7750444604115636,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:37:02+00:00",
+ "asOf": "2026-10-08T13:41:54+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

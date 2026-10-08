@@ -17,21 +17,15 @@
   },
   {
    "kind": "news",
-   "text": "Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale \u2014 Danske Repor...",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/treasury-yields-hit-24-highs-161317619.html",
-   "publishedAt": "2026-10-07T16:37:04+00:00"
+   "text": "Snowflake Is Borrowing $3.75 Billion at 0% While 10-Year Treasuries Yield Over 5%. Here\u2019s the Price Shareholders Pay",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/snowflake-borrowing-3-75-billion-142321531.html",
+   "publishedAt": "2026-09-30T13:41:56+00:00"
   },
   {
    "kind": "news",
-   "text": "Stocks are tumbling as oil prices surge and bond yields hit 24-year highs",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stocks-tumbling-oil-prices-surge-125601706.html",
-   "publishedAt": "2026-10-08T12:56:04+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "US Treasury Yields Rise, 30-Year Hits New Highs",
-   "sourceUrl": "https://www.gurufocus.com/news/9110189/us-treasury-yields-rise-30year-hits-new-highs",
-   "publishedAt": "2026-10-05T13:37:04+00:00"
+   "text": "Energizer: Buying U.S. Treasuries Makes More Sense Than Buying This Stock",
+   "sourceUrl": "https://seekingalpha.com/article/4951444-energizer-buying-us-treasuries-makes-more-sense-than-buying-this-stock",
+   "publishedAt": "2026-10-02T13:41:56+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +36,7 @@
   "max": 0.12187064774468692,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:37:04+00:00",
+ "asOf": "2026-10-08T13:41:56+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
