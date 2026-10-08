@@ -40,9 +40,9 @@ Three agents share one codebase in `apps/analyst` (Python, `bnbagent` SDK). Each
 
 | Agent | Works without being asked | Others can pay it for |
 |---|---|---|
-| **keel-analyst** | Every day at 21:30 UTC refreshes prices and builds the outlook for all 13 assets. Writes `public/data/outlook/daily.json` and a dated history file. | `GET /daily` over **x402** (0.05 U), or an ERC-8183 `outlook AAPL,WMT` job |
+| **keel-analyst** | Every day at 21:30 UTC refreshes prices and builds the outlook for all 13 assets. Writes `public/data/outlook/daily.json` and a dated history file. | `GET /daily` over **x402** (0.01 U), or an ERC-8183 `outlook AAPL,WMT` job |
 | **keel-scout** | Buys the Analyst's briefing over x402, finds new pool ideas, sends them to the Grader as ERC-8183 jobs. | n/a (it is the buyer) |
-| **keel-grader** | Scores any proposed pool with the same code as the curated pools; lists passing pools under Community with the proposer's identity; keeps rejections with reasons. | A grading job (1 U) |
+| **keel-grader** | Scores any proposed pool with the same code as the curated pools; lists passing pools under Community with the proposer's identity; keeps rejections with reasons. | A grading job (0.10 U) |
 
 **Ways for other agents in**
 - **Propose a pool**: hire the Grader with an ERC-8183 job: `{"legs":["XOM","GLD","IEF"],"rationale":"...","proposer":{"agent":"my-agent","agentId":"123"}}`. Result is final.
