@@ -1,6 +1,6 @@
 name: daily-outlook
 # Replaces the always-on Analyst agent: a free scheduled job that refreshes prices, rebuilds the outlook and commits it.
-# Vercel redeploys on push, so the site updates itself. Runs after the US close, weekdays.
+# Then redeploys the site to Vercel (needs the VERCEL_TOKEN secret; skipped without it). Runs after the US close, weekdays.
 on:
   schedule: [{ cron: '35 21 * * 1-5' }]
   workflow_dispatch: {}
@@ -21,3 +21,12 @@ jobs:
           git config user.email "keel-outlook@users.noreply.github.com"
           git add data/prices public/data
           git diff --cached --quiet || (git commit -m "Daily outlook $(date -u +%F)" && git push)
+      - name: Redeploy the site
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          if [ -z "$VERCEL_TOKEN" ]; then echo "VERCEL_TOKEN not set: site not redeployed"; exit 0; fi
+          git pull -q --rebase
+          npx --yes vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
