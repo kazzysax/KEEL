@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: +3% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: +3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-07"
+   "publishedAt": "2026-10-08"
   },
   {
    "kind": "price",
-   "text": "Trades -10% vs its 200-day average and -24% from its 52-week high.",
+   "text": "Trades -9% vs its 200-day average and -24% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-07"
+   "publishedAt": "2026-10-08"
   },
   {
    "kind": "news",
-   "text": "Getchell Gold Corp. (GGLDF) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/GGLDF",
-   "publishedAt": "2026-10-08T00:29:27+00:00"
+   "text": "Gold price forecast as US dollar index and Treasury yields jump",
+   "sourceUrl": "https://invezz.com/news/2026/10/06/gold-price-forecast-as-us-dollar-index-and-treasury-yields-jump/",
+   "publishedAt": "2026-10-06T13:32:51+00:00"
   },
   {
    "kind": "news",
-   "text": "Osisko Gold Group Inc. WT EXP 052727 (OGG.WT.U:CA) Stock Price, Quote, News &...",
-   "sourceUrl": "https://seekingalpha.com/symbol/OGG.WT.U:CA",
-   "publishedAt": "2026-10-08T00:29:27+00:00"
+   "text": "Gold price today, Tuesday, September 29, 2026: Gold opens near 2-month low, but Brent crude also moving lower",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-29-2026-gold-opens-near-2-month-low-but-brent-crude-also-moving-lower-104439751.html",
+   "publishedAt": "2026-09-29T13:32:51+00:00"
   },
   {
    "kind": "news",
-   "text": "Northisle Copper and Gold Inc. (NTCPF) Stock Price, Quote, News & Analysis |...",
-   "sourceUrl": "https://seekingalpha.com/symbol/NTCPF",
-   "publishedAt": "2026-10-05T11:29:27+00:00"
+   "text": "Gold price today, October 1: Why is the yellow metal headed for a second straight session of decline?",
+   "sourceUrl": "https://www.msn.com/en-au/money/economy/gold-price-today-october-1-why-is-the-yellow-metal-headed-for-a-second-straight-session-of-decline/ar-AA2dj5Fz?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-01T13:32:51+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07349650140319974,
-  "p50": 0.135175213726632,
+  "p50": 0.1339409586662359,
   "p95": 0.5903732453003978,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1450
+  "windows": 1451
  },
- "asOf": "2026-10-08T11:29:27+00:00",
- "priceAsOf": "2026-10-07",
+ "asOf": "2026-10-08T13:32:51+00:00",
+ "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

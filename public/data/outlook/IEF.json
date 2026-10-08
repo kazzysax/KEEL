@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: -4%; past 12 months: -4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-07"
+   "publishedAt": "2026-10-08"
   },
   {
    "kind": "price",
    "text": "Trades -4% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-07"
+   "publishedAt": "2026-10-08"
   },
   {
    "kind": "news",
-   "text": "Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale \u2014 Danske Repor...",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/treasury-yields-hit-24-highs-161317619.html",
-   "publishedAt": "2026-10-07T16:29:28+00:00"
+   "text": "Home Buying Becomes a Luxury as 10-Year Treasuries Push Mortgage Rates to 7.17%",
+   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/home-buying-becomes-luxury-10-151942231.html",
+   "publishedAt": "2026-09-15T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury Yields Rise, 30-Year Hits New Highs",
-   "sourceUrl": "https://www.gurufocus.com/news/9110189/us-treasury-yields-rise-30year-hits-new-highs",
-   "publishedAt": "2026-10-05T11:29:28+00:00"
+   "text": "Bianco sees value in Treasuries as yields top 5% - report",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/bianco-sees-value-in-treasuries-as-yields-top-5-report/ar-AA2dbgJu?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-29T13:32:52+00:00"
   },
   {
    "kind": "news",
-   "text": "10- and 30-year bond yields trading at 24-year highs",
-   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/10-30-bond-yields-trading-162742515.html",
-   "publishedAt": "2026-10-07T16:29:28+00:00"
+   "text": "Home buying becomes a luxury as 10-year treasuries push mortgage rates to 7.17%",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/home-buying-becomes-a-luxury-as-10-year-treasuries-push-mortgage-rates-to-7-17/ar-AA2cgQzg?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-15T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.13615811463642558,
-  "p50": -0.015028931688561342,
+  "p50": -0.015127013419946156,
   "p95": 0.08173456535899848,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1450
+  "windows": 1451
  },
- "asOf": "2026-10-08T11:29:28+00:00",
- "priceAsOf": "2026-10-07",
+ "asOf": "2026-10-08T13:32:53+00:00",
+ "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -7,31 +7,31 @@
    "kind": "price",
    "text": "Past 3 months: +7%; past 12 months: +32% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-07"
+   "publishedAt": "2026-10-08"
   },
   {
    "kind": "price",
    "text": "Trades +16% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-07"
+   "publishedAt": "2026-10-08"
   },
   {
    "kind": "news",
-   "text": "Apple Inc. (AAPL) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/AAPL",
-   "publishedAt": "2026-10-07T11:29:24+00:00"
+   "text": "Apple CEO Ternus' $8.5 million stock sale was tax math, not a market call",
+   "sourceUrl": "https://macdailynews.com/2026/10/07/apple-ceo-ternus-8-5-million-stock-sale-was-tax-math-not-a-market-call/",
+   "publishedAt": "2026-10-07T15:45:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Readies Smart Home Lineup, Resideo, Arlo Stocks Fall - Apple (NASDAQ:AAPL)",
-   "sourceUrl": "https://www.benzinga.com/markets/tech/26/10/62238712/apple-smart-home-report-resideo-arlo-allegion-stocks-fall",
-   "publishedAt": "2026-10-08T09:29:24+00:00"
+   "text": "Apple, IBD stock of the day, rises near buy points ahead of smart home launch",
+   "sourceUrl": "https://www.msn.com/en-us/technology/hardware-and-devices/apple-ibd-stock-of-the-day-rises-near-buy-points-ahead-of-smart-home-launch/ar-AA2dLtPe",
+   "publishedAt": "2026-10-07T16:37:00+00:00"
   },
   {
    "kind": "news",
-   "text": "AAPL Stock Price | Apple Inc. Stock Quote (U.S.: Nasdaq) | MarketWatch",
-   "sourceUrl": "https://www.marketwatch.com/investing/stock/aapl",
-   "publishedAt": "2026-10-07T11:29:24+00:00"
+   "text": "Nvidia Earned About Twice as Much as Apple Last Quarter. Its Stock Is Worth Only About 20% More.",
+   "sourceUrl": "https://www.fool.com/investing/2026/10/07/nvidia-earned-about-twice-as-much-as-apple-last-quarter-its-stock-is-worth-only-about-20-more/",
+   "publishedAt": "2026-10-07T21:37:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6826632824339633,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1450
+  "windows": 1451
  },
- "asOf": "2026-10-08T11:29:24+00:00",
- "priceAsOf": "2026-10-07",
+ "asOf": "2026-10-08T13:32:48+00:00",
+ "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
