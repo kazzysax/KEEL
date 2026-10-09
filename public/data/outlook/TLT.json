@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-ae/news/other/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high/ar-AA2dzeX9?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T13:41:56+00:00"
+   "text": "Treasuries Rise as Lofty Yields Lure Demand to 30-Year Sale",
+   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
+   "publishedAt": "2026-10-04T01:23:39+00:00"
   },
   {
    "kind": "news",
    "text": "India-US bond yield gap at 20-year low, Jefferies sees sustainability",
    "sourceUrl": "https://www.msn.com/en-in/news/other/india-us-bond-yield-gap-at-20-year-low-jefferies-sees-sustainability/ar-AA2dEEPc?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-06T13:41:56+00:00"
+   "publishedAt": "2026-10-07T01:23:39+00:00"
   },
   {
    "kind": "news",
-   "text": "US Five-Year Yields Exceed 5% for First Time Since 2007",
-   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-five-yields-exceed-5-173419104.html",
-   "publishedAt": "2026-09-23T00:00:00+00:00"
+   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
+   "sourceUrl": "https://www.msn.com/en-ae/money/news/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high/ar-AA2dzeX9?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T01:23:39+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.1829550567318068,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:41:57+00:00",
+ "asOf": "2026-10-09T01:23:39+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

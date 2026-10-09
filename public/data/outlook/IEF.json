@@ -17,15 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Snowflake Is Borrowing $3.75 Billion at 0% While 10-Year Treasuries Yield Over 5%. Here\u2019s the Price Shareholders Pay",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/snowflake-borrowing-3-75-billion-142321531.html",
-   "publishedAt": "2026-09-30T13:41:56+00:00"
+   "text": "Home Buying Becomes a Luxury as 10-Year Treasuries Push Mortgage Rates to 7.17%",
+   "sourceUrl": "https://247wallst.com/investing/2026/09/15/home-buying-becomes-a-luxury-as-10-year-treasuries-push-mortgage-rates-to-7-17/",
+   "publishedAt": "2026-09-15T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Energizer: Buying U.S. Treasuries Makes More Sense Than Buying This Stock",
-   "sourceUrl": "https://seekingalpha.com/article/4951444-energizer-buying-us-treasuries-makes-more-sense-than-buying-this-stock",
-   "publishedAt": "2026-10-02T13:41:56+00:00"
+   "text": "Only 1 Nasdaq-100 Stock Yields More Than 10-Year Treasuries at 5%. Here's My Top Pick to Buy Now.",
+   "sourceUrl": "https://www.fool.com/investing/2026/09/21/only-1-nasdaq-100-stock-yields-more-than-10-year-t/",
+   "publishedAt": "2026-09-21T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Schroders Buys 10-Year Treasuries Citing Attractive Yields",
+   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-03/schroders-buys-long-dated-treasuries-citing-attractive-yields",
+   "publishedAt": "2026-09-03T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -36,7 +42,7 @@
   "max": 0.12187064774468692,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:41:56+00:00",
+ "asOf": "2026-10-09T01:23:39+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

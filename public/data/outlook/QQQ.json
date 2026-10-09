@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "More Nasdaq 100 ETFs Are Coming. That Means More Buyers For SpaceX Stock",
-   "sourceUrl": "https://www.investopedia.com/more-nasdaq-100-etfs-are-coming-that-means-more-buyers-for-spacex-stock-spcx-qqq-12008979",
-   "publishedAt": "2026-06-29T00:00:00+00:00"
+   "text": "S&P 500 and Nasdaq 100 slip from record highs amid pressure from soaring Treasury yields \u2014 SPCX, AMD, NVDA, MRVL in focus",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/s-p-500-and-nasdaq-100-slip-from-record-highs-amid-pressure-from-soaring-treasury-yields-spcx-amd-nvda-mrvl-in-focus/ar-AA2dLXV2?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-08T01:23:38+00:00"
   },
   {
    "kind": "news",
-   "text": "QQQE: Nasdaq-100 ETF Without Mega-Cap Risk",
-   "sourceUrl": "https://seekingalpha.com/article/4949087-qqqe-nasdaq-100-etf-without-mega-cap-risk",
-   "publishedAt": "2026-09-23T00:00:00+00:00"
+   "text": "Nasdaq 100 hits record highs as investors shrug off pressure from soaring yields \u2014 NVDA, SPCX, CRML, TSLA, QCOM in focus",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/nasdaq-100-hits-record-highs-as-investors-shrug-off-pressure-from-soaring-yields-nvda-spcx-crml-tsla-qcom-in-focus/ar-AA2dDdgt?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T01:23:38+00:00"
   },
   {
    "kind": "news",
-   "text": "This Unstoppable Vanguard ETF Is Beating the S&P 500 and the Nasdaq-100 in 2026, but It Could Face a Reckoning Next Week",
-   "sourceUrl": "https://www.fool.com/investing/2026/09/09/this-vanguard-etf-sp-500-nasdaq-100-2026-reckoning/",
-   "publishedAt": "2026-09-09T00:00:00+00:00"
+   "text": "SpaceX\u2019s Nasdaq-100 weight just more than doubled. Here\u2019s where ETF money is heading",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/spacex-s-nasdaq-100-weight-just-more-than-doubled-here-s-where-etf-money-is-heading/ar-AA2cG9Kb?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-21T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:41:55+00:00",
+ "asOf": "2026-10-09T01:23:38+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

@@ -19,19 +19,19 @@
    "kind": "news",
    "text": "Warren Buffett said buy the S&P 500 \u2014 but this ETF is secretly an AI powerhouse",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/warren-buffett-said-buy-the-s-p-500-but-this-etf-is-secretly-an-ai-powerhouse/ar-AA2dHwXm?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T13:41:54+00:00"
+   "publishedAt": "2026-10-07T01:23:37+00:00"
   },
   {
    "kind": "news",
-   "text": "2 Vanguard ETFs outpacing the S&P 500 and Nasdaq-100 this year but facing near-term tests",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/2-vanguard-etfs-outpacing-the-s-p-500-and-nasdaq-100-this-year-but-facing-near-term-tests/ar-AA2dKi6W?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T13:41:54+00:00"
+   "text": "Nvidia, Apple, Microsoft now drive 21% of S&P 500: Here\u2019s how much ETF investors own",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/nvidia-apple-microsoft-now-drive-21-of-s-p-500-here-s-how-much-etf-investors-own/ar-AA2dHd0s?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T01:23:37+00:00"
   },
   {
    "kind": "news",
-   "text": "Vanguard S&P 500 ETF long-term outlook: What history tells investors",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/vanguard-s-p-500-etf-long-term-outlook-what-history-tells-investors/ar-AA2cQ0or?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-23T00:00:00+00:00"
+   "text": "Stock market today: S&P 500, Dow Jones, Nasdaq 100 futures decline as Pentagon prepares for potential military strikes on Iran \u2014 APLD, LEVI, MU in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-jones-nasdaq-100-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus-updated/ar-AA2dONcp?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-27T01:23:37+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7750444604115636,
   "windows": 1451
  },
- "asOf": "2026-10-08T13:41:54+00:00",
+ "asOf": "2026-10-09T01:23:37+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
