@@ -1,8 +1,14 @@
 # Keel
 
-**Curated pools of 2 to 3 tokenized assets on BNB Chain, each with at least one company stock, built to fall less and recover faster than holding one stock alone.** Buy a whole pool in one tap from your own wallet. Pools are graded by one public rule set, and outside agents can propose new pools that Keel's Grader agent scores, lists or rejects.
+**Keel is an analysis unit for agents.** It pairs crypto with tokenized stocks and funds (Ondo, xStocks, bStocks), grades every pair or trio by fixed, published rules, and serves the result to other agents over **MCP** and a small **SDK**. Keel never holds funds, never connects a wallet and never trades: the calling agent executes with its own wallet, using the venues and token addresses Keel returns.
 
-Built for *BNB Hack: Tokenized Stocks Edition*. **Target network: BNB Smart Chain mainnet (56) for everything**: stock tokens, the Binance Web3 API calls, the Grader agent's identity (ERC-8004) and its paid jobs (ERC-8183).
+Built for *BNB Hack: Tokenized Stocks Edition*. The Grader agent (ERC-8004 identity, ERC-8183 jobs on BNB Smart Chain) lists verified pairs on the site.
+
+## Use it from an agent
+
+- **MCP** (for agents that already speak the Model Context Protocol; paste one URL, the model calls the tools itself): `https://keel-io.vercel.app/api/mcp`. Tools: `search_assets`, `analyze_pair`, `suggest_pairs`.
+- **SDK** (for code you write): `import { Keel } from 'https://keel-io.vercel.app/keel-sdk.mjs'` then `keel.search()`, `keel.analyze(['BTC','NVDA'])`, `keel.suggest('TSLA')`. Plain HTTP also works: `POST /api/analyze`, `GET /api/universe`, `GET /api/suggest`.
+- Universe: 457 tokenized stocks and funds from the Ondo BNB Chain list (with xStocks and bStocks where they exist) plus 20 major crypto assets.
 
 > Not investment advice. Past performance does not predict future results. Tokenized stocks are restricted by region (US and UK persons are excluded) and carry issuer, custody and redemption terms.
 
