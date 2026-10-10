@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { computeMix, type History } from '@/lib/mix';
 import SplitControl from './SplitControl';
 import type { Manifest, Pool, CommunityFile } from '@/lib/types';
-import Chart from './Chart'; import OutlookCard from './OutlookCard';
+import Chart from './Chart'; import BuyPanel from './BuyPanel'; import OutlookCard from './OutlookCard';
 const pct = (v: number, d = 1) => (v * 100).toFixed(d) + '%';
 const KINDS = [['duo', 'Duos'], ['trio', 'Trios'], ['pair', 'Stock pairs']] as const;
 type Tab = 'duo' | 'trio' | 'pair' | 'community';
@@ -66,6 +66,7 @@ function Row({ p, open, toggle, labels, short }: { p: Pool; open: boolean; toggl
         {p.community && p.grade && <GradeBlock p={p} />}
         <OutlookCard legs={p.legs} labels={labels} />
       </div>
+      <BuyPanel pool={p} labels={labels} weights={custom ? split.map(x => x / 100) : undefined} />
     </div>}
   </div>);
 }

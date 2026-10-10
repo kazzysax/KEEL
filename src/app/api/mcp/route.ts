@@ -11,7 +11,7 @@ const TOOLS = [
     inputSchema: { type: 'object', properties: { query: { type: 'string' }, kind: { type: 'string', enum: ['stock', 'etf', 'crypto'] }, limit: { type: 'number' } } } },
   { name: 'analyze_pair', description: 'Grade a pair or trio of assets (2 or 3 tickers, equal weight). Returns the Keel score, tier, pass/fail checks, drawdown, yearly growth and offset, plus the token venues for execution. Analysis only.',
     inputSchema: { type: 'object', properties: { legs: { type: 'array', items: { type: 'string' }, minItems: 2, maxItems: 3 }, series: { type: 'boolean' } }, required: ['legs'] } },
-  { name: 'suggest_pairs', description: 'Given one asset, return the best-graded partners from a short list of diversifiers.',
+  { name: 'suggest_pairs', description: 'Given one asset, return the best-graded partners from about 45 liquid crypto, stocks, funds, gold and bonds.',
     inputSchema: { type: 'object', properties: { asset: { type: 'string' }, count: { type: 'number' } }, required: ['asset'] } },
 ];
 const text = (v: unknown, isError = false) => ({ content: [{ type: 'text', text: typeof v === 'string' ? v : JSON.stringify(v) }], isError });
@@ -20,7 +20,7 @@ async function call(name: string, a: any) {
   try {
     if (name === 'search_assets') return text({ total: universe().length, assets: search(a?.query ?? '', a?.kind, Math.min(100, a?.limit ?? 25)) });
     if (name === 'analyze_pair') return text(await analyze(a?.legs, { series: !!a?.series }));
-    if (name === 'suggest_pairs') return text({ asset: String(a?.asset).toUpperCase(), pairs: await suggest(String(a?.asset), Math.min(10, a?.count ?? 5)) });
+    if (name === 'suggest_pairs') return text({ asset: String(a?.asset).toUpperCase(), pairs: await suggest(String(a?.asset), Math.min(15, a?.count ?? 8)) });
     return text(`Unknown tool ${name}`, true);
   } catch (e: any) { return text(e.message, true); }
 }

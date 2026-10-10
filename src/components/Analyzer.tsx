@@ -5,6 +5,7 @@ type A = { ticker: string; name: string; kind: string; venues: Record<string, { 
 const pct = (v: number, d = 1) => (v * 100).toFixed(d) + '%';
 export default function Analyzer() {
   const [q, setQ] = useState(''); const [found, setFound] = useState<A[]>([]); const [sel, setSel] = useState<A[]>([]);
+  const [sug, setSug] = useState<any[] | null>(null); const [sugBusy, setSugBusy] = useState(false);
   const [res, setRes] = useState<any>(null); const [err, setErr] = useState(''); const [busy, setBusy] = useState(false);
   useEffect(() => { const t = setTimeout(() => fetch(`/api/universe?q=${encodeURIComponent(q)}&limit=12`).then(r => r.json()).then(j => setFound(j.assets ?? [])).catch(() => {}), 150); return () => clearTimeout(t); }, [q]);
   const add = (a: A) => { if (sel.length < 3 && !sel.find(x => x.ticker === a.ticker)) setSel([...sel, a]); };
@@ -13,13 +14,19 @@ export default function Analyzer() {
     try { const r = await fetch('/api/analyze', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ legs, series: true }) }); const j = await r.json(); if (!r.ok) throw new Error(j.error); setRes(j); }
     catch (e: any) { setErr(e.message); } finally { setBusy(false); }
   };
+  const best = async () => {
+    if (!sel.length) return; setSugBusy(true); setSug(null); setErr('');
+    try { const r = await fetch(`/api/suggest?asset=${sel[0].ticker}`); const j = await r.json(); if (!r.ok) throw new Error(j.error); setSug(j.pairs); }
+    catch (e: any) { setErr(e.message); } finally { setSugBusy(false); }
+  };
   const labels = res ? Object.fromEntries(res.assets.map((a: any) => [a.ticker, a.name])) : {};
   return (<div>
     <div className="mono" style={{ margin: '18px 0 6px', color: 'var(--mute)' }}>Your pair ({sel.length} of 3)</div>
     <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', minHeight: 36 }}>{sel.map(a => <button key={a.ticker} className="btn" onClick={() => setSel(sel.filter(x => x.ticker !== a.ticker))}>{a.ticker} · {a.name} ✕</button>)}{!sel.length && <span style={{ color: 'var(--mute)' }}>Search below and tap assets to add them.</span>}</div>
     <input value={q} onChange={e => setQ(e.target.value)} placeholder="Search BTC, NVDA, Apple, gold…" style={{ width: '100%', maxWidth: 420, margin: '14px 0', padding: 12, border: '1px solid var(--line)', background: 'transparent', color: 'inherit' }} />
     <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>{found.map(a => <button key={a.ticker} className="btn link" onClick={() => add(a)}>{a.ticker} <span style={{ color: 'var(--mute)' }}>{a.kind}</span></button>)}</div>
-    <div style={{ margin: '20px 0' }}><button className="btn acc" disabled={sel.length < 2 || busy} onClick={() => run()}>{busy ? 'Grading…' : 'Grade this pair'}</button></div>
+    <div style={{ margin: '20px 0' }}><button className="btn acc" disabled={sel.length < 2 || busy} onClick={() => run()}>{busy ? 'Grading…' : 'Grade this pair'}</button> <button className="btn link" disabled={!sel.length || sugBusy} onClick={best}>{sugBusy ? 'Searching 45 partners…' : `Best partners for ${sel[0]?.ticker ?? 'the first asset'}`}</button></div>
+    {sug && <div className="evs" style={{ marginBottom: 20 }}>{sug.map((x: any) => <div className="ev" key={x.legs.join()}><span className="mono">{x.tier ?? '-'} · {x.score ?? '-'}</span><span className="mono">{x.legs.join(' + ')}</span><span /><span>{x.why} <button className="btn link" onClick={() => { setSel(x.legs.map((t: string) => found.find(f => f.ticker === t) ?? ({ ticker: t, name: t, kind: '', venues: {} } as A))); run(x.legs); }}>Open</button></span></div>)}</div>}
     {err && <div className="note">{err}</div>}
     {res && <div>
       <div className="figs">

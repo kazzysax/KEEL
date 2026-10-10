@@ -61,14 +61,18 @@ export async function analyze(rawLegs: unknown, opts: { series?: boolean } = {})
     weights: legs.map(() => 1 / legs.length), figures, ...(opts.series ? { series } : {}), asOf: dates[dates.length - 1], days: dates.length, note };
 }
 
-/** Rank partners for one asset: tries a short list of diversifiers and returns the best grades. */
-const PARTNERS = ['BTC', 'ETH', 'SOL', 'GLD', 'IAU', 'TLT', 'IEF', 'SHY', 'SPY', 'QQQ', 'KO', 'JNJ', 'WMT', 'XOM', 'COST', 'LLY', 'NVDA', 'MSFT'];
-export async function suggest(anchor: string, count = 5) {
+/** Rank partners for one asset across a wide, liquid shortlist (crypto, stocks, funds, gold, bonds); returns the best grades. */
+const PARTNERS = ['BTC', 'ETH', 'SOL', 'BNB', 'XRP', 'LINK', 'GLD', 'IAU', 'TLT', 'IEF', 'SHY', 'AGG', 'HYG', 'SPY', 'QQQ', 'IWM', 'EFA', 'EEM',
+  'KO', 'PEP', 'JNJ', 'PG', 'WMT', 'COST', 'MCD', 'XOM', 'CVX', 'LLY', 'ABT', 'UNH', 'JPM', 'V', 'MA', 'BRKB', 'LMT', 'LIN', 'NEE', 'DIS',
+  'AAPL', 'MSFT', 'NVDA', 'GOOGL', 'AMZN', 'META', 'TSLA', 'COIN'];
+export async function suggest(anchor: string, count = 8) {
   const a = assetOf(anchor); if (!a) throw new Error(`Not supported: ${anchor}`);
-  const cands = PARTNERS.filter(p => p !== a.ticker && assetOf(p)).slice(0, 14);
+  const cands = PARTNERS.filter(p => p !== a.ticker && assetOf(p));
   const out: { legs: string[]; score?: number; tier?: string; pass: boolean; why: string }[] = [];
-  await Promise.all(cands.map(async p => {
-    try { const r = await analyze([a.ticker, p]); out.push({ legs: r.legs, score: r.score, tier: r.tier, pass: r.pass, why: r.checks.filter(c => !c.ok).map(c => c.name).join('; ') || 'passes every check' }); } catch { /* skip */ }
-  }));
+  for (let i = 0; i < cands.length; i += 12) {
+    await Promise.all(cands.slice(i, i + 12).map(async p => {
+      try { const r = await analyze([a.ticker, p]); out.push({ legs: r.legs, score: r.score, tier: r.tier, pass: r.pass, why: r.checks.filter(c => !c.ok).map(c => c.name).join('; ') || 'passes every check' }); } catch { /* skip */ }
+    }));
+  }
   return out.sort((x, y) => (y.score ?? -1) - (x.score ?? -1)).slice(0, count);
 }

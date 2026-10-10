@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { suggest } from '@/lib/analyze';
-export const dynamic = 'force-dynamic'; export const maxDuration = 45;
+export const dynamic = 'force-dynamic'; export const maxDuration = 60;
 const CORS = { 'access-control-allow-origin': '*' };
 export async function GET(req: Request) {
   const t = new URL(req.url).searchParams.get('asset') ?? '';

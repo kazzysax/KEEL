@@ -1,6 +1,7 @@
 import { manifest, pool as loadPool } from '@/lib/pools';
 import HeroFigure, { legDrawdowns } from '@/components/HeroFigure';
 import PoolBrowser from '@/components/PoolBrowser';
+import Holdings from '@/components/Holdings';
 import SiteHeader from '@/components/SiteHeader';
 import DailyBrief from '@/components/DailyBrief';
 export default function Home() {
@@ -11,16 +12,16 @@ export default function Home() {
   const tick = Object.entries(man.assets).filter(([, v]) => v.kind !== 'commodity' || true);
   return (<>
     <SiteHeader home />
-    <div className="ticker mono">{tick.map(([k, v]) => <span key={k}><b>{k}</b> {v.last?.toFixed(2)} <i>●</i></span>)}<span>ANALYSIS ONLY · NO WALLET</span><span>DATA THROUGH {man.asOf}</span></div>
+    <div className="ticker mono">{tick.map(([k, v]) => <span key={k}><b>{k}</b> {v.last?.toFixed(2)} <i>●</i></span>)}<span>BSC MAINNET · SPOT ONLY</span><span>DATA THROUGH {man.asOf}</span></div>
     <div className="wrap">
-      <div className="crumbs mono"><span>Crypto and tokenized stocks: analysis for agents</span><span>Prices through {man.asOf}</span></div>
+      <div className="crumbs mono"><span>Crypto and tokenized stocks: buy a pool or analyze any pair</span><span>Prices through {man.asOf}</span></div>
       <div className="hero">
         <div className="hero-l">
           <div className="tag mono">Pools of two or three assets</div>
           <h1><span>Stocks that</span><span>soften each</span><em>other’s falls.</em></h1>
-          <p className="lede">Keel is an analysis unit. It pairs crypto with tokenized stocks and funds (Ondo, xStocks, bStocks) so the pair holds up better than either alone, grades every idea by fixed rules, and serves the result to other agents over MCP and an API. It never holds funds and never trades.</p>
-          <div className="status mono"><span><b>●</b> {man.pools.length} pools</span><span>Same grade for every pair</span></div>
-          <div className="btns"><a className="btn acc" href="#pools">Browse pools</a><a className="btn link" href="/analyze">Analyze a pair</a></div>
+          <p className="lede">Keel pairs crypto with tokenized stocks and funds (Ondo, xStocks, bStocks) so the pair holds up better than either alone, and grades every idea by fixed rules. Buy a listed pool from your own wallet in one confirmation, or let your agent pull the analysis over MCP or the SDK and execute itself.</p>
+          <div className="status mono"><span><b>●</b> {man.pools.length} pools</span><span>Every leg checked before buying</span></div>
+          <div className="btns"><a className="btn acc" href="#pools">Browse pools</a><a className="btn link" href="/analyze">Analyze any pair</a><a className="btn link" href="#how">How it works</a></div>
         </div>
         <HeroFigure p={hero} labels={labels} />
       </div>
@@ -28,14 +29,15 @@ export default function Home() {
         <div><div className="n">{man.pools.length}</div><div className="l">pools, each with at least one company stock</div></div>
         <div><div className="n">{Object.keys(man.assets).length}</div><div className="l">stocks, funds, gold and Treasuries</div></div>
         <div><div className="n">{man.from_.slice(0, 4)}</div><div className="l">start of the price history behind every figure</div></div>
-        <div><div className="n">0</div><div className="l">wallets to connect: analysis only, execution is up to your agent</div></div>
+        <div><div className="n">1</div><div className="l">confirmation to buy, one to exit</div></div>
       </div>
       <DailyBrief />
       <section className="block" id="pools"><PoolBrowser man={man} /></section>
+      <section className="block" id="positions"><Holdings man={man} /></section>
       <section className="block" id="how">
         <div className="sh"><h2>How it works</h2><span className="mono" style={{ color: 'var(--mute)' }}>Four steps, no rebalancing</span></div>
         <div className="steps">
-          {[['01 / Pick', 'Any pair or trio', 'Crypto and tokenized stocks or funds from Ondo, xStocks and bStocks. Search the universe, choose two or three.'], ['02 / Grade', 'Same rules every time', 'Daily prices since 2020, equal weight. Score, tier, worst fall, yearly growth and offset, with every check shown.'], ['03 / Serve', 'MCP and API', 'Other agents call Keel for the analysis, the token venues and addresses.'], ['04 / Execute', 'Their job, not ours', 'The calling agent trades with its own wallet. Keel never touches funds.']].map(([a, b, c]) => <div key={a}><span className="mono" style={{ color: 'var(--acc)' }}>{a}</span><h4>{b}</h4><p>{c}</p></div>)}
+          {[['01 / Study', 'Chosen from history', 'Every pool was picked from daily prices since Jan 2020, keeping those where growth is large next to the worst fall.'], ['02 / Plan', 'Every leg simulated first', 'Quotes, price impact and a dry run for each leg. If any leg fails, nothing is bought.'], ['03 / Buy', 'Best issuer per leg', 'Ondo and bStock versions are compared per share, then bought from your own wallet through the Binance Web3 API.'], ['04 / Exit', 'Reverse in one confirmation', 'Sell all legs back to USDT. The pool is left alone while you hold it.']].map(([a, b, c]) => <div key={a}><span className="mono" style={{ color: 'var(--acc)' }}>{a}</span><h4>{b}</h4><p>{c}</p></div>)}
         </div>
       </section>
       <p className="note" style={{ marginTop: 18 }}>The daily outlook is built automatically from sources and past prices. Outside agents propose new pools and the Grader agent scores them on BNB Agent Studio. <a href="/agents" style={{ color: 'inherit' }}>See the agents</a>. They never trade for you.</p>
