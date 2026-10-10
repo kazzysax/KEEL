@@ -8,7 +8,7 @@ Built for *BNB Hack: Tokenized Stocks Edition*. The Grader agent (ERC-8004 ident
 
 - **MCP** (for agents that already speak the Model Context Protocol; paste one URL, the model calls the tools itself): `https://keel-io.vercel.app/api/mcp`. Tools: `search_assets`, `analyze_pair`, `suggest_pairs`.
 - **SDK** (for code you write): `import { Keel } from 'https://keel-io.vercel.app/keel-sdk.mjs'` then `keel.search()`, `keel.analyze(['BTC','NVDA'])`, `keel.suggest('TSLA')`. Plain HTTP also works: `POST /api/analyze`, `GET /api/universe`, `GET /api/suggest`.
-- Universe: 457 tokenized stocks and funds from the Ondo BNB Chain list (with xStocks and bStocks where they exist) plus 20 major crypto assets.
+- Universe: about 1,440 assets: tokenized stocks and funds from Ondo (BNB Chain), xStocks (official API, with BNB Chain and Solana addresses) and bStocks (BNB Chain), plus 20 major crypto assets.
 
 > Not investment advice. Past performance does not predict future results. Tokenized stocks are restricted by region (US and UK persons are excluded) and carry issuer, custody and redemption terms.
 
