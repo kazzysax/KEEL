@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Coca Cola (KO) Stock Trades Near Fair Value On Cash Flow",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-trades-191503263.html",
-   "publishedAt": "2026-10-08T19:23:36+00:00"
+   "text": "Coca-Cola Seeks to Unwind $5 Billion Costa Coffee Acquisition",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-seeks-unwind-5-130526534.html",
+   "publishedAt": "2026-09-28T01:12:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola (NYSE:KO) & Johnson & Johson (NYSE:JNJ): Buy Them For The Dividends,...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-nyse-ko-johnson-225745925.html",
-   "publishedAt": "2026-10-08T23:23:36+00:00"
+   "text": "Coca-Cola wants out: Is the $5.1 billion Costa Coffee experiment over?",
+   "sourceUrl": "https://www.msn.com/en-us/money/other/coca-cola-wants-out-is-the-5-1-billion-costa-coffee-experiment-over/ar-AA2dTl62?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-26T01:12:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Femsa SAB de CV (KOF) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/KOF/summary",
-   "publishedAt": "2026-10-07T01:23:36+00:00"
+   "text": "Coca-Cola (KO) advances while market declines: Some information for investors",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-ko-advances-while-market-declines-some-information-for-investors/ar-AA2dQHTk?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-09T01:12:11+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.4144057262988128,
   "windows": 1451
  },
- "asOf": "2026-10-09T01:23:36+00:00",
+ "asOf": "2026-10-10T01:12:11+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

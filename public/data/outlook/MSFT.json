@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Trump honors Microsoft\u2019s CEO after Vance drops an H-1B visa hammer on the compan...",
-   "sourceUrl": "https://www.wivb.com/news/political-news/ap-politics/ap-trump-plans-to-honor-microsofts-ceo-after-vance-drops-an-h-1b-visa-hammer-on-the-company/",
-   "publishedAt": "2026-10-08T18:23:35+00:00"
+   "text": "Jim Cramer Predicts \u201cBig Move Coming\u201d For Microsoft Stock",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-predicts-big-move-153046888.html",
+   "publishedAt": "2026-10-06T01:12:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Corp (MSFT) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/MSFT/summary",
-   "publishedAt": "2026-10-08T01:23:35+00:00"
+   "text": "AMD and Microsoft Haven\u2019t Undertaken Stock Splits for 20+ Years And Investors Shouldn\u2019t Care",
+   "sourceUrl": "https://247wallst.com/investing/2026/10/06/amd-and-microsoft-havent-undertaken-stock-splits-for-20-years-and-investors-shouldnt-care/",
+   "publishedAt": "2026-10-07T01:12:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Corporation (MSFT:CA) Stock Price, Quote, News & Analysis | Seeking...",
-   "sourceUrl": "https://seekingalpha.com/symbol/MSFT:CA",
-   "publishedAt": "2026-10-08T01:23:35+00:00"
+   "text": "Microsoft Seen As 'Adults In Charge' Of AI. Stock Upgraded To Buy.",
+   "sourceUrl": "https://www.investors.com/news/technology/microsoft-stock-upgraded-adults-in-charge-of-ai/",
+   "publishedAt": "2026-10-06T01:12:10+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7731916500710374,
   "windows": 1451
  },
- "asOf": "2026-10-09T01:23:35+00:00",
+ "asOf": "2026-10-10T01:12:10+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

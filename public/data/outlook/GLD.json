@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Maverick Gold and Silver Corporation (VRCFF) Stock Price, Quote, News & Analysis...",
-   "sourceUrl": "https://seekingalpha.com/symbol/VRCFF",
-   "publishedAt": "2026-10-09T00:23:38+00:00"
+   "text": "[Gold Price] Defending the $4,100 level. Can gold rebound from here? | October 8",
+   "sourceUrl": "https://note.com/loan_free_2026/n/n5228199fc965?hl=en",
+   "publishedAt": "2026-10-09T01:12:13+00:00"
   },
   {
    "kind": "news",
-   "text": "Alamos Gold Inc. (AGI) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/AGI",
-   "publishedAt": "2026-10-08T01:23:38+00:00"
+   "text": "Gold price today, Thursday, September 24, 2026: Gold prices fall as inflation concerns steadily mount",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-24-2026-gold-prices-fall-as-inflation-concerns-steadily-mount-110659025.html",
+   "publishedAt": "2026-09-24T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Osisko Gold Group Inc. WT EXP 052727 (OGG.WT.U:CA) Stock Price, Quote, News &...",
-   "sourceUrl": "https://seekingalpha.com/symbol/OGG.WT.U:CA",
-   "publishedAt": "2026-10-08T01:23:38+00:00"
+   "text": "Gold price today, Tuesday, September 29, 2026: Gold opens near 2-month low, but Brent crude also moving lower",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-september-29-2026-gold-opens-near-2-month-low-but-brent-crude-also-moving-lower-104439751.html",
+   "publishedAt": "2026-09-30T01:12:13+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9548598237884027,
   "windows": 1451
  },
- "asOf": "2026-10-09T01:23:38+00:00",
+ "asOf": "2026-10-10T01:12:13+00:00",
  "priceAsOf": "2026-10-08",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
