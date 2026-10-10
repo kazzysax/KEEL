@@ -71,7 +71,11 @@ export async function buildPlan(poolId: string, amountUsd: number, wallet?: stri
         if (b?.tx?.data) {
           const simRes: any = await api().simulateTransactions({ binanceChainId: BSC, evmTx: { from: wallet, to: b.tx.to, value: b.tx.value ?? '0', data: b.tx.data }, solTx: {}, tronTx: {} } as any); const simRaw: any = await simRes.data(); const sim: any = simRaw?.data ?? simRaw;
           simulated = sim?.status === 'SUCCESS' || sim?.status === 'success';
-          if (!simulated) { ok = false; reason = `Simulation failed: ${sim?.failReason ?? sim?.status ?? `the simulator returned no result (the wallet may need USDT and an approval first)`}`; }
+          // A clear failure blocks the leg. No result at all is inconclusive, not a failure: the dry run cannot pass before the wallet
+          // has approved the token, so it must not stop a first purchase. The wallet shows its own final check before signing.
+          const failed = !simulated && sim && /fail|revert|error/i.test(String(sim.status ?? '')) ;
+          if (failed) { ok = false; reason = `Simulation failed: ${sim?.failReason ?? sim?.status}`; }
+          else if (!simulated) reason = 'Not pre-simulated (the wallet approves the token first); your wallet shows the final check before you sign';
         }
       } catch (e: any) { ok = false; reason = String(e.message ?? e); }
     }
