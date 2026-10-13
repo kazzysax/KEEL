@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +17% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +17% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "price",
-   "text": "Trades +8% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +8% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "news",
-   "text": "Alternative ETFs to manage S&P 500 concentration risk",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/alternative-etfs-to-manage-s-p-500-concentration-risk/ar-AA2dTUTz?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-25T01:12:13+00:00"
+   "text": "S&P 500 dominated by AI stocks, adding SpaceX would create history last seen in 1880s",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/s-p-500-dominated-by-ai-stocks-adding-spacex-would-create-history-last-seen-in-1880s/ar-AA2e5xKq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T02:42:28+00:00"
   },
   {
    "kind": "news",
-   "text": "Equal-weight S&P 500 rises, erasing earlier losses, as Treasury yields fall",
-   "sourceUrl": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-oil-prices-brent-crude-attack-tanker-off-qatar/card/equal-weight-s-p-500-rises-erasing-earlier-losses-as-treasury-yields-fall-yU11lTcqUh6HHK1AjEVU",
-   "publishedAt": "2026-10-09T01:12:13+00:00"
+   "text": "S&P 500 and Nasdaq slip, but most stocks are actually higher",
+   "sourceUrl": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-climb-wall-street-banks-earnings-season/card/s-p-500-and-nasdaq-slip-but-most-stocks-are-actually-higher-2tpWqs7yHEKfLhjqHC7H",
+   "publishedAt": "2026-09-24T02:42:28+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500 near record highs, but bonds are struggling: This new ETF arrives at an interesting time",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/s-p-500-near-record-highs-but-bonds-are-struggling-this-new-etf-arrives-at-an-interesting-time/ar-AA2dLBQf?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-08T01:12:13+00:00"
+   "text": "Stock market today: S&P 500, Dow futures gain, Nasdaq 100 falls as Iran flags \u2018inadequate\u2019 US",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-futures-gain-nasdaq-100-falls-as-iran-flags-inadequate-us/vi-AA2e4IZd?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-30T02:42:28+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.1274709331599796,
-  "p50": 0.18578849156560806,
+  "p50": 0.18571695510392483,
   "p95": 0.4055083747391195,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1451
+  "windows": 1453
  },
- "asOf": "2026-10-10T01:12:13+00:00",
- "priceAsOf": "2026-10-08",
+ "asOf": "2026-10-13T02:42:28+00:00",
+ "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

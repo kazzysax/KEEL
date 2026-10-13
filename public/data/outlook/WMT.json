@@ -1,49 +1,49 @@
 {
  "ticker": "WMT",
  "name": "Walmart",
- "outlook": "Neutral",
+ "outlook": "Cautious",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -4%; past 12 months: +6% (historical closes).",
+   "text": "Past 3 months: -0%; past 12 months: +12% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "price",
-   "text": "Trades -7% vs its 200-day average and -19% from its 52-week high.",
+   "text": "Trades -4% vs its 200-day average and -16% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
+  },
+  {
+   "kind": "news",
+   "text": "Walmart Stock Rose 7% in Seven Trading Days. Here\u2019s What the WSJ\u2019s Robot Report Means for the Stock by 2031",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-rose-7-seven-160340564.html",
+   "publishedAt": "2026-10-11T02:42:25+00:00"
   },
   {
    "kind": "news",
    "text": "Where Could Walmart's Next Growth Come From?",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/where-could-walmarts-next-growth-203416706.html",
-   "publishedAt": "2026-10-09T01:12:10+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Since 2007, Walmart Stock Has Climbed Higher 68% of the Time in September. Here's Why This September May Look Different.",
-   "sourceUrl": "https://www.fool.com/investing/2026/08/30/since-2007-walmart-stock-has-climbed-higher-68-of/",
-   "publishedAt": "2026-08-30T00:00:00+00:00"
+   "publishedAt": "2026-10-09T02:42:25+00:00"
   },
   {
    "kind": "news",
    "text": "Better Dividend Stock: Walmart vs. Target",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/better-dividend-stock-walmart-vs-170733514.html",
-   "publishedAt": "2026-10-04T01:12:10+00:00"
+   "publishedAt": "2026-10-04T02:42:25+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06696371720636296,
-  "p50": 0.19943713096160298,
+  "p50": 0.198731580189194,
   "p95": 0.6530028297052501,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1451
+  "windows": 1453
  },
- "asOf": "2026-10-10T01:12:10+00:00",
- "priceAsOf": "2026-10-08",
+ "asOf": "2026-10-13T02:42:25+00:00",
+ "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

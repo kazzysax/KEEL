@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -7%; past 12 months: -9% (historical closes).",
+   "text": "Past 3 months: -6%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "price",
-   "text": "Trades -8% vs its 200-day average and -12% from its 52-week high.",
+   "text": "Trades -7% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "news",
-   "text": "Treasuries Rise as Lofty Yields Lure Demand to 30-Year Sale",
-   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
-   "publishedAt": "2026-10-09T01:12:14+00:00"
+   "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
+   "sourceUrl": "https://www.msn.com/en-xl/money/other/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e60xx?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-10T02:42:31+00:00"
   },
   {
    "kind": "news",
    "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
    "sourceUrl": "https://www.khaleejtimes.com/business/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high",
-   "publishedAt": "2026-10-06T01:12:14+00:00"
+   "publishedAt": "2026-10-06T02:42:31+00:00"
   },
   {
    "kind": "news",
    "text": "India-US bond yield gap at 20-year low, Jefferies sees sustainability",
    "sourceUrl": "https://www.msn.com/en-in/news/other/india-us-bond-yield-gap-at-20-year-low-jefferies-sees-sustainability/ar-AA2dEEPc?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T01:12:14+00:00"
+   "publishedAt": "2026-10-07T02:42:31+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.26710961574720615,
-  "p50": -0.061776508531149577,
+  "p50": -0.06178598302293048,
   "p95": 0.07996247136071344,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1451
+  "windows": 1453
  },
- "asOf": "2026-10-10T01:12:14+00:00",
- "priceAsOf": "2026-10-08",
+ "asOf": "2026-10-13T02:42:31+00:00",
+ "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

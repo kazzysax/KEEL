@@ -5,27 +5,27 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +21%; past 12 months: +51% (historical closes).",
+   "text": "Past 3 months: +19%; past 12 months: +57% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "price",
-   "text": "Trades +13% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +15% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-08"
+   "publishedAt": "2026-10-12"
   },
   {
    "kind": "news",
-   "text": "What's going on with Exxon Mobil stock on Monday?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/what-s-going-on-with-exxon-mobil-stock-on-monday/ar-AA2d7SdA?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-29T01:12:12+00:00"
+   "text": "Exxon, oil giants top buy points after deadly Saudi airport attacks",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-oil-giants-top-buy-points-after-deadly-saudi-airport-attacks/ar-AA2e567g?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T02:42:27+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Stock Is Up 45% in a Year as Guyana Takes a Bigger Cut of the Oil. Here\u2019s Where It Could Go by 2030",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-45-guyana-takes-123402832.html",
-   "publishedAt": "2026-10-09T01:12:12+00:00"
+   "text": "Exxon Mobil Corporation (XOM) is a trending stock: Facts to know before betting on it",
+   "sourceUrl": "https://www.msn.com/en-us/money/topstocks/exxon-mobil-corporation-xom-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA26gHn0?ocid=BingNewsVerp",
+   "publishedAt": "2026-06-22T00:00:00+00:00"
   },
   {
    "kind": "news",
@@ -36,14 +36,14 @@
  ],
  "historical12m": {
   "p5": -0.07267073571624738,
-  "p50": 0.28431382746069667,
+  "p50": 0.28599069798486676,
   "p95": 0.8268186919003051,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1451
+  "windows": 1453
  },
- "asOf": "2026-10-10T01:12:12+00:00",
- "priceAsOf": "2026-10-08",
+ "asOf": "2026-10-13T02:42:27+00:00",
+ "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
