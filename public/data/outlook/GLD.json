@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Silver Price Forecast: XAG/USD falls to near $60.00 amid higher oil prices, US...",
-   "sourceUrl": "https://www.fxstreet.com/news/silver-price-forecast-xag-usd-falls-to-near-6000-amid-higher-oil-prices-us-dollar-202610130206",
-   "publishedAt": "2026-10-13T02:06:29+00:00"
+   "text": "Gold price today, Thursday, September 24, 2026: Gold prices fall as inflation concerns steadily mount",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-24-2026-gold-prices-fall-as-inflation-concerns-steadily-mount-110659025.html",
+   "publishedAt": "2026-09-24T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Kinross Gold Corporation (KGC) Stock Price, Quote, News & Analysis | Seeking...",
-   "sourceUrl": "https://seekingalpha.com/symbol/KGC",
-   "publishedAt": "2026-10-12T02:42:29+00:00"
+   "text": "Gold price today, October 12: Yellow metal above $4,200 as weaker dollar, bond yields support bullion",
+   "sourceUrl": "https://www.msn.com/en-au/money/economy/gold-price-today-october-12-yellow-metal-above-4-200-as-weaker-dollar-bond-yields-support-bullion/ar-AA2e25Tq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:34:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Osisko Gold Group Inc. WT EXP 052727 (OGG.WT.U:CA) Stock Price, Quote, News &...",
-   "sourceUrl": "https://seekingalpha.com/symbol/OGG.WT.U:CA",
-   "publishedAt": "2026-10-08T02:42:29+00:00"
+   "text": "Gold price today, October 9: Yellow metal steadies as traders assess Middle East tensions",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-9-yellow-metal-steadies-as-traders-assess-middle-east-tensions/ar-AA2dROOY?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-10T00:34:57+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9548598237884027,
   "windows": 1453
  },
- "asOf": "2026-10-13T02:42:29+00:00",
+ "asOf": "2026-10-14T00:34:57+00:00",
  "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

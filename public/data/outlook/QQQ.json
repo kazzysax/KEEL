@@ -1,7 +1,7 @@
 {
  "ticker": "QQQ",
  "name": "Nasdaq-100 ETF",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Dow Jones, Nasdaq 100 futures decline as Pentagon prepares for potential military strikes on Iran \u2014 APLD, LEVI, MU in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-jones-nasdaq-100-futures-decline-as-pentagon-prepares-for-potential-military-strikes-on-iran-apld-levi-mu-in-focus-updated/ar-AA2dONcp?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-09T02:42:29+00:00"
+   "text": "Stock market today: S&P 500, Dow futures gain, Nasdaq 100 falls as Iran flags \u2018inadequate\u2019 US response to peace terms \u2014 SMP, QMCO, SVRN in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-dow-futures-gain-nasdaq-100-falls-as-iran-flags-inadequate-us-response-to-peace-terms-smp-qmco-svrn-in-focus-updated/ar-AA2e46hn?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:34:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Dow, Nasdaq futures fall as 30-year Treasury yield hits 2002 high",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-dow-nasdaq-futures-fall-as-30-year-treasury-yield-hits-2002-high/vi-AA2dK4su?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-08T02:42:29+00:00"
+   "text": "S&P 500, Nasdaq 100, Dow end week higher with traders eyeing earnings season \u2014 MSFT, NFLX, SPCX, ASTS in focus",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/s-p-500-nasdaq-100-dow-end-week-higher-with-traders-eyeing-earnings-season-msft-nflx-spcx-asts-in-focus/ar-AA2dVsV5?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-10T00:34:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Should Invesco NASDAQ 100 ETF (QQQM) be on your investing radar?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/should-invesco-nasdaq-100-etf-qqqm-be-on-your-investing-radar/ar-AA2bl6Dy?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-01T00:00:00+00:00"
+   "text": "JEPQ vs. QQQI: Which Nasdaq-100 Covered-Call ETF Pays You More Safely?",
+   "sourceUrl": "https://247wallst.com/investing/etf/2026/09/17/jepq-vs-qqqi-which-nasdaq-100-covered-call-etf-pays-you-more-safely/",
+   "publishedAt": "2026-09-17T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1453
  },
- "asOf": "2026-10-13T02:42:29+00:00",
+ "asOf": "2026-10-14T00:34:57+00:00",
  "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

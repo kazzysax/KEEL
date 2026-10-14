@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Microsoft Stock Could Be One of the AI Era\u2019s Biggest Winners",
+   "text": "Microsoft Stock Could Be One of the AI Era's Biggest Winners",
    "sourceUrl": "https://247wallst.com/investing/2026/10/05/microsoft-stock-could-be-one-of-the-ai-eras-biggest-winners/",
-   "publishedAt": "2026-10-06T02:42:25+00:00"
+   "publishedAt": "2026-10-05T16:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Stock Has Grown Roughly 15-Fold Since Satya Nadella Became CEO in 2014, a 27% Annual Growth Rate That Ended 14 Years of Near-Zero Growth. Can That Pace Continue Under ...",
-   "sourceUrl": "https://www.fool.com/investing/2026/10/10/microsoft-stock-has-grown-roughly-15-fold-since-sa/",
-   "publishedAt": "2026-10-11T02:42:25+00:00"
+   "text": "Microsoft (MSFT) Stock: Rises as Surface Pushes AI Innovation",
+   "sourceUrl": "https://blockonomi.com/microsoft-msft-stock-rises-as-surface-pushes-ai-innovation/",
+   "publishedAt": "2026-10-13T17:41:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft\u2019s stock has roared back to life, closing at its highest level of the year",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-s-stock-has-roared-back-to-life-closing-at-its-highest-level-of-the-year/ar-AA2cZfT6?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-25T00:00:00+00:00"
+   "text": "Microsoft: The Nvidia Escape Plan",
+   "sourceUrl": "https://seekingalpha.com/article/4953885-microsoft-the-nvidia-escape-plan",
+   "publishedAt": "2026-10-13T19:20:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7731916500710374,
   "windows": 1453
  },
- "asOf": "2026-10-13T02:42:25+00:00",
+ "asOf": "2026-10-14T00:34:50+00:00",
  "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

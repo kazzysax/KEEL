@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Co (KO) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/KO/summary",
-   "publishedAt": "2026-10-08T02:42:26+00:00"
+   "text": "PepsiCo vs. Coca-Cola: Which Stock Has the Edge?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/pepsico-vs-coca-cola-stock-001700359.html",
+   "publishedAt": "2026-09-04T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Has 2 Brand-New Flavors Coming to Shelves",
-   "sourceUrl": "https://www.allrecipes.com/coca-cola-cherry-lime-strawberry-float-flavors-2027-12161276",
-   "publishedAt": "2026-10-08T02:42:26+00:00"
+   "text": "What's going on with Coca-Cola stock Friday?",
+   "sourceUrl": "https://www.msn.com/en-us/money/news/whats-going-on-with-coca-cola-stock-friday/ar-AA286Tc9?ocid=BingNewsVerp",
+   "publishedAt": "2026-07-17T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "The Coca-Cola Company (KO) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/KO",
-   "publishedAt": "2026-10-09T02:42:26+00:00"
+   "text": "1 stat that makes Coca-Cola hard to ignore in October",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/1-stat-that-makes-coca-cola-hard-to-ignore-in-october/ar-AA2dBNAg?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T00:34:51+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.4144057262988128,
   "windows": 1453
  },
- "asOf": "2026-10-13T02:42:26+00:00",
+ "asOf": "2026-10-14T00:34:56+00:00",
  "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

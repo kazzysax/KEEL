@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson has made important changes",
-   "sourceUrl": "https://www.fool.com/investing/2026/10/08/prediction-johnson-johnson-will-be-a-faster-growin/",
-   "publishedAt": "2026-10-09T02:42:26+00:00"
+   "text": "Can a Spinoff Fix Johnson & Johnson\u2019s Medtech Problem?",
+   "sourceUrl": "https://www.barrons.com/articles/johnson-johnson-jnj-earnings-stock-price-c920b852",
+   "publishedAt": "2026-10-01T00:34:56+00:00"
   },
   {
    "kind": "news",
-   "text": "Pfizer\u2019s Yield Is Three Times Bigger. Johnson & Johnson\u2019s Dividend Has Something Pfizer Does Not",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/08/pfizers-yield-is-three-times-bigger-johnson-johnsons-dividend-has-something-pfizer-does-not/",
-   "publishedAt": "2026-10-09T02:42:26+00:00"
+   "text": "Johnson & Johnson CFO Joseph Wolk on the company\u2019s Q3 results",
+   "sourceUrl": "https://www.cnbc.com/video/2026/10/13/johnson-johnson-cfo-joseph-wolk-on-the-companyas-q3-results.html",
+   "publishedAt": "2026-10-01T00:34:56+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Is Becoming a Growth Stock. Does AbbVie (ABBV) Make JNJ Look Expensive?",
-   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-becoming-growth-211326895.html",
-   "publishedAt": "2026-10-08T02:42:26+00:00"
+   "text": "Dear Johnson & Johnson Stock Fans, Mark Your Calendars for October 13",
+   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/dear-johnson-johnson-stock-fans-133557824.html",
+   "publishedAt": "2026-10-12T00:34:56+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7557674082585883,
   "windows": 1453
  },
- "asOf": "2026-10-13T02:42:27+00:00",
+ "asOf": "2026-10-14T00:34:56+00:00",
  "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

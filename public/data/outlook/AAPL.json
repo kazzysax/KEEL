@@ -1,7 +1,7 @@
 {
  "ticker": "AAPL",
  "name": "Apple",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Apple Inc (AAPL) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/AAPL/summary",
-   "publishedAt": "2026-10-08T02:42:24+00:00"
+   "text": "D\u00e9j\u00e0 Vu: Apple Toe-Touches $5 Trillion Market Cap Yet Again",
+   "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026/card/x93MdaFQUBV2VOjRsNKY",
+   "publishedAt": "2026-10-13T00:34:49+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Stock Climbs as JPMorgan Lifts Target, BofA Reiterates Buy - Apple...",
-   "sourceUrl": "https://www.benzinga.com/trading-ideas/movers/26/10/62302175/apple-stock-climbs-as-jpmorgan-lifts-target-bofa-reiterates-buy",
-   "publishedAt": "2026-10-12T14:42:24+00:00"
+   "text": "Dear Apple stock fans, mark your calendars for October 16",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/dear-apple-stock-fans-mark-your-calendars-for-october-16/ar-AA2e9M7k?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-04T00:34:49+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Inc. (AAPL:CA) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/AAPL:CA",
-   "publishedAt": "2026-10-07T02:42:24+00:00"
+   "text": "1 stat that makes Apple hard to ignore right now",
+   "sourceUrl": "https://www.msn.com/en-us/money/technology/1-stat-that-makes-apple-hard-to-ignore-right-now/ar-AA2e9osC?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-03T00:34:49+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 1.2015402862477123,
   "windows": 1453
  },
- "asOf": "2026-10-13T02:42:24+00:00",
+ "asOf": "2026-10-14T00:34:50+00:00",
  "priceAsOf": "2026-10-12",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
