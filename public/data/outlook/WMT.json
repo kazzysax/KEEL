@@ -1,49 +1,49 @@
 {
  "ticker": "WMT",
  "name": "Walmart",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +11% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +11% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "price",
-   "text": "Trades -5% vs its 200-day average and -16% from its 52-week high.",
+   "text": "Trades +0% vs its 200-day average and -12% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "news",
-   "text": "Walmart stock has been sluggish this year. Should you buy it before it reports earnings on Aug. 20?",
-   "sourceUrl": "https://www.msn.com/en-us/money/topstocks/walmart-stock-has-been-sluggish-this-year-should-you-buy-it-before-it-reports-earnings-on-aug-20/ar-AA2aecHt?ocid=BingNewsVerp",
-   "publishedAt": "2026-08-16T00:00:00+00:00"
+   "text": "Walmart stock moves higher: What's happening?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-moves-higher-whats-happening/ar-AA2efvBr?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T23:48:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Can Ads and Subscriptions Justify Walmart\u2019s (WMT) Premium Valuation?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/ads-subscriptions-justify-walmart-wmt-123553747.html",
-   "publishedAt": "2026-10-13T00:03:41+00:00"
+   "text": "Is Walmart Stock Increasing Your Market Risk?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-increasing-market-risk-210905698.html",
+   "publishedAt": "2026-10-12T23:48:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart Stock Trades 20% Below Its High: Here\u2019s the Path to $128 by 2029",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-trades-20-below-163121677.html",
-   "publishedAt": "2026-09-29T00:00:00+00:00"
+   "text": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
+   "sourceUrl": "https://247wallst.com/investing/2026/10/15/walmart-climbs-3-on-deutsche-bank-upgrade-costco-and-target-tick-up/",
+   "publishedAt": "2026-10-06T23:48:33+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06696371720636296,
-  "p50": 0.198731580189194,
+  "p50": 0.198582988195106,
   "p95": 0.6530028297052501,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1454
+  "windows": 1456
  },
- "asOf": "2026-10-15T00:03:41+00:00",
- "priceAsOf": "2026-10-13",
+ "asOf": "2026-10-15T23:48:33+00:00",
+ "priceAsOf": "2026-10-15",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

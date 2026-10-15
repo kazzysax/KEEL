@@ -1,49 +1,49 @@
 {
  "ticker": "GLD",
  "name": "gold",
- "outlook": "Cautious",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +3% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "price",
    "text": "Trades -8% vs its 200-day average and -23% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
+  },
+  {
+   "kind": "news",
+   "text": "Gold price today: Gold climbs near USD 4,150 as dollar, US yields weaken; silver gains",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-climbs-near-usd-4150-as-dollar-us-yields-weaken-silver-gains/ar-AA2eg2A2?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-22T23:48:36+00:00"
   },
   {
    "kind": "news",
    "text": "Gold Price Today on October 12, 2026",
    "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/12/gold-price-on-october-12-2026/92214541007/",
-   "publishedAt": "2026-10-13T00:03:43+00:00"
+   "publishedAt": "2026-10-12T23:48:36+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, Thursday, September 24, 2026: Gold prices fall as inflation concerns steadily mount",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-thursday-september-24-2026-gold-prices-fall-as-inflation-concerns-steadily-mount-110659025.html",
-   "publishedAt": "2026-09-24T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Gold price today: 24-carat gold drops to \u20b91,48,051 on MCX, falls \u20b92,140 in three days",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-24-carat-gold-drops-to-148051-on-mcx-falls-2140-in-three-days/ar-AA2ecMCP?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-27T00:03:43+00:00"
+   "text": "Gold price prediction today: What is the outlook for gold on October 13, 2026?",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-prediction-today-what-is-the-outlook-for-gold-on-october-13-2026/ar-AA2e76ff?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T23:48:36+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07349650140319974,
-  "p50": 0.13300912757401995,
+  "p50": 0.13248438663312334,
   "p95": 0.5903732453003978,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1454
+  "windows": 1456
  },
- "asOf": "2026-10-15T00:03:43+00:00",
- "priceAsOf": "2026-10-13",
+ "asOf": "2026-10-15T23:48:36+00:00",
+ "priceAsOf": "2026-10-15",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

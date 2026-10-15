@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -4%; past 12 months: -4% (historical closes).",
+   "text": "Past 3 months: -3%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "price",
-   "text": "Trades -3% vs its 200-day average and -6% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "news",
-   "text": "Home buying becomes a luxury as 10-year treasuries push mortgage rates to 7.17%",
-   "sourceUrl": "https://www.msn.com/en-us/money/economy/home-buying-becomes-a-luxury-as-10-year-treasuries-push-mortgage-rates-to-7-17/ar-AA2cgQzg?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-15T00:00:00+00:00"
+   "text": "US Treasury Futures Steady; Long-End Outperforms Amid Oil Price",
+   "sourceUrl": "https://www.gurufocus.com/news/9119808/us-treasury-futures-steady-longend-outperforms-amid-oil-price-surge",
+   "publishedAt": "2026-10-12T23:48:37+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury yields surge to 32-year high as allies turn net sellers",
-   "sourceUrl": "https://www.msn.com/en-xl/news/other/allies-sell-us-treasuries-as-yields-surge-32-year-high/ar-AA2dzYpS?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-06T00:03:43+00:00"
+   "text": "US Treasury Prepares for More Intervention Ahead of Debt Managem",
+   "sourceUrl": "https://www.gurufocus.com/news/9126143/us-treasury-prepares-for-more-intervention-ahead-of-debt-management-plan",
+   "publishedAt": "2026-10-15T17:48:37+00:00"
   },
   {
    "kind": "news",
-   "text": "10-year Treasury yield hit a 19-year high\u2014and some investors see opportunity to buy bonds",
-   "sourceUrl": "https://www.cnbc.com/2026/09/25/treasury-yield-buy-bonds.html",
-   "publishedAt": "2026-09-25T00:00:00+00:00"
+   "text": "Euro rebounds as falling US yields outweigh hotter-than-expected PPI | FXStreet",
+   "sourceUrl": "https://www.fxstreet.com/news/euro-rebounds-as-falling-us-yields-outweigh-hotter-than-expected-ppi-202610151341",
+   "publishedAt": "2026-10-15T13:48:37+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.13615811463642558,
-  "p50": -0.0151368179635194,
+  "p50": -0.015197199862299393,
   "p95": 0.08173456535899848,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1454
+  "windows": 1456
  },
- "asOf": "2026-10-15T00:03:44+00:00",
- "priceAsOf": "2026-10-13",
+ "asOf": "2026-10-15T23:48:37+00:00",
+ "priceAsOf": "2026-10-15",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

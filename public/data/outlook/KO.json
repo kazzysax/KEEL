@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +10%; past 12 months: +38% (historical closes).",
+   "text": "Past 3 months: +13%; past 12 months: +40% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "price",
-   "text": "Trades +13% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +15% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-13"
+   "publishedAt": "2026-10-15"
   },
   {
    "kind": "news",
-   "text": "PepsiCo vs. Coca-Cola: Which Stock Has the Edge?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/pepsico-vs-coca-cola-stock-001700359.html",
-   "publishedAt": "2026-09-04T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Coca-Cola or Chevron: The One Dividend Stock I\u2019d Hold for the Next 20 Years",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-chevron-one-dividend-200203497.html",
-   "publishedAt": "2026-10-14T00:03:41+00:00"
+   "text": "Coca-Cola (KO) gains as market dips: What you should know",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-ko-gains-as-market-dips-what-you-should-know/ar-AA2efs0U?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T23:48:34+00:00"
   },
   {
    "kind": "news",
    "text": "Coca-Cola Stock Is Up 29% in 2026: What Will It Take to Break Through $100?",
    "sourceUrl": "https://247wallst.com/investing/2026/09/14/coca-cola-stock-is-up-29-in-2026-what-will-it-take-to-break-through-100/",
    "publishedAt": "2026-09-14T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Coca-Cola or Chevron: The One Dividend Stock I\u2019d Hold for the Next 20 Years",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-chevron-one-dividend-200203497.html",
+   "publishedAt": "2026-10-13T23:48:34+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04321166352430017,
-  "p50": 0.124234006771756,
-  "p95": 0.2981316303933539,
+  "p50": 0.12427185704645716,
+  "p95": 0.30035310214632416,
   "min": -0.15396303665947697,
   "max": 0.4144057262988128,
-  "windows": 1454
+  "windows": 1456
  },
- "asOf": "2026-10-15T00:03:41+00:00",
- "priceAsOf": "2026-10-13",
+ "asOf": "2026-10-15T23:48:34+00:00",
+ "priceAsOf": "2026-10-15",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
