@@ -1,49 +1,43 @@
 {
  "ticker": "AAPL",
  "name": "Apple",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +8%; past 12 months: +35% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +40% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-12"
+   "publishedAt": "2026-10-13"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +17% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-12"
+   "publishedAt": "2026-10-13"
   },
   {
    "kind": "news",
-   "text": "D\u00e9j\u00e0 Vu: Apple Toe-Touches $5 Trillion Market Cap Yet Again",
-   "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-bank-earnings-10-13-2026/card/x93MdaFQUBV2VOjRsNKY",
-   "publishedAt": "2026-10-13T00:34:49+00:00"
+   "text": "Apple stock hits 52-week high \u2014 what's going on?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-hits-52-week-high-whats-going-on/ar-AA2eemw9",
+   "publishedAt": "2026-10-14T14:42:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Dear Apple stock fans, mark your calendars for October 16",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/dear-apple-stock-fans-mark-your-calendars-for-october-16/ar-AA2e9M7k?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-04T00:34:49+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "1 stat that makes Apple hard to ignore right now",
-   "sourceUrl": "https://www.msn.com/en-us/money/technology/1-stat-that-makes-apple-hard-to-ignore-right-now/ar-AA2e9osC?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-03T00:34:49+00:00"
+   "text": "Apple Stock Hits Record High as HomeView Launch Puts AI Growth Strategy in Focus",
+   "sourceUrl": "https://coinpedia.org/price-analysis/apple-stock-hits-record-high-as-homeview-launch-puts-ai-growth-strategy-in-focus/",
+   "publishedAt": "2026-10-14T11:51:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08086337032624513,
-  "p50": 0.22414979736614016,
+  "p50": 0.22452394749236992,
   "p95": 0.6826632824339633,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1453
+  "windows": 1454
  },
- "asOf": "2026-10-14T00:34:50+00:00",
- "priceAsOf": "2026-10-12",
+ "asOf": "2026-10-15T00:03:40+00:00",
+ "priceAsOf": "2026-10-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

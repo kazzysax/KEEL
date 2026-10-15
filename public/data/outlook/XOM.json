@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +19%; past 12 months: +57% (historical closes).",
+   "text": "Past 3 months: +21%; past 12 months: +62% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-12"
+   "publishedAt": "2026-10-13"
   },
   {
    "kind": "price",
-   "text": "Trades +15% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +16% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-12"
+   "publishedAt": "2026-10-13"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Holdings Corporation (XOM) Stock Price, Quote, News & Analysis |...",
-   "sourceUrl": "https://seekingalpha.com/symbol/XOM",
-   "publishedAt": "2026-10-08T00:34:56+00:00"
+   "text": "Exxon Mobil rejects proposed $5.2 billion Kashagan fine settlement: Report",
+   "sourceUrl": "https://www.msn.com/en-us/money/other/exxon-mobil-rejects-proposed-5-2-billion-kashagan-fine-settlement-report/ar-AA2dUN3o?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-10T00:03:42+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Holdings Corp (XOM)",
-   "sourceUrl": "https://www.morningstar.com/stocks/xnys/xom/quote",
-   "publishedAt": "2026-10-12T00:34:56+00:00"
+   "text": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-mobil-holdings-xom-gains-as-market-dips-what-you-should-know/ar-AA2d9v0W?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-28T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Top Performing Long-Term Stocks \u2022 Benzinga",
-   "sourceUrl": "https://www.benzinga.com/money/best-long-term-stocks",
-   "publishedAt": "2026-10-11T00:34:56+00:00"
+   "text": "Has ExxonMobil Stock Become A Different Bet?",
+   "sourceUrl": "https://finance.yahoo.com/energy/articles/exxonmobil-stock-become-different-bet-151709514.html",
+   "publishedAt": "Opinion8 hours ago"
   }
  ],
  "historical12m": {
   "p5": -0.07267073571624738,
-  "p50": 0.28599069798486676,
+  "p50": 0.28645615314583805,
   "p95": 0.8268186919003051,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1453
+  "windows": 1454
  },
- "asOf": "2026-10-14T00:34:56+00:00",
- "priceAsOf": "2026-10-12",
+ "asOf": "2026-10-15T00:03:42+00:00",
+ "priceAsOf": "2026-10-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

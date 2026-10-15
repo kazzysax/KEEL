@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -6%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -6%; past 12 months: -10% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-12"
+   "publishedAt": "2026-10-13"
   },
   {
    "kind": "price",
-   "text": "Trades -7% vs its 200-day average and -11% from its 52-week high.",
+   "text": "Trades -6% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-12"
+   "publishedAt": "2026-10-13"
   },
   {
    "kind": "news",
-   "text": "Treasury Yields Hit 24-Year Highs Ahead Of $39B 10-Year Note Sale \u2014 Danske Repor...",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/treasury-yields-hit-24-highs-161317619.html",
-   "publishedAt": "2026-10-08T00:35:04+00:00"
+   "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
+   "sourceUrl": "https://www.msn.com/en-sg/money/economy/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:03:44+00:00"
   },
   {
    "kind": "news",
-   "text": "Citi Predicts Potential Cuts to 20-Year Treasury Auctions",
-   "sourceUrl": "https://www.gurufocus.com/news/9118128/citi-predicts-potential-cuts-to-20year-treasury-auctions",
-   "publishedAt": "2026-10-10T00:35:04+00:00"
+   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
+   "sourceUrl": "https://www.khaleejtimes.com/business/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high",
+   "publishedAt": "2026-10-06T00:03:44+00:00"
   },
   {
    "kind": "news",
-   "text": "10-Year Treasuries Yield 5.3%; Schwab's Dividend ETF Yields 3.4%. Which One...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/10-treasuries-yield-5-3-090500150.html",
-   "publishedAt": "2026-10-07T00:35:04+00:00"
+   "text": "Treasuries Rise as Lofty Yields Lure Demand to 30-Year Sale",
+   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
+   "publishedAt": "2026-10-09T00:03:44+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.07996247136071344,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1453
+  "windows": 1454
  },
- "asOf": "2026-10-14T00:35:04+00:00",
- "priceAsOf": "2026-10-12",
+ "asOf": "2026-10-15T00:03:44+00:00",
+ "priceAsOf": "2026-10-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
