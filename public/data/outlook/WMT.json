@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +11% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +10% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +0% vs its 200-day average and -12% from its 52-week high.",
+   "text": "Trades +1% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Walmart stock moves higher: What's happening?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-moves-higher-whats-happening/ar-AA2efvBr?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:48:33+00:00"
+   "text": "Walmart (WMT) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/WMT",
+   "publishedAt": "2026-10-15T23:50:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Is Walmart Stock Increasing Your Market Risk?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-increasing-market-risk-210905698.html",
-   "publishedAt": "2026-10-12T23:48:33+00:00"
+   "text": "Walmart Inc (WMT)",
+   "sourceUrl": "https://www.morningstar.com/stocks/xnas/wmt/quote",
+   "publishedAt": "2026-10-14T23:50:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart Climbs 3% on Deutsche Bank Upgrade; Costco and Target Tick Up",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/15/walmart-climbs-3-on-deutsche-bank-upgrade-costco-and-target-tick-up/",
-   "publishedAt": "2026-10-06T23:48:33+00:00"
+   "text": "Target Pok\u00e9mon restock: How to track drops and 3 deals to buy now",
+   "sourceUrl": "https://mashable.com/life/target-pokemon-restock-update-oct-13",
+   "publishedAt": "2026-10-13T23:50:38+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06696371720636296,
-  "p50": 0.198582988195106,
+  "p50": 0.19777485121733052,
   "p95": 0.6530028297052501,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:33+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:38+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

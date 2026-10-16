@@ -1,49 +1,49 @@
 {
  "ticker": "GLD",
  "name": "gold",
- "outlook": "Neutral",
+ "outlook": "Cautious",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: +1% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: -1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
    "text": "Trades -8% vs its 200-day average and -23% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Gold price today: Gold climbs near USD 4,150 as dollar, US yields weaken; silver gains",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-climbs-near-usd-4150-as-dollar-us-yields-weaken-silver-gains/ar-AA2eg2A2?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-22T23:48:36+00:00"
+   "text": "Gold price today: Gold falls by \u20b93,160 in three days, silver drops by \u20b95,000; experts explain the reasons",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-falls-by-3160-in-three-days-silver-drops-by-5000-experts-explain-the-reasons/ar-AA2ecdHk?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T23:50:41+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold Price Today on October 12, 2026",
-   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/12/gold-price-on-october-12-2026/92214541007/",
-   "publishedAt": "2026-10-12T23:48:36+00:00"
+   "text": "Gold price today, October 16: Gold falls 1% this week as inflation fears fuel rate hike bets; silver heads for 6% weekly loss",
+   "sourceUrl": "https://www.msn.com/en-au/money/economy/gold-price-today-october-16-gold-falls-1-this-week-as-inflation-fears-fuel-rate-hike-bets-silver-heads-for-6-weekly-loss/ar-AA2eks9B?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-23T23:50:41+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price prediction today: What is the outlook for gold on October 13, 2026?",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-prediction-today-what-is-the-outlook-for-gold-on-october-13-2026/ar-AA2e76ff?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T23:48:36+00:00"
+   "text": "Gold price today, October 14: Bullion trades flat above $4,150 ahead of US CPI data",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-14-bullion-trades-flat-above-4150-ahead-of-us-cpi-data/ar-AA2ebpKN?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T23:50:41+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07349650140319974,
-  "p50": 0.13248438663312334,
+  "p50": 0.13204912290716142,
   "p95": 0.5903732453003978,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:36+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:41+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

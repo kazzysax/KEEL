@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +13%; past 12 months: +40% (historical closes).",
+   "text": "Past 3 months: +15%; past 12 months: +44% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +15% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +17% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola (KO) gains as market dips: What you should know",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-ko-gains-as-market-dips-what-you-should-know/ar-AA2efs0U?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:48:34+00:00"
+   "text": "Coca-Cola Stocks Rise 1.72% as Barclays Highlights Defensive Appeal Before Earnings",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stocks-rise-1-204221583.html",
+   "publishedAt": "2026-10-13T23:50:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Stock Is Up 29% in 2026: What Will It Take to Break Through $100?",
-   "sourceUrl": "https://247wallst.com/investing/2026/09/14/coca-cola-stock-is-up-29-in-2026-what-will-it-take-to-break-through-100/",
-   "publishedAt": "2026-09-14T00:00:00+00:00"
+   "text": "Refresh your portfolios with Coca-Cola Consolidated stock",
+   "sourceUrl": "https://www.msn.com/en-us/food-and-drink/beverages/refresh-your-portfolios-with-coca-cola-consolidated-stock/ar-AA2e9Stm?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T23:50:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola or Chevron: The One Dividend Stock I\u2019d Hold for the Next 20 Years",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-chevron-one-dividend-200203497.html",
-   "publishedAt": "2026-10-13T23:48:34+00:00"
+   "text": "Could Coca-Cola Issue a Stock Split If It Hits $100 Per Share?",
+   "sourceUrl": "https://www.fool.com/investing/2026/07/10/could-coca-cola-issue-a-stock-split-if-it-hits-100/",
+   "publishedAt": "2026-07-10T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04321166352430017,
   "p50": 0.12427185704645716,
-  "p95": 0.30035310214632416,
+  "p95": 0.3021098329617178,
   "min": -0.15396303665947697,
-  "max": 0.4144057262988128,
-  "windows": 1456
+  "max": 0.4370337582632009,
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:34+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:39+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

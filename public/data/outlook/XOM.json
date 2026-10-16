@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +19%; past 12 months: +60% (historical closes).",
+   "text": "Past 3 months: +21%; past 12 months: +65% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +16% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +19% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil rejects proposed $5.2 billion Kashagan fine settlement: Report",
-   "sourceUrl": "https://www.msn.com/en-us/money/other/exxon-mobil-rejects-proposed-5-2-billion-kashagan-fine-settlement-report/ar-AA2dUN3o?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-09T23:48:35+00:00"
+   "text": "What to Expect From Exxon Mobil\u2019s Q3 2026 Earnings Report",
+   "sourceUrl": "https://finance.yahoo.com/energy/articles/expect-exxon-mobil-q3-2026-115413988.html",
+   "publishedAt": "2026-10-15T23:50:40+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Holdings Corp. stock underperforms Wednesday when compared to competitors despite daily gains",
-   "sourceUrl": "https://www.marketwatch.com/data-news/exxonmobil-holdings-corp-stock-underperforms-wednesday-when-compared-to-competitors-despite-daily-gains-4ea7ebcd-3e93a6c2661e",
-   "publishedAt": "2026-10-14T23:48:35+00:00"
+   "text": "ExxonMobil Holdings Corporation (ZXOM:CA) Stock Price, Quote, News & Analysis |...",
+   "sourceUrl": "https://seekingalpha.com/symbol/ZXOM:CA",
+   "publishedAt": "2026-10-13T23:50:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-mobil-holdings-xom-gains-as-market-dips-what-you-should-know/ar-AA2d9v0W?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-28T00:00:00+00:00"
+   "text": "ExxonMobil Holdings Corp (XOM)",
+   "sourceUrl": "https://www.morningstar.com/stocks/xnys/xom/quote",
+   "publishedAt": "2026-10-11T23:50:40+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.8268186919003051,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:35+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:40+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

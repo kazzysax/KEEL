@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -4%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -3%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
    "text": "Trades -4% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "US Five-Year Yields Exceed 5% for First Time Since 2007",
-   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-five-yields-exceed-5-173419104.html",
-   "publishedAt": "2026-09-23T00:00:00+00:00"
+   "text": "NEOS Enhanced Income 20+ Year Treasury Bond ETF (TLTI) Declares",
+   "sourceUrl": "https://www.gurufocus.com/news/9122849/neos-enhanced-income-20-year-treasury-bond-etf-tlti-declares-monthly-dividend-of-02158",
+   "publishedAt": "2026-10-13T23:50:42+00:00"
   },
   {
    "kind": "news",
-   "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-sg/money/economy/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T23:48:37+00:00"
+   "text": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton...",
+   "sourceUrl": "https://finance.yahoo.com/markets/articles/bad-news-trump-us-worst-081537194.html",
+   "publishedAt": "2026-10-16T07:50:42+00:00"
   },
   {
    "kind": "news",
-   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
-   "sourceUrl": "https://www.khaleejtimes.com/business/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high",
-   "publishedAt": "2026-10-05T23:48:37+00:00"
+   "text": "US Treasury May Not Cut 20-Year Bond Issuance, Says JPMorgan",
+   "sourceUrl": "https://www.gurufocus.com/news/9124453/us-treasury-may-not-cut-20year-bond-issuance-says-jpmorgan",
+   "publishedAt": "2026-10-14T23:50:42+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.26710961574720615,
-  "p50": -0.06182774703576277,
+  "p50": -0.061880311430110746,
   "p95": 0.07996247136071344,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:37+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:42+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

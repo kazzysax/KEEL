@@ -1,31 +1,31 @@
 {
  "ticker": "AAPL",
  "name": "Apple",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +39% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +38% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +18% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Apple stock climbs as JPMorgan lifts target, BofA reiterates buy",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-climbs-as-jpmorgan-lifts-target-bofa-reiterates-buy/ar-AA2e5jMA?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T23:48:32+00:00"
+   "text": "Apple Stock Soars to New Highs, Despite Tech Slump",
+   "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-cpi-inflation-10-14-2026/card/thKgIOGbWQHcG1frj5Ri",
+   "publishedAt": "2026-10-14T10:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "AAPL stock hits record high as Apple unveils HomeView, revamps smart home lineup",
-   "sourceUrl": "https://www.msn.com/en-us/technology/consumer-electronics/aapl-stock-hits-record-high-as-apple-unveils-homeview-revamps-smart-home-lineup/ar-AA2e8Xwg?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T23:48:32+00:00"
+   "text": "Apple stock hits record high as iPhone duo pre-orders sell out in minutes",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-hits-record-high-as-iphone-duo-pre-orders-sell-out-in-minutes/ar-AA2eo4Ma",
+   "publishedAt": "2026-10-16T13:14:35+00:00"
   }
  ],
  "historical12m": {
@@ -34,10 +34,10 @@
   "p95": 0.6826632824339633,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:32+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:37+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

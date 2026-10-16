@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +37%; past 12 months: +6% (historical closes).",
+   "text": "Past 3 months: +32%; past 12 months: +4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +24% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +22% vs its 200-day average and -3% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock hits record high as company spends big on AI",
-   "sourceUrl": "https://www.seattletimes.com/business/microsoft/microsoft-stock-hits-record-high-as-company-spends-big-on-ai/",
-   "publishedAt": "2026-10-13T15:45:00+00:00"
+   "text": "Microsoft stock moves higher Monday: What's happening?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-moves-higher-monday-whats-happening/ar-AA2e59Tq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-12T23:50:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft's wild ride: Stock hits new record after a year of ups and downs",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-s-wild-ride-stock-hits-new-record-after-a-year-of-ups-and-downs/ar-AA2edMsq",
-   "publishedAt": "2026-10-14T13:27:57+00:00"
+   "text": "Should Microsoft Stock's New High Stop You From Buying?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stocks-high-stop-buying-181933438.html",
+   "publishedAt": "2026-10-14T23:50:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Claude Was Right About Microsoft (MSFT): Can The Stock Keep Rising?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/claude-microsoft-msft-stock-keep-133138259.html",
-   "publishedAt": "2026-10-13T13:31:00+00:00"
+   "text": "Microsoft stock heads for a record high. How it suddenly became an AI winner.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-heads-for-a-record-high-how-it-suddenly-became-an-ai-winner/ar-AA2e8Kij?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T23:50:38+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22126722062129334,
-  "p50": 0.2108490099378022,
+  "p50": 0.20989212107830624,
   "p95": 0.5874939766558624,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:32+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:38+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

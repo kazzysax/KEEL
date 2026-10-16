@@ -1,25 +1,25 @@
 {
  "ticker": "QQQ",
  "name": "Nasdaq-100 ETF",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +22% (historical closes).",
+   "text": "Past 3 months: +2%; past 12 months: +18% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +8% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades +5% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
    "text": "Stock market today: S&P 500, Dow futures gain, Nasdaq 100 falls as Iran flags \u2018inadequate\u2019 US response to peace terms \u2014 SMP, QMCO, SVRN in focus (updated)",
    "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-futures-gain-nasdaq-100-falls-as-iran-flags-inadequate-us-response-to-peace-terms-smp-qmco-svrn-in-focus-updated/ar-AA2e46hn?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T23:48:36+00:00"
+   "publishedAt": "2026-10-12T23:50:40+00:00"
   },
   {
    "kind": "news",
@@ -29,21 +29,21 @@
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Nasdaq 100 futures fall as chip stock sell-off intensifies \u2014 SKHY, TSM, RKLB in focus",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/stock-market-today-s-p-500-nasdaq-100-futures-fall-as-chip-stock-sell-off-intensifies-skhy-tsm-rklb-in-focus/ar-AA2eimTH?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-01T23:48:36+00:00"
+   "text": "Stock market today: S&P 500, Dow, Nasdaq futures gain even as September inflation report comes in hotter than expected",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-nasdaq-futures-gain-even-as-september-inflation-report-comes-in-hotter-than-expected/vi-AA2edYtA?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T23:50:40+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.24454630784916231,
-  "p50": 0.2554424185587447,
+  "p50": 0.2553906028138957,
   "p95": 0.5038058390521556,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:36+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:40+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: +18% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +16% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +7% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +6% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Wall Street\u2019s \u2018Last Men Standing\u2019: The Mag 7 Are Propping Up the S&P 500, Then Why Are Your ETFs at Risk?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/wall-street-s-last-men-standing-the-mag-7-are-propping-up-the-s-p-500-then-why-are-your-etfs-at-risk/ar-AA2eeKHP?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:48:35+00:00"
+   "text": "SPDR S&P 500 ETF Trust (SPY) Sets Key DeMark Pivot Points Amid M",
+   "sourceUrl": "https://www.gurufocus.com/news/9127662/spdr-sp-500-etf-trust-spy-sets-key-demark-pivot-points-amid-mixed-guru-activity",
+   "publishedAt": "2026-10-16T12:50:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market: Will S&P 500 open up or down today?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-will-s-p-500-open-up-or-down-today/ar-AA2eczZs?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:48:35+00:00"
+   "text": "Markets News, Oct. 16, 2026: Nasdaq, S&P 500 End Lower, Post Weekly Losses; AI...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html",
+   "publishedAt": "2026-10-16T10:50:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Nasdaq, S&P 500 end sharply lower after hot inflation reading lifts Fed rate hike expectations; AI-tied stocks extend declines",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-end-sharply-lower-after-hot-inflation-reading-lifts-fed-rate-hike-expectations-ai-tied-stocks-extend-declines/ar-AA2ednFq?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:48:35+00:00"
+   "text": "S&P 500 Health Care Sector Index Overview (SP500.35) | Barron's",
+   "sourceUrl": "https://www.barrons.com/market-data/indexes/sp500.35",
+   "publishedAt": "2026-10-13T23:50:40+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.1274709331599796,
-  "p50": 0.18571695510392483,
+  "p50": 0.18556507306510217,
   "p95": 0.4055083747391195,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:35+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:40+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

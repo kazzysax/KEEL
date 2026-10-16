@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +1% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
-   "text": "Even if Costco doesn't pay a $10 or $15 special dividend in 2027, I'd still buy the stock",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/even-if-costco-doesn-t-pay-a-10-or-15-special-dividend-in-2027-i-d-still-buy-the-stock/ar-AA2dlJg5?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-01T00:00:00+00:00"
+   "text": "Costco Wholesale Corporation (COST) Stock Price, Quote, News & Analysis |...",
+   "sourceUrl": "https://seekingalpha.com/symbol/COST",
+   "publishedAt": "2026-10-14T23:50:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/costco-stock-price-forecast-here-s-what-a-10-000-investment-today-could-be-worth-by-september-2027/ar-AA2c7WBD?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-13T00:00:00+00:00"
+   "text": "Costco Wholesale (COST) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/COST",
+   "publishedAt": "2026-10-14T23:50:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco Stock Looks Expensive. Here\u2019s Why Investors Keep Buying",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-stock-looks-expensive-why-111522969.html",
-   "publishedAt": "2026-10-03T23:48:34+00:00"
+   "text": "COST Stock Heads For Best Week Since May: Costco's Digital Sales And Membership...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/cost-stock-heads-best-week-020854320.html",
+   "publishedAt": "2026-10-16T01:50:38+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08550978303000178,
-  "p50": 0.21936912981741674,
+  "p50": 0.21851890954195752,
   "p95": 0.6619625080653859,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:34+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:38+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

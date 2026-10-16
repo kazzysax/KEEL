@@ -1,37 +1,37 @@
 {
  "ticker": "JNJ",
  "name": "Johnson & Johnson",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +1%; past 12 months: +36% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +37% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "price",
-   "text": "Trades +5% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades +5% vs its 200-day average and -8% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-15"
+   "publishedAt": "2026-10-16"
   },
   {
    "kind": "news",
    "text": "Stock of the day: Is this the bottom for Johnson & Johnson?",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-of-the-day-is-this-the-bottom-for-johnson-johnson/ar-AA2ee6CH?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:48:34+00:00"
+   "publishedAt": "2026-10-14T23:50:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Q3 Earnings Surpass Estimates",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-q3-earnings-104502062.html",
-   "publishedAt": "2026-10-13T23:48:34+00:00"
+   "text": "Johnson & Johnson stock slides despite company's projected $100 billion annual sales",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-stock-slides-despite-companys-projected-100-billion-annual-sales/vi-AA2eaMjx?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T23:50:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Dear Johnson & Johnson stock fans, mark your calendars for October 13",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/dear-johnson-johnson-stock-fans-mark-your-calendars-for-october-13/ar-AA2e19SW?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-11T23:48:34+00:00"
+   "text": "Johnson and Johnson Stock Plunges 6% As Medical Device Sales Miss Wall Street Forecasts",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-plunges-6-134853879.html",
+   "publishedAt": "2026-10-14T23:50:39+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5648364638634509,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1456
+  "windows": 1457
  },
- "asOf": "2026-10-15T23:48:34+00:00",
- "priceAsOf": "2026-10-15",
+ "asOf": "2026-10-16T23:50:39+00:00",
+ "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
