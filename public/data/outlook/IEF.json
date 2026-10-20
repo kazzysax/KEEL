@@ -17,21 +17,9 @@
   },
   {
    "kind": "news",
-   "text": "US Treasuries see return of term premium amid rate hikes, while MMFs are left behind",
-   "sourceUrl": "https://note.com/maxhesokuri/n/n68151ba954d1?hl=en",
-   "publishedAt": "2026-09-17T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "US Treasury yields surge to 32-year high as allies turn net sellers",
-   "sourceUrl": "https://www.msn.com/en-xl/news/other/allies-sell-us-treasuries-as-yields-surge-32-year-high/ar-AA2dzYpS?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T23:50:42+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Home Buying Becomes a Luxury as 10-Year Treasuries Push Mortgage Rates to 7.17%",
-   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/home-buying-becomes-luxury-10-151942231.html",
-   "publishedAt": "2026-09-15T00:00:00+00:00"
+   "text": "US bonds selloff eases, yields off highs after strong 10-year note auction",
+   "sourceUrl": "https://www.msn.com/en-ca/money/investment/us-bonds-selloff-eases-yields-off-highs-after-strong-10-year-note-auction/ar-AA2dLi02?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-08T00:36:55+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +30,7 @@
   "max": 0.12187064774468692,
   "windows": 1457
  },
- "asOf": "2026-10-16T23:50:42+00:00",
+ "asOf": "2026-10-20T00:36:55+00:00",
  "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

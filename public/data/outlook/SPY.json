@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "SPDR S&P 500 ETF Trust (SPY) Sets Key DeMark Pivot Points Amid M",
-   "sourceUrl": "https://www.gurufocus.com/news/9127662/spdr-sp-500-etf-trust-spy-sets-key-demark-pivot-points-amid-mixed-guru-activity",
-   "publishedAt": "2026-10-16T12:50:40+00:00"
+   "text": "Stock market today: Nasdaq, S&P 500 surge after rough week as tech stocks rebound",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-surge-after-rough-week-as-tech-stocks-rebound/ar-AA2fyW9y?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-07T00:36:54+00:00"
   },
   {
    "kind": "news",
-   "text": "Markets News, Oct. 16, 2026: Nasdaq, S&P 500 End Lower, Post Weekly Losses; AI...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-16-2026-103800633.html",
-   "publishedAt": "2026-10-16T10:50:40+00:00"
+   "text": "Stock market today: Dow futures drop, S&P 500, Nasdaq 100 rise as Scott Bessent links September inflation to 'energy shock'\u2014RCAT, ESLT, STLD in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-futures-rise-as-scott-bessent-links-september-inflation-to-energy-shock-rcat-eslt-stld-in-focus/ar-AA2fzPSf?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-05T00:36:54+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500 Health Care Sector Index Overview (SP500.35) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/indexes/sp500.35",
-   "publishedAt": "2026-10-13T23:50:40+00:00"
+   "text": "This ETF has crushed the S&P 500 in 2026. Here's why I think it still has room to grow.",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/this-etf-has-crushed-the-s-p-500-in-2026-here-s-why-i-think-it-still-has-room-to-grow/ar-AA2eeV4W?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-15T00:36:54+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7750444604115636,
   "windows": 1457
  },
- "asOf": "2026-10-16T23:50:40+00:00",
+ "asOf": "2026-10-20T00:36:54+00:00",
  "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

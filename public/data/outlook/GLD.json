@@ -1,7 +1,7 @@
 {
  "ticker": "GLD",
  "name": "gold",
- "outlook": "Cautious",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Gold price today: Gold falls by \u20b93,160 in three days, silver drops by \u20b95,000; experts explain the reasons",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-falls-by-3160-in-three-days-silver-drops-by-5000-experts-explain-the-reasons/ar-AA2ecdHk?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:50:41+00:00"
+   "text": "Gold price prediction: Where are gold prices headed for the October 19, 2026 week?",
+   "sourceUrl": "https://www.msn.com/en-in/money/economy/gold-price-prediction-where-are-gold-prices-headed-for-the-october-19-2026-week/ar-AA2fxVHq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-03T00:36:55+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, October 16: Gold falls 1% this week as inflation fears fuel rate hike bets; silver heads for 6% weekly loss",
-   "sourceUrl": "https://www.msn.com/en-au/money/economy/gold-price-today-october-16-gold-falls-1-this-week-as-inflation-fears-fuel-rate-hike-bets-silver-heads-for-6-weekly-loss/ar-AA2eks9B?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-23T23:50:41+00:00"
+   "text": "Gold price today, October 16, 2026: Gold rises by \u20b9793 on MCX, silver gains 1.03%; check city-wise rates",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-16-2026-gold-rises-by-793-on-mcx-silver-gains-103-check-city-wise-rates/ar-AA2elAip?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-17T00:36:55+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, October 14: Bullion trades flat above $4,150 ahead of US CPI data",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-14-bullion-trades-flat-above-4150-ahead-of-us-cpi-data/ar-AA2ebpKN?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:50:41+00:00"
+   "text": "Gold price today, Wednesday, October 14, 2026: Gold prices losing ground ahead of inflation data",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-october-14-2026-gold-prices-losing-ground-ahead-of-inflation-data-111058502.html",
+   "publishedAt": "2026-10-15T00:36:55+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9548598237884027,
   "windows": 1457
  },
- "asOf": "2026-10-16T23:50:41+00:00",
+ "asOf": "2026-10-20T00:36:55+00:00",
  "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

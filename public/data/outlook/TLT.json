@@ -19,19 +19,19 @@
    "kind": "news",
    "text": "NEOS Enhanced Income 20+ Year Treasury Bond ETF (TLTI) Declares",
    "sourceUrl": "https://www.gurufocus.com/news/9122849/neos-enhanced-income-20-year-treasury-bond-etf-tlti-declares-monthly-dividend-of-02158",
-   "publishedAt": "2026-10-13T23:50:42+00:00"
+   "publishedAt": "2026-10-14T00:36:56+00:00"
   },
   {
    "kind": "news",
-   "text": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton...",
-   "sourceUrl": "https://finance.yahoo.com/markets/articles/bad-news-trump-us-worst-081537194.html",
-   "publishedAt": "2026-10-16T07:50:42+00:00"
+   "text": "Treasuries Gain as Oil Retreat Shores Up Confidence in Warsh Fed",
+   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
+   "publishedAt": "2026-09-17T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury May Not Cut 20-Year Bond Issuance, Says JPMorgan",
-   "sourceUrl": "https://www.gurufocus.com/news/9124453/us-treasury-may-not-cut-20year-bond-issuance-says-jpmorgan",
-   "publishedAt": "2026-10-14T23:50:42+00:00"
+   "text": "Bonds teeter after US Treasuries' worst quarter since 1994",
+   "sourceUrl": "https://www.msn.com/en-us/money/other/bonds-teeter-after-us-treasuries-worst-quarter-since-1994/ar-AA2dk7K1?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-01T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.1829550567318068,
   "windows": 1457
  },
- "asOf": "2026-10-16T23:50:42+00:00",
+ "asOf": "2026-10-20T00:36:56+00:00",
  "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

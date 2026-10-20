@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Dow futures gain, Nasdaq 100 falls as Iran flags \u2018inadequate\u2019 US response to peace terms \u2014 SMP, QMCO, SVRN in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-futures-gain-nasdaq-100-falls-as-iran-flags-inadequate-us-response-to-peace-terms-smp-qmco-svrn-in-focus-updated/ar-AA2e46hn?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T23:50:40+00:00"
+   "text": "Michael Burry shifts bearish bets to Nasdaq, semiconductor ETF puts \u2014 sees market top within 9 months",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/michael-burry-shifts-bearish-bets-to-nasdaq-semiconductor-etf-puts-sees-market-top-within-9-months/ar-AA2e2Hhy?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:36:54+00:00"
   },
   {
    "kind": "news",
-   "text": "QQQE: Nasdaq-100 ETF Without Mega-Cap Risk",
-   "sourceUrl": "https://seekingalpha.com/article/4949087-qqqe-nasdaq-100-etf-without-mega-cap-risk",
-   "publishedAt": "2026-09-23T00:00:00+00:00"
+   "text": "Nasdaq 100 slides as Micron, SanDisk, CoreWeave sink: Stock market today",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/nasdaq-100-slides-as-micron-sandisk-coreweave-sink-stock-market-today/ar-AA2eoKmQ?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-17T00:36:54+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Dow, Nasdaq futures gain even as September inflation report comes in hotter than expected",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-dow-nasdaq-futures-gain-even-as-september-inflation-report-comes-in-hotter-than-expected/vi-AA2edYtA?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T23:50:40+00:00"
+   "text": "Is First Trust NASDAQ-100-Technology Sector ETF (QTEC) a strong ETF right now?",
+   "sourceUrl": "https://www.msn.com/en-us/money/savingandinvesting/is-first-trust-nasdaq-100-technology-sector-etf-qtec-a-strong-etf-right-now/ar-AA273iYm?ocid=BingNewsVerp",
+   "publishedAt": "2026-07-02T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1457
  },
- "asOf": "2026-10-16T23:50:40+00:00",
+ "asOf": "2026-10-20T00:36:54+00:00",
  "priceAsOf": "2026-10-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
