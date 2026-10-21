@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +32%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: +34%; past 12 months: +5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "price",
-   "text": "Trades +22% vs its 200-day average and -3% from its 52-week high.",
+   "text": "Trades +23% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "news",
-   "text": "Microsoft Cost Cuts: What a 20% Reduction at Azure Could Mean for MSFT Stock",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-cost-cuts-20-reduction-170805626.html",
-   "publishedAt": "2026-10-19T17:08:00+00:00"
+   "text": "Microsoft stock trades near record highs: Here's why",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-stock-trades-near-record-highs-here-s-why/ar-AA2e9JuQ?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T00:06:06+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock hits record high as company spends big on AI",
-   "sourceUrl": "https://www.seattletimes.com/business/microsoft/microsoft-stock-hits-record-high-as-company-spends-big-on-ai/",
-   "publishedAt": "2026-10-13T15:45:00+00:00"
+   "text": "Microsoft stock reaches a record high. How it suddenly became an AI winner.",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/microsoft-stock-heads-for-a-record-high-with-more-ai-upside-ahead/ar-AA2e8Kij?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T00:06:06+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Q1 Preview: A 27.5x Stock, A $25 Billion Cost Problem, And A 60% Fix",
-   "sourceUrl": "https://seekingalpha.com/article/4954775-microsoft-q1-preview-a-27-5x-stock-a-25-billion-cost-problem-and-a-60-percent-fix",
-   "publishedAt": "2026-10-16T15:10:00+00:00"
+   "text": "Morgan Stanley sees new hurdle for Microsoft stock",
+   "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/morgan-stanley-sees-hurdle-microsoft-230000709.html",
+   "publishedAt": "2026-10-11T00:06:06+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5874939766558624,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1457
+  "windows": 1458
  },
- "asOf": "2026-10-20T00:36:52+00:00",
- "priceAsOf": "2026-10-16",
+ "asOf": "2026-10-21T00:06:06+00:00",
+ "priceAsOf": "2026-10-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +38% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +39% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "price",
-   "text": "Trades +18% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +17% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "news",
-   "text": "Apple stock hits 52-week high \u2014 what's going on?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/apple-stock-hits-52-week-high-what-s-going-on/ar-AA2eemw9?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:36:51+00:00"
+   "text": "Apple stock is the best performer in the Mag 7. An analyst downgrade signals it's time to pump the brakes.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-is-the-best-performer-in-the-mag-7-an-analyst-downgrade-signals-it-s-time-to-pump-the-brakes/ar-AA2fEJ85",
+   "publishedAt": "2026-10-20T14:23:00+00:00"
   },
   {
    "kind": "news",
-   "text": "How to play Apple stock at $5 trillion",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/how-to-play-apple-stock-at-5-trillion/ar-AA2eoF7y?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-17T00:36:51+00:00"
+   "text": "Apple Stock (AAPL) Falls as Two Top Analysts Say Sell \u2014 Here's Why",
+   "sourceUrl": "https://www.tipranks.com/news/apple-stock-aapl-falls-as-two-top-wall-street-analysts-say-sell-heres-why",
+   "publishedAt": "2026-10-20T08:45:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple stock rises to new 52-week high: What's happening?",
-   "sourceUrl": "https://www.msn.com/en-us/technology/hardware-and-devices/apple-stock-rises-to-new-52-week-high-what-s-happening/ar-AA2e9zFa?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T00:36:51+00:00"
+   "text": "Apple Stock Price Prediction: Wall Street's Next Big Surprise Could Be Closer Than You Think",
+   "sourceUrl": "https://247wallst.com/investing/2026/10/12/apple-stock-price-prediction-wall-streets-next-big-surprise-could-be-closer-than-you-think/",
+   "publishedAt": "2026-10-12T16:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08086337032624513,
-  "p50": 0.22524980576651665,
+  "p50": 0.22632684263981573,
   "p95": 0.6826632824339633,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1457
+  "windows": 1458
  },
- "asOf": "2026-10-20T00:36:51+00:00",
- "priceAsOf": "2026-10-16",
+ "asOf": "2026-10-21T00:06:06+00:00",
+ "priceAsOf": "2026-10-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

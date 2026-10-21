@@ -1,37 +1,37 @@
 {
  "ticker": "GLD",
  "name": "gold",
- "outlook": "Neutral",
+ "outlook": "Cautious",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: -1% (historical closes).",
+   "text": "Past 3 months: +1%; past 12 months: -4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "price",
    "text": "Trades -8% vs its 200-day average and -23% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "news",
-   "text": "Gold price prediction: Where are gold prices headed for the October 19, 2026 week?",
-   "sourceUrl": "https://www.msn.com/en-in/money/economy/gold-price-prediction-where-are-gold-prices-headed-for-the-october-19-2026-week/ar-AA2fxVHq?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-03T00:36:55+00:00"
+   "text": "Gold price prediction: How low can gold prices go? Expert reveals outlook amid global uncertainty",
+   "sourceUrl": "https://www.msn.com/en-in/money/general/gold-price-prediction-how-low-can-gold-prices-go-expert-reveals-outlook-amid-global-uncertainty/ar-AA2fE00L?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-08T00:06:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, October 16, 2026: Gold rises by \u20b9793 on MCX, silver gains 1.03%; check city-wise rates",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-16-2026-gold-rises-by-793-on-mcx-silver-gains-103-check-city-wise-rates/ar-AA2elAip?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-17T00:36:55+00:00"
+   "text": "Gold price to touch \u20b91.60 lakh by Dec 2026 end? Time to buy? What experts say to earn money from yellow metal deals",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-to-touch-160-lakh-by-dec-2026-end-time-to-buy-what-experts-say-to-earn-money-from-yellow-metal-deals/ar-AA2fzh7x?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-20T00:06:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, Wednesday, October 14, 2026: Gold prices losing ground ahead of inflation data",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-wednesday-october-14-2026-gold-prices-losing-ground-ahead-of-inflation-data-111058502.html",
-   "publishedAt": "2026-10-15T00:36:55+00:00"
+   "text": "Gold price today: Gold prices dip on Mahanavmi; here's what they cost in cities from Delhi to Chennai",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-prices-dip-on-mahanavmi-heres-what-they-cost-in-cities-from-delhi-to-chennai/ar-AA2fymYV?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-20T00:06:10+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5903732453003978,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1457
+  "windows": 1458
  },
- "asOf": "2026-10-20T00:36:55+00:00",
- "priceAsOf": "2026-10-16",
+ "asOf": "2026-10-21T00:06:10+00:00",
+ "priceAsOf": "2026-10-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

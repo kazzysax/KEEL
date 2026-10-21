@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -3%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -4%; past 12 months: -9% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "price",
-   "text": "Trades -4% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades -5% vs its 200-day average and -10% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "news",
-   "text": "NEOS Enhanced Income 20+ Year Treasury Bond ETF (TLTI) Declares",
-   "sourceUrl": "https://www.gurufocus.com/news/9122849/neos-enhanced-income-20-year-treasury-bond-etf-tlti-declares-monthly-dividend-of-02158",
-   "publishedAt": "2026-10-14T00:36:56+00:00"
+   "text": "US Five-Year Yields Exceed 5% for First Time Since 2007",
+   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-five-yields-exceed-5-173419104.html",
+   "publishedAt": "2026-09-23T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Treasuries Gain as Oil Retreat Shores Up Confidence in Warsh Fed",
-   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
-   "publishedAt": "2026-09-17T00:00:00+00:00"
+   "text": "Axe for 20-year bonds?",
+   "sourceUrl": "https://www.thestar.com.my/business/business-news/2026/10/17/axe-for-20-year-bonds",
+   "publishedAt": "2026-10-17T00:06:12+00:00"
   },
   {
    "kind": "news",
-   "text": "Bonds teeter after US Treasuries' worst quarter since 1994",
-   "sourceUrl": "https://www.msn.com/en-us/money/other/bonds-teeter-after-us-treasuries-worst-quarter-since-1994/ar-AA2dk7K1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-01T00:00:00+00:00"
+   "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
+   "sourceUrl": "https://www.msn.com/en-sg/money/investment/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:06:12+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.07996247136071344,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1457
+  "windows": 1458
  },
- "asOf": "2026-10-20T00:36:56+00:00",
- "priceAsOf": "2026-10-16",
+ "asOf": "2026-10-21T00:06:12+00:00",
+ "priceAsOf": "2026-10-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

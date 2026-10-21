@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "price",
    "text": "Trades +0% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "news",
@@ -23,15 +23,15 @@
   },
   {
    "kind": "news",
-   "text": "Short-End Treasuries Become Popular Bet on Fed Inflation Win",
-   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-09-20/short-term-treasuries-emerge-as-popular-bet-on-fed-inflation-win",
-   "publishedAt": "2026-09-20T00:00:00+00:00"
+   "text": "WisdomTree US Treasuries 10Y 3x Daily Short (3TYS)",
+   "sourceUrl": "https://uk.investing.com/etfs/boost-us-treasury-10y-3x-short",
+   "publishedAt": "2026-10-06T00:06:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Treasuries Gain as Oil Retreat Shores Up Confidence in Warsh Fed",
-   "sourceUrl": "https://www.livemint.com/market/treasuries-gain-as-oil-retreat-shores-up-confidence-in-warsh-fed-11789674560152.html",
-   "publishedAt": "2026-09-17T00:00:00+00:00"
+   "text": "XRP Price Prediction: Evernorth Teases Ripple Swell",
+   "sourceUrl": "https://cryptonews.com/news/xrp-price-prediction-evernorth-ripple-swell/",
+   "publishedAt": "2026-10-20T18:06:11+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.05704098355555964,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1457
+  "windows": 1458
  },
- "asOf": "2026-10-20T00:36:55+00:00",
- "priceAsOf": "2026-10-16",
+ "asOf": "2026-10-21T00:06:11+00:00",
+ "priceAsOf": "2026-10-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

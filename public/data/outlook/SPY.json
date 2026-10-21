@@ -1,37 +1,37 @@
 {
  "ticker": "SPY",
  "name": "S&P 500 ETF",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +16% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +17% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "price",
    "text": "Trades +6% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-16"
+   "publishedAt": "2026-10-19"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Nasdaq, S&P 500 surge after rough week as tech stocks rebound",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-surge-after-rough-week-as-tech-stocks-rebound/ar-AA2fyW9y?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T00:36:54+00:00"
+   "text": "U.S. Stocks Rise Amid South Korea Tech Selloff; SPY Shows 10% Va",
+   "sourceUrl": "https://www.gurufocus.com/news/9132030/us-stocks-rise-amid-south-korea-tech-selloff-spy-shows-10-valuation-premium",
+   "publishedAt": "2026-10-20T15:06:09+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow futures drop, S&P 500, Nasdaq 100 rise as Scott Bessent links September inflation to 'energy shock'\u2014RCAT, ESLT, STLD in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-futures-rise-as-scott-bessent-links-september-inflation-to-energy-shock-rcat-eslt-stld-in-focus/ar-AA2fzPSf?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T00:36:54+00:00"
+   "text": "Markets News, Oct. 20, 2026: Dow Closes Up 500 Points; S&P 500 Rises, Nasdaq...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-20-2026-103252254.html",
+   "publishedAt": "2026-10-20T10:06:09+00:00"
   },
   {
    "kind": "news",
-   "text": "This ETF has crushed the S&P 500 in 2026. Here's why I think it still has room to grow.",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/this-etf-has-crushed-the-s-p-500-in-2026-here-s-why-i-think-it-still-has-room-to-grow/ar-AA2eeV4W?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:36:54+00:00"
+   "text": "Dow, S&P 500, Nasdaq Edge Higher Amid Tech Rebound As Q3 Earnings Season Forges...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-edge-033156816.html",
+   "publishedAt": "2026-10-20T03:06:09+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.4055083747391195,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1457
+  "windows": 1458
  },
- "asOf": "2026-10-20T00:36:54+00:00",
- "priceAsOf": "2026-10-16",
+ "asOf": "2026-10-21T00:06:09+00:00",
+ "priceAsOf": "2026-10-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
