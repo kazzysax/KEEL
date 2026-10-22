@@ -5,15 +5,21 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -4%; past 12 months: -9% (historical closes).",
+   "text": "Past 3 months: -3%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades -5% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades -4% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
+  },
+  {
+   "kind": "news",
+   "text": "Axe for 20-year bonds?",
+   "sourceUrl": "https://www.thestar.com.my/business/business-news/2026/10/17/axe-for-20-year-bonds",
+   "publishedAt": "2026-10-17T00:09:36+00:00"
   },
   {
    "kind": "news",
@@ -23,27 +29,21 @@
   },
   {
    "kind": "news",
-   "text": "Axe for 20-year bonds?",
-   "sourceUrl": "https://www.thestar.com.my/business/business-news/2026/10/17/axe-for-20-year-bonds",
-   "publishedAt": "2026-10-17T00:06:12+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-sg/money/investment/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:06:12+00:00"
+   "text": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
+   "sourceUrl": "https://www.prnewswire.com/news-releases/treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it-302912310.html",
+   "publishedAt": "2026-10-20T00:09:36+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.26710961574720615,
-  "p50": -0.061880311430110746,
+  "p50": -0.06204484815526057,
   "p95": 0.07996247136071344,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:12+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:36+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

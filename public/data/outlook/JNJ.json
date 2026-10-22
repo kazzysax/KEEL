@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +2%; past 12 months: +35% (historical closes).",
+   "text": "Past 3 months: +2%; past 12 months: +37% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades +5% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades +7% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Debuts New Coronary Catheter In The U.S.",
-   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-jnj-debuts-coronary-161339721.html",
-   "publishedAt": "2026-10-20T16:06:08+00:00"
+   "text": "Why Johnson & Johnson stock dropped today",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
+   "publishedAt": "Opinion8 days ago"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/JNJ/summary",
-   "publishedAt": "2026-10-17T00:06:08+00:00"
+   "text": "Johnson & Johnson\u2019s Profit Fell 96% Year-Over-Year. But the Dividend Has Risen for 64 Years in a Row",
+   "sourceUrl": "https://247wallst.com/investing/2026/10/21/johnson-johnsons-profit-fell-96-year-over-year-but-the-dividend-has-risen-for-64-years-in-a-row/",
+   "publishedAt": "2026-10-11T00:09:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/JNJ",
-   "publishedAt": "2026-10-16T00:06:08+00:00"
+   "text": "Johnson & Johnson hikes earnings guidance but pharma growth masks a MedTech stumble. Stock falls.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-hikes-earnings-guidance-but-pharma-growth-masks-a-medtech-stumble/ar-AA2e8Dqc?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T00:09:33+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5648364638634509,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:08+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:33+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

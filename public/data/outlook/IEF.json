@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: -2%; past 12 months: -4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades -3% vs its 200-day average and -6% from its 52-week high.",
+   "text": "Trades -3% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "news",
-   "text": "US Treasury May Not Cut 20-Year Bond Issuance, Says JPMorgan",
-   "sourceUrl": "https://www.gurufocus.com/news/9124453/us-treasury-may-not-cut-20year-bond-issuance-says-jpmorgan",
-   "publishedAt": "2026-10-15T00:06:11+00:00"
+   "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
+   "sourceUrl": "https://www.newsobserver.com/news/nation-world/national/article317522149.html",
+   "publishedAt": "2026-10-07T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton...",
-   "sourceUrl": "https://finance.yahoo.com/markets/articles/bad-news-trump-us-worst-081537194.html",
-   "publishedAt": "2026-10-16T00:06:11+00:00"
+   "text": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy?",
+   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/high-yield-reits-vs-10-205900173.html",
+   "publishedAt": "2026-10-17T00:09:35+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury yields retreat as Iran deal hopes pull WTI lower | FXStreet",
-   "sourceUrl": "https://www.fxstreet.com/news/us-treasury-yields-retreat-as-iran-deal-hopes-pull-wti-lower-202610201649",
-   "publishedAt": "2026-10-20T17:06:11+00:00"
+   "text": "US Treasury yields surge to 32-year high as allies turn net sellers",
+   "sourceUrl": "https://www.msn.com/en-xl/money/investment/us-yields-surge-as-allies-sell-treasuries/ar-AA2dzYpS?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-05T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.13615811463642558,
-  "p50": -0.015212544273728645,
+  "p50": -0.015347036389595448,
   "p95": 0.08173456535899848,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:11+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:35+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

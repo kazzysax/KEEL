@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +15%; past 12 months: +42% (historical closes).",
+   "text": "Past 3 months: +14%; past 12 months: +40% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades +16% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +16% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
-  },
-  {
-   "kind": "news",
-   "text": "Is Coca-Cola an excellent dividend stock to buy right now in October?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-coca-cola-an-excellent-dividend-stock-to-buy-right-now-in-october/ar-AA2dZphN?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T00:06:07+00:00"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "news",
    "text": "Coca-Cola vs. PepsiCo: Which dividend king deserves a premium valuation right now?",
    "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-vs-pepsico-which-dividend-king-deserves-a-premium-valuation-right-now/ar-AA2ebwrc?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:06:07+00:00"
+   "publishedAt": "2026-10-15T00:09:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Could Coca-Cola Issue a Stock Split If It Hits $100 Per Share?",
-   "sourceUrl": "https://www.fool.com/investing/2026/07/10/could-coca-cola-issue-a-stock-split-if-it-hits-100/",
-   "publishedAt": "2026-07-10T00:00:00+00:00"
+   "text": "KFC had Pepsi for nearly 40 years. Coca-Cola stock is trending after winning it over",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/kfc-had-pepsi-for-nearly-40-years-coca-cola-stock-is-trending-after-winning-it-over/ar-AA2enHtV?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-17T00:09:33+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Dow Jones leader Coca-Cola breaks out as stock market volatility ramps up",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/dow-jones-leader-coca-cola-breaks-out-as-stock-market-volatility-ramps-up/ar-AA2fGb99?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-21T00:09:33+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04321166352430017,
   "p50": 0.12447213355966946,
-  "p95": 0.3033862524855431,
+  "p95": 0.3057051115532834,
   "min": -0.15396303665947697,
   "max": 0.4370337582632009,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:08+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:33+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

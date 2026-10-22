@@ -1,37 +1,37 @@
 {
  "ticker": "AAPL",
  "name": "Apple",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +39% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +35% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +16% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "news",
-   "text": "Apple stock is the best performer in the Mag 7. An analyst downgrade signals it's time to pump the brakes.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-is-the-best-performer-in-the-mag-7-an-analyst-downgrade-signals-it-s-time-to-pump-the-brakes/ar-AA2fEJ85",
-   "publishedAt": "2026-10-20T14:23:00+00:00"
+   "text": "Apple Stock Falls Following Loop Capital Downgrade Over Valuation Concerns",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/apple-stock-falls-following-loop-115058542.html",
+   "publishedAt": "2026-10-21T10:59:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Apple's iPhone supply chain risk spells trouble for this semiconductor stock",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-s-iphone-supply-chain-risk-spells-trouble-for-this-semiconductor-stock/ar-AA2fKxS9",
+   "publishedAt": "2026-10-21T14:19:00+00:00"
   },
   {
    "kind": "news",
    "text": "Apple Stock (AAPL) Falls as Two Top Analysts Say Sell \u2014 Here's Why",
    "sourceUrl": "https://www.tipranks.com/news/apple-stock-aapl-falls-as-two-top-wall-street-analysts-say-sell-heres-why",
    "publishedAt": "2026-10-20T08:45:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Apple Stock Price Prediction: Wall Street's Next Big Surprise Could Be Closer Than You Think",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/12/apple-stock-price-prediction-wall-streets-next-big-surprise-could-be-closer-than-you-think/",
-   "publishedAt": "2026-10-12T16:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6826632824339633,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:06+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:31+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

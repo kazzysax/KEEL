@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +18%; past 12 months: +66% (historical closes).",
+   "text": "Past 3 months: +16%; past 12 months: +63% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades +18% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +18% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Holdings (XOM) rises as market takes a dip: Key facts",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/exxon-mobil-holdings-xom-rises-as-market-takes-a-dip-key-facts/ar-AA2egdHT?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:06:08+00:00"
+   "text": "ExxonMobil stock: Goldman Sachs raises target from USD 169 to USD 178",
+   "sourceUrl": "https://www.ad-hoc-news.de/boerse/news/corporate-news/exxonmobil-stock-goldman-sachs-raises-target-from-usd-169-to-usd-178/70385560",
+   "publishedAt": "2026-10-15T00:09:34+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil hits a new all-time high. Is it too late to buy the stock?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/exxonmobil-hits-a-new-all-time-high-is-it-too-late-to-buy-the-stock/ar-AA2fEJzZ?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:06:08+00:00"
+   "text": "Exxon, oil giants top buy points after deadly Saudi airport attacks",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-oil-giants-top-buy-points-after-deadly-saudi-airport-attacks/ar-AA2e567g?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T00:09:34+00:00"
   },
   {
    "kind": "news",
-   "text": "Better Oil Stock: Chevron (CVX) vs. ExxonMobil (XOM)",
-   "sourceUrl": "https://www.fool.com/investing/2026/10/19/better-oil-stock-chevron-vs-exxonmobil/",
-   "publishedAt": "2026-10-20T00:06:08+00:00"
+   "text": "Exxon Mobil Corporation (XOM) is a trending stock: Facts to know before betting on it",
+   "sourceUrl": "https://www.msn.com/en-us/money/topstocks/exxon-mobil-corporation-xom-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA26gHn0?ocid=BingNewsVerp",
+   "publishedAt": "2026-06-22T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.8268186919003051,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:08+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:34+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

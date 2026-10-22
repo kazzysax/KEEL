@@ -1,49 +1,49 @@
 {
  "ticker": "WMT",
  "name": "Walmart",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +8%; past 12 months: +12% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +10% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "price",
-   "text": "Trades +1% vs its 200-day average and -11% from its 52-week high.",
+   "text": "Trades -0% vs its 200-day average and -12% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-19"
+   "publishedAt": "2026-10-20"
   },
   {
    "kind": "news",
-   "text": "Walmart and Costco Just Gained 11% in a Month: Take Profits, or Buy More?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-costco-just-gained-11-064632844.html",
-   "publishedAt": "2026-10-04T00:06:06+00:00"
+   "text": "WMT stock alert: What to know as Walmart teams up with Sam's Club",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/wmt-stock-alert-what-to-know-as-walmart-teams-up-with-sam-s-club/ar-AA2fFTZo?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-21T00:09:32+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart Dropped 5% In The Last 6 Months: This Wall Street Firm Says 30% Gains Are Coming Soon",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/19/walmart-dropped-5-in-the-last-6-months-this-wall-street-firm-says-30-gains-are-coming-soon/",
-   "publishedAt": "2026-10-20T00:06:06+00:00"
+   "text": "Here is what to know beyond why Walmart Inc. (WMT) is a trending stock",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/here-is-what-to-know-beyond-why-walmart-inc-wmt-is-a-trending-stock/ar-AA2dTUYN?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-10T00:09:32+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart stock moves higher: What's happening?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/walmart-stock-moves-higher-what-s-happening/ar-AA2efvBr?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:06:06+00:00"
+   "text": "Walmart Is Down 24%. Is It Finally the Ultimate Dividend King Stock to Buy and Never Sell?",
+   "sourceUrl": "https://www.fool.com/investing/2026/08/30/walmart-is-down-24-is-it-finally-the-ultimate-divi/",
+   "publishedAt": "2026-08-30T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06696371720636296,
-  "p50": 0.19777485121733052,
+  "p50": 0.19721035642005136,
   "p95": 0.6530028297052501,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1458
+  "windows": 1459
  },
- "asOf": "2026-10-21T00:06:07+00:00",
- "priceAsOf": "2026-10-19",
+ "asOf": "2026-10-22T00:09:32+00:00",
+ "priceAsOf": "2026-10-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
