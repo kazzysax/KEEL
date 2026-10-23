@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: +0%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
    "text": "Trades +0% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
-  },
-  {
-   "kind": "news",
-   "text": "Archax Just Picked Chainlink to Price Its Tokenized Treasuries. Is LINK a Better...",
-   "sourceUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/20/archax-just-picked-chainlink-to-price-its-tokenized-treasuries-is-link-a-better-buy-than-xrp/",
-   "publishedAt": "2026-10-21T00:09:35+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "XRP Price Prediction: Evernorth Teases Ripple Swell",
-   "sourceUrl": "https://cryptonews.com/news/xrp-price-prediction-evernorth-ripple-swell/",
-   "publishedAt": "2026-10-21T00:09:35+00:00"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
    "text": "Short-Term Treasuries Emerge as Popular Bet on Fed Inflation Win",
    "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/short-term-treasuries-emerge-popular-190000422.html",
    "publishedAt": "2026-09-20T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Archax Just Picked Chainlink to Price Its Tokenized Treasuries. Is LINK a Better...",
+   "sourceUrl": "https://247wallst.com/investing/cryptocurrency/2026/10/20/archax-just-picked-chainlink-to-price-its-tokenized-treasuries-is-link-a-better-buy-than-xrp/",
+   "publishedAt": "2026-10-21T00:08:09+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Bond Market's Big Short Bet Gets Wakeup Call As AI Trade Wobbles",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/bond-markets-big-short-bet-gets-wakeup-call-as-ai-trade-wobbles/ar-AA2fxOYe?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-20T00:08:09+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.03993360469436391,
+  "p5": -0.039812206457238375,
   "p50": 0.02503848000700093,
   "p95": 0.05704098355555964,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:35+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:09+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

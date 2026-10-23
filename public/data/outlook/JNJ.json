@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +2%; past 12 months: +37% (historical closes).",
+   "text": "Past 3 months: -0%; past 12 months: +36% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
-   "text": "Trades +7% vs its 200-day average and -7% from its 52-week high.",
+   "text": "Trades +6% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
-   "text": "Why Johnson & Johnson stock dropped today",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
-   "publishedAt": "Opinion8 days ago"
+   "text": "Johnson & Johnson (NYSE:JNJ) Stock News, Headlines & Updates | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/JNJ/article",
+   "publishedAt": "2026-10-21T00:08:07+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson\u2019s Profit Fell 96% Year-Over-Year. But the Dividend Has Risen for 64 Years in a Row",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/21/johnson-johnsons-profit-fell-96-year-over-year-but-the-dividend-has-risen-for-64-years-in-a-row/",
-   "publishedAt": "2026-10-11T00:09:33+00:00"
+   "text": "Johnson & Johnson Presents Breakthrough Atrial Fibrillation Stud",
+   "sourceUrl": "https://www.gurufocus.com/news/9136488/johnson-johnson-presents-breakthrough-atrial-fibrillation-study-results-at-asia-pacific-heart-rhythm-society-meeting-jnj",
+   "publishedAt": "2026-10-22T12:08:07+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson hikes earnings guidance but pharma growth masks a MedTech stumble. Stock falls.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-hikes-earnings-guidance-but-pharma-growth-masks-a-medtech-stumble/ar-AA2e8Dqc?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T00:09:33+00:00"
+   "text": "Johnson & Johnson (JNJ) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/JNJ/summary",
+   "publishedAt": "2026-10-21T00:08:07+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.08648594479589111,
-  "p50": 0.08177972432429237,
+  "p5": -0.08647493923678673,
+  "p50": 0.08188664372474208,
   "p95": 0.5648364638634509,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:33+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:07+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

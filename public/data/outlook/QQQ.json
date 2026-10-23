@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +2%; past 12 months: +19% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +19% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
-   "text": "Trades +6% vs its 200-day average and -6% from its 52-week high.",
+   "text": "Trades +7% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
-   "text": "First Trust Nasdaq-100 Select Equal Weight ETF Overview (QQEW) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/funds/qqew",
-   "publishedAt": "2026-10-16T00:09:34+00:00"
+   "text": "Invesco NASDAQ 100 ETF (QQQM) Adds NVIDIA and Apple on Oct. 19",
+   "sourceUrl": "https://uk.finance.yahoo.com/news/invesco-nasdaq-100-etf-qqqm-110454857.html",
+   "publishedAt": "2026-10-22T00:08:08+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock Market Today: S&P 500, Nasdaq 100 Futures Gains as Iran Prolongs US Talks ...",
-   "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62488591/stock-market-today-sp-500-nasdaq-100-futures-gains-as-iran-prolongs-us-talks-ahead-of-midterms-nflx-spcx-smci-in-focus",
-   "publishedAt": "2026-10-21T10:09:34+00:00"
+   "text": "More Nasdaq 100 ETFs Are Coming. That Means More Buyers For SpaceX Stock",
+   "sourceUrl": "https://www.investopedia.com/more-nasdaq-100-etfs-are-coming-that-means-more-buyers-for-spacex-stock-spcx-qqq-12008979",
+   "publishedAt": "2026-06-29T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Health Care Stocks Hit Record Highs, GM Drops Nearly 8%: Stock Market Today -...",
-   "sourceUrl": "https://www.benzinga.com/markets/equities/26/10/62475717/health-care-stocks-hit-record-highs-gm-drops-nearly-8-stock-market-today",
-   "publishedAt": "2026-10-21T00:09:34+00:00"
+   "text": "QQQE: Nasdaq-100 ETF Without Mega-Cap Risk",
+   "sourceUrl": "https://seekingalpha.com/article/4949087-qqqe-nasdaq-100-etf-without-mega-cap-risk",
+   "publishedAt": "2026-09-23T00:00:00+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.24454630784916231,
+  "p5": -0.243284433577154,
   "p50": 0.25526263024299967,
   "p95": 0.5038058390521556,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:34+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:08+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

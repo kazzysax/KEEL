@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: -2%; past 12 months: -4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
    "text": "Trades -3% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
-  },
-  {
-   "kind": "news",
-   "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
-   "sourceUrl": "https://www.newsobserver.com/news/nation-world/national/article317522149.html",
-   "publishedAt": "2026-10-07T00:00:00+00:00"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
    "text": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy?",
    "sourceUrl": "https://finance.yahoo.com/real-estate/articles/high-yield-reits-vs-10-205900173.html",
-   "publishedAt": "2026-10-17T00:09:35+00:00"
+   "publishedAt": "2026-10-17T00:08:10+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury yields surge to 32-year high as allies turn net sellers",
-   "sourceUrl": "https://www.msn.com/en-xl/money/investment/us-yields-surge-as-allies-sell-treasuries/ar-AA2dzYpS?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T00:00:00+00:00"
+   "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
+   "sourceUrl": "https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/",
+   "publishedAt": "2026-10-07T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "France 10-Year Bond Yield Surpasses U.S. Treasury Yield, Impacti",
+   "sourceUrl": "https://www.gurufocus.com/news/9136852/france-10year-bond-yield-surpasses-us-treasury-yield-impacting-ewq-etf-on-october-22-2026",
+   "publishedAt": "2026-10-22T14:08:10+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.13615811463642558,
+  "p5": -0.13605739053840615,
   "p50": -0.015347036389595448,
   "p95": 0.08173456535899848,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:35+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:10+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +7%; past 12 months: +7% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +7% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
    "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
-   "text": "Costco Wholesale stock loses to 10-year US Treasury notes on yield. Here's why it wins on everything else.",
-   "sourceUrl": "https://www.msn.com/en-us/money/investment/costco-wholesale-stock-loses-to-10-year-us-treasury-notes-on-yield-here-s-why-it-wins-on-everything-else/ar-AA2e5qtK?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:09:33+00:00"
+   "text": "Costco (COST) advances while market declines: Some information for investors",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/costco-cost-advances-while-market-declines-some-information-for-investors/ar-AA2fRK0c?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-20T00:08:06+00:00"
   },
   {
    "kind": "news",
-   "text": "Are You Overpaying For Costco Stock Versus Its Rivals?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/overpaying-costco-stock-versus-rivals-003137864.html",
-   "publishedAt": "2026-10-09T00:09:33+00:00"
+   "text": "Jim Cramer and Clark Howard don't see eye to eye on Costco - who's right?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/jim-cramer-and-clark-howard-dont-see-eye-to-eye-on-costco-whos-right/ar-AA2fPp7U?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-12T00:08:06+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco Stock Keeps Defying Expectations. Here\u2019s My 2027 Price Prediction",
-   "sourceUrl": "https://247wallst.com/investing/2026/09/24/costco-stock-keeps-defying-expectations-heres-my-2027-price-prediction/",
-   "publishedAt": "2026-09-24T00:00:00+00:00"
+   "text": "This is how much Costco stock has gained over the past year (it might surprise you)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/this-is-how-much-costco-stock-has-gained-over-the-past-year-it-might-surprise-you/ar-AA2e8EUg?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T00:08:06+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.08550978303000178,
+  "p5": -0.08478560973038951,
   "p50": 0.21788321764662566,
   "p95": 0.6619625080653859,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:33+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:06+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

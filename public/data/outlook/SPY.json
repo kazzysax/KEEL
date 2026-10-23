@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +17% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +16% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
-   "text": "Trades +6% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +7% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
-   "text": "This ETF has crushed the S&P 500 in 2026. Here's why I think it still has room to grow.",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/this-etf-has-crushed-the-s-p-500-in-2026-here-s-why-i-think-it-still-has-room-to-grow/ar-AA2eeV4W?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:09:34+00:00"
+   "text": "Stock market: Will S&P 500 open up or down today?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-will-s-p-500-open-up-or-down-today/ar-AA2fNGtg?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T00:08:08+00:00"
   },
   {
    "kind": "news",
-   "text": "Vanguard's S&P 500 fund outruns its own rising dividend",
-   "sourceUrl": "https://www.msn.com/en-us/money/investment/vanguard-s-s-p-500-fund-outruns-its-own-rising-dividend/ar-AA2fG9Y1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-21T00:09:34+00:00"
+   "text": "Stock market today: S&P 500, Dow Jones, Nasdaq 100 futures drop following Asian market sell-off, Middle East tensions\u2014NFLX, SPCX, SMCI in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-dow-futures-drop-following-asian-market-sell-off-middle-east-tensions-nflx-spcx-smci-in-focus/ar-AA2fOBCD?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-09T00:08:08+00:00"
   },
   {
    "kind": "news",
-   "text": "Is Invesco S&P 500 high dividend low volatility ETF (SPHD) a strong ETF right now?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-invesco-s-p-500-high-dividend-low-volatility-etf-sphd-a-strong-etf-right-now/ar-AA2fzLrF?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-20T00:09:34+00:00"
+   "text": "S&P 500, Nasdaq gain, powered by Meta, Tesla stock \u2014 SPCX, META, TSLA, SKYD, IBM in focus",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/s-p-500-nasdaq-gain-powered-by-meta-tesla-stock-spcx-meta-tsla-skyd-ibm-in-focus/ar-AA2fLrh1?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-22T00:08:08+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.1274709331599796,
+  "p5": -0.12542029641457086,
   "p50": 0.18524296003350904,
   "p95": 0.4055083747391195,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:34+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:08+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

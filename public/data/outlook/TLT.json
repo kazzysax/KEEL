@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -3%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "price",
    "text": "Trades -4% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-20"
+   "publishedAt": "2026-10-21"
   },
   {
    "kind": "news",
-   "text": "Axe for 20-year bonds?",
-   "sourceUrl": "https://www.thestar.com.my/business/business-news/2026/10/17/axe-for-20-year-bonds",
-   "publishedAt": "2026-10-17T00:09:36+00:00"
+   "text": "Disappointing 20-Year treasury auction underscores weakness in the bond market |...",
+   "sourceUrl": "https://www.fxstreet.com/analysis/disappointing-20-year-treasury-auction-underscores-weakness-in-the-bond-market-202610221709",
+   "publishedAt": "2026-10-22T17:08:10+00:00"
   },
   {
    "kind": "news",
-   "text": "US Five-Year Yields Exceed 5% for First Time Since 2007",
-   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-five-yields-exceed-5-173419104.html",
-   "publishedAt": "2026-09-23T00:00:00+00:00"
+   "text": "US Treasury Bonds Mixed as Oil Prices Surge, Yield Curves Steepe",
+   "sourceUrl": "https://www.gurufocus.com/news/9128361/us-treasury-bonds-mixed-as-oil-prices-surge-yield-curves-steepen",
+   "publishedAt": "2026-10-17T00:08:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
-   "sourceUrl": "https://www.prnewswire.com/news-releases/treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it-302912310.html",
-   "publishedAt": "2026-10-20T00:09:36+00:00"
+   "text": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton...",
+   "sourceUrl": "https://finance.yahoo.com/markets/articles/bad-news-trump-us-worst-081537194.html",
+   "publishedAt": "2026-10-16T00:08:10+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.26710961574720615,
+  "p5": -0.2663351846702705,
   "p50": -0.06204484815526057,
   "p95": 0.07996247136071344,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1459
+  "windows": 1460
  },
- "asOf": "2026-10-22T00:09:36+00:00",
- "priceAsOf": "2026-10-20",
+ "asOf": "2026-10-23T00:08:10+00:00",
+ "priceAsOf": "2026-10-21",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
