@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: -2%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "price",
-   "text": "Trades -4% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -8% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
+  },
+  {
+   "kind": "news",
+   "text": "Dow Drops 652 Points as Oil Prices Pop and Treasury Yields Rise: Stock Market...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dow-drops-652-points-oil-200923098.html",
+   "publishedAt": "2026-10-23T19:58:18+00:00"
   },
   {
    "kind": "news",
    "text": "Disappointing 20-Year treasury auction underscores weakness in the bond market |...",
    "sourceUrl": "https://www.fxstreet.com/analysis/disappointing-20-year-treasury-auction-underscores-weakness-in-the-bond-market-202610221709",
-   "publishedAt": "2026-10-22T17:08:10+00:00"
+   "publishedAt": "2026-10-22T23:58:18+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury Bonds Mixed as Oil Prices Surge, Yield Curves Steepe",
-   "sourceUrl": "https://www.gurufocus.com/news/9128361/us-treasury-bonds-mixed-as-oil-prices-surge-yield-curves-steepen",
-   "publishedAt": "2026-10-17T00:08:10+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Bad News for Trump. The US Is In Its Worst Bond Crisis Since Alexander Hamilton...",
-   "sourceUrl": "https://finance.yahoo.com/markets/articles/bad-news-trump-us-worst-081537194.html",
-   "publishedAt": "2026-10-16T00:08:10+00:00"
+   "text": "Euro climbs as Oil prices tumble on US-Iran negotiation hopes | FXStreet",
+   "sourceUrl": "https://www.fxstreet.com/news/euro-climbs-as-oil-prices-tumble-on-us-iran-negotiation-hopes-202610201456",
+   "publishedAt": "2026-10-20T23:58:18+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.2663351846702705,
-  "p50": -0.06204484815526057,
-  "p95": 0.07996247136071344,
+  "p50": -0.06211626734299314,
+  "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1460
+  "windows": 1462
  },
- "asOf": "2026-10-23T00:08:10+00:00",
- "priceAsOf": "2026-10-21",
+ "asOf": "2026-10-23T23:58:18+00:00",
+ "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

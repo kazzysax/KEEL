@@ -1,49 +1,49 @@
 {
  "ticker": "GLD",
  "name": "gold",
- "outlook": "Neutral",
+ "outlook": "Cautious",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +2%; past 12 months: -6% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "price",
-   "text": "Trades -9% vs its 200-day average and -24% from its 52-week high.",
+   "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "news",
-   "text": "Abcourt Mines Inc. (ABI:CA) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/ABI:CA",
-   "publishedAt": "2026-10-23T00:00:09+00:00"
+   "text": "Gold and silver price today: Gold and silver prices have plummeted, falling by as much as \u20b97,000 throughout the day.",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-and-silver-price-today-gold-and-silver-prices-have-plummeted-falling-by-as-much-as-7-000-throughout-the-day/ar-AA2fP2Il?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-22T23:58:17+00:00"
   },
   {
    "kind": "news",
-   "text": "Bullfrog Gold Corporation (FROG:CA) Stock Price, Quote, News & Analysis |...",
-   "sourceUrl": "https://seekingalpha.com/symbol/FROG:CA",
-   "publishedAt": "2026-10-22T00:08:09+00:00"
+   "text": "Gold price today: Gold rate crashes to lowest in 2 months, silver price drops. Here's what to expect",
+   "sourceUrl": "https://www.msn.com/en-in/money/investment/gold-price-today-gold-rate-crashes-to-lowest-in-2-months-silver-price-drops-here-s-what-to-expect/ar-AA2fOERa?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-22T23:58:17+00:00"
   },
   {
    "kind": "news",
-   "text": "Kinross Gold (KGC) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/KGC",
-   "publishedAt": "2026-10-21T00:08:09+00:00"
+   "text": "Gold price falls Rs 1,500/10g; silver plunges Rs 7,000/kg as soaring oil fuels rate hike bets. Time to sell?",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-falls-rs-150010g-silver-plunges-rs-7000kg-as-soaring-oil-fuels-rate-hike-bets-time-to-sell/ar-AA2fTs57?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-05T23:58:17+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07321210970686953,
-  "p50": 0.1319693798035051,
-  "p95": 0.5903732453003978,
+  "p50": 0.1318399517111275,
+  "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1460
+  "windows": 1462
  },
- "asOf": "2026-10-23T00:08:09+00:00",
- "priceAsOf": "2026-10-21",
+ "asOf": "2026-10-23T23:58:17+00:00",
+ "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

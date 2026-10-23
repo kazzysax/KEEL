@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +16% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +15% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "price",
-   "text": "Trades +7% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +5% vs its 200-day average and -3% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
+  },
+  {
+   "kind": "news",
+   "text": "3 reasons the Vanguard S&P 500 ETF could be worth holding for the next 20 years",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/3-reasons-the-vanguard-s-p-500-etf-could-be-worth-holding-for-the-next-20-years/ar-AA2es2hb?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-17T23:58:16+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "S&P 500 best performers: Zero mag 7 stocks past 13 weeks",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/s-p-500-best-performers-zero-mag-7-stocks-past-13-weeks/ar-AA2fT66x?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-01T23:58:16+00:00"
   },
   {
    "kind": "news",
    "text": "Stock market: Will S&P 500 open up or down today?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-will-s-p-500-open-up-or-down-today/ar-AA2fNGtg?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-06T00:08:08+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Stock market today: S&P 500, Dow Jones, Nasdaq 100 futures drop following Asian market sell-off, Middle East tensions\u2014NFLX, SPCX, SMCI in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-dow-futures-drop-following-asian-market-sell-off-middle-east-tensions-nflx-spcx-smci-in-focus/ar-AA2fOBCD?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-09T00:08:08+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "S&P 500, Nasdaq gain, powered by Meta, Tesla stock \u2014 SPCX, META, TSLA, SKYD, IBM in focus",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/s-p-500-nasdaq-gain-powered-by-meta-tesla-stock-spcx-meta-tsla-skyd-ibm-in-focus/ar-AA2fLrh1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-22T00:08:08+00:00"
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-will-s-p-500-open-up-or-down-today/ar-AA2fTcHR?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T23:58:16+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.12542029641457086,
-  "p50": 0.18524296003350904,
-  "p95": 0.4055083747391195,
+  "p50": 0.1849634906906752,
+  "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1460
+  "windows": 1462
  },
- "asOf": "2026-10-23T00:08:08+00:00",
- "priceAsOf": "2026-10-21",
+ "asOf": "2026-10-23T23:58:16+00:00",
+ "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

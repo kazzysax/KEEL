@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +40%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: +35%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "price",
-   "text": "Trades +23% vs its 200-day average and -2% from its 52-week high.",
+   "text": "Trades +20% vs its 200-day average and -3% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "news",
-   "text": "What Will $5,000 Invested in Microsoft Stock Be Worth in 5 Years?",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/21/what-will-5000-invested-in-microsoft-stock-be-worth-in-5-years/",
-   "publishedAt": "2026-10-21T16:00:00+00:00"
+   "text": "Dow Jones futures: Microsoft, Google, Amazon lead earnings wave; what to do in mixed market",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/dow-jones-futures-microsoft-google-amazon-lead-earnings-wave-what-to-do-in-mixed-market/ar-AA2fWX3K?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-21T23:58:14+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft (MSFT) Stock: Falls as AI Spending Fuels Long-Term Growth Bets",
-   "sourceUrl": "https://blockonomi.com/microsoft-msft-stock-falls-as-ai-spending-fuels-long-term-growth-bets/",
-   "publishedAt": "2026-10-22T18:22:00+00:00"
+   "text": "Microsoft\u2019s wild ride: Stock hits new record after a year of ups and downs",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/microsoft-s-wild-ride-stock-hits-new-record-after-a-year-of-ups-and-downs/ar-AA2edMsq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T23:58:14+00:00"
   },
   {
    "kind": "news",
-   "text": "Prediction: Microsoft Stock Is Going to Soar After Oct. 28",
-   "sourceUrl": "https://www.fool.com/investing/2026/10/19/prediction-microsoft-stock-going-soar-after-oct-28/",
-   "publishedAt": "2026-10-19T10:35:00+00:00"
+   "text": "Morgan Stanley sees a higher earnings bar for Microsoft stock",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/morgan-stanley-sees-a-higher-earnings-bar-for-microsoft-stock/ar-AA2fFYQU?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-20T23:58:14+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22116915482446642,
-  "p50": 0.20979164550596696,
-  "p95": 0.5874939766558624,
+  "p50": 0.20962873029073292,
+  "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1460
+  "windows": 1462
  },
- "asOf": "2026-10-23T00:08:06+00:00",
- "priceAsOf": "2026-10-21",
+ "asOf": "2026-10-23T23:58:14+00:00",
+ "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

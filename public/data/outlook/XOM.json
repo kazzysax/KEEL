@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +14%; past 12 months: +63% (historical closes).",
+   "text": "Past 3 months: +19%; past 12 months: +64% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "price",
-   "text": "Trades +18% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +21% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-21"
+   "publishedAt": "2026-10-23"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Holdings (XOM) rises as market takes a dip: Key facts",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-mobil-holdings-xom-rises-as-market-takes-a-dip-key-facts/ar-AA2egdHT?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:08:07+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Exxon Mobil Holdings (XOM) Gains As Market Dips: What You Should Know",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-mobil-holdings-xom-gains-as-market-dips-what-you-should-know/ar-AA2d9v0W?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-28T00:00:00+00:00"
+   "text": "Should You Forget ExxonMobil and Buy Cameco Stock Instead?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/should-you-forget-exxonmobil-and-buy-cameco-stock-instead/ar-AA2fOfyn?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-22T23:58:16+00:00"
   },
   {
    "kind": "news",
    "text": "ExxonMobil Stock (XOM) Still Has My Vote Ahead of Earnings",
    "sourceUrl": "https://www.tipranks.com/news/exxonmobil-stock-xom-still-has-my-vote-ahead-of-earnings",
-   "publishedAt": "2026-10-21T00:08:07+00:00"
+   "publishedAt": "2026-10-20T23:58:16+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "What to expect from Exxon Mobil\u2019s Q3 2026 earnings report",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/what-to-expect-from-exxon-mobil-s-q3-2026-earnings-report/ar-AA2eiVLu?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-15T23:58:16+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07231166833919311,
-  "p50": 0.2897981424457208,
-  "p95": 0.8268186919003051,
+  "p50": 0.29016781982976414,
+  "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1460
+  "windows": 1462
  },
- "asOf": "2026-10-23T00:08:07+00:00",
- "priceAsOf": "2026-10-21",
+ "asOf": "2026-10-23T23:58:16+00:00",
+ "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
