@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Best Ways to Invest Money for Short-Term Goals",
-   "sourceUrl": "https://www.aceshowbiz.com/news/view/00262576.html",
-   "publishedAt": "2026-10-11T23:58:17+00:00"
+   "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+   "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+   "publishedAt": "2026-10-01T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "WisdomTree US Treasuries 10Y 3x Daily Short (3TYS)",
-   "sourceUrl": "https://uk.investing.com/etfs/boost-us-treasury-10y-3x-short",
-   "publishedAt": "2026-10-20T23:58:17+00:00"
+   "text": "Slowdown in money-fund cash flow hits short-term Treasuries",
+   "sourceUrl": "https://www.msn.com/en-us/money/investment/slowdown-in-money-fund-cash-flow-hits-short-term-treasuries/ar-AA2dEZGq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "US Treasury 2 Year Note ETF (UTWO) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/UTWO",
-   "publishedAt": "2026-10-20T23:58:17+00:00"
+   "text": "BlackRock turns bullish on short-term bonds, closes US stock overweight",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/blackrock-turns-bullish-short-term-223141403.html",
+   "publishedAt": "2026-10-12T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.06956487375048614,
   "windows": 1462
  },
- "asOf": "2026-10-23T23:58:17+00:00",
+ "asOf": "2026-10-27T00:45:51+00:00",
  "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

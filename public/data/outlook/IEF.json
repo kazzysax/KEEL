@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy?",
-   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/high-yield-reits-vs-10-205900173.html",
-   "publishedAt": "2026-10-16T23:58:17+00:00"
+   "text": "US Treasury Prices Rise Amid Brazil Election Surprise",
+   "sourceUrl": "https://www.gurufocus.com/news/9141537/us-treasury-prices-rise-amid-brazil-election-surprise",
+   "publishedAt": "2026-10-26T03:45:51+00:00"
   },
   {
    "kind": "news",
-   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-ae/news/other/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high/ar-AA2dzeX9?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T00:00:00+00:00"
+   "text": "Dow Drops 652 Points as Oil Prices Pop and Treasury Yields Rise: Stock Market...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dow-drops-652-points-oil-200923098.html",
+   "publishedAt": "2026-10-24T00:45:51+00:00"
   },
   {
    "kind": "news",
-   "text": "10-year treasuries yield 5.3%; Schwab's dividend ETF yields 3.4%. Which one should income investors buy?",
-   "sourceUrl": "https://www.msn.com/en-us/money/investment/10-year-treasuries-yield-5-3-schwab-s-dividend-etf-yields-3-4-which-one-should-income-investors-buy/ar-AA2dJor8?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T00:00:00+00:00"
+   "text": "France 10-Year Bond Yield Surpasses U.S. Treasury Yield, Impacti",
+   "sourceUrl": "https://www.gurufocus.com/news/9136852/france-10year-bond-yield-surpasses-us-treasury-yield-impacting-ewq-etf-on-october-22-2026",
+   "publishedAt": "2026-10-23T00:45:51+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.12187064774468692,
   "windows": 1462
  },
- "asOf": "2026-10-23T23:58:17+00:00",
+ "asOf": "2026-10-27T00:45:51+00:00",
  "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

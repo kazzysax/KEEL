@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "JPMorgan Nasdaq Equity Premium Income ETF (JEPQ) Stock Price, Quote, News &...",
-   "sourceUrl": "https://www.benzinga.com/quote/JEPQ",
-   "publishedAt": "2026-10-21T23:58:16+00:00"
+   "text": "Stock market today: S&P 500, Dow Jones, Nasdaq 100 futures drop following Asian market sell-off",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-dow-jones-nasdaq-100-futures-drop-following-asian-market-sell-off/vi-AA2fOMVF?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-23T00:45:49+00:00"
   },
   {
    "kind": "news",
-   "text": "SCHD ETF Hits Record High as Inflows Rise While Tech Stocks and Treasury Yields...",
-   "sourceUrl": "https://www.benzinga.com/etfs/specialty-etfs/26/10/62547318/schd-etf-hits-record-high-as-inflows-rise-while-tech-stocks-and-treasury-yields-slip",
-   "publishedAt": "2026-10-22T23:58:16+00:00"
+   "text": "S&P 500, Nasdaq gain, powered by Meta, Tesla stock \u2014 SPCX, META, TSLA, SKYD, IBM in focus",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/s-p-500-nasdaq-gain-powered-by-meta-tesla-stock-spcx-meta-tsla-skyd-ibm-in-focus/ar-AA2fLrh1?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-22T00:45:49+00:00"
   },
   {
    "kind": "news",
-   "text": "More Nasdaq 100 ETFs Are Coming. That Means More Buyers For SpaceX Stock",
-   "sourceUrl": "https://www.investopedia.com/more-nasdaq-100-etfs-are-coming-that-means-more-buyers-for-spacex-stock-spcx-qqq-12008979",
-   "publishedAt": "2026-06-29T00:00:00+00:00"
+   "text": "Stock market today: S&P 500, Nasdaq 100, Dow Jones futures fall ahead of global PMI data",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-s-p-500-nasdaq-100-dow-jones-futures-fall-ahead-of-global-pmi-data/vi-AA2fVrF4?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-24T00:45:49+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1462
  },
- "asOf": "2026-10-23T23:58:16+00:00",
+ "asOf": "2026-10-27T00:45:49+00:00",
  "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

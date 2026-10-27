@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "3 reasons the Vanguard S&P 500 ETF could be worth holding for the next 20 years",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/3-reasons-the-vanguard-s-p-500-etf-could-be-worth-holding-for-the-next-20-years/ar-AA2es2hb?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-17T23:58:16+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise after Trump rules out Iran strike",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-rise-after-trump-rules-out-iran-strike/vi-AA2g5Zmx?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-16T00:45:49+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500 best performers: Zero mag 7 stocks past 13 weeks",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/s-p-500-best-performers-zero-mag-7-stocks-past-13-weeks/ar-AA2fT66x?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-01T23:58:16+00:00"
+   "text": "Stock market today: Nasdaq, S&P 500 end sharply lower as tech stocks dive; 10-year yield sinks below 5% as investors seek safety in bonds",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-end-sharply-lower-as-tech-stocks-dive-10-year-yield-sinks-below-5-as-investors-seek-safety-in-bonds/ar-AA2fNy4G?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-23T00:45:49+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market: Will S&P 500 open up or down today?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-will-s-p-500-open-up-or-down-today/ar-AA2fTcHR?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-06T23:58:16+00:00"
+   "text": "Why is Warren Buffett's S&P 500 ETF strategy relevant as AI stock valuations rise and bubble fears grow?",
+   "sourceUrl": "https://www.msn.com/en-in/news/world/why-is-warren-buffetts-s-p-500-etf-strategy-relevant-as-ai-stock-valuations-rise-and-bubble-fears-grow/ar-AA2e52uX?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-12T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7750444604115636,
   "windows": 1462
  },
- "asOf": "2026-10-23T23:58:16+00:00",
+ "asOf": "2026-10-27T00:45:49+00:00",
  "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

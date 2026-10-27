@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "J&J stock reclaims 50-day SMA: Is it time to buy, sell or hold?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/j-j-stock-reclaims-50-day-sma-is-it-time-to-buy-sell-or-hold/ar-AA2fVMBo?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T23:58:16+00:00"
+   "text": "Why Johnson & Johnson stock dropped today",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
+   "publishedAt": "Opinion13 days ago"
   },
   {
    "kind": "news",
    "text": "Johnson & Johnson Stock Could Be a Defensive Play for the Years Ahead",
    "sourceUrl": "https://247wallst.com/investing/2026/10/19/johnson-johnson-stock-could-be-a-defensive-play-for-the-years-ahead/",
-   "publishedAt": "2026-10-19T23:58:16+00:00"
+   "publishedAt": "2026-10-20T00:45:48+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson Raised Its Dividend Every Year. Why Did It Trail the S&P 500?",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/21/johnson-johnson-raised-its-dividend-every-year-why-did-it-trail-the-sp-500/",
-   "publishedAt": "2026-10-21T23:58:16+00:00"
+   "text": "Johnson & Johnson Stock Has Surged 44%, Can Its Growth Justify the Valuation?",
+   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-stock-surged-44-130604043.html",
+   "publishedAt": "2026-10-11T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7557674082585883,
   "windows": 1462
  },
- "asOf": "2026-10-23T23:58:16+00:00",
+ "asOf": "2026-10-27T00:45:48+00:00",
  "priceAsOf": "2026-10-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
