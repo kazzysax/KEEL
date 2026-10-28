@@ -1,31 +1,31 @@
 {
  "ticker": "JNJ",
  "name": "Johnson & Johnson",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -0%; past 12 months: +40% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: +41% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "price",
-   "text": "Trades +8% vs its 200-day average and -5% from its 52-week high.",
+   "text": "Trades +9% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
-  },
-  {
-   "kind": "news",
-   "text": "Why Johnson & Johnson stock dropped today",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
-   "publishedAt": "Opinion13 days ago"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "news",
    "text": "Johnson & Johnson Stock Could Be a Defensive Play for the Years Ahead",
    "sourceUrl": "https://247wallst.com/investing/2026/10/19/johnson-johnson-stock-could-be-a-defensive-play-for-the-years-ahead/",
-   "publishedAt": "2026-10-20T00:45:48+00:00"
+   "publishedAt": "2026-10-19T12:16:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Johnson & Johnson (JNJ) Stock Gets Fair Value Bump On Mixed Analyst Target Changes",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-gets-141329999.html",
+   "publishedAt": "2026-10-24T00:42:25+00:00"
   },
   {
    "kind": "news",
@@ -40,10 +40,10 @@
   "p95": 0.5646127190850889,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1462
+  "windows": 1463
  },
- "asOf": "2026-10-27T00:45:48+00:00",
- "priceAsOf": "2026-10-23",
+ "asOf": "2026-10-28T00:42:25+00:00",
+ "priceAsOf": "2026-10-26",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

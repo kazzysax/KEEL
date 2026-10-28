@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +7% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +7% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "price",
    "text": "Trades +4% vs its 200-day average and -8% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "news",
    "text": "This is how much Costco stock has gained over the past year (it might surprise you)",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/this-is-how-much-costco-stock-has-gained-over-the-past-year-it-might-surprise-you/ar-AA2e8EUg?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T00:45:48+00:00"
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/this-is-how-much-costco-stock-has-gained-over-the-past-year-it-might-surprise-you/ar-AA2e8EUg?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Joins Costco in the $400 Billion Club. I Predict Only 1 of These Dividend Stocks Will Surpass $1 Trillion by 2036.",
-   "sourceUrl": "https://www.fool.com/investing/2026/10/22/coca-cola-joins-costco-in-the-400-billion-club-i-p/",
-   "publishedAt": "2026-10-23T00:45:48+00:00"
+   "text": "Jim Cramer and Clark Howard don't see eye to eye on Costco - who's right?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/jim-cramer-and-clark-howard-dont-see-eye-to-eye-on-costco-whos-right/ar-AA2fPp7U?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-27T00:42:24+00:00"
   },
   {
    "kind": "news",
-   "text": "COST stock heads for best week since May: Costco's digital sales and membership growth get bullish call from analyst",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/cost-stock-heads-for-best-week-since-may-costcos-digital-sales-and-membership-growth-get-bullish-call-from-analyst/ar-AA2ellF2?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-17T00:45:48+00:00"
+   "text": "Costco Wholesale stock loses to 10-year US Treasury notes on yield. Here's why it wins on everything else.",
+   "sourceUrl": "https://www.msn.com/en-us/money/investment/costco-wholesale-stock-loses-to-10-year-us-treasury-notes-on-yield-here-s-why-it-wins-on-everything-else/ar-AA2e5qtK?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-12T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08478560973038951,
-  "p50": 0.21762387355195467,
+  "p50": 0.21726279838580265,
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1462
+  "windows": 1463
  },
- "asOf": "2026-10-27T00:45:48+00:00",
- "priceAsOf": "2026-10-23",
+ "asOf": "2026-10-28T00:42:24+00:00",
+ "priceAsOf": "2026-10-26",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

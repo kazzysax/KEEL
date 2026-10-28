@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -7% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -8% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
+  },
+  {
+   "kind": "news",
+   "text": "Will US Treasury scrap 20-year bond sales?",
+   "sourceUrl": "https://www.reuters.com/commentary/reuters-open-interest/will-us-treasury-scrap-20-year-bond-sales-mcgeever-2026-10-22/",
+   "publishedAt": "Opinion5 days ago"
+  },
+  {
+   "kind": "news",
+   "text": "Treasuries Rise as Lofty Yields Lure Demand to 30-Year Sale",
+   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
+   "publishedAt": "2026-10-08T00:00:00+00:00"
   },
   {
    "kind": "news",
    "text": "US Five-Year Yields Exceed 5% for First Time Since 2007",
    "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-five-yields-exceed-5-173419104.html",
    "publishedAt": "2026-09-23T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-ae/money/news/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high/ar-AA2dzeX9?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-sg/money/investment/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.2663351846702705,
-  "p50": -0.06211626734299314,
+  "p50": -0.062387924641785,
   "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1462
+  "windows": 1463
  },
- "asOf": "2026-10-27T00:45:52+00:00",
- "priceAsOf": "2026-10-23",
+ "asOf": "2026-10-28T00:42:28+00:00",
+ "priceAsOf": "2026-10-26",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

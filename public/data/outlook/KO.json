@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +11%; past 12 months: +34% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +36% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "price",
    "text": "Trades +15% vs its 200-day average and -3% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Q3 earnings on deck: What to expect",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-q3-earnings-on-deck-what-to-expect/ar-AA2g6wZp?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-19T00:45:48+00:00"
+   "text": "Coca-Cola Co (KO) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/KO/summary",
+   "publishedAt": "2026-10-27T00:42:25+00:00"
   },
   {
    "kind": "news",
-   "text": "What Are Coca-Cola Stock Bulls Not Worried About?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-bulls-not-174401748.html",
-   "publishedAt": "2026-10-20T00:45:48+00:00"
+   "text": "What Coca-Cola (KO) Said on Its Q3 Earnings Call",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-said-q3-210434738.html",
+   "publishedAt": "2026-10-27T20:42:25+00:00"
   },
   {
    "kind": "news",
-   "text": "Up 35%, how long can Coca-Cola continue crushing the S&P 500?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/up-35-how-long-can-coca-cola-continue-crushing-the-s-p-500/ar-AA2g1LuF?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-26T00:45:48+00:00"
+   "text": "Coca-Cola Stock Pulls Back Amid Slowing U.S. Demand - Schaeffer's Investment...",
+   "sourceUrl": "https://www.schaeffersresearch.com/content/news/2026/10/27/coca-cola-stock-pulls-back-amid-slowing-us-demand",
+   "publishedAt": "2026-10-27T14:42:25+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04281904212423471,
   "p50": 0.12477468206458253,
-  "p95": 0.3101179020427516,
+  "p95": 0.31156100722238045,
   "min": -0.15396303665947697,
   "max": 0.4370337582632009,
-  "windows": 1462
+  "windows": 1463
  },
- "asOf": "2026-10-27T00:45:48+00:00",
- "priceAsOf": "2026-10-23",
+ "asOf": "2026-10-28T00:42:25+00:00",
+ "priceAsOf": "2026-10-26",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

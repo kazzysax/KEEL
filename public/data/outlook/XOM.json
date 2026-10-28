@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +19%; past 12 months: +64% (historical closes).",
+   "text": "Past 3 months: +21%; past 12 months: +64% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "price",
    "text": "Trades +21% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil (XOM) Shares Slip Amid Light Options Trading Ahead o",
-   "sourceUrl": "https://www.gurufocus.com/news/9132294/exxon-mobil-xom-shares-slip-amid-light-options-trading-ahead-of-earnings",
-   "publishedAt": "2026-10-21T00:45:49+00:00"
+   "text": "Why is Exxon Mobil stock gaining Wednesday?",
+   "sourceUrl": "https://www.msn.com/en-us/money/markets/why-is-exxon-mobil-stock-gaining-wednesday/ar-AA28sh8K?ocid=BingNewsVerp",
+   "publishedAt": "2026-07-22T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Holdings Corp (XOM)",
-   "sourceUrl": "https://www.morningstar.com/stocks/xnys/xom/quote",
-   "publishedAt": "2026-10-23T00:45:49+00:00"
+   "text": "Should you forget ExxonMobil and buy Cameco stock instead?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/should-you-forget-exxonmobil-and-buy-cameco-stock-instead/ar-AA2fOfyn?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-23T00:42:25+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Just Gained 12% in a Month and Chevron 11%: Take Profits, or Buy...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-just-gained-12-month-160810637.html",
-   "publishedAt": "2026-10-23T00:45:49+00:00"
+   "text": "Exxon Mobil Corporation (XOM) is a trending stock: Facts to know before betting on it",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/exxon-mobil-corporation-xom-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA26gHn0?ocid=BingNewsVerp",
+   "publishedAt": "2026-06-22T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1462
+  "windows": 1463
  },
- "asOf": "2026-10-27T00:45:49+00:00",
- "priceAsOf": "2026-10-23",
+ "asOf": "2026-10-28T00:42:25+00:00",
+ "priceAsOf": "2026-10-26",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

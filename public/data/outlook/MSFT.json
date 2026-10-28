@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +35%; past 12 months: +2% (historical closes).",
+   "text": "Past 3 months: +36%; past 12 months: +3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "price",
-   "text": "Trades +20% vs its 200-day average and -3% from its 52-week high.",
+   "text": "Trades +22% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-23"
+   "publishedAt": "2026-10-26"
   },
   {
    "kind": "news",
-   "text": "Microsoft's $2,599 Laptop Is a Distraction. Copilot Is the Real Test for MSFT Stock.",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-2-599-laptop-distraction-150522565.html",
-   "publishedAt": "2026-10-26T15:05:00+00:00"
+   "text": "Microsoft\u2019s wild ride: Stock hits new record after a year of ups and downs",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/microsoft-s-wild-ride-stock-hits-new-record-after-a-year-of-ups-and-downs/ar-AA2edMsq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-15T00:42:23+00:00"
   },
   {
    "kind": "news",
-   "text": "Best Penny Stocks for Today (Charts Updated Daily) \u2022 Benzinga",
-   "sourceUrl": "https://www.benzinga.com/money/best-penny-stocks",
-   "publishedAt": "2026-10-24T00:45:47+00:00"
+   "text": "Ahead of Microsoft earnings, here's what Barchart data says comes next for MSFT stock",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/ahead-of-microsoft-earnings-here-s-what-barchart-data-says-comes-next-for-msft-stock/ar-AA2gbsiN?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-21T00:42:23+00:00"
   },
   {
    "kind": "news",
-   "text": "MSFT Stock Gains After Unveiling Massive Buyout Offer For 60,000 Employees To...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/msft-stock-gains-unveiling-massive-170850020.html",
-   "publishedAt": "2026-10-26T16:45:47+00:00"
+   "text": "Microsoft stock reaches a record high. How it suddenly became an AI winner.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-reaches-a-record-high-how-it-suddenly-became-an-ai-winner/ar-AA2e8Kij?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22116915482446642,
-  "p50": 0.20962873029073292,
+  "p50": 0.20811016053483833,
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1462
+  "windows": 1463
  },
- "asOf": "2026-10-27T00:45:47+00:00",
- "priceAsOf": "2026-10-23",
+ "asOf": "2026-10-28T00:42:23+00:00",
+ "priceAsOf": "2026-10-26",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
