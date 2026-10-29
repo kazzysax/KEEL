@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -0%; past 12 months: -3% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: -1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "price",
-   "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
+   "text": "Trades -10% vs its 200-day average and -25% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "news",
-   "text": "Gold'n Futures Mineral Corp. (GFTRF) Stock Price, Quote, News & Analysis |...",
-   "sourceUrl": "https://seekingalpha.com/symbol/GFTRF",
-   "publishedAt": "2026-10-27T00:42:27+00:00"
+   "text": "i-80 Gold Corp. WT EXP 111627 (IAU.WT.U:CA) Stock Price, Quote, News & Analysis...",
+   "sourceUrl": "https://seekingalpha.com/symbol/IAU.WT.U:CA",
+   "publishedAt": "2026-10-29T00:12:03+00:00"
   },
   {
    "kind": "news",
-   "text": "i-80 Gold Corp. (IAUX) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/IAUX",
-   "publishedAt": "2026-10-27T00:42:27+00:00"
+   "text": "Kinross Gold Corporation (KGC) Stock Price, Quote, News & Analysis | Seeking...",
+   "sourceUrl": "https://seekingalpha.com/symbol/KGC",
+   "publishedAt": "2026-10-27T01:12:03+00:00"
   },
   {
    "kind": "news",
-   "text": "i-80 Gold (IAUX) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/IAUX",
-   "publishedAt": "2026-10-22T00:42:27+00:00"
+   "text": "Gold prices today, Monday, October 26, 2026: Gold opens at 3-month lows at the...",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-october-26-2026-gold-opens-at-3-month-lows-at-the-start-of-fed-week-111704766.html",
+   "publishedAt": "2026-10-26T01:12:03+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1463
+  "windows": 1464
  },
- "asOf": "2026-10-28T00:42:27+00:00",
- "priceAsOf": "2026-10-26",
+ "asOf": "2026-10-29T01:12:03+00:00",
+ "priceAsOf": "2026-10-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

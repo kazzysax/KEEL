@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +41% (historical closes).",
+   "text": "Past 3 months: +2%; past 12 months: +44% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "price",
-   "text": "Trades +9% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades +10% vs its 200-day average and -3% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson Stock Could Be a Defensive Play for the Years Ahead",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/19/johnson-johnson-stock-could-be-a-defensive-play-for-the-years-ahead/",
-   "publishedAt": "2026-10-19T12:16:00+00:00"
+   "text": "Johnson & Johnson Prostate Cancer Drug Shrinks Tumors In Early Stage Trial",
+   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-prostate-cancer-drug-071334457.html",
+   "publishedAt": "2026-10-27T01:12:01+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Stock Gets Fair Value Bump On Mixed Analyst Target Changes",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-gets-141329999.html",
-   "publishedAt": "2026-10-24T00:42:25+00:00"
+   "text": "Johnson & Johnson stock falls despite strong earnings as investors focus on medtech unit",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-stock-falls-despite-strong-earnings-as-investors-focus-on-medtech-unit/ar-AA2e9FbP?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson Stock Has Surged 44%, Can Its Growth Justify the Valuation?",
-   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-stock-surged-44-130604043.html",
-   "publishedAt": "2026-10-11T00:00:00+00:00"
+   "text": "Has Johnson & Johnson Stock Become A Different Bet?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-become-different-125556189.html",
+   "publishedAt": "2026-10-20T01:12:01+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08647493923678673,
-  "p50": 0.0819751166717837,
+  "p50": 0.08204552648379537,
   "p95": 0.5646127190850889,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1463
+  "windows": 1464
  },
- "asOf": "2026-10-28T00:42:25+00:00",
- "priceAsOf": "2026-10-26",
+ "asOf": "2026-10-29T01:12:01+00:00",
+ "priceAsOf": "2026-10-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

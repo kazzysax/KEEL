@@ -1,49 +1,49 @@
 {
  "ticker": "AAPL",
  "name": "Apple",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +1%; past 12 months: +33% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +33% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +18% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "news",
-   "text": "Apple (AAPL) Stock Falls Amid Market Uptick: What Investors Need to Know",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/apple-aapl-stock-falls-amid-204503686.html",
-   "publishedAt": "2026-10-27T00:42:23+00:00"
+   "text": "Apple's Next Growth Engine Could Change the Stock's Trajectory",
+   "sourceUrl": "https://247wallst.com/investing/2026/10/27/apples-next-growth-engine-could-change-the-stocks-trajectory/",
+   "publishedAt": "2026-10-27T14:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Prediction: Apple\u2019s stock is due for a reality check on Nov. 2",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/prediction-apple-s-stock-is-due-for-a-reality-check-on-nov-2/ar-AA2fFzCz?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-21T00:42:23+00:00"
+   "text": "Apple stock diverges from Nasdaq-100 before earnings",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/apple-stock-diverges-from-nasdaq-100-before-earnings/ar-AA2gh4PR",
+   "publishedAt": "2026-10-28T19:07:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple stock hits record high on iPhone duo launch",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-hits-record-high-on-iphone-duo-launch/ar-AA2fVKkf?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-24T00:42:23+00:00"
+   "text": "Apple (AAPL) Stock: Slip Despite MacBook Pro Launch With Tandem OLED Display",
+   "sourceUrl": "https://blockonomi.com/apple-aapl-stock-slip-despite-macbook-pro-launch-with-tandem-oled-display/",
+   "publishedAt": "2026-10-28T22:33:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08009377016085473,
-  "p50": 0.22670361687203933,
+  "p50": 0.22783242688386096,
   "p95": 0.679678385548264,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1463
+  "windows": 1464
  },
- "asOf": "2026-10-28T00:42:23+00:00",
- "priceAsOf": "2026-10-26",
+ "asOf": "2026-10-29T01:11:59+00:00",
+ "priceAsOf": "2026-10-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

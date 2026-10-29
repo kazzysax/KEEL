@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: +15% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +15% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "price",
-   "text": "Trades +6% vs its 200-day average and -2% from its 52-week high.",
+   "text": "Trades +6% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-26"
+   "publishedAt": "2026-10-27"
   },
   {
    "kind": "news",
-   "text": "Just 10 stocks make up nearly 40% of the S&P 500. Here's an ETF that can help you diversify.",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/just-10-stocks-make-up-nearly-40-of-the-s-p-500-here-s-an-etf-that-can-help-you-diversify/ar-AA2gafB3?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-14T00:42:26+00:00"
+   "text": "Invesco S&P 500 Equal Weight ETF Overview (RSP) | Barron's",
+   "sourceUrl": "https://www.barrons.com/market-data/funds/rsp",
+   "publishedAt": "2026-10-27T01:12:02+00:00"
   },
   {
    "kind": "news",
-   "text": "Warren Buffett sends timeless advice to S&P 500 stock investors",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/warren-buffett-sends-timeless-advice-to-s-p-500-stock-investors/ar-AA2gb2mc?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-18T00:42:26+00:00"
+   "text": "S&P 500 Approaches Historically Strong October 28 as SPY Trades",
+   "sourceUrl": "https://www.gurufocus.com/news/9147882/sp-500-approaches-historically-strong-october-28-as-spy-trades-slightly-above-gf-value",
+   "publishedAt": "2026-10-28T16:12:02+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Nasdaq, S&P 500 rise on busy earnings day as tech stocks extend rally",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-rise-on-busy-earnings-day-as-tech-stocks-extend-rally/ar-AA2g9zgh?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-20T00:42:26+00:00"
+   "text": "Markets News, Oct. 28, 2026: Stocks Close Higher, Treasury Yields Rise After Fed...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-28-2026-111035502.html",
+   "publishedAt": "2026-10-28T11:12:02+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1463
+  "windows": 1464
  },
- "asOf": "2026-10-28T00:42:26+00:00",
- "priceAsOf": "2026-10-26",
+ "asOf": "2026-10-29T01:12:02+00:00",
+ "priceAsOf": "2026-10-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
