@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -0%; past 12 months: -7% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -7% from its 52-week high.",
+   "text": "Trades -3% vs its 200-day average and -8% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "news",
@@ -23,27 +23,27 @@
   },
   {
    "kind": "news",
-   "text": "UAE and Gulf investors pour money into US Treasuries as yields hit 20-year high",
-   "sourceUrl": "https://www.msn.com/en-ae/money/news/uae-and-gulf-investors-pour-money-into-us-treasuries-as-yields-hit-20-year-high/ar-AA2dzeX9?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-05T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
    "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
    "sourceUrl": "https://www.msn.com/en-sg/money/investment/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
    "publishedAt": "2026-10-12T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Will US Treasury scrap 20-year bond sales?",
+   "sourceUrl": "https://www.reuters.com/commentary/reuters-open-interest/will-us-treasury-scrap-20-year-bond-sales-mcgeever-2026-10-22/",
+   "publishedAt": "Opinion7 days ago"
   }
  ],
  "historical12m": {
   "p5": -0.2663351846702705,
-  "p50": -0.062387924641785,
+  "p50": -0.06255654817647649,
   "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1464
+  "windows": 1465
  },
- "asOf": "2026-10-29T01:12:05+00:00",
- "priceAsOf": "2026-10-27",
+ "asOf": "2026-10-30T01:19:37+00:00",
+ "priceAsOf": "2026-10-28",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

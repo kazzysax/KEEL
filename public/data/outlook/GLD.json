@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: -1% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "price",
    "text": "Trades -10% vs its 200-day average and -25% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "news",
-   "text": "i-80 Gold Corp. WT EXP 111627 (IAU.WT.U:CA) Stock Price, Quote, News & Analysis...",
-   "sourceUrl": "https://seekingalpha.com/symbol/IAU.WT.U:CA",
-   "publishedAt": "2026-10-29T00:12:03+00:00"
+   "text": "Gold price forecast: bearish outlook ahead of Fed interest rate decision",
+   "sourceUrl": "https://www.msn.com/en-us/money/investment/gold-price-forecast-bearish-outlook-ahead-of-fed-interest-rate-decision/ar-AA2gf7wy?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-29T01:19:36+00:00"
   },
   {
    "kind": "news",
-   "text": "Kinross Gold Corporation (KGC) Stock Price, Quote, News & Analysis | Seeking...",
-   "sourceUrl": "https://seekingalpha.com/symbol/KGC",
-   "publishedAt": "2026-10-27T01:12:03+00:00"
+   "text": "Gold price today, October 28: Yellow metal trades flat near $4,050 ahead of Fed rate decision; silver slips",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-28-yellow-metal-trades-flat-near-4050-ahead-of-fed-rate-decision-silver-slips/ar-AA2gcDpP?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-29T01:19:36+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold prices today, Monday, October 26, 2026: Gold opens at 3-month lows at the...",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-october-26-2026-gold-opens-at-3-month-lows-at-the-start-of-fed-week-111704766.html",
-   "publishedAt": "2026-10-26T01:12:03+00:00"
+   "text": "Gold silver price today: Gold prices fall again before Diwali! Click here to find out the price",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-silver-price-today-gold-prices-fall-again-before-diwali-click-here-to-find-out-the-price/ar-AA2gdfV1?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-29T01:19:36+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07321210970686953,
-  "p50": 0.1316918014962778,
+  "p50": 0.13156397615039683,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1464
+  "windows": 1465
  },
- "asOf": "2026-10-29T01:12:03+00:00",
- "priceAsOf": "2026-10-27",
+ "asOf": "2026-10-30T01:19:36+00:00",
+ "priceAsOf": "2026-10-28",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +9%; past 12 months: +17% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +16% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "price",
    "text": "Trades +7% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
+  },
+  {
+   "kind": "news",
+   "text": "Should Direxion NASDAQ-100 Equal Weighted Index ETF (QQQE) be on your investing radar?",
+   "sourceUrl": "https://www.msn.com/en-us/money/investment/should-direxion-nasdaq-100-equal-weighted-index-etf-qqqe-be-on-your-investing-radar/ar-AA2dBmXl?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-05T00:00:00+00:00"
   },
   {
    "kind": "news",
    "text": "Stock market today: S&P 500, Nasdaq 100 futures gain ahead of Federal Reserve interest rate decision \u2014 SKHY, STX, V, GOOGL in focus (updated)",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-nasdaq-100-futures-gain-ahead-of-federal-reserve-interest-rate-decision-skhy-stx-v-googl-in-focus-updated/ar-AA2gf4K0?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-17T01:12:03+00:00"
+   "publishedAt": "2026-10-29T01:19:35+00:00"
   },
   {
    "kind": "news",
-   "text": "Should iShares Nasdaq 100 ETF (IQQ) Be on Your Investing Radar?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/should-ishares-nasdaq-100-etf-iqq-be-on-your-investing-radar/ar-AA2fEldV?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-21T01:12:03+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "This Unstoppable Vanguard ETF Is Beating the S&P 500 and the Nasdaq-100 in 2026, but It Could Face a Reckoning Next Week",
-   "sourceUrl": "https://www.fool.com/investing/2026/09/09/this-vanguard-etf-sp-500-nasdaq-100-2026-reckoning/",
-   "publishedAt": "2026-09-09T00:00:00+00:00"
+   "text": "How to Invest in NEOS Nasdaq-100 High Income ETF (QQQI)",
+   "sourceUrl": "https://www.fool.com/investing/how-to-invest/etfs/how-to-invest-in-qqqi-etf/",
+   "publishedAt": "2026-10-20T01:19:35+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.243284433577154,
-  "p50": 0.25513096791087975,
+  "p50": 0.2550968994642535,
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1464
+  "windows": 1465
  },
- "asOf": "2026-10-29T01:12:03+00:00",
- "priceAsOf": "2026-10-27",
+ "asOf": "2026-10-30T01:19:35+00:00",
+ "priceAsOf": "2026-10-28",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +13% (historical closes).",
+   "text": "Past 3 months: +7%; past 12 months: +15% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "price",
    "text": "Trades +1% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "news",
-   "text": "Walmart Stock Rose 15% in October Without a Higher Earnings Forecast. Here\u2019s Where It Could Go by 2031",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-rose-15-october-011004309.html",
-   "publishedAt": "2026-10-26T01:11:59+00:00"
+   "text": "Walmart stock climbs as Deutsche Bank says it\u2019s time to buy",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-climbs-as-deutsche-bank-says-it-s-time-to-buy/ar-AA2ejJPr?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-15T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart Inc (WMT) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/WMT/summary",
-   "publishedAt": "2026-10-27T01:12:00+00:00"
+   "text": "Why is Walmart stock in the spotlight Tuesday?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/why-is-walmart-stock-in-the-spotlight-tuesday/ar-AA2fFkOk?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-21T01:19:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart (WMT) Cuts Holiday Meal Basket Price by $5 to Boost Fest",
-   "sourceUrl": "https://www.gurufocus.com/news/9147979/walmart-wmt-cuts-holiday-meal-basket-price-by-5-to-boost-festive-affordability",
-   "publishedAt": "2026-10-28T17:12:00+00:00"
+   "text": "Walmart (WMT) Stock Looks About Right As AI Shopping Ties Expand",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-looks-ai-121415699.html",
+   "publishedAt": "2026-09-24T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06689948955363545,
-  "p50": 0.19645652969537686,
+  "p50": 0.19645474823878883,
   "p95": 0.6457823150748361,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1464
+  "windows": 1465
  },
- "asOf": "2026-10-29T01:12:00+00:00",
- "priceAsOf": "2026-10-27",
+ "asOf": "2026-10-30T01:19:33+00:00",
+ "priceAsOf": "2026-10-28",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

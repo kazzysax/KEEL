@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +34% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +34% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "price",
    "text": "Trades +13% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
-  },
-  {
-   "kind": "news",
-   "text": "Coca-Cola Stock Raises Full Year Earnings Outlook For Third Consecutive Quarter",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-stock-raises-full-105418861.html",
-   "publishedAt": "2026-10-15T01:12:01+00:00"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "news",
    "text": "Is Coca-Cola a Buy After Its Latest Earnings Report?",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-buy-latest-earnings-145801423.html",
-   "publishedAt": "2026-10-28T15:12:01+00:00"
+   "publishedAt": "2026-10-29T01:19:34+00:00"
   },
   {
    "kind": "news",
-   "text": "Coca-Cola Co (NYSE:KO) Stock News, Headlines & Updates | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/KO/article",
-   "publishedAt": "2026-10-23T01:12:01+00:00"
+   "text": "Coca-Cola Co (KO) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/KO/summary",
+   "publishedAt": "2026-10-27T01:19:34+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Ahead of Coca-Cola Earnings, Here's What Barchart Data Says Comes Next for KO...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/ahead-coca-cola-earnings-heres-154528522.html",
+   "publishedAt": "2026-10-27T01:19:34+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04281904212423471,
   "p50": 0.125259262091463,
-  "p95": 0.31167160520435155,
+  "p95": 0.3120388390651885,
   "min": -0.15396303665947697,
   "max": 0.4370337582632009,
-  "windows": 1464
+  "windows": 1465
  },
- "asOf": "2026-10-29T01:12:01+00:00",
- "priceAsOf": "2026-10-27",
+ "asOf": "2026-10-30T01:19:34+00:00",
+ "priceAsOf": "2026-10-28",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

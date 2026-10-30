@@ -1,49 +1,49 @@
 {
  "ticker": "SPY",
  "name": "S&P 500 ETF",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +6%; past 12 months: +15% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +14% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "price",
    "text": "Trades +6% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-27"
+   "publishedAt": "2026-10-28"
   },
   {
    "kind": "news",
-   "text": "Invesco S&P 500 Equal Weight ETF Overview (RSP) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/funds/rsp",
-   "publishedAt": "2026-10-27T01:12:02+00:00"
+   "text": "Should you forget the Vanguard S&P 500 ETF (VOO) and buy the Invesco S&P 500 equal weight ETF (RSP) instead?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/should-you-forget-the-vanguard-s-p-500-etf-voo-and-buy-the-invesco-s-p-500-equal-weight-etf-rsp-instead/ar-AA2fVQ5N?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-24T01:19:35+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500 Approaches Historically Strong October 28 as SPY Trades",
-   "sourceUrl": "https://www.gurufocus.com/news/9147882/sp-500-approaches-historically-strong-october-28-as-spy-trades-slightly-above-gf-value",
-   "publishedAt": "2026-10-28T16:12:02+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures drop after Fed keeps rates unchanged",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-drop-after-fed-keeps-rates-unchanged/vi-AA2gkYX4?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-19T01:19:35+00:00"
   },
   {
    "kind": "news",
-   "text": "Markets News, Oct. 28, 2026: Stocks Close Higher, Treasury Yields Rise After Fed...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/markets-news-oct-28-2026-111035502.html",
-   "publishedAt": "2026-10-28T11:12:02+00:00"
+   "text": "Stock market today: Nasdaq, S&P 500 jump on busy earnings day as tech stocks extend rally; oil prices decline",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-nasdaq-s-p-500-rise-on-busy-earnings-day-as-tech-stocks-extend-rally/ar-AA2g9zgh?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-28T01:19:35+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.12542029641457086,
-  "p50": 0.1848307511880929,
+  "p50": 0.18477519995838287,
   "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1464
+  "windows": 1465
  },
- "asOf": "2026-10-29T01:12:02+00:00",
- "priceAsOf": "2026-10-27",
+ "asOf": "2026-10-30T01:19:35+00:00",
+ "priceAsOf": "2026-10-28",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
