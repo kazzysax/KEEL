@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +6%; past 12 months: +16% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +14% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades +7% vs its 200-day average and -5% from its 52-week high.",
+   "text": "Trades +5% vs its 200-day average and -6% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
@@ -23,15 +23,15 @@
   },
   {
    "kind": "news",
-   "text": "Stock market today: S&P 500, Nasdaq 100 futures gain ahead of Federal Reserve interest rate decision \u2014 SKHY, STX, V, GOOGL in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-nasdaq-100-futures-gain-ahead-of-federal-reserve-interest-rate-decision-skhy-stx-v-googl-in-focus-updated/ar-AA2gf4K0?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T01:19:35+00:00"
+   "text": "Tech Stocks Crash as Nasdaq 100 Suffers Third Correction of 2026",
+   "sourceUrl": "https://www.tipranks.com/news/tech-stocks-crash-as-nasdaq-100-suffers-third-correction-of-2026",
+   "publishedAt": "2026-10-28T01:00:03+00:00"
   },
   {
    "kind": "news",
    "text": "How to Invest in NEOS Nasdaq-100 High Income ETF (QQQI)",
    "sourceUrl": "https://www.fool.com/investing/how-to-invest/etfs/how-to-invest-in-qqqi-etf/",
-   "publishedAt": "2026-10-20T01:19:35+00:00"
+   "publishedAt": "2026-10-20T01:00:03+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:35+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:03+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

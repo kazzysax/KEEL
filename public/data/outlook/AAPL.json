@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +28% (historical closes).",
+   "text": "Past 3 months: +13%; past 12 months: +30% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades +16% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +18% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
@@ -26,24 +26,18 @@
    "text": "Nvidia Is Getting Dangerously Close to Getting Surpassed by Apple in Market Cap. Here's the Better Growth Stock to Buy Now.",
    "sourceUrl": "https://www.fool.com/investing/2026/10/29/nvidia-is-getting-dangerously-close-to-getting-sur/",
    "publishedAt": "2026-10-29T17:38:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Apple's Stock Faces A Post-Earnings Selloff",
-   "sourceUrl": "https://seekingalpha.com/article/4959256-apples-stock-faces-a-post-earnings-selloff",
-   "publishedAt": "2026-10-29T14:28:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08009377016085473,
-  "p50": 0.22783242688386096,
+  "p50": 0.2287637978157706,
   "p95": 0.679678385548264,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:32+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T00:59:59+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

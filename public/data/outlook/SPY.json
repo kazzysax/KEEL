@@ -1,37 +1,37 @@
 {
  "ticker": "SPY",
  "name": "S&P 500 ETF",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: +14% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +13% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
    "text": "Trades +6% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
-   "text": "Should you forget the Vanguard S&P 500 ETF (VOO) and buy the Invesco S&P 500 equal weight ETF (RSP) instead?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/should-you-forget-the-vanguard-s-p-500-etf-voo-and-buy-the-invesco-s-p-500-equal-weight-etf-rsp-instead/ar-AA2fVQ5N?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-24T01:19:35+00:00"
+   "text": "Stock market today: Tech sell-off sends Nasdaq, S&P 500 reeling as Intel drops 30%; Bitcoin slides, gold hits one-year low",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-tech-sell-off-sends-nasdaq-s-p-500-reeling-as-intel-drops-30-bitcoin-slides-gold-hits-one-year-low/ar-AA2gpoxn?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-26T01:00:03+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures drop after Fed keeps rates unchanged",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-drop-after-fed-keeps-rates-unchanged/vi-AA2gkYX4?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-19T01:19:35+00:00"
+   "text": "Vanguard S&P 500 ETF long-term outlook: What historical trends suggest for patient investors",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/vanguard-s-p-500-etf-long-term-outlook-what-historical-trends-suggest-for-patient-investors/ar-AA2g3I6B?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-26T01:00:03+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Nasdaq, S&P 500 jump on busy earnings day as tech stocks extend rally; oil prices decline",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-nasdaq-s-p-500-rise-on-busy-earnings-day-as-tech-stocks-extend-rally/ar-AA2g9zgh?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-28T01:19:35+00:00"
+   "text": "Just 10 stocks make up nearly 40% of the S&P 500. Here's an ETF that can help you diversify.",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/just-10-stocks-make-up-nearly-40-of-the-s-p-500-here-s-an-etf-that-can-help-you-diversify/ar-AA2gafB3?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-28T01:00:03+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:35+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:03+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

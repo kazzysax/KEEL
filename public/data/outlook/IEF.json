@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: -3% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -5% from its 52-week high.",
+   "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
    "text": "US Treasury Prices Rise Amid Brazil Election Surprise",
    "sourceUrl": "https://www.gurufocus.com/news/9141537/us-treasury-prices-rise-amid-brazil-election-surprise",
-   "publishedAt": "2026-10-26T01:19:37+00:00"
+   "publishedAt": "2026-10-26T01:00:04+00:00"
   },
   {
    "kind": "news",
    "text": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
    "sourceUrl": "https://www.aol.com/articles/treasuries-rallied-tech-slid-crowded-110000000.html",
-   "publishedAt": "2026-10-20T01:19:37+00:00"
+   "publishedAt": "2026-10-20T01:00:04+00:00"
   },
   {
    "kind": "news",
-   "text": "US bonds selloff eases, yields off highs after strong 10-year note auction",
-   "sourceUrl": "https://www.msn.com/en-ca/money/investment/us-bonds-selloff-eases-yields-off-highs-after-strong-10-year-note-auction/ar-AA2dLi02?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-07T00:00:00+00:00"
+   "text": "US Treasury yields fall: 10-year drops below 5.11% as investors await inflation data",
+   "sourceUrl": "https://www.msn.com/en-in/news/world/us-treasury-yields-fall-10-year-drops-below-511-as-investors-await-inflation-data/ar-AA2eimiB?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-15T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.08152185886022045,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:37+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:04+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

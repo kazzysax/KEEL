@@ -1,0 +1,648 @@
+{
+ "schema": 1,
+ "date": "2026-10-31",
+ "generatedAt": "2026-10-31T01:00:05+00:00",
+ "agent": "keel-outlook",
+ "priceAsOf": "2026-10-29",
+ "pricesRefreshed": true,
+ "refreshFailed": [],
+ "counts": {
+  "Positive": 9,
+  "Neutral": 1,
+  "Cautious": 3
+ },
+ "reportHash": "0x09bf49b0c8a54c7251fc4043a31a316ca63948322e9d36936907f19ae8334d7f",
+ "outlooks": [
+  {
+   "ticker": "AAPL",
+   "name": "Apple",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +13%; past 12 months: +30% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +18% vs its 200-day average and +0% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Apple stock diverges from Nasdaq-100 before earnings",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/apple-stock-diverges-from-nasdaq-100-before-earnings/ar-AA2gh4PR",
+     "publishedAt": "2026-10-28T19:07:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Nvidia Is Getting Dangerously Close to Getting Surpassed by Apple in Market Cap. Here's the Better Growth Stock to Buy Now.",
+     "sourceUrl": "https://www.fool.com/investing/2026/10/29/nvidia-is-getting-dangerously-close-to-getting-sur/",
+     "publishedAt": "2026-10-29T17:38:00+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.08009377016085473,
+    "p50": 0.2287637978157706,
+    "p95": 0.679678385548264,
+    "min": -0.3017231649837372,
+    "max": 1.2015402862477123,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T00:59:59+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "MSFT",
+   "name": "Microsoft",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +14%; past 12 months: -1% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +21% vs its 200-day average and -2% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Why Microsoft stock isn't getting crushed like Google stock after its earnings report",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/why-microsoft-stock-isnt-getting-crushed-like-google-stock-after-its-earnings-report/ar-AA2gk7A1?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-30T01:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Microsoft, IBD stock of the day, showing quickening cloud growth",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-ibd-stock-of-the-day-showing-quickening-cloud-growth/ar-AA2glJh0?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-30T01:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Microsoft stock gained nearly 22% in July earnings week; will it rally again this time? Polymarket traders weigh in",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-stock-gained-nearly-22-in-july-earnings-week-will-it-rally-again-this-time-polymarket-traders-weigh-in/ar-AA2gehDQ?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-29T01:00:00+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.22116915482446642,
+    "p50": 0.20777265833420833,
+    "p95": 0.5873783489393611,
+    "min": -0.35316074795396846,
+    "max": 0.7731916500710374,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:00+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "WMT",
+   "name": "Walmart",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +9%; past 12 months: +19% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Walmart stock climbs as Deutsche Bank says it\u2019s time to buy",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-climbs-as-deutsche-bank-says-it-s-time-to-buy/ar-AA2ejJPr?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-15T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Why is Walmart stock trading higher Thursday?",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/why-is-walmart-stock-trading-higher-thursday/ar-AA2eiYd1?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-15T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Target trades at a fraction of Walmart's valuation. Is the discount deserved?",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/target-trades-at-a-fraction-of-walmarts-valuation-is-the-discount-deserved/ar-AA2gn8aV?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-30T01:00:00+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.06689948955363545,
+    "p50": 0.19645474823878883,
+    "p95": 0.6457823150748361,
+    "min": -0.1511637091502398,
+    "max": 0.9019919854400682,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:00+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "COST",
+   "name": "Costco",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +5%; past 12 months: +8% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Costco (COST) ascends while market falls: Some facts to note",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-cost-ascends-while-market-falls-some-facts-to-note/ar-AA2gntbG?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-30T01:00:01+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Costco Wholesale stock loses to 10-year US Treasury notes on yield. Here's why it wins on everything else.",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/costco-wholesale-stock-loses-to-10-year-us-treasury-notes-on-yield-heres-why-it-wins-on-everything-else/ar-AA2e5qtK?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-12T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Costco momentum is improving heading into November, says Katie Stockton",
+     "sourceUrl": "https://www.cnbc.com/2026/10/27/costco-stock-november-momentum.html",
+     "publishedAt": "2026-10-28T01:00:01+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.08478560973038951,
+    "p50": 0.21725032733820937,
+    "p95": 0.6611740570839928,
+    "min": -0.1967779267526213,
+    "max": 0.7517844965197293,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:01+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "KO",
+   "name": "Coca-Cola",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +7%; past 12 months: +36% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +14% vs its 200-day average and -3% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Is Coca-Cola a Buy After Its Latest Earnings Report?",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-buy-latest-earnings-145801423.html",
+     "publishedAt": "2026-10-29T01:00:01+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Coca-Cola Co (KO) Stock Price, Trades & News | GuruFocus",
+     "sourceUrl": "https://www.gurufocus.com/stock/KO/summary",
+     "publishedAt": "2026-10-27T01:00:01+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Coca-Cola Bottlers Japan Holdings Inc. (CCOJY) Stock Price, Quote, News &...",
+     "sourceUrl": "https://seekingalpha.com/symbol/CCOJY",
+     "publishedAt": "2026-10-29T01:00:01+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.04281904212423471,
+    "p50": 0.12553575414133689,
+    "p95": 0.31227204298547906,
+    "min": -0.15396303665947697,
+    "max": 0.4370337582632009,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:01+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "JNJ",
+   "name": "Johnson & Johnson",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +8%; past 12 months: +51% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +12% vs its 200-day average and -1% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Has Johnson & Johnson Stock Become A Different Bet?",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-become-different-125556189.html",
+     "publishedAt": "2026-10-20T01:00:02+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Why Johnson & Johnson Stock Dropped Today",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-13T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Johnson & Johnson Prostate Cancer Drug Shrinks Tumors In Early Stage Trial",
+     "sourceUrl": "https://finance.yahoo.com/healthcare/articles/johnson-johnson-prostate-cancer-drug-071334457.html",
+     "publishedAt": "2026-10-27T01:00:02+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.08647493923678673,
+    "p50": 0.08240417822909984,
+    "p95": 0.5646127190850889,
+    "min": -0.13020710595441287,
+    "max": 0.7557674082585883,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:02+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "XOM",
+   "name": "Exxon Mobil",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +19%; past 12 months: +64% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +20% vs its 200-day average and -1% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "BP\u2019s Profit Nearly Quadrupled. Exxon and Chevron Report in Hours, and Oil\u2019s Up 2...",
+     "sourceUrl": "https://finance.yahoo.com/energy/articles/bp-profit-nearly-quadrupled-exxon-100459534.html",
+     "publishedAt": "2026-10-30T10:00:02+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Dear ExxonMobil Stock Fans, Mark Your Calendars for October 30",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dear-exxonmobil-stock-fans-mark-135507404.html",
+     "publishedAt": "2026-10-30T01:00:02+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Exxon Mobil (XOM) and Chevron Set to Report Strong Q3 Earnings A",
+     "sourceUrl": "https://www.gurufocus.com/news/9151815/exxon-mobil-xom-and-chevron-set-to-report-strong-q3-earnings-amid-high-crude-prices",
+     "publishedAt": "2026-10-30T01:00:02+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.07231166833919311,
+    "p50": 0.2911295851884528,
+    "p95": 0.826543282312888,
+    "min": -0.3721870299963359,
+    "max": 1.1851240958603309,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:02+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "SPY",
+   "name": "S&P 500 ETF",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +3%; past 12 months: +13% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +6% vs its 200-day average and -1% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Stock market today: Tech sell-off sends Nasdaq, S&P 500 reeling as Intel drops 30%; Bitcoin slides, gold hits one-year low",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-tech-sell-off-sends-nasdaq-s-p-500-reeling-as-intel-drops-30-bitcoin-slides-gold-hits-one-year-low/ar-AA2gpoxn?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-26T01:00:03+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Vanguard S&P 500 ETF long-term outlook: What historical trends suggest for patient investors",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/vanguard-s-p-500-etf-long-term-outlook-what-historical-trends-suggest-for-patient-investors/ar-AA2g3I6B?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-26T01:00:03+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Just 10 stocks make up nearly 40% of the S&P 500. Here's an ETF that can help you diversify.",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/just-10-stocks-make-up-nearly-40-of-the-s-p-500-here-s-an-etf-that-can-help-you-diversify/ar-AA2gafB3?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-28T01:00:03+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.12542029641457086,
+    "p50": 0.18477519995838287,
+    "p95": 0.4052240631084356,
+    "min": -0.19732690669469255,
+    "max": 0.7750444604115636,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:03+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "QQQ",
+   "name": "Nasdaq-100 ETF",
+   "outlook": "Positive",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +4%; past 12 months: +14% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +5% vs its 200-day average and -6% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Should Direxion NASDAQ-100 Equal Weighted Index ETF (QQQE) be on your investing radar?",
+     "sourceUrl": "https://www.msn.com/en-us/money/investment/should-direxion-nasdaq-100-equal-weighted-index-etf-qqqe-be-on-your-investing-radar/ar-AA2dBmXl?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-05T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Tech Stocks Crash as Nasdaq 100 Suffers Third Correction of 2026",
+     "sourceUrl": "https://www.tipranks.com/news/tech-stocks-crash-as-nasdaq-100-suffers-third-correction-of-2026",
+     "publishedAt": "2026-10-28T01:00:03+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "How to Invest in NEOS Nasdaq-100 High Income ETF (QQQI)",
+     "sourceUrl": "https://www.fool.com/investing/how-to-invest/etfs/how-to-invest-in-qqqi-etf/",
+     "publishedAt": "2026-10-20T01:00:03+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.243284433577154,
+    "p50": 0.2550968994642535,
+    "p95": 0.503315847300692,
+    "min": -0.3475838939819028,
+    "max": 0.9043423510863611,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:03+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "GLD",
+   "name": "gold",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -1%; past 12 months: +1% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Gold price today: Gold slips on the final trading day of the week; 22-carat gold at \u20b9132,090 in Delhi, Jaipur, and Lucknow.",
+     "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-slips-on-the-final-trading-day-of-the-week-22-carat-gold-at-132090-in-delhi-jaipur-and-lucknow/ar-AA2goz7O?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-12T01:00:03+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Gold price today, October 29: Gold gets costlier, silver falls \u20b9100; check latest rates in 10 cities",
+     "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-29-gold-gets-costlier-silver-falls-100-check-latest-rates-in-10-cities/ar-AA2gjjUg?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-30T01:00:03+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Gold price today: Gold shines on Karwa Chauth; here are the prices across 10 cities, from Delhi to Patna",
+     "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-shines-on-karwa-chauth-here-are-the-prices-across-10-cities-from-delhi-to-patna/ar-AA2gjMO1?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-30T01:00:03+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.07321210970686953,
+    "p50": 0.13156397615039683,
+    "p95": 0.5902481145266629,
+    "min": -0.15245530480633074,
+    "max": 0.9548598237884027,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:03+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "SHY",
+   "name": "short-term US Treasuries",
+   "outlook": "Neutral",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades +1% vs its 200-day average and -0% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "WisdomTree US Treasuries 10Y 3x Daily Short (3TYS)",
+     "sourceUrl": "https://uk.investing.com/etfs/boost-us-treasury-10y-3x-short",
+     "publishedAt": "2026-10-24T01:00:04+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "BlackRock Cools on US Stocks, Turns Bullish on Short-Dated Treasuries",
+     "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-10-13/blackrock-cools-on-us-stocks-turns-bullish-on-short-dated-treasuries",
+     "publishedAt": "2026-10-13T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+     "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+     "publishedAt": "2026-10-01T00:00:00+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.039812206457238375,
+    "p50": 0.024818367145427844,
+    "p95": 0.056890393252887694,
+    "min": -0.0537058890793799,
+    "max": 0.06956487375048614,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:04+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "IEF",
+   "name": "7-10 year US Treasuries",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: -1%; past 12 months: -3% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "US Treasury Prices Rise Amid Brazil Election Surprise",
+     "sourceUrl": "https://www.gurufocus.com/news/9141537/us-treasury-prices-rise-amid-brazil-election-surprise",
+     "publishedAt": "2026-10-26T01:00:04+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
+     "sourceUrl": "https://www.aol.com/articles/treasuries-rallied-tech-slid-crowded-110000000.html",
+     "publishedAt": "2026-10-20T01:00:04+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "US Treasury yields fall: 10-year drops below 5.11% as investors await inflation data",
+     "sourceUrl": "https://www.msn.com/en-in/news/world/us-treasury-yields-fall-10-year-drops-below-511-as-investors-await-inflation-data/ar-AA2eimiB?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-15T00:00:00+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.13605739053840615,
+    "p50": -0.015526097216516765,
+    "p95": 0.08152185886022045,
+    "min": -0.18228717258502647,
+    "max": 0.12187064774468692,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:04+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  },
+  {
+   "ticker": "TLT",
+   "name": "20+ year US Treasuries",
+   "outlook": "Cautious",
+   "reasons": [
+    {
+     "kind": "price",
+     "text": "Past 3 months: +0%; past 12 months: -7% (historical closes).",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "price",
+     "text": "Trades -2% vs its 200-day average and -7% from its 52-week high.",
+     "sourceUrl": null,
+     "publishedAt": "2026-10-29"
+    },
+    {
+     "kind": "news",
+     "text": "Hong Kong investors are warming to US Treasury bonds as yields hit 20-year high",
+     "sourceUrl": "https://www.msn.com/en-sg/money/investment/hong-kong-investors-are-warming-to-us-treasury-bonds-as-yields-hit-20-year-high/ar-AA2e9H8e?ocid=BingNewsVerp",
+     "publishedAt": "2026-10-12T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Foreign Holdings of US Treasuries Rise From Almost One-Year Low",
+     "sourceUrl": "https://www.livemint.com/market/foreign-holdings-of-us-treasuries-rise-from-almost-one-year-low-11792184534641.html",
+     "publishedAt": "2026-10-16T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+     "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+     "publishedAt": "2026-10-01T00:00:00+00:00"
+    }
+   ],
+   "historical12m": {
+    "p5": -0.2663351846702705,
+    "p50": -0.06255654817647649,
+    "p95": 0.07968911468170159,
+    "min": -0.36207801740736567,
+    "max": 0.1829550567318068,
+    "windows": 1466
+   },
+   "asOf": "2026-10-31T01:00:05+00:00",
+   "priceAsOf": "2026-10-29",
+   "method": "rules+headline-lexicon",
+   "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
+  }
+ ]
+}

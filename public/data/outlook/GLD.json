@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: +2% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades -10% vs its 200-day average and -25% from its 52-week high.",
+   "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
-   "text": "Gold price forecast: bearish outlook ahead of Fed interest rate decision",
-   "sourceUrl": "https://www.msn.com/en-us/money/investment/gold-price-forecast-bearish-outlook-ahead-of-fed-interest-rate-decision/ar-AA2gf7wy?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T01:19:36+00:00"
+   "text": "Gold price today: Gold slips on the final trading day of the week; 22-carat gold at \u20b9132,090 in Delhi, Jaipur, and Lucknow.",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-slips-on-the-final-trading-day-of-the-week-22-carat-gold-at-132090-in-delhi-jaipur-and-lucknow/ar-AA2goz7O?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-12T01:00:03+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, October 28: Yellow metal trades flat near $4,050 ahead of Fed rate decision; silver slips",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-28-yellow-metal-trades-flat-near-4050-ahead-of-fed-rate-decision-silver-slips/ar-AA2gcDpP?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T01:19:36+00:00"
+   "text": "Gold price today, October 29: Gold gets costlier, silver falls \u20b9100; check latest rates in 10 cities",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-29-gold-gets-costlier-silver-falls-100-check-latest-rates-in-10-cities/ar-AA2gjjUg?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T01:00:03+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold silver price today: Gold prices fall again before Diwali! Click here to find out the price",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-silver-price-today-gold-prices-fall-again-before-diwali-click-here-to-find-out-the-price/ar-AA2gdfV1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T01:19:36+00:00"
+   "text": "Gold price today: Gold shines on Karwa Chauth; here are the prices across 10 cities, from Delhi to Patna",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-shines-on-karwa-chauth-here-are-the-prices-across-10-cities-from-delhi-to-patna/ar-AA2gjMO1?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T01:00:03+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:36+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:03+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

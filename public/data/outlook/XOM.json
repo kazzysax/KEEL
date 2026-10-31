@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +17%; past 12 months: +62% (historical closes).",
+   "text": "Past 3 months: +19%; past 12 months: +64% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades +19% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +20% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
-   "text": "Why is Exxon Mobil stock gaining Wednesday?",
-   "sourceUrl": "https://www.msn.com/en-us/money/markets/why-is-exxon-mobil-stock-gaining-wednesday/ar-AA28sh8K?ocid=BingNewsVerp",
-   "publishedAt": "2026-07-22T00:00:00+00:00"
+   "text": "BP\u2019s Profit Nearly Quadrupled. Exxon and Chevron Report in Hours, and Oil\u2019s Up 2...",
+   "sourceUrl": "https://finance.yahoo.com/energy/articles/bp-profit-nearly-quadrupled-exxon-100459534.html",
+   "publishedAt": "2026-10-30T10:00:02+00:00"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Holdings (XOM) gains as market dips: What you should know",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-mobil-holdings-xom-gains-as-market-dips-what-you-should-know/ar-AA2fXaa4?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-24T01:19:35+00:00"
+   "text": "Dear ExxonMobil Stock Fans, Mark Your Calendars for October 30",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dear-exxonmobil-stock-fans-mark-135507404.html",
+   "publishedAt": "2026-10-30T01:00:02+00:00"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Corporation (XOM) is a trending stock: Facts to know before betting on it",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/exxon-mobil-corporation-xom-is-a-trending-stock-facts-to-know-before-betting-on-it/ar-AA26gHn0?ocid=BingNewsVerp",
-   "publishedAt": "2026-06-22T00:00:00+00:00"
+   "text": "Exxon Mobil (XOM) and Chevron Set to Report Strong Q3 Earnings A",
+   "sourceUrl": "https://www.gurufocus.com/news/9151815/exxon-mobil-xom-and-chevron-set-to-report-strong-q3-earnings-amid-high-crude-prices",
+   "publishedAt": "2026-10-30T01:00:02+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07231166833919311,
-  "p50": 0.2904614232639837,
+  "p50": 0.2911295851884528,
   "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:35+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:02+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

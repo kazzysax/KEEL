@@ -7,25 +7,25 @@
    "kind": "price",
    "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades +0% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +1% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
-  },
-  {
-   "kind": "news",
-   "text": "BlackRock cools on US stocks, turns bullish on short-dated Treasuries",
-   "sourceUrl": "https://www.msn.com/en-us/money/companies/blackrock-cools-on-us-stocks-turns-bullish-on-short-dated-treasuries/ar-AA2e7m2x?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:00:00+00:00"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
    "text": "WisdomTree US Treasuries 10Y 3x Daily Short (3TYS)",
    "sourceUrl": "https://uk.investing.com/etfs/boost-us-treasury-10y-3x-short",
-   "publishedAt": "2026-10-24T01:19:36+00:00"
+   "publishedAt": "2026-10-24T01:00:04+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "BlackRock Cools on US Stocks, Turns Bullish on Short-Dated Treasuries",
+   "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-10-13/blackrock-cools-on-us-stocks-turns-bullish-on-short-dated-treasuries",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   },
   {
    "kind": "news",
@@ -40,10 +40,10 @@
   "p95": 0.056890393252887694,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:36+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:04+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

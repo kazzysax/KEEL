@@ -1,37 +1,37 @@
 {
  "ticker": "COST",
  "name": "Costco",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +6% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "price",
-   "text": "Trades +1% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-28"
+   "publishedAt": "2026-10-29"
   },
   {
    "kind": "news",
-   "text": "Costco is paying a dividend next month. Should you get in before the Oct. 30 deadline?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/costco-is-paying-a-dividend-next-month-should-you-get-in-before-the-oct-30-deadline/ar-AA2fF1ke?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-21T01:19:34+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Should you buy Costco stock before Oct. 30? Here's the clear answer.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/should-you-buy-costco-stock-before-oct-30-heres-the-clear-answer/ar-AA2euG71?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-19T01:19:34+00:00"
+   "text": "Costco (COST) ascends while market falls: Some facts to note",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-cost-ascends-while-market-falls-some-facts-to-note/ar-AA2gntbG?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T01:00:01+00:00"
   },
   {
    "kind": "news",
    "text": "Costco Wholesale stock loses to 10-year US Treasury notes on yield. Here's why it wins on everything else.",
    "sourceUrl": "https://www.msn.com/en-us/news/other/costco-wholesale-stock-loses-to-10-year-us-treasury-notes-on-yield-heres-why-it-wins-on-everything-else/ar-AA2e5qtK?ocid=BingNewsVerp",
    "publishedAt": "2026-10-12T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Costco momentum is improving heading into November, says Katie Stockton",
+   "sourceUrl": "https://www.cnbc.com/2026/10/27/costco-stock-november-momentum.html",
+   "publishedAt": "2026-10-28T01:00:01+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1465
+  "windows": 1466
  },
- "asOf": "2026-10-30T01:19:34+00:00",
- "priceAsOf": "2026-10-28",
+ "asOf": "2026-10-31T01:00:01+00:00",
+ "priceAsOf": "2026-10-29",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
