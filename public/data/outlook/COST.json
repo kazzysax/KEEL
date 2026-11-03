@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +5%; past 12 months: +8% (historical closes).",
+   "text": "Past 3 months: +10%; past 12 months: +14% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "price",
-   "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades +7% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "news",
-   "text": "Costco (COST) ascends while market falls: Some facts to note",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-cost-ascends-while-market-falls-some-facts-to-note/ar-AA2gntbG?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:00:01+00:00"
+   "text": "The New Costco Baking Gift Set Members Are Racing To Find: 'Tried So Hard To...",
+   "sourceUrl": "https://www.yahoo.com/lifestyle/articles/costco-baking-gift-set-members-194747743.html",
+   "publishedAt": "2026-11-02T20:02:41+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco Wholesale stock loses to 10-year US Treasury notes on yield. Here's why it wins on everything else.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/costco-wholesale-stock-loses-to-10-year-us-treasury-notes-on-yield-heres-why-it-wins-on-everything-else/ar-AA2e5qtK?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T00:00:00+00:00"
+   "text": "Costco Wholesale Corp (COST) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/COST/summary",
+   "publishedAt": "2026-10-31T03:02:41+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco momentum is improving heading into November, says Katie Stockton",
-   "sourceUrl": "https://www.cnbc.com/2026/10/27/costco-stock-november-momentum.html",
-   "publishedAt": "2026-10-28T01:00:01+00:00"
+   "text": "Costco Wholesale Corporation (COST) Stock Price, Quote, News & Analysis |...",
+   "sourceUrl": "https://seekingalpha.com/symbol/COST",
+   "publishedAt": "2026-10-29T03:02:41+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08478560973038951,
-  "p50": 0.21725032733820937,
+  "p50": 0.21685251391318694,
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1466
+  "windows": 1468
  },
- "asOf": "2026-10-31T01:00:01+00:00",
- "priceAsOf": "2026-10-29",
+ "asOf": "2026-11-03T03:02:41+00:00",
+ "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +9%; past 12 months: +19% (historical closes).",
+   "text": "Past 3 months: +15%; past 12 months: +26% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "price",
-   "text": "Trades +3% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades +8% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "news",
-   "text": "Walmart stock climbs as Deutsche Bank says it\u2019s time to buy",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-climbs-as-deutsche-bank-says-it-s-time-to-buy/ar-AA2ejJPr?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:00:00+00:00"
+   "text": "Walmart Stock: Is Wall Street Bullish or Bearish?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-stock-wall-street-bullish-141331911.html",
+   "publishedAt": "2026-11-02T14:02:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Why is Walmart stock trading higher Thursday?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/why-is-walmart-stock-trading-higher-thursday/ar-AA2eiYd1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:00:00+00:00"
+   "text": "Walmart doubles down on warehouse robots as holiday rush nears",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-doubles-down-warehouse-robots-173300673.html",
+   "publishedAt": "2026-11-02T18:02:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Target trades at a fraction of Walmart's valuation. Is the discount deserved?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/target-trades-at-a-fraction-of-walmarts-valuation-is-the-discount-deserved/ar-AA2gn8aV?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:00:00+00:00"
+   "text": "Walmart Is Asking for Your Spare Change the Same Month the FTC Is Mailing Its...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-asking-spare-change-same-214055009.html",
+   "publishedAt": "2026-11-02T22:02:40+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06689948955363545,
-  "p50": 0.19645474823878883,
+  "p50": 0.19645652969537686,
   "p95": 0.6457823150748361,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1466
+  "windows": 1468
  },
- "asOf": "2026-10-31T01:00:00+00:00",
- "priceAsOf": "2026-10-29",
+ "asOf": "2026-11-03T03:02:40+00:00",
+ "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

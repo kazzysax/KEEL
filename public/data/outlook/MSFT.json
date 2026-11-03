@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +14%; past 12 months: -1% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "price",
-   "text": "Trades +21% vs its 200-day average and -2% from its 52-week high.",
+   "text": "Trades +16% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "news",
-   "text": "Why Microsoft stock isn't getting crushed like Google stock after its earnings report",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/why-microsoft-stock-isnt-getting-crushed-like-google-stock-after-its-earnings-report/ar-AA2gk7A1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:00:00+00:00"
+   "text": "Accenture vs. Microsoft: Which Technology Stock Is a Better Buy for 2027?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/accenture-vs-microsoft-technology-stock-225840933.html",
+   "publishedAt": "2026-10-30T03:02:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft, IBD stock of the day, showing quickening cloud growth",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-ibd-stock-of-the-day-showing-quickening-cloud-growth/ar-AA2glJh0?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:00:00+00:00"
+   "text": "What Could Surprise Microsoft Stock Investors On The Upside?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/could-surprise-microsoft-stock-investors-083520195.html",
+   "publishedAt": "2026-10-16T03:02:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock gained nearly 22% in July earnings week; will it rally again this time? Polymarket traders weigh in",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-stock-gained-nearly-22-in-july-earnings-week-will-it-rally-again-this-time-polymarket-traders-weigh-in/ar-AA2gehDQ?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T01:00:00+00:00"
+   "text": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+   "sourceUrl": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "publishedAt": "2026-10-29T03:02:39+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22116915482446642,
-  "p50": 0.20777265833420833,
+  "p50": 0.20755749220415698,
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1466
+  "windows": 1468
  },
- "asOf": "2026-10-31T01:00:00+00:00",
- "priceAsOf": "2026-10-29",
+ "asOf": "2026-11-03T03:02:40+00:00",
+ "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

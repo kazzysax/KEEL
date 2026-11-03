@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: +1% (historical closes).",
+   "text": "Past 3 months: -3%; past 12 months: -2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "price",
-   "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
+   "text": "Trades -12% vs its 200-day average and -27% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-10-29"
+   "publishedAt": "2026-11-02"
   },
   {
    "kind": "news",
-   "text": "Gold price today: Gold slips on the final trading day of the week; 22-carat gold at \u20b9132,090 in Delhi, Jaipur, and Lucknow.",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-slips-on-the-final-trading-day-of-the-week-22-carat-gold-at-132090-in-delhi-jaipur-and-lucknow/ar-AA2goz7O?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T01:00:03+00:00"
+   "text": "The price of gold today, Oct. 30, 2026 \u2014 and the best places to buy",
+   "sourceUrl": "https://www.cnbc.com/select/the-price-of-gold-today-oct-30-2026/",
+   "publishedAt": "2026-10-31T03:02:45+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, October 29: Gold gets costlier, silver falls \u20b9100; check latest rates in 10 cities",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-october-29-gold-gets-costlier-silver-falls-100-check-latest-rates-in-10-cities/ar-AA2gjjUg?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:00:03+00:00"
+   "text": "Gold price today, Tuesday, October 27, 2026: Gold prices slipping closer to $4,000 ahead of Fed meeting",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-october-27-2026-gold-prices-slipping-closer-to-4000-ahead-of-fed-meeting-110812319.html",
+   "publishedAt": "2026-10-28T03:02:45+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today: Gold shines on Karwa Chauth; here are the prices across 10 cities, from Delhi to Patna",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-gold-shines-on-karwa-chauth-here-are-the-prices-across-10-cities-from-delhi-to-patna/ar-AA2gjMO1?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:00:03+00:00"
+   "text": "Gold price forecast ahead of US midterm elections and nonfarm payrolls data",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/gold-price-forecast-ahead-of-us-midterm-elections-and-nonfarm-payrolls-data/ar-AA2gBm5g?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-02T03:02:45+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07321210970686953,
-  "p50": 0.13156397615039683,
+  "p50": 0.1314844085273792,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1466
+  "windows": 1468
  },
- "asOf": "2026-10-31T01:00:03+00:00",
- "priceAsOf": "2026-10-29",
+ "asOf": "2026-11-03T03:02:45+00:00",
+ "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
