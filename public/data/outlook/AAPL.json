@@ -1,7 +1,7 @@
 {
  "ticker": "AAPL",
  "name": "Apple",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Apple Stock Wavers After Solid, Not Stunning Report",
-   "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026/card/PquGf42CBkXlR9TlfzH6",
-   "publishedAt": "2026-02-10T23:59:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Apple Q4: Record Earnings, Broken Expectations - I'm Downgrading",
-   "sourceUrl": "https://seekingalpha.com/article/4961187-apple-q4-record-earnings-broken-expectations-im-downgrading",
-   "publishedAt": "2026-11-02T23:50:00+00:00"
-  },
-  {
-   "kind": "news",
    "text": "Stock Market News, November 2, 2026: Apple Stock Slips After Earnings; Nasdaq Falls",
    "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-02-2026",
-   "publishedAt": "2026-11-01T03:02:39+00:00"
+   "publishedAt": "2026-11-03T00:19:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Apple Inc (AAPL) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/AAPL/summary",
+   "publishedAt": "2026-11-03T23:37:45+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Apple (AAPL) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/AAPL",
+   "publishedAt": "2026-11-03T01:37:45+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 1.2015402862477123,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:39+00:00",
+ "asOf": "2026-11-04T01:37:45+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
+   "text": "Coca-Cola Delivers Strong Growth - But is KO Stock Undervalued?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-delivers-strong-growth-143002382.html",
+   "publishedAt": "2026-11-02T01:37:46+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Coca-Cola is exercising its pricing power as inflation persists",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-is-exercising-its-pricing-power-as-inflation-persists/ar-AA2gCwP5?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-14T01:37:46+00:00"
+  },
+  {
+   "kind": "news",
    "text": "Coca-Cola stock is having its best year since 1996. History says that hasn't been a signal to sell.",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/coca-cola-stock-is-having-its-best-year-since-1996-history-says-that-hasn-t-been-a-signal-to-sell/ar-AA2fMEuD?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-23T03:02:41+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "If you invest $200 a month in Coca-Cola (KO) stock, here's the dividend income it could generate over 10 years",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/if-you-invest-200-a-month-in-coca-cola-ko-stock-here-s-the-dividend-income-it-could-generate-over-10-years/ar-AA2fB9Le?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-19T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Coca-Cola Delivers a Big Earnings Beat. Here\u2019s What Comes Next for the Stock.",
-   "sourceUrl": "https://247wallst.com/investing/2026/10/28/coca-cola-delivers-a-big-earnings-beat-heres-what-comes-next-for-the-stock/",
-   "publishedAt": "2026-10-29T03:02:41+00:00"
+   "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-stock-is-having-its-best-year-since-1996-history-says-that-hasnt-been-a-signal-to-sell/ar-AA2fMEuD?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-23T01:37:46+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.4370337582632009,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:41+00:00",
+ "asOf": "2026-11-04T01:37:46+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

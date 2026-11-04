@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "The price of gold today, Oct. 30, 2026 \u2014 and the best places to buy",
-   "sourceUrl": "https://www.cnbc.com/select/the-price-of-gold-today-oct-30-2026/",
-   "publishedAt": "2026-10-31T03:02:45+00:00"
+   "text": "Gold Price Today: Gold Falls 3.76% on October 30, 2026",
+   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/30/gold-price-on-october-30-2026/92511721007/",
+   "publishedAt": "2026-10-31T01:37:49+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Gold price today, Tuesday, November 3, 2026: Gold prices open below $4,000 for the second straight day",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-3-2026-gold-prices-open-below-4000-for-the-second-straight-day-123207114.html",
+   "publishedAt": "2026-10-22T01:37:49+00:00"
   },
   {
    "kind": "news",
    "text": "Gold price today, Tuesday, October 27, 2026: Gold prices slipping closer to $4,000 ahead of Fed meeting",
    "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-october-27-2026-gold-prices-slipping-closer-to-4000-ahead-of-fed-meeting-110812319.html",
-   "publishedAt": "2026-10-28T03:02:45+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Gold price forecast ahead of US midterm elections and nonfarm payrolls data",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/gold-price-forecast-ahead-of-us-midterm-elections-and-nonfarm-payrolls-data/ar-AA2gBm5g?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-02T03:02:45+00:00"
+   "publishedAt": "2026-10-28T01:37:49+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9548598237884027,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:45+00:00",
+ "asOf": "2026-11-04T01:37:49+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

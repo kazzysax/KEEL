@@ -19,19 +19,19 @@
    "kind": "news",
    "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise ahead of Apple, Palantir earnings; RYAAY, USLM, INO in focus (updated)",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus-updated/ar-AA2gAJaK?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-21T03:02:43+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Nasdaq 100 rallies on chip rebound; Brazil ETF sinks 21%: Stock market today",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/nasdaq-100-rallies-on-chip-rebound-brazil-etf-sinks-21-stock-market-today/ar-AA2g6o7P?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-27T03:02:43+00:00"
+   "publishedAt": "2026-11-03T01:37:48+00:00"
   },
   {
    "kind": "news",
    "text": "Should Invesco NASDAQ Next Gen 100 ETF (QQQJ) be on your investing radar?",
    "sourceUrl": "https://www.msn.com/en-us/money/general/should-invesco-nasdaq-next-gen-100-etf-qqqj-be-on-your-investing-radar/ar-AA2fyWsq?ocid=BingNewsVerp",
    "publishedAt": "2026-10-19T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Nasdaq 100 rallies on chip rebound; Brazil ETF sinks 21%: Stock market today",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/nasdaq-100-rallies-on-chip-rebound-brazil-etf-sinks-21-stock-market-today/ar-AA2g6o7P?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-27T01:37:48+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:44+00:00",
+ "asOf": "2026-11-04T01:37:48+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

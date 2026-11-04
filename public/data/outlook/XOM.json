@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Exxon Is Up 59% This Year After Another Beat. This Is How High It Can Go.",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxon-59-another-beat-high-121744787.html",
-   "publishedAt": "2026-11-02T12:02:42+00:00"
-  },
-  {
-   "kind": "news",
    "text": "Exxon Mobil (XOM) and Chevron Set to Report Strong Q3 Earnings A",
    "sourceUrl": "https://www.gurufocus.com/news/9151815/exxon-mobil-xom-and-chevron-set-to-report-strong-q3-earnings-amid-high-crude-prices",
-   "publishedAt": "2026-10-30T03:02:42+00:00"
+   "publishedAt": "2026-10-30T01:37:47+00:00"
   },
   {
    "kind": "news",
    "text": "Dear ExxonMobil Stock Fans, Mark Your Calendars for October 30",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dear-exxonmobil-stock-fans-mark-135507404.html",
-   "publishedAt": "2026-10-29T03:02:42+00:00"
+   "publishedAt": "2026-10-30T01:37:47+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Exxon Is Up 59% This Year After Another Beat. This Is How High It Can Go.",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxon-59-another-beat-high-121744787.html",
+   "publishedAt": "2026-11-02T01:37:47+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 1.1851240958603309,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:42+00:00",
+ "asOf": "2026-11-04T01:37:47+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Schwab International Dividend Equity ETF (SCHY) Stock Price, News & Analysis \u2013 P...",
-   "sourceUrl": "https://247wallst.com/companies/schy/page/2/",
-   "publishedAt": "2026-11-02T03:02:46+00:00"
+   "text": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
+   "sourceUrl": "https://247wallst.com/personal-finance/2026/10/18/dad-is-71-and-wants-to-sell-every-stock-put-his-1-1-million-in-10-year-treasuries-now-that-the-yield-is-above-5-and-live-on-the-interest-is-it-a-crazy-idea/",
+   "publishedAt": "2026-10-18T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Markets News, Nov. 2, 2026: Nasdaq Slides as Tech Sell-Off Resumes; Oil Prices...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-futures-rise-132700950.html",
-   "publishedAt": "2026-11-02T13:02:46+00:00"
+   "text": "Xtrackers II US Treasuries 7-10 UCITS ETF 1D",
+   "sourceUrl": "https://markets.ft.com/data/etfs/tearsheet/summary?s=XU10:FRA:EUR",
+   "publishedAt": "2026-09-30T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Asian stocks retreat ahead of US midterms, oil steadies",
-   "sourceUrl": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-11-03/",
-   "publishedAt": "2026-11-03T02:24:46+00:00"
+   "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
+   "sourceUrl": "https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/",
+   "publishedAt": "2026-10-07T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.12187064774468692,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:46+00:00",
+ "asOf": "2026-11-04T01:37:50+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

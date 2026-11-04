@@ -1,7 +1,7 @@
 {
  "ticker": "SPY",
  "name": "S&P 500 ETF",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -19,19 +19,19 @@
    "kind": "news",
    "text": "Should you forget the Vanguard S&P 500 ETF (VOO) and buy the Invesco S&P 500 equal weight ETF (RSP) instead?",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/should-you-forget-the-vanguard-s-p-500-etf-voo-and-buy-the-invesco-s-p-500-equal-weight-etf-rsp-instead/ar-AA2fVQ5N?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-24T03:02:43+00:00"
+   "publishedAt": "2026-10-24T01:37:48+00:00"
   },
   {
    "kind": "news",
-   "text": "The AI trade is stumbling, but the S&P 500 is signaling outsized gains are coming, JPMorgan says",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/the-ai-trade-is-stumbling-but-the-s-p-500-is-signaling-outsized-gains-are-coming-jpmorgan-says/ar-AA2gAezT?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-18T03:02:43+00:00"
+   "text": "Stock market today: S&P 500, Nasdaq rise after 3 days of losses as chip stocks rebound; Apple, Palantir drop after earnings",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-s-p-500-nasdaq-rise-after-3-days-of-losses-as-chip-stocks-rebound-apple-palantir-drop-after-earnings/ar-AA2gFmjK?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-27T01:37:48+00:00"
   },
   {
    "kind": "news",
-   "text": "Why is Warren Buffett's S&P 500 ETF strategy relevant as AI stock valuations rise and bubble fears grow?",
-   "sourceUrl": "https://www.msn.com/en-in/news/world/why-is-warren-buffetts-s-p-500-etf-strategy-relevant-as-ai-stock-valuations-rise-and-bubble-fears-grow/ar-AA2e52uX?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-12T00:00:00+00:00"
+   "text": "Prediction: This magnificent ETF will crush the S&P 500 over the next 10 years",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/prediction-this-magnificent-etf-will-crush-the-s-p-500-over-the-next-10-years/ar-AA2glQKG?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T01:37:48+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7750444604115636,
   "windows": 1468
  },
- "asOf": "2026-11-03T03:02:43+00:00",
+ "asOf": "2026-11-04T01:37:48+00:00",
  "priceAsOf": "2026-11-02",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
