@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -6%; past 12 months: +9% (historical closes).",
+   "text": "Past 3 months: -4%; past 12 months: +9% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-02"
+   "publishedAt": "2026-11-03"
   },
   {
    "kind": "price",
-   "text": "Trades +0% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades +1% vs its 200-day average and -10% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-02"
+   "publishedAt": "2026-11-03"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise ahead of Apple, Palantir earnings; RYAAY, USLM, INO in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-rise-ahead-of-apple-palantir-earnings-ryaay-uslm-ino-in-focus-updated/ar-AA2gAJaK?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-03T01:37:48+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise as Democrats take control of Congress\u2014AMD, AMGN, NVO in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus-updated/ar-AA2gJcmV?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-24T01:45:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Should Invesco NASDAQ Next Gen 100 ETF (QQQJ) be on your investing radar?",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/should-invesco-nasdaq-next-gen-100-etf-qqqj-be-on-your-investing-radar/ar-AA2fyWsq?ocid=BingNewsVerp",
+   "text": "How to Invest in NEOS Nasdaq-100 High Income ETF (QQQI)",
+   "sourceUrl": "https://www.fool.com/investing/how-to-invest/etfs/how-to-invest-in-qqqi-etf/",
    "publishedAt": "2026-10-19T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Nasdaq 100 rallies on chip rebound; Brazil ETF sinks 21%: Stock market today",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/nasdaq-100-rallies-on-chip-rebound-brazil-etf-sinks-21-stock-market-today/ar-AA2g6o7P?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-27T01:37:48+00:00"
+   "text": "US stocks or US ETFs: Should Indian investors buy NVIDIA directly or invest through Nasdaq 100 funds?",
+   "sourceUrl": "https://www.msn.com/en-in/money/general/us-stocks-or-us-etfs-should-indian-investors-buy-nvidia-directly-or-invest-through-nasdaq-100-funds/ar-AA2gsR2b?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-01T01:45:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.243284433577154,
-  "p50": 0.2548375254887565,
+  "p50": 0.25481972782362483,
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1468
+  "windows": 1469
  },
- "asOf": "2026-11-04T01:37:48+00:00",
- "priceAsOf": "2026-11-02",
+ "asOf": "2026-11-05T01:45:00+00:00",
+ "priceAsOf": "2026-11-03",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

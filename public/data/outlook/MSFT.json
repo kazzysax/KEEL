@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: -3% (historical closes).",
+   "text": "Past 3 months: +7%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-02"
+   "publishedAt": "2026-11-03"
   },
   {
    "kind": "price",
-   "text": "Trades +16% vs its 200-day average and -7% from its 52-week high.",
+   "text": "Trades +19% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-02"
+   "publishedAt": "2026-11-03"
   },
   {
    "kind": "news",
-   "text": "Microsoft Unveils \"The Elder Scrolls VI: Sentinel\" Boosting MSFT",
-   "sourceUrl": "https://www.gurufocus.com/news/9166128/microsoft-unveils-the-elder-scrolls-vi-sentinel-boosting-msft-gaming-prospects",
-   "publishedAt": "2026-11-03T16:37:45+00:00"
+   "text": "Does Microsoft's prudent approach to the AI infrastructure buildout make the stock a buy?",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/does-microsoft-s-prudent-approach-to-the-ai-infrastructure-buildout-make-the-stock-a-buy/ar-AA2gA4AU?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-03T01:44:56+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft\u2019s Bond Issuance is Textbook Structural Strategy So I Buy, Not Panic",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-bond-issuance-textbook-structural-154532295.html",
-   "publishedAt": "2026-11-03T01:37:45+00:00"
+   "text": "Microsoft stock jumps on earnings beat. Capex was lower than expected.",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-stock-jumps-on-earnings-beat/ar-AA2geHlr?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-29T01:44:56+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft (MSFT) Weighs Acquisition Offers for Arkane Studios Am",
-   "sourceUrl": "https://www.gurufocus.com/news/9167178/microsoft-msft-weighs-acquisition-offers-for-arkane-studios-amid-strategic-gaming-moves",
-   "publishedAt": "2026-11-03T22:37:45+00:00"
+   "text": "Microsoft (MSFT)Stock: Surges 6% as Polen Capital Highlights Strong AI Growth",
+   "sourceUrl": "https://blockonomi.com/microsoft-msft-stock-surges-6-as-polen-capital-highlights-strong-ai-growth/",
+   "publishedAt": "2026-10-29T01:44:56+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22116915482446642,
-  "p50": 0.20755749220415698,
+  "p50": 0.20556918629585264,
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1468
+  "windows": 1469
  },
- "asOf": "2026-11-04T01:37:45+00:00",
- "priceAsOf": "2026-11-02",
+ "asOf": "2026-11-05T01:44:56+00:00",
+ "priceAsOf": "2026-11-03",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

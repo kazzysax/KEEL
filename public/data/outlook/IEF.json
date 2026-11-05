@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: -2% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-02"
+   "publishedAt": "2026-11-03"
   },
   {
    "kind": "price",
    "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-02"
+   "publishedAt": "2026-11-03"
   },
   {
    "kind": "news",
@@ -29,21 +29,21 @@
   },
   {
    "kind": "news",
-   "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
-   "sourceUrl": "https://www.reuters.com/business/us-30-year-bond-yield-hits-fresh-24-year-high-2026-10-07/",
-   "publishedAt": "2026-10-07T00:00:00+00:00"
+   "text": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy?",
+   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/high-yield-reits-vs-10-205900173.html",
+   "publishedAt": "2026-10-16T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.13605739053840615,
-  "p50": -0.015680393807490534,
+  "p50": -0.015883529039857458,
   "p95": 0.08152185886022045,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1468
+  "windows": 1469
  },
- "asOf": "2026-11-04T01:37:50+00:00",
- "priceAsOf": "2026-11-02",
+ "asOf": "2026-11-05T01:45:02+00:00",
+ "priceAsOf": "2026-11-03",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
