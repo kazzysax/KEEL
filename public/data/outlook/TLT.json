@@ -5,21 +5,21 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: -6% (historical closes).",
+   "text": "Past 3 months: -0%; past 12 months: -5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-03"
+   "publishedAt": "2026-11-04"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -8% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-03"
+   "publishedAt": "2026-11-04"
   },
   {
    "kind": "news",
-   "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
-   "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
-   "publishedAt": "2026-10-01T00:00:00+00:00"
+   "text": "Long-term treasuries could be a good contrarian bet",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/long-term-treasuries-could-be-a-good-contrarian-bet/ar-AA2dfC0T?ocid=BingNewsVerp",
+   "publishedAt": "2026-09-30T00:00:00+00:00"
   },
   {
    "kind": "news",
@@ -29,21 +29,21 @@
   },
   {
    "kind": "news",
-   "text": "Will US Treasury scrap 20-year bond sales?",
-   "sourceUrl": "https://www.reuters.com/commentary/reuters-open-interest/will-us-treasury-scrap-20-year-bond-sales-mcgeever-2026-10-22/",
-   "publishedAt": "Opinion13 days ago"
+   "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+   "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+   "publishedAt": "2026-10-01T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.2663351846702705,
-  "p50": -0.062387924641785,
+  "p50": -0.06211626734299314,
   "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1469
+  "windows": 1470
  },
- "asOf": "2026-11-05T01:45:02+00:00",
- "priceAsOf": "2026-11-03",
+ "asOf": "2026-11-06T01:46:30+00:00",
+ "priceAsOf": "2026-11-04",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +7%; past 12 months: +1% (historical closes).",
+   "text": "Past 3 months: +11%; past 12 months: +8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-03"
+   "publishedAt": "2026-11-04"
   },
   {
    "kind": "price",
-   "text": "Trades +19% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades +27% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-03"
+   "publishedAt": "2026-11-04"
   },
   {
    "kind": "news",
    "text": "Does Microsoft's prudent approach to the AI infrastructure buildout make the stock a buy?",
    "sourceUrl": "https://www.msn.com/en-us/money/general/does-microsoft-s-prudent-approach-to-the-ai-infrastructure-buildout-make-the-stock-a-buy/ar-AA2gA4AU?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-03T01:44:56+00:00"
+   "publishedAt": "2026-11-03T01:46:24+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock jumps on earnings beat. Capex was lower than expected.",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-stock-jumps-on-earnings-beat/ar-AA2geHlr?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T01:44:56+00:00"
+   "text": "Microsoft earnings give the stock a boost. Here are the highlights.",
+   "sourceUrl": "https://www.marketwatch.com/livecoverage/microsoft-earnings-stock-msft-results-azure",
+   "publishedAt": "2026-10-29T01:46:24+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft (MSFT)Stock: Surges 6% as Polen Capital Highlights Strong AI Growth",
-   "sourceUrl": "https://blockonomi.com/microsoft-msft-stock-surges-6-as-polen-capital-highlights-strong-ai-growth/",
-   "publishedAt": "2026-10-29T01:44:56+00:00"
+   "text": "1 reason to buy Microsoft stock for 10 years",
+   "sourceUrl": "https://www.msn.com/en-us/money/technology/1-reason-to-buy-microsoft-stock-for-10-years/ar-AA2gx246?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-02T01:46:24+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1469
+  "windows": 1470
  },
- "asOf": "2026-11-05T01:44:56+00:00",
- "priceAsOf": "2026-11-03",
+ "asOf": "2026-11-06T01:46:24+00:00",
+ "priceAsOf": "2026-11-04",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

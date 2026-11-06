@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -4%; past 12 months: +9% (historical closes).",
+   "text": "Past 3 months: -3%; past 12 months: +10% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-03"
+   "publishedAt": "2026-11-04"
   },
   {
    "kind": "price",
-   "text": "Trades +1% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades +2% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-03"
+   "publishedAt": "2026-11-04"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise as Democrats take control of Congress\u2014AMD, AMGN, NVO in focus (updated)",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus-updated/ar-AA2gJcmV?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-24T01:45:00+00:00"
+   "text": "iShares Nasdaq 100 ETF (IQQ) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/IQQ",
+   "publishedAt": "2026-11-04T01:46:28+00:00"
   },
   {
    "kind": "news",
-   "text": "How to Invest in NEOS Nasdaq-100 High Income ETF (QQQI)",
-   "sourceUrl": "https://www.fool.com/investing/how-to-invest/etfs/how-to-invest-in-qqqi-etf/",
-   "publishedAt": "2026-10-19T00:00:00+00:00"
+   "text": "Dan Ives Warns Chip Stocks Aren't Done Falling, Sees Another 12% Drop \u2014 But Tom ...",
+   "sourceUrl": "https://www.benzinga.com/markets/tech/26/11/62904872/dan-ives-warns-chip-stocks-arent-done-falling-sees-another-12-drop-but-tom-lee-calls-ai-selloff-an-overreaction-predicts-20-tech-rally",
+   "publishedAt": "2026-11-05T08:46:28+00:00"
   },
   {
    "kind": "news",
-   "text": "US stocks or US ETFs: Should Indian investors buy NVIDIA directly or invest through Nasdaq 100 funds?",
-   "sourceUrl": "https://www.msn.com/en-in/money/general/us-stocks-or-us-etfs-should-indian-investors-buy-nvidia-directly-or-invest-through-nasdaq-100-funds/ar-AA2gsR2b?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-01T01:45:00+00:00"
+   "text": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Na...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-010030629.html",
+   "publishedAt": "2026-11-06T01:00:28+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1469
+  "windows": 1470
  },
- "asOf": "2026-11-05T01:45:00+00:00",
- "priceAsOf": "2026-11-03",
+ "asOf": "2026-11-06T01:46:28+00:00",
+ "priceAsOf": "2026-11-04",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
