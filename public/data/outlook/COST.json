@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +10%; past 12 months: +13% (historical closes).",
+   "text": "Past 3 months: +12%; past 12 months: +14% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades +8% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades +10% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
-   "text": "Is now a good time to buy Costco stock?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-now-a-good-time-to-buy-costco-stock/ar-AA2gjIG5?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:46:25+00:00"
+   "text": "Jim Cramer Says Costco Is Still a Great Value. Charlie Munger\u2019s Rule Explains Why",
+   "sourceUrl": "https://247wallst.com/investing/2026/11/05/jim-cramer-says-costco-is-still-a-great-value-charlie-mungers-rule-explains-why/",
+   "publishedAt": "2026-11-06T01:08:56+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Costco is taking aim at its May record high \u2014 how it got here and where's it going",
+   "sourceUrl": "https://www.cnbc.com/investingclub/2026/11/05/costco-is-taking-aim-at-its-may-record-high-how-it-got-here-and-wheres-going.html",
+   "publishedAt": "2026-11-06T01:08:56+00:00"
   },
   {
    "kind": "news",
    "text": "The Best Blue Chip Stock to Buy in November and Hold for 10 Years",
    "sourceUrl": "https://www.fool.com/investing/2026/11/03/the-best-blue-chip-stock-to-buy-in-november-and-ho/",
-   "publishedAt": "2026-11-04T01:46:25+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Should you buy Costco stock before Oct. 30? Here's the clear answer.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/should-you-buy-costco-stock-before-oct-30-heres-the-clear-answer/ar-AA2euG71?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-18T00:00:00+00:00"
+   "publishedAt": "2026-11-04T01:08:56+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08478560973038951,
-  "p50": 0.21504878090754853,
+  "p50": 0.2140808684710549,
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:25+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:56+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

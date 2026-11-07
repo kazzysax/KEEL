@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -4%; past 12 months: +1% (historical closes).",
+   "text": "Past 3 months: -6%; past 12 months: +4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades -10% vs its 200-day average and -25% from its 52-week high.",
+   "text": "Trades -9% vs its 200-day average and -24% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
-   "text": "Gold price prediction: Will gold bounce back on Wednesday? Check outlook for November 4",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-prediction-will-gold-bounce-back-on-wednesday-check-outlook-for-november-4/ar-AA2gHquO?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-05T01:46:29+00:00"
+   "text": "Blue Gold Limited WT EXP 040130 (BGLWW) Stock Price, Quote, News & Analysis |...",
+   "sourceUrl": "https://seekingalpha.com/symbol/BGLWW",
+   "publishedAt": "2026-11-06T01:08:58+00:00"
   },
   {
    "kind": "news",
-   "text": "Rates crash: Gold price slips 7%, silver tanks 20% in Oct: Is Dhanteras 2026 right time to buy? What should investors do",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/rates-crash-gold-price-slips-7-silver-tanks-20-in-oct-is-dhanteras-2026-right-time-to-buy-what-should-investors-do/ar-AA2gAkWO?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-03T01:46:29+00:00"
+   "text": "Centerra Gold Inc. (CGAU) Stock Price, Quote, News & Analysis | Seeking Alpha",
+   "sourceUrl": "https://seekingalpha.com/symbol/CGAU",
+   "publishedAt": "2026-11-06T01:08:58+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, Friday, October 30, 2026: Gold slips below $4,000 as Mid-East concerns mount",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-october-30-2026-gold-slips-below-4000-as-mid-east-concerns-mount-111451238.html",
-   "publishedAt": "2026-10-31T01:46:29+00:00"
+   "text": "Mackay Gold & Silver Corp. (MKGSF) Stock Price, Quote, News & Analysis | Seeking...",
+   "sourceUrl": "https://seekingalpha.com/symbol/MKGSF",
+   "publishedAt": "2026-11-06T01:08:58+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07321210970686953,
-  "p50": 0.13117059344987347,
+  "p50": 0.1309523678461586,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:29+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:58+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

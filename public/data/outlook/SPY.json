@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +13% (historical closes).",
+   "text": "Past 3 months: -5%; past 12 months: +10% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades +5% vs its 200-day average and -2% from its 52-week high.",
+   "text": "Trades +1% vs its 200-day average and -6% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
-   "text": "SPDR S&P 500 ETF Trust (SPY) Draws $2.1B Inflows Despite 1.26% P",
-   "sourceUrl": "https://www.gurufocus.com/news/9170225/spdr-sp-500-etf-trust-spy-draws-21b-inflows-despite-126-price-drop",
-   "publishedAt": "2026-11-05T01:46:27+00:00"
+   "text": "Stock market today: Nasdaq, S&P 500 rise as chip stocks bounce back from AI tailspin; major indexes still on pace for weekly losses",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-nasdaq-s-p-500-rise-as-chip-stocks-bounce-back-from-ai-tailspin-major-indexes-still-on-pace-for-weekly-losses/ar-AA2gT0P3?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-02T01:08:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market tumbles on post-election reset",
-   "sourceUrl": "https://www.thestreet.com/investing/stock-market-tumbles-on-post-election-reset",
-   "publishedAt": "2026-11-05T18:46:27+00:00"
+   "text": "Warren Buffett says most investors should buy the S&P 500. Here's how much you can actually earn with this ETF.",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/warren-buffett-says-most-investors-should-buy-the-s-p-500-here-s-how-much-you-can-actually-earn-with-this-etf/ar-AA2golgy?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-31T01:08:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Invesco S&P 500 Equal Weight Energy ETF Overview (RSPG) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/funds/rspg",
-   "publishedAt": "2026-11-04T01:46:27+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise as Democrats take control of Congress\u2014AMD, AMGN, NVO in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-jones-s-p-500-futures-rise-as-democrats-take-control-of-congress-amd-amgn-nvo-in-focus/ar-AA2gJcmV?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-05T01:08:57+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.12542029641457086,
-  "p50": 0.18466717255724685,
+  "p50": 0.1845157698986859,
   "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:27+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:57+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

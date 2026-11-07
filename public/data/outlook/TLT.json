@@ -7,31 +7,25 @@
    "kind": "price",
    "text": "Past 3 months: -0%; past 12 months: -5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -7% from its 52-week high.",
+   "text": "Trades -1% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
-  },
-  {
-   "kind": "news",
-   "text": "Long-term treasuries could be a good contrarian bet",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/long-term-treasuries-could-be-a-good-contrarian-bet/ar-AA2dfC0T?ocid=BingNewsVerp",
-   "publishedAt": "2026-09-30T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Foreign Holdings of US Treasuries Rise From Almost One-Year Low",
-   "sourceUrl": "https://www.livemint.com/market/foreign-holdings-of-us-treasuries-rise-from-almost-one-year-low-11792184534641.html",
-   "publishedAt": "2026-10-16T00:00:00+00:00"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
    "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
    "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
    "publishedAt": "2026-10-01T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Bitcoin looks like a 'relative dud' against gold and US Treasuries, says Bloomberg's Mike McGlone",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/bitcoin-looks-like-a-relative-dud-against-gold-and-us-treasuries-says-bloomberg-s-mike-mcglone/ar-AA2gtItL?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-01T01:08:59+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +34,10 @@
   "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:30+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:59+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,21 +5,21 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +8%; past 12 months: +52% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +49% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades +12% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +10% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
-   "text": "How Investors Are Reacting To Johnson & Johnson Stock New Drug Progress",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-johnson-johnson-stock-190647949.html",
-   "publishedAt": "2026-10-31T01:46:26+00:00"
+   "text": "Johnson & Johnson (JNJ) As Impella Data Fuels The Story, Is The Stock Fully Valued?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-impella-data-190958944.html",
+   "publishedAt": "2026-11-03T01:08:56+00:00"
   },
   {
    "kind": "news",
@@ -31,7 +31,7 @@
    "kind": "news",
    "text": "Johnson & Johnson Is Up 42% in a Year: Take Profits, or Buy More?",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-42-profits-buy-173640688.html",
-   "publishedAt": "2026-10-30T01:46:26+00:00"
+   "publishedAt": "2026-10-30T01:08:56+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5646127190850889,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:26+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:56+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +12%; past 12 months: +30% (historical closes).",
+   "text": "Past 3 months: +10%; past 12 months: +28% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +15% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
-   "text": "Jim Cramer sends clear signal on Apple and Palantir stock",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sends-clear-signal-120300061.html",
-   "publishedAt": "2026-11-05T11:46:24+00:00"
+   "text": "Apple Inc (AAPL) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/AAPL/summary",
+   "publishedAt": "2026-11-01T01:08:55+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Just Proved the AI Bears Wrong Again. Here\u2019s Why Dan Ives Isn\u2019t Blinking.",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/apple-just-proved-ai-bears-163754416.html",
-   "publishedAt": "2026-11-05T16:46:24+00:00"
+   "text": "Apple Inc. (AAPL) Stock Price, Quote, News & Analysis | Seeking Alpha",
+   "sourceUrl": "https://seekingalpha.com/symbol/AAPL",
+   "publishedAt": "2026-11-01T01:08:55+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Reportedly Set To Raise $7.5B From Bond Offering Amid Market Selloff",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/apple-reportedly-set-raise-7-210305766.html",
-   "publishedAt": "2026-11-05T20:46:24+00:00"
+   "text": "Apple (AAPL) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/AAPL",
+   "publishedAt": "2026-11-04T01:08:55+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.679678385548264,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:24+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:55+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

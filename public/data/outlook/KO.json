@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +11%; past 12 months: +45% (historical closes).",
+   "text": "Past 3 months: +11%; past 12 months: +43% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
    "text": "Trades +17% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
+  },
+  {
+   "kind": "news",
+   "text": "Coca-Cola vs P&G: Staples rotation crowns a clear income winner",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-vs-p-g-staples-rotation-crowns-a-clear-income-winner/ar-AA2gTUya?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-27T01:08:56+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Coca-Cola yields just 2.2% compared to 4.3% for PepsiCo. Here's the better dividend king stock for generating long-term passive income.",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-yields-just-2-2-compared-to-4-3-for-pepsico-here-s-the-better-dividend-king-stock-for-generating-long-term-passive-income/ar-AA2gb0RP?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-28T01:08:56+00:00"
   },
   {
    "kind": "news",
    "text": "Prediction: Coca-Cola Stock Is Going to Soar After Oct. 27",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/prediction-coca-cola-stock-is-going-to-soar-after-oct-27/ar-AA2fLdnd?ocid=BingNewsVerp",
    "publishedAt": "2026-10-21T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Coca-Cola yields just 2.2% compared to 4.3% for PepsiCo. Here's the better dividend king stock for generating long-term passive income.",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-yields-just-2-2-compared-to-4-3-for-pepsico-here-s-the-better-dividend-king-stock-for-generating-long-term-passive-income/ar-AA2gb0RP?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-28T01:46:26+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Does Raised 2026 Guidance Change The Bull Case For Coca Cola Stock?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/does-raised-2026-guidance-change-161537986.html",
-   "publishedAt": "2026-11-05T01:46:26+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04281904212423471,
   "p50": 0.12579406181219333,
-  "p95": 0.3166653863182556,
+  "p95": 0.3173500844470192,
   "min": -0.15396303665947697,
   "max": 0.4469137429921173,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:26+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:56+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

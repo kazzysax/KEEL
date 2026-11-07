@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +10%; past 12 months: +53% (historical closes).",
+   "text": "Past 3 months: +9%; past 12 months: +49% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades +10% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades +7% vs its 200-day average and -12% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
    "text": "Exxon Mobil Holdings (XOM) Just Overtook the 200-Day Moving Average",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxon-mobil-holdings-xom-just-133002224.html",
-   "publishedAt": "2026-11-04T01:46:27+00:00"
+   "publishedAt": "2026-11-04T01:08:56+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil Stock Hit a Record Close as Brent Topped $116. Here\u2019s Where the Stock Could Go by 2030",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-hit-record-close-012028642.html",
-   "publishedAt": "2026-10-26T01:46:27+00:00"
+   "text": "Chevron vs. Exxon Mobil: The Better Energy Stock for the Next 5 Years",
+   "sourceUrl": "https://247wallst.com/investing/2026/08/20/chevron-vs-exxon-mobil-the-better-energy-stock-for-the-next-5-years/",
+   "publishedAt": "2026-08-20T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "How Investors Are Reacting To ExxonMobil Stock Earnings Beat",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/investors-reacting-exxonmobil-stock-earnings-221059479.html",
-   "publishedAt": "2026-11-03T01:46:27+00:00"
+   "text": "Exxon Mobil and Chevron head into Q3 earnings boosted by crude rally, Iran conflict",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/exxon-mobil-and-chevron-head-into-q3-earnings-boosted-by-crude-rally-iran-conflict/ar-AA2glk02?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T01:08:56+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:27+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:56+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

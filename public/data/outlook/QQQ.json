@@ -1,49 +1,49 @@
 {
  "ticker": "QQQ",
  "name": "Nasdaq-100 ETF",
- "outlook": "Neutral",
+ "outlook": "Cautious",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -3%; past 12 months: +10% (historical closes).",
+   "text": "Past 3 months: -10%; past 12 months: +5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "price",
-   "text": "Trades +2% vs its 200-day average and -9% from its 52-week high.",
+   "text": "Trades -5% vs its 200-day average and -15% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-04"
+   "publishedAt": "2026-11-05"
   },
   {
    "kind": "news",
    "text": "iShares Nasdaq 100 ETF (IQQ) Stock Price, Quote, News & History | Benzinga",
    "sourceUrl": "https://www.benzinga.com/quote/IQQ",
-   "publishedAt": "2026-11-04T01:46:28+00:00"
+   "publishedAt": "2026-11-04T01:08:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Dan Ives Warns Chip Stocks Aren't Done Falling, Sees Another 12% Drop \u2014 But Tom ...",
-   "sourceUrl": "https://www.benzinga.com/markets/tech/26/11/62904872/dan-ives-warns-chip-stocks-arent-done-falling-sees-another-12-drop-but-tom-lee-calls-ai-selloff-an-overreaction-predicts-20-tech-rally",
-   "publishedAt": "2026-11-05T08:46:28+00:00"
+   "text": "Tech Stocks Just Had Their Worst Day Since 2020",
+   "sourceUrl": "https://247wallst.com/investing/2026/11/06/tech-stocks-just-had-their-worst-day-since-2020/",
+   "publishedAt": "2026-11-06T12:08:57+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500, Nasdaq, Dow Futures Dip As Investors Step Back From AI And Tech With Na...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-dow-futures-010030629.html",
-   "publishedAt": "2026-11-06T01:00:28+00:00"
+   "text": "State Street Technology Select Sector SPDR ETF (XLK) Stock Price, News &...",
+   "sourceUrl": "https://247wallst.com/companies/xlk/",
+   "publishedAt": "2026-11-05T01:08:57+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.243284433577154,
-  "p50": 0.25481972782362483,
+  "p50": 0.2544363960647722,
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1470
+  "windows": 1471
  },
- "asOf": "2026-11-06T01:46:28+00:00",
- "priceAsOf": "2026-11-04",
+ "asOf": "2026-11-07T01:08:57+00:00",
+ "priceAsOf": "2026-11-05",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
