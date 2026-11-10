@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -10%; past 12 months: +5% (historical closes).",
+   "text": "Past 3 months: -5%; past 12 months: +12% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "price",
-   "text": "Trades -5% vs its 200-day average and -15% from its 52-week high.",
+   "text": "Trades -0% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "news",
    "text": "iShares Nasdaq 100 ETF (IQQ) Stock Price, Quote, News & History | Benzinga",
    "sourceUrl": "https://www.benzinga.com/quote/IQQ",
-   "publishedAt": "2026-11-04T01:08:57+00:00"
+   "publishedAt": "2026-11-04T03:47:01+00:00"
   },
   {
    "kind": "news",
-   "text": "Tech Stocks Just Had Their Worst Day Since 2020",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/06/tech-stocks-just-had-their-worst-day-since-2020/",
-   "publishedAt": "2026-11-06T12:08:57+00:00"
+   "text": "First Trust Nasdaq-100 Select Equal Weight ETF (QQEW) Stock Price, Quote, News &...",
+   "sourceUrl": "https://www.benzinga.com/quote/QQEW",
+   "publishedAt": "2026-11-05T03:47:01+00:00"
   },
   {
    "kind": "news",
-   "text": "State Street Technology Select Sector SPDR ETF (XLK) Stock Price, News &...",
-   "sourceUrl": "https://247wallst.com/companies/xlk/",
-   "publishedAt": "2026-11-05T01:08:57+00:00"
+   "text": "Global X NASDAQ 100 Covered Call ETF (QYLD) Stock Price, Quote, News & History |...",
+   "sourceUrl": "https://www.benzinga.com/quote/QYLD",
+   "publishedAt": "2026-11-05T03:47:01+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.243284433577154,
-  "p50": 0.2544363960647722,
+  "p50": 0.25443008554460733,
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1471
+  "windows": 1473
  },
- "asOf": "2026-11-07T01:08:57+00:00",
- "priceAsOf": "2026-11-05",
+ "asOf": "2026-11-10T03:47:01+00:00",
+ "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

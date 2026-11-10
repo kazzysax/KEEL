@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -6%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: -5%; past 12 months: +4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "price",
-   "text": "Trades -9% vs its 200-day average and -24% from its 52-week high.",
+   "text": "Trades -8% vs its 200-day average and -23% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "news",
-   "text": "Blue Gold Limited WT EXP 040130 (BGLWW) Stock Price, Quote, News & Analysis |...",
-   "sourceUrl": "https://seekingalpha.com/symbol/BGLWW",
-   "publishedAt": "2026-11-06T01:08:58+00:00"
+   "text": "6 Reasons Why Gold Price Is Still Falling",
+   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/6-reasons-why-gold-price-160000477.html",
+   "publishedAt": "2026-11-06T03:47:01+00:00"
   },
   {
    "kind": "news",
-   "text": "Centerra Gold Inc. (CGAU) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/CGAU",
-   "publishedAt": "2026-11-06T01:08:58+00:00"
+   "text": "US midterm election results: Gold price falls 22% from peak before Dhanteras; should you buy after setback to Trump?",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/us-midterm-election-results-gold-price-falls-22-from-peak-before-dhanteras-should-you-buy-after-setback-to-trump/ar-AA2gIJ3l?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-05T03:47:01+00:00"
   },
   {
    "kind": "news",
-   "text": "Mackay Gold & Silver Corp. (MKGSF) Stock Price, Quote, News & Analysis | Seeking...",
-   "sourceUrl": "https://seekingalpha.com/symbol/MKGSF",
-   "publishedAt": "2026-11-06T01:08:58+00:00"
+   "text": "Gold prices today, Thursday, November 5, 2026: Did one of 2026's worst assets just get a boost?",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-5-2026-did-one-of-2026s-worst-assets-just-get-a-boost-142402603.html",
+   "publishedAt": "2026-11-06T03:47:01+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07321210970686953,
-  "p50": 0.1309523678461586,
+  "p50": 0.13084696288599296,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1471
+  "windows": 1473
  },
- "asOf": "2026-11-07T01:08:58+00:00",
- "priceAsOf": "2026-11-05",
+ "asOf": "2026-11-10T03:47:01+00:00",
+ "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

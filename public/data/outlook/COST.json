@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +12%; past 12 months: +14% (historical closes).",
+   "text": "Past 3 months: +13%; past 12 months: +16% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "price",
    "text": "Trades +10% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "news",
-   "text": "Jim Cramer Says Costco Is Still a Great Value. Charlie Munger\u2019s Rule Explains Why",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/05/jim-cramer-says-costco-is-still-a-great-value-charlie-mungers-rule-explains-why/",
-   "publishedAt": "2026-11-06T01:08:56+00:00"
+   "text": "Costco Wholesale (COST) Gains Grocery Share As Its Valuation Looks Harder To...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-wholesale-cost-gains-grocery-031234033.html",
+   "publishedAt": "2026-11-10T03:12:58+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco is taking aim at its May record high \u2014 how it got here and where's it going",
-   "sourceUrl": "https://www.cnbc.com/investingclub/2026/11/05/costco-is-taking-aim-at-its-may-record-high-how-it-got-here-and-wheres-going.html",
-   "publishedAt": "2026-11-06T01:08:56+00:00"
+   "text": "Costco just passed Kroger in a grocery ranking that matters",
+   "sourceUrl": "https://www.thestreet.com/retail/costco-just-passed-kroger-in-a-grocery-ranking-that-matters",
+   "publishedAt": "2026-11-09T21:46:58+00:00"
   },
   {
    "kind": "news",
-   "text": "The Best Blue Chip Stock to Buy in November and Hold for 10 Years",
-   "sourceUrl": "https://www.fool.com/investing/2026/11/03/the-best-blue-chip-stock-to-buy-in-november-and-ho/",
-   "publishedAt": "2026-11-04T01:08:56+00:00"
+   "text": "Costco Wholesale Corp (COST) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/COST/summary",
+   "publishedAt": "2026-11-05T03:46:58+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08478560973038951,
-  "p50": 0.2140808684710549,
+  "p50": 0.21225250389352168,
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1471
+  "windows": 1473
  },
- "asOf": "2026-11-07T01:08:56+00:00",
- "priceAsOf": "2026-11-05",
+ "asOf": "2026-11-10T03:46:58+00:00",
+ "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

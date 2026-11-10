@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "price",
    "text": "Trades +1% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "news",
-   "text": "Oil prices fall on Vance's post-midterms Iran war repudiation",
-   "sourceUrl": "https://finance.yahoo.com/energy/articles/oil-prices-fall-vances-post-204600454.html",
-   "publishedAt": "2026-11-05T01:08:58+00:00"
+   "text": "BlackRock Cools on US Stocks, Turns Bullish on Short-Dated Treasuries",
+   "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-10-13/blackrock-cools-on-us-stocks-turns-bullish-on-short-dated-treasuries",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "US Dollar Index Price Forecast: Delivers bearish reversal below 101.50 |...",
-   "sourceUrl": "https://www.fxstreet.com/news/us-dollar-index-price-forecast-delivers-bearish-reversal-below-10150-202611040848",
-   "publishedAt": "2026-11-04T01:08:58+00:00"
+   "text": "Slowdown in money-fund cash flow hits short-term Treasuries",
+   "sourceUrl": "https://www.msn.com/en-us/money/investment/slowdown-in-money-fund-cash-flow-hits-short-term-treasuries/ar-AA2dFyui?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "US Dollar Weekly Forecast: Can CPI fuel further gains? | FXStreet",
-   "sourceUrl": "https://www.fxstreet.com/analysis/us-dollar-weekly-forecast-the-dollar-survives-the-midterms-now-comes-inflation-202611061837",
-   "publishedAt": "2026-11-06T18:08:58+00:00"
+   "text": "BlackRock Turns Bullish on Short-Term Treasuries, Downgrades US Stocks",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/blackrock-turns-bullish-short-term-231556208.html",
+   "publishedAt": "2026-10-12T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.039812206457238375,
-  "p50": 0.024681284252557223,
+  "p50": 0.024524432051916678,
   "p95": 0.056890393252887694,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1471
+  "windows": 1473
  },
- "asOf": "2026-11-07T01:08:58+00:00",
- "priceAsOf": "2026-11-05",
+ "asOf": "2026-11-10T03:47:02+00:00",
+ "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

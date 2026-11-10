@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +7%; past 12 months: +5% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +11% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "price",
-   "text": "Trades +22% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades +24% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-05"
+   "publishedAt": "2026-11-09"
   },
   {
    "kind": "news",
-   "text": "Microsoft Beat Again. Its Stock Is Still Lower Than a Year Ago",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/02/microsoft-beat-again-its-stock-is-still-lower-than-a-year-ago/",
-   "publishedAt": "2026-11-02T16:33:00+00:00"
+   "text": "What's going on with Microsoft stock?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/whats-going-on-with-microsoft-stock/ar-AA2gKcwc?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-05T03:46:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft (MSFT) Stock Could Be Undervalued After Its 74% Five Year Run",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-stock-could-undervalued-052250126.html",
-   "publishedAt": "2026-11-05T05:22:00+00:00"
+   "text": "Does Microsoft's prudent approach to the AI infrastructure buildout make the stock a buy?",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/does-microsoft-s-prudent-approach-to-the-ai-infrastructure-buildout-make-the-stock-a-buy/ar-AA2gA4AU?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-03T03:46:57+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft earnings give the stock a boost. Here are the highlights.",
-   "sourceUrl": "https://www.marketwatch.com/livecoverage/microsoft-earnings-stock-msft-results-azure",
-   "publishedAt": "2026-10-28T11:05:00+00:00"
+   "text": "Microsoft: The AI Numbers Are Telling Two Stories",
+   "sourceUrl": "https://seekingalpha.com/article/4965272-microsoft-the-ai-numbers-are-telling-two-stories",
+   "publishedAt": "2026-11-04T03:46:57+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22116915482446642,
-  "p50": 0.2051944088384301,
+  "p50": 0.2051519724128461,
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1471
+  "windows": 1473
  },
- "asOf": "2026-11-07T01:08:55+00:00",
- "priceAsOf": "2026-11-05",
+ "asOf": "2026-11-10T03:46:58+00:00",
+ "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
