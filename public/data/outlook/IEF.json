@@ -17,12 +17,6 @@
   },
   {
    "kind": "news",
-   "text": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
-   "sourceUrl": "https://247wallst.com/personal-finance/2026/10/18/dad-is-71-and-wants-to-sell-every-stock-put-his-1-1-million-in-10-year-treasuries-now-that-the-yield-is-above-5-and-live-on-the-interest-is-it-a-crazy-idea/",
-   "publishedAt": "2026-10-18T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
    "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
    "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-30-bond-yield-hits-152217369.html",
    "publishedAt": "2026-10-07T00:00:00+00:00"
@@ -42,7 +36,7 @@
   "max": 0.12187064774468692,
   "windows": 1473
  },
- "asOf": "2026-11-10T03:47:02+00:00",
+ "asOf": "2026-11-11T01:27:42+00:00",
  "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

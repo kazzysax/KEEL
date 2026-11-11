@@ -17,6 +17,12 @@
   },
   {
    "kind": "news",
+   "text": "Exxon Mobil Just Raised Its Dividend for the 44th Year. Here Are 3 More Wall Street Favorites",
+   "sourceUrl": "https://247wallst.com/investing/2026/11/04/exxon-mobil-just-raised-its-dividend-for-the-44th-year-here-are-3-more-wall-street-favorites/",
+   "publishedAt": "2026-11-05T01:27:40+00:00"
+  },
+  {
+   "kind": "news",
    "text": "Why is Exxon Mobil stock gaining Wednesday?",
    "sourceUrl": "https://www.msn.com/en-us/money/markets/why-is-exxon-mobil-stock-gaining-wednesday/ar-AA28sh8K?ocid=BingNewsVerp",
    "publishedAt": "2026-07-22T00:00:00+00:00"
@@ -25,13 +31,7 @@
    "kind": "news",
    "text": "Oil Stocks Chevron (CVX), Marathon (MPC), and Exxon Mobil (XOM) Take a Beating on Midterm Results",
    "sourceUrl": "https://www.tipranks.com/news/oil-stocks-chevron-cvx-marathon-mpc-and-exxon-mobil-xom-take-a-beating-on-midterm-results",
-   "publishedAt": "2026-11-05T03:46:59+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "What to expect from Exxon Mobil\u2019s Q3 2026 earnings report",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/what-to-expect-from-exxon-mobil-s-q3-2026-earnings-report/ar-AA2eiVLu?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-15T00:00:00+00:00"
+   "publishedAt": "2026-11-05T01:27:40+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 1.1851240958603309,
   "windows": 1473
  },
- "asOf": "2026-11-10T03:47:00+00:00",
+ "asOf": "2026-11-11T01:27:40+00:00",
  "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "iShares Nasdaq 100 ETF (IQQ) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/IQQ",
-   "publishedAt": "2026-11-04T03:47:01+00:00"
+   "text": "The Nasdaq-100 Is Outperforming Nvidia, Microsoft, Amazon, Meta Platforms, Alphabet, and Tesla This Year. Here's My Favorite Low-Cost ETF to Buy the Dip.",
+   "sourceUrl": "https://www.fool.com/investing/2026/11/04/the-nasdaq-100-is-outperforming-nvidia-microsoft-a/",
+   "publishedAt": "2026-11-05T01:27:40+00:00"
   },
   {
    "kind": "news",
-   "text": "First Trust Nasdaq-100 Select Equal Weight ETF (QQEW) Stock Price, Quote, News &...",
-   "sourceUrl": "https://www.benzinga.com/quote/QQEW",
-   "publishedAt": "2026-11-05T03:47:01+00:00"
+   "text": "This Unstoppable Vanguard ETF Is Beating the S&P 500 and the Nasdaq-100 in 2026, but It Could Face a Reckoning Next Week",
+   "sourceUrl": "https://www.fool.com/investing/2026/09/09/this-vanguard-etf-sp-500-nasdaq-100-2026-reckoning/",
+   "publishedAt": "2026-09-09T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Global X NASDAQ 100 Covered Call ETF (QYLD) Stock Price, Quote, News & History |...",
-   "sourceUrl": "https://www.benzinga.com/quote/QYLD",
-   "publishedAt": "2026-11-05T03:47:01+00:00"
+   "text": "QQQM: The Nasdaq 100 Is Having A Panic Attack And I Think This Pullback Should Be Bought",
+   "sourceUrl": "https://seekingalpha.com/article/4960736-qqqm-the-nasdaq-100-is-having-a-panic-attack-and-i-think-this-pullback-should-be-bought",
+   "publishedAt": "2026-11-02T01:27:40+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.9043423510863611,
   "windows": 1473
  },
- "asOf": "2026-11-10T03:47:01+00:00",
+ "asOf": "2026-11-11T01:27:41+00:00",
  "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

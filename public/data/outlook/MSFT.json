@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "What's going on with Microsoft stock?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/whats-going-on-with-microsoft-stock/ar-AA2gKcwc?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-05T03:46:57+00:00"
+   "text": "Microsoft Corp (NAS:MSFT) Stock News, Headlines & Updates | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/MSFT/article",
+   "publishedAt": "2026-11-10T01:27:37+00:00"
   },
   {
    "kind": "news",
-   "text": "Does Microsoft's prudent approach to the AI infrastructure buildout make the stock a buy?",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/does-microsoft-s-prudent-approach-to-the-ai-infrastructure-buildout-make-the-stock-a-buy/ar-AA2gA4AU?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-03T03:46:57+00:00"
+   "text": "Microsoft Corporation (MSFT:CA) Stock Price, Quote, News & Analysis | Seeking...",
+   "sourceUrl": "https://seekingalpha.com/symbol/MSFT:CA",
+   "publishedAt": "2026-11-10T01:27:37+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft: The AI Numbers Are Telling Two Stories",
-   "sourceUrl": "https://seekingalpha.com/article/4965272-microsoft-the-ai-numbers-are-telling-two-stories",
-   "publishedAt": "2026-11-04T03:46:57+00:00"
+   "text": "Microsoft Stock Falls On Anthropic Challenge To Office Software",
+   "sourceUrl": "https://www.investors.com/news/technology/microsoft-stock-anthropic-challenge-office-software/",
+   "publishedAt": "2026-11-10T19:27:37+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7731916500710374,
   "windows": 1473
  },
- "asOf": "2026-11-10T03:46:58+00:00",
+ "asOf": "2026-11-11T01:27:37+00:00",
  "priceAsOf": "2026-11-09",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

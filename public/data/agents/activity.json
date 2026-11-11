@@ -14,6 +14,14 @@
  ],
  "events": [
   {
+   "at": "2026-11-11T01:27:43+00:00",
+   "agent": "keel-outlook",
+   "type": "daily-run",
+   "summary": "Daily outlook for 13 assets: 7 positive, 2 neutral, 4 cautious. Prices to 2026-11-09",
+   "reportHash": "0xb094f59d0decfa161c306cd42d7b80aec0d80a1532acdbe5e39f9a3ef19c3971",
+   "seconds": 8.8
+  },
+  {
    "at": "2026-11-10T03:47:03+00:00",
    "agent": "keel-outlook",
    "type": "daily-run",
