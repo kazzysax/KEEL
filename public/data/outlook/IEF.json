@@ -5,27 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -0%; past 12 months: -2% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: -2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
-   "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "US bonds selloff eases, yields off highs, after strong 10-year note auction",
-   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-30-bond-yield-hits-152217369.html",
-   "publishedAt": "2026-10-07T00:00:00+00:00"
+   "text": "US Treasuries Sell Off Amid Hawkish Fed Comments and October CPI",
+   "sourceUrl": "https://www.gurufocus.com/news/9191946/us-treasuries-sell-off-amid-hawkish-fed-comments-and-october-cpi-surprise",
+   "publishedAt": "2026-11-11T08:29:27+00:00"
   },
   {
    "kind": "news",
-   "text": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy?",
-   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/high-yield-reits-vs-10-205900173.html",
-   "publishedAt": "2026-10-16T00:00:00+00:00"
+   "text": "10-Year Treasury Yield Attractive Around 5%, Says Ed Yardeni",
+   "sourceUrl": "https://www.gurufocus.com/news/9173958/10year-treasury-yield-attractive-around-5-says-ed-yardeni",
+   "publishedAt": "2026-11-05T02:29:27+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "The average US 30-year mortgage rate falls to 7.18% this week, its third...",
+   "sourceUrl": "https://www.therepublic.com/2026/11/05/the-average-us-30-year-mortgage-rate-falls-to-7-18-this-week-its-third-straight-decline/",
+   "publishedAt": "2026-11-06T02:29:27+00:00"
   }
  ],
  "historical12m": {
@@ -34,10 +40,10 @@
   "p95": 0.08152185886022045,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:42+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:27+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

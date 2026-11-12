@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +4%; past 12 months: +48% (historical closes).",
+   "text": "Past 3 months: +4%; past 12 months: +44% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
-   "text": "Trades +7% vs its 200-day average and -12% from its 52-week high.",
+   "text": "Trades +6% vs its 200-day average and -12% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Just Raised Its Dividend for the 44th Year. Here Are 3 More Wall Street Favorites",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/04/exxon-mobil-just-raised-its-dividend-for-the-44th-year-here-are-3-more-wall-street-favorites/",
-   "publishedAt": "2026-11-05T01:27:40+00:00"
+   "text": "XOM Stock Is Up 43% In 2026: Wall Street Is Split On The Oil Major Following Q3...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/xom-stock-43-2026-wall-042310069.html",
+   "publishedAt": "2026-11-05T02:29:26+00:00"
   },
   {
    "kind": "news",
-   "text": "Why is Exxon Mobil stock gaining Wednesday?",
-   "sourceUrl": "https://www.msn.com/en-us/money/markets/why-is-exxon-mobil-stock-gaining-wednesday/ar-AA28sh8K?ocid=BingNewsVerp",
-   "publishedAt": "2026-07-22T00:00:00+00:00"
+   "text": "Top Performing Long-Term Stocks \u2022 Benzinga",
+   "sourceUrl": "https://www.benzinga.com/money/best-long-term-stocks",
+   "publishedAt": "2026-11-10T02:29:26+00:00"
   },
   {
    "kind": "news",
-   "text": "Oil Stocks Chevron (CVX), Marathon (MPC), and Exxon Mobil (XOM) Take a Beating on Midterm Results",
-   "sourceUrl": "https://www.tipranks.com/news/oil-stocks-chevron-cvx-marathon-mpc-and-exxon-mobil-xom-take-a-beating-on-midterm-results",
-   "publishedAt": "2026-11-05T01:27:40+00:00"
+   "text": "Top Performing Income Stocks",
+   "sourceUrl": "https://www.benzinga.com/money/best-income-stocks",
+   "publishedAt": "2026-11-09T02:29:26+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07231166833919311,
-  "p50": 0.2946300708037952,
+  "p50": 0.29494609993864396,
   "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:40+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:26+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

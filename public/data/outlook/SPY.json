@@ -1,37 +1,37 @@
 {
  "ticker": "SPY",
  "name": "S&P 500 ETF",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: +14% (historical closes).",
+   "text": "Past 3 months: -3%; past 12 months: +13% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
    "text": "Trades +3% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "Meet the unstoppable Vanguard ETF beating the S&P 500 and the Dow Jones in 2026",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/meet-the-unstoppable-vanguard-etf-beating-the-s-p-500-and-the-dow-jones-in-2026/ar-AA2gSFz4?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-07T01:27:40+00:00"
+   "text": "2 Vanguard index funds to buy now to beat the S&P 500 in the next year, according to Wall Street",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/2-vanguard-index-funds-to-buy-now-to-beat-the-s-p-500-in-the-next-year-according-to-wall-street/ar-AA2h7YKX?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-11T02:29:26+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow, S&P 500 futures rise, Nasdaq 100 futures fall as Trump signals Iran war",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-s-p-500-futures-rise-nasdaq-100-futures-fall-as-trump-signals-iran-war/vi-AA2h8Zws?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-31T01:27:40+00:00"
+   "text": "Stock market today: Nasdaq, S&P 500 surge as chip stocks rally; Nvidia rebounds after steep losses, CoreWeave soars after earnings",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-surge-as-chip-stocks-rally-nvidia-rebounds-after-steep-losses-coreweave-soars-after-earnings/ar-AA2hdB5w?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-03T02:29:26+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow, S&P 500 futures rise despite Nvidia sell-off over Jensen Huang controversy \u2014 NVDA, OXY, CEG in focus",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-s-p-500-futures-rise-despite-nvidia-sell-off-over-jensen-huang-controversy-nvda-oxy-ceg-in-focus/ar-AA2h3MmR?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-10T01:27:40+00:00"
+   "text": "This Overlooked ETF Is Quietly Giving the S&P 500 a Run for Its Money",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/this-overlooked-etf-is-quietly-giving-the-s-p-500-a-run-for-its-money/ar-AA2h9AcR?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-11T02:29:26+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:40+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:26+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

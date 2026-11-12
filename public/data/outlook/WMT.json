@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +11%; past 12 months: +25% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +23% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
    "text": "Trades +6% vs its 200-day average and -6% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "WMT | Walmart Inc. Stock Overview (U.S.: Nasdaq) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/stocks/wmt",
-   "publishedAt": "2026-11-10T01:27:38+00:00"
+   "text": "Walmart (WMT) Stock May Be Fully Priced Despite New Fulfillment News",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-may-fully-020923123.html",
+   "publishedAt": "2026-10-09T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart Inc (NAS:WMT) Stock News, Headlines & Updates | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/WMT/article",
-   "publishedAt": "2026-11-06T01:27:38+00:00"
+   "text": "Walmart (WMT) Stock Moves -1.12%: What You Should Know",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-moves-1-214503535.html",
+   "publishedAt": "2026-11-06T02:29:24+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart vs. Coca-Cola: 53 and 64 Straight Years of Raises. Which Dividend Grows...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-vs-coca-cola-53-175846910.html",
-   "publishedAt": "2026-11-10T18:27:38+00:00"
+   "text": "Should you buy Walmart stock after its 9% post-earnings drop?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/should-you-buy-walmart-stock-after-its-9-post-earnings-drop/ar-AA2aEYrz?ocid=BingNewsVerp",
+   "publishedAt": "2026-08-21T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.06689948955363545,
-  "p50": 0.19721035642005136,
+  "p50": 0.19777485121733052,
   "p95": 0.6457823150748361,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:38+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:24+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

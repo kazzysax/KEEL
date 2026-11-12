@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -5%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: -9%; past 12 months: +0% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
-   "text": "Trades -8% vs its 200-day average and -23% from its 52-week high.",
+   "text": "Trades -10% vs its 200-day average and -26% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "US midterm election results: Gold price falls 22% from peak before Dhanteras; should you buy after setback to Trump?",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/us-midterm-election-results-gold-price-falls-22-from-peak-before-dhanteras-should-you-buy-after-setback-to-trump/ar-AA2gIJ3l?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-05T01:27:41+00:00"
+   "text": "Gold Price Today: Gold Falls 3.76% on October 30, 2026",
+   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/30/gold-price-on-october-30-2026/92511721007/",
+   "publishedAt": "2026-10-31T02:29:27+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today: Yellow metal holds near $4,100 as weak US dollar counters Fed rate hike bets",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-yellow-metal-holds-near-4100-as-weak-us-dollar-counters-fed-rate-hike-bets/ar-AA2h20UG?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-09T01:27:41+00:00"
+   "text": "Gold price prediction for next 10 days: Three dates that will decide the direction",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-prediction-for-next-10-days-three-dates-that-will-decide-the-direction/ar-AA2h3Mkj?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-10T02:29:27+00:00"
   },
   {
    "kind": "news",
    "text": "6 Reasons Why Gold Price Is Still Falling",
    "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/6-reasons-why-gold-price-160000477.html",
-   "publishedAt": "2026-11-06T01:27:41+00:00"
+   "publishedAt": "2026-11-06T02:29:27+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:41+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:27+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +8%; past 12 months: +11% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
-   "text": "Trades +24% vs its 200-day average and -2% from its 52-week high.",
+   "text": "Trades +21% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "Microsoft Corp (NAS:MSFT) Stock News, Headlines & Updates | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/MSFT/article",
-   "publishedAt": "2026-11-10T01:27:37+00:00"
+   "text": "Microsoft stock drops after Anthropic unveils tools to rival Office",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/microsoft-stock-drops-after-anthropic-unveils-tools-to-rival-office/ar-AA2ha4XM",
+   "publishedAt": "2026-11-10T19:13:36+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Corporation (MSFT:CA) Stock Price, Quote, News & Analysis | Seeking...",
-   "sourceUrl": "https://seekingalpha.com/symbol/MSFT:CA",
-   "publishedAt": "2026-11-10T01:27:37+00:00"
+   "text": "What's going on with Microsoft stock Wednesday?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/what-s-going-on-with-microsoft-stock-wednesday/ar-AA2heVKG",
+   "publishedAt": "2026-11-11T17:30:07+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Stock Falls On Anthropic Challenge To Office Software",
-   "sourceUrl": "https://www.investors.com/news/technology/microsoft-stock-anthropic-challenge-office-software/",
-   "publishedAt": "2026-11-10T19:27:37+00:00"
+   "text": "Microsoft Beats Nvidia for the First Time Since 2025: So Why Is MSFT Stock Falling?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-beats-nvidia-first-time-181932038.html",
+   "publishedAt": "2026-11-10T18:19:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:37+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:24+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

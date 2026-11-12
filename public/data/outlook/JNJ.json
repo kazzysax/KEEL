@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +9%; past 12 months: +54% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +54% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
-   "text": "Trades +14% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +13% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-below-fair-191104493.html",
-   "publishedAt": "2026-11-10T19:27:39+00:00"
+   "text": "Are Wall Street analysts predicting Johnson & Johnson stock will climb or sink?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/are-wall-street-analysts-predicting-johnson-johnson-stock-will-climb-or-sink/ar-AA2gLb9R?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-05T02:29:25+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/JNJ",
-   "publishedAt": "2026-11-09T01:27:39+00:00"
+   "text": "Why Johnson & Johnson Stock Dropped Today",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson's Caplyta Trial Success Boosts Bipolar Mania T",
-   "sourceUrl": "https://www.gurufocus.com/news/9188721/johnson-johnsons-caplyta-trial-success-boosts-bipolar-mania-treatment-prospects-jnj",
-   "publishedAt": "2026-11-10T14:27:39+00:00"
+   "text": "Johnson & Johnson stock falls despite strong earnings as investors focus on medtech unit",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-stock-falls-despite-strong-earnings-as-investors-focus-on-medtech-unit/ar-AA2e9FbP?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08647493923678673,
-  "p50": 0.0830929046989024,
+  "p50": 0.08334565085656265,
   "p95": 0.5646127190850889,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:39+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:25+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

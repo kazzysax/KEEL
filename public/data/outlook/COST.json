@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +13%; past 12 months: +16% (historical closes).",
+   "text": "Past 3 months: +12%; past 12 months: +16% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "price",
    "text": "Trades +10% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-09"
+   "publishedAt": "2026-11-10"
   },
   {
    "kind": "news",
-   "text": "Costco gains after announcing its first special dividend in almost three years",
-   "sourceUrl": "https://seekingalpha.com/news/4670188-costco-gains-after-announcing-its-first-special-dividend-in-almost-three-years",
-   "publishedAt": "Opinion3 hours ago"
+   "text": "Costco Is Up 18% in a Year. Freedom Broker Says That\u2019s Enough",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-18-freedom-broker-says-171410063.html",
+   "publishedAt": "2026-11-03T02:29:24+00:00"
   },
   {
    "kind": "news",
-   "text": "Is now a good time to buy Costco stock?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-now-a-good-time-to-buy-costco-stock/ar-AA2gjIG5?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T01:27:38+00:00"
+   "text": "Costco goes bulk on payouts with $30 special dividend",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-goes-bulk-on-payouts-with-30-special-dividend/ar-AA2haERY?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-11T02:29:24+00:00"
   },
   {
    "kind": "news",
-   "text": "Jim Cramer Says Costco Is Still a Great Value. Charlie Munger\u2019s Rule Explains Why",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/05/jim-cramer-says-costco-is-still-a-great-value-charlie-mungers-rule-explains-why/",
-   "publishedAt": "2026-11-06T01:27:38+00:00"
+   "text": "COST stock rises overnight: Costco\u2019s $30 special dividend has retail celebrating \u2018Santa coming early\u2019",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/cost-stock-rises-overnight-costco-s-30-special-dividend-has-retail-celebrating-santa-coming-early/ar-AA2haOgq?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-20T02:29:24+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1473
+  "windows": 1474
  },
- "asOf": "2026-11-11T01:27:38+00:00",
- "priceAsOf": "2026-11-09",
+ "asOf": "2026-11-12T02:29:25+00:00",
+ "priceAsOf": "2026-11-10",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
