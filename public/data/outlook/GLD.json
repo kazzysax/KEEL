@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -9%; past 12 months: +0% (historical closes).",
+   "text": "Past 3 months: -8%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-10"
+   "publishedAt": "2026-11-11"
   },
   {
    "kind": "price",
-   "text": "Trades -10% vs its 200-day average and -26% from its 52-week high.",
+   "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-10"
+   "publishedAt": "2026-11-11"
   },
   {
    "kind": "news",
-   "text": "Gold Price Today: Gold Falls 3.76% on October 30, 2026",
-   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/30/gold-price-on-october-30-2026/92511721007/",
-   "publishedAt": "2026-10-31T02:29:27+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Gold price prediction for next 10 days: Three dates that will decide the direction",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-prediction-for-next-10-days-three-dates-that-will-decide-the-direction/ar-AA2h3Mkj?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-10T02:29:27+00:00"
+   "text": "Gold Price Today: Gold Rises 4.31% on November 05, 2026",
+   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/11/05/gold-price-on-november-05-2026/92625443007/",
+   "publishedAt": "2026-11-06T02:05:54+00:00"
   },
   {
    "kind": "news",
    "text": "6 Reasons Why Gold Price Is Still Falling",
    "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/6-reasons-why-gold-price-160000477.html",
-   "publishedAt": "2026-11-06T02:29:27+00:00"
+   "publishedAt": "2026-11-06T02:05:54+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Gold prices today, Thursday, November 12, 2026: Prices open back under $4,000 as rate hikes crystallize",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-12-2026-prices-open-back-under-4000-as-rate-hikes-crystallize-121913089.html",
+   "publishedAt": "2026-10-31T02:05:54+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07321210970686953,
-  "p50": 0.13084696288599296,
+  "p50": 0.13054901605339508,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1474
+  "windows": 1475
  },
- "asOf": "2026-11-12T02:29:27+00:00",
- "priceAsOf": "2026-11-10",
+ "asOf": "2026-11-13T02:05:54+00:00",
+ "priceAsOf": "2026-11-11",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

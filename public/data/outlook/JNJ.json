@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +8%; past 12 months: +54% (historical closes).",
+   "text": "Past 3 months: +8%; past 12 months: +52% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-10"
+   "publishedAt": "2026-11-11"
   },
   {
    "kind": "price",
-   "text": "Trades +13% vs its 200-day average and -0% from its 52-week high.",
+   "text": "Trades +13% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-10"
+   "publishedAt": "2026-11-11"
   },
   {
    "kind": "news",
-   "text": "Are Wall Street analysts predicting Johnson & Johnson stock will climb or sink?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/are-wall-street-analysts-predicting-johnson-johnson-stock-will-climb-or-sink/ar-AA2gLb9R?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-05T02:29:25+00:00"
+   "text": "Johnson & Johnson (JNJ) up 10.4% since last earnings report: Can it continue?",
+   "sourceUrl": "https://www.msn.com/en-us/money/other/johnson-johnson-jnj-up-10-4-since-last-earnings-report-can-it-continue/ar-AA2hiWq6?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-03T02:05:52+00:00"
   },
   {
    "kind": "news",
-   "text": "Why Johnson & Johnson Stock Dropped Today",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/why-johnson-johnson-stock-dropped-today/ar-AA2e9PNP?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:00:00+00:00"
+   "text": "3 Reasons Johnson & Johnson Is Still a Buy With Its Stock Near a Record High",
+   "sourceUrl": "https://www.fool.com/investing/2026/09/30/3-reasons-johnson-johnson-is-still-a-buy-with-its/",
+   "publishedAt": "2026-09-30T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson stock falls despite strong earnings as investors focus on medtech unit",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-stock-falls-despite-strong-earnings-as-investors-focus-on-medtech-unit/ar-AA2e9FbP?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:00:00+00:00"
+   "text": "If Johnson & Johnson Stock Looks Expensive, You Need To Read This",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-stock-looks-expensive-122439807.html",
+   "publishedAt": "2026-11-05T02:05:52+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5646127190850889,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1474
+  "windows": 1475
  },
- "asOf": "2026-11-12T02:29:25+00:00",
- "priceAsOf": "2026-11-10",
+ "asOf": "2026-11-13T02:05:52+00:00",
+ "priceAsOf": "2026-11-11",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
