@@ -5,39 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: -6% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "price",
-   "text": "Trades -3% vs its 200-day average and -8% from its 52-week high.",
+   "text": "Trades -4% vs its 200-day average and -10% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "news",
-   "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
-   "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
-   "publishedAt": "2026-10-01T00:00:00+00:00"
+   "text": "Gold falls to over one-year low below $3,900 amid inflation concerns, US PPI...",
+   "sourceUrl": "https://www.fxstreet.com/news/gold-falls-to-over-one-year-low-below-3-900-amid-inflation-concerns-us-ppi-data-looms-202611122321",
+   "publishedAt": "2026-11-13T01:42:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Bitcoin looks like a 'relative dud' against gold and US Treasuries, says Bloomberg's Mike McGlone",
-   "sourceUrl": "https://www.msn.com/en-us/money/economy/bitcoin-looks-like-a-relative-dud-against-gold-and-us-treasuries-says-bloomberg-s-mike-mcglone/ar-AA2gtItL?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-01T02:05:56+00:00"
+   "text": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week",
+   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-012244050.html",
+   "publishedAt": "2026-11-14T01:22:40+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "The Treasury Secretary Is Now Living on a Military Base After Iranian Threats",
+   "sourceUrl": "https://247wallst.com/investing/2026/11/12/the-treasury-secretary-is-now-living-on-a-military-base-after-iranian-threats/",
+   "publishedAt": "2026-11-13T01:42:40+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.2663351846702705,
-  "p50": -0.061880311430110746,
+  "p50": -0.06204484815526057,
   "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1475
+  "windows": 1477
  },
- "asOf": "2026-11-13T02:05:56+00:00",
- "priceAsOf": "2026-11-11",
+ "asOf": "2026-11-14T01:42:40+00:00",
+ "priceAsOf": "2026-11-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

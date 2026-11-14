@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +12%; past 12 months: +42% (historical closes).",
+   "text": "Past 3 months: +15%; past 12 months: +42% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "price",
-   "text": "Trades +18% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +20% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
+  },
+  {
+   "kind": "news",
+   "text": "Coca-Cola Has Raised Its Dividend for 64 Straight Years. Here's What $10,000 Will Pay You in 2027.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-has-raised-its-dividend-for-64-straight-years-heres-what-10000-will-pay-you-in-2027/ar-AA2gT8Hl?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-07T01:42:36+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Coca-Cola yields just 2.2% compared to 4.3% for PepsiCo. Here's the better dividend king stock for generating long-term passive income.",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-yields-just-2-2-compared-to-4-3-for-pepsico-here-s-the-better-dividend-king-stock-for-generating-long-term-passive-income/ar-AA2gb0RP?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-27T00:00:00+00:00"
   },
   {
    "kind": "news",
    "text": "Is Coca-Cola a buy after its latest earnings report?",
    "sourceUrl": "https://www.msn.com/en-us/news/other/is-coca-cola-a-buy-after-its-latest-earnings-report/ar-AA2gfTE0?ocid=BingNewsVerp",
    "publishedAt": "2026-10-28T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "1 reason to hold Coca-Cola stock for 10 years",
-   "sourceUrl": "https://www.msn.com/tr-tr/finans/en-kazan\u00e7l\u0131-hisse-senetleri/1-reason-to-hold-coca-cola-stock-for-10-years/ar-AA2gO58f?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-06T02:05:51+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Coca-Cola has raised its dividend for 64 straight years. Here's what $10,000 will pay you in 2027.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-has-raised-its-dividend-for-64-straight-years-heres-what-10000-will-pay-you-in-2027/ar-AA2gT8Hl?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-07T02:05:51+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.04281904212423471,
-  "p50": 0.12596407049405478,
-  "p95": 0.32279417027782986,
+  "p50": 0.12603491112402176,
+  "p95": 0.32353855163503176,
   "min": -0.15396303665947697,
   "max": 0.4469137429921173,
-  "windows": 1475
+  "windows": 1477
  },
- "asOf": "2026-11-13T02:05:51+00:00",
- "priceAsOf": "2026-11-11",
+ "asOf": "2026-11-14T01:42:36+00:00",
+ "priceAsOf": "2026-11-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

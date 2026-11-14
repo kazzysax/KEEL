@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +6%; past 12 months: +45% (historical closes).",
+   "text": "Past 3 months: +6%; past 12 months: +49% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "price",
-   "text": "Trades +8% vs its 200-day average and -11% from its 52-week high.",
+   "text": "Trades +10% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "news",
-   "text": "Why is Exxon Mobil stock gaining Wednesday?",
-   "sourceUrl": "https://www.msn.com/en-us/money/markets/why-is-exxon-mobil-stock-gaining-wednesday/ar-AA28sh8K?ocid=BingNewsVerp",
-   "publishedAt": "2026-07-22T00:00:00+00:00"
+   "text": "Wall Street reveals 3 dividend stocks to hold through the AI chaos",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/wall-street-reveals-3-dividend-224700018.html",
+   "publishedAt": "2026-11-13T01:42:37+00:00"
   },
   {
    "kind": "news",
-   "text": "Exxon Is Up 59% This Year After Another Beat. This Is How High It Can Go.",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxon-59-another-beat-high-121744787.html",
-   "publishedAt": "2026-11-03T02:05:52+00:00"
+   "text": "ExxonMobil Holdings Corporation (ZXOM:CA) Stock Price, Quote, News & Analysis |...",
+   "sourceUrl": "https://seekingalpha.com/symbol/ZXOM:CA",
+   "publishedAt": "2026-11-13T01:42:37+00:00"
   },
   {
    "kind": "news",
-   "text": "ExxonMobil (XOM) Stock May Be 24% Undervalued Despite Venezuela Oil Deal",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-xom-stock-may-24-181015023.html",
-   "publishedAt": "2026-11-12T02:05:52+00:00"
+   "text": "Top Performing Long-Term Stocks \u2022 Benzinga",
+   "sourceUrl": "https://www.benzinga.com/money/best-long-term-stocks",
+   "publishedAt": "2026-11-10T01:42:37+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07231166833919311,
-  "p50": 0.29494609993864396,
+  "p50": 0.2970189666551917,
   "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1475
+  "windows": 1477
  },
- "asOf": "2026-11-13T02:05:52+00:00",
- "priceAsOf": "2026-11-11",
+ "asOf": "2026-11-14T01:42:37+00:00",
+ "priceAsOf": "2026-11-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

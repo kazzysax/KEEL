@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -8%; past 12 months: -3% (historical closes).",
+   "text": "Past 3 months: -12%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "price",
-   "text": "Trades -11% vs its 200-day average and -26% from its 52-week high.",
+   "text": "Trades -13% vs its 200-day average and -28% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-11"
+   "publishedAt": "2026-11-13"
   },
   {
    "kind": "news",
-   "text": "Gold Price Today: Gold Rises 4.31% on November 05, 2026",
-   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/11/05/gold-price-on-november-05-2026/92625443007/",
-   "publishedAt": "2026-11-06T02:05:54+00:00"
+   "text": "Avanti Gold Corp. (AVTGF) Stock Price, Quote, News & Analysis | Seeking Alpha",
+   "sourceUrl": "https://seekingalpha.com/symbol/AVTGF",
+   "publishedAt": "2026-11-13T01:42:38+00:00"
   },
   {
    "kind": "news",
-   "text": "6 Reasons Why Gold Price Is Still Falling",
-   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/6-reasons-why-gold-price-160000477.html",
-   "publishedAt": "2026-11-06T02:05:54+00:00"
+   "text": "Gold News: Tame PPI Fails to Lift Prices as Rate Hike Fears Persist",
+   "sourceUrl": "https://www.fxempire.com/forecasts/article/gold-news-tame-ppi-fails-to-lift-prices-as-rate-hike-fears-persist-1644459",
+   "publishedAt": "2026-11-13T14:42:38+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold prices today, Thursday, November 12, 2026: Prices open back under $4,000 as rate hikes crystallize",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-12-2026-prices-open-back-under-4000-as-rate-hikes-crystallize-121913089.html",
-   "publishedAt": "2026-10-31T02:05:54+00:00"
+   "text": "VanEck Junior Gold Miners ETF (GDXJ) Stock Price, News & Analysis | 24/7 Wall...",
+   "sourceUrl": "https://247wallst.com/companies/gdxj/",
+   "publishedAt": "2026-11-12T01:42:38+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07321210970686953,
-  "p50": 0.13054901605339508,
+  "p5": -0.07349650140319974,
+  "p50": 0.13001467228217445,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1475
+  "windows": 1477
  },
- "asOf": "2026-11-13T02:05:54+00:00",
- "priceAsOf": "2026-11-11",
+ "asOf": "2026-11-14T01:42:38+00:00",
+ "priceAsOf": "2026-11-13",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
