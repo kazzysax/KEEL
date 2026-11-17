@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +17%; past 12 months: +31% (historical closes).",
+   "text": "Past 3 months: +14%; past 12 months: +30% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
-   "text": "Trades +18% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +17% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
-   "text": "Apple's stock drops on weak margin forecast in Ternus' first earnings report",
-   "sourceUrl": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
-   "publishedAt": "2026-11-03T01:50:00+00:00"
+   "text": "Former Apple chairman Arthur Levinson files to sell $31.8 million in company stock",
+   "sourceUrl": "https://9to5mac.com/2026/11/16/former-apple-chairman-arthur-levinson-files-to-sell-31-8-million-in-company-stock/",
+   "publishedAt": "2026-11-16T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Stock Fell After a Record iPhone Quarter. Here's the Margin Problem Investors Shouldn't Ignore.",
-   "sourceUrl": "https://www.fool.com/investing/2026/11/03/apple-stock-fell-after-a-record-iphone-quarter-heres-the-margin-problem-investors-shouldnt-ignore/",
-   "publishedAt": "2026-11-03T17:48:00+00:00"
+   "text": "Apple: The Business Got Better, The Stock Got Much More Expensive",
+   "sourceUrl": "https://seekingalpha.com/article/4968195-apple-business-got-better-stock-got-much-more-expensive",
+   "publishedAt": "2026-11-14T14:12:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Stock Called 'Safe Haven,' Hits Record High",
-   "sourceUrl": "https://www.investors.com/news/technology/apple-stock-called-safe-haven-hits-record-high/",
-   "publishedAt": "2026-11-12T16:59:00+00:00"
+   "text": "Apple stock closes at a record $350.69, up 7.9% since John Ternus became CEO",
+   "sourceUrl": "https://www.macobserver.com/news/apple-stock-record-close-350/",
+   "publishedAt": "2026-11-12T04:09:06+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08009377016085473,
-  "p50": 0.23096916969981351,
+  "p50": 0.2314676740833992,
   "p95": 0.679678385548264,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:35+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:06+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

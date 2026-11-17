@@ -7,31 +7,31 @@
    "kind": "price",
    "text": "Past 3 months: -0%; past 12 months: +1% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
    "text": "Trades +0% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
-   "text": "iShares 0-3 Month Treasury Bond ETF (SGOV) Stock Price, Quote, News & History |...",
-   "sourceUrl": "https://www.benzinga.com/quote/SGOV",
-   "publishedAt": "2026-11-10T01:42:39+00:00"
+   "text": "BlackRock cools on US stocks, turns bullish on short-dated Treasuries",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/blackrock-cools-on-us-stocks-turns-bullish-on-short-dated-treasuries/ar-AA2e7m2x?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-13T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "CRE Loan Quotes Rise 13% as Lenders Price In Higher Rates",
-   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/cre-loan-quotes-rise-13-163653257.html",
-   "publishedAt": "2026-11-13T16:42:39+00:00"
+   "text": "Slowdown in money-fund cash flow hits short-term Treasuries",
+   "sourceUrl": "https://www.msn.com/en-us/money/investment/slowdown-in-money-fund-cash-flow-hits-short-term-treasuries/ar-AA2dFyui?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-06T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold News: Tame PPI Fails to Lift Prices as Rate Hike Fears Persist",
-   "sourceUrl": "https://www.fxempire.com/forecasts/article/gold-news-tame-ppi-fails-to-lift-prices-as-rate-hike-fears-persist-1644459",
-   "publishedAt": "2026-11-13T14:42:39+00:00"
+   "text": "BlackRock Turns Bullish on Short-Term Treasuries, Downgrades US Stocks",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/blackrock-turns-bullish-short-term-231556208.html",
+   "publishedAt": "2026-10-12T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.056890393252887694,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:39+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:09+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

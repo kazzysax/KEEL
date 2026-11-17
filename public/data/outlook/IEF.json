@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: -4% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
-   "text": "Trades -3% vs its 200-day average and -6% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
-   "text": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
-   "sourceUrl": "https://247wallst.com/personal-finance/2026/10/18/dad-is-71-and-wants-to-sell-every-stock-put-his-1-1-million-in-10-year-treasuries-now-that-the-yield-is-above-5-and-live-on-the-interest-is-it-a-crazy-idea/",
-   "publishedAt": "2026-10-18T00:00:00+00:00"
+   "text": "US producer prices rise moderately in October, but inflation broadens out",
+   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-producer-prices-rise-further-134401757.html",
+   "publishedAt": "2026-11-14T04:09:10+00:00"
   },
   {
    "kind": "news",
-   "text": "High-Yield REITs vs. 10-Year Treasuries: Which Is the Better Buy?",
-   "sourceUrl": "https://finance.yahoo.com/real-estate/articles/high-yield-reits-vs-10-205900173.html",
-   "publishedAt": "2026-10-16T00:00:00+00:00"
+   "text": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes...",
+   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html",
+   "publishedAt": "2026-11-13T04:09:10+00:00"
   },
   {
    "kind": "news",
-   "text": "10-year US Treasury yields near 5%: Retirees weigh investment timing",
-   "sourceUrl": "https://www.msn.com/en-xl/money/general/10-year-us-treasury-yields-near-5-retirees-weigh-investment-timing/ar-AA2gnPim?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T00:00:00+00:00"
+   "text": "Bitcoin Price Rebounds From Sub-$62,000 Low Ahead of Nvidia Earnings",
+   "sourceUrl": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week",
+   "publishedAt": "2026-11-16T10:09:10+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.08152185886022045,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:39+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:10+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

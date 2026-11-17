@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -12%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -11%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
-   "text": "Trades -13% vs its 200-day average and -28% from its 52-week high.",
+   "text": "Trades -13% vs its 200-day average and -29% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
-  },
-  {
-   "kind": "news",
-   "text": "Avanti Gold Corp. (AVTGF) Stock Price, Quote, News & Analysis | Seeking Alpha",
-   "sourceUrl": "https://seekingalpha.com/symbol/AVTGF",
-   "publishedAt": "2026-11-13T01:42:38+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Gold News: Tame PPI Fails to Lift Prices as Rate Hike Fears Persist",
-   "sourceUrl": "https://www.fxempire.com/forecasts/article/gold-news-tame-ppi-fails-to-lift-prices-as-rate-hike-fears-persist-1644459",
-   "publishedAt": "2026-11-13T14:42:38+00:00"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
    "text": "VanEck Junior Gold Miners ETF (GDXJ) Stock Price, News & Analysis | 24/7 Wall...",
    "sourceUrl": "https://247wallst.com/companies/gdxj/",
-   "publishedAt": "2026-11-12T01:42:38+00:00"
+   "publishedAt": "2026-11-12T04:09:09+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Scorpio Gold Corporation (SGLD) Stock Price, Quote, News & Analysis | Seeking...",
+   "sourceUrl": "https://seekingalpha.com/symbol/SGLD",
+   "publishedAt": "2026-11-16T04:09:09+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Sprott Gold Miners ETF (SGDM) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/SGDM",
+   "publishedAt": "2026-11-13T04:09:09+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07349650140319974,
+  "p5": -0.07369369974402229,
   "p50": 0.13001467228217445,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:38+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:09+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -7%; past 12 months: +10% (historical closes).",
+   "text": "Past 3 months: -8%; past 12 months: +9% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
-   "text": "Trades -0% vs its 200-day average and -11% from its 52-week high.",
+   "text": "Trades -3% vs its 200-day average and -13% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
-   "text": "Nasdaq 100 and QQQ have sunk into a correction: will they rebound after midterms?",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/nasdaq-100-and-qqq-have-sunk-into-a-correction-will-they-rebound-after-midterms/ar-AA2gEXEi?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-04T01:42:38+00:00"
+   "text": "Is First Trust NASDAQ-100-Technology Sector ETF (QTEC) a strong ETF right now?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/is-first-trust-nasdaq-100-technology-sector-etf-qtec-a-strong-etf-right-now/ar-AA2h8Bze?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-11T04:09:09+00:00"
   },
   {
    "kind": "news",
-   "text": "Nasdaq 100 turns green despite Nvidia's 5% drop on Huang exit: Stock market today",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/nasdaq-100-turns-green-despite-nvidias-5-drop-on-huang-exit-stock-market-today/ar-AA2hjtZ0?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-13T01:42:38+00:00"
+   "text": "Traders rushing into a leveraged ETF to make a bullish bet on the Nasdaq-100 just got burned",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/traders-rushing-into-a-leveraged-etf-to-make-a-bullish-bet-on-the-nasdaq-100-just-got-burned/ar-AA2gBYhX?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-02T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures rise as Nvidia CEO exit remains in focus",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-rise-as-nvidia-ceo-exit-remains-in-focus/vi-AA2hnzan?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-03T01:42:38+00:00"
+   "text": "Forget the Nasdaq 100, Buy This ETF Instead",
+   "sourceUrl": "https://www.fool.com/investing/2024/05/26/forget-the-nasdaq-100-buy-this-etf-instead/",
+   "publishedAt": "2024-05-26T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:38+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:09+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

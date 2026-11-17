@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +16%; past 12 months: +22% (historical closes).",
+   "text": "Past 3 months: +16%; past 12 months: +21% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
    "text": "Trades +14% vs its 200-day average and +0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
-   "text": "Costco\u2019s $30-per-share special dividend means just 3 shares could cover your $65 membership. But there\u2019s a catch",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-30-per-share-special-233000732.html",
-   "publishedAt": "2026-11-12T01:42:36+00:00"
+   "text": "\u201cCostco Has Terrible Governance,\u201d Says Lean Startup Author. Its Stock Just Hit a Record",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-terrible-governance-says-lean-093943336.html",
+   "publishedAt": "2026-10-30T04:09:07+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco stock moves higher: What's going on?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-stock-moves-higher-what-s-going-on/ar-AA2gPSwA?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-06T01:42:36+00:00"
+   "text": "Costco Hits 52-Week High on Strong Sales and Special Dividend",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-hits-52-week-high-151000309.html",
+   "publishedAt": "2026-11-05T04:09:07+00:00"
   },
   {
    "kind": "news",
-   "text": "Costco (COST) Declares $30 Special Dividend And Reauthorizes $4 Billion Buyback",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/costco-cost-declares-30-special-111021357.html",
-   "publishedAt": "2026-11-12T01:42:36+00:00"
+   "text": "Costco\u2019s latest cash dividend sets new record",
+   "sourceUrl": "https://www.msn.com/en-us/news/money/costco-s-latest-cash-dividend-sets-new-record/ar-AA2hjmfz?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-13T04:09:07+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6611740570839928,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:36+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:07+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

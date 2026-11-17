@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +9%; past 12 months: +50% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +48% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
-   "text": "Trades +15% vs its 200-day average and +0% from its 52-week high.",
+   "text": "Trades +14% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "news",
-   "text": "Is Johnson & Johnson (JNJ) Below Fair Value On Cash Flow?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-below-fair-191104493.html",
-   "publishedAt": "2026-11-11T01:42:37+00:00"
+   "text": "JNJ | Johnson & Johnson Stock Overview (U.S.: NYSE) | Barron's",
+   "sourceUrl": "https://www.barrons.com/market-data/stocks/jnj",
+   "publishedAt": "2026-11-16T04:09:08+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) up 10.4% since last earnings report: Can it continue?",
-   "sourceUrl": "https://www.msn.com/en-us/money/other/johnson-johnson-jnj-up-10-4-since-last-earnings-report-can-it-continue/ar-AA2hiWq6?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-13T01:42:37+00:00"
+   "text": "Johnson & Johnson (JNJ) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/JNJ/summary",
+   "publishedAt": "2026-11-12T04:09:08+00:00"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Stock Gets Fair Value Bump On Mixed Analyst Target Changes",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-gets-141329999.html",
-   "publishedAt": "2026-10-23T00:00:00+00:00"
+   "text": "Johnson & Johnson (JNJ) in Talks to Acquire Ollin Biosciences fo",
+   "sourceUrl": "https://www.gurufocus.com/news/9200875/johnson-johnson-jnj-in-talks-to-acquire-ollin-biosciences-for-up-to-34-billion",
+   "publishedAt": "2026-11-16T04:09:08+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08647493923678673,
-  "p50": 0.0835671159200504,
+  "p50": 0.08364785277286302,
   "p95": 0.5646127190850889,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:37+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:08+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

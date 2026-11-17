@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: -7% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
   },
   {
    "kind": "price",
    "text": "Trades -4% vs its 200-day average and -10% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-13"
+   "publishedAt": "2026-11-16"
+  },
+  {
+   "kind": "news",
+   "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+   "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+   "publishedAt": "2026-10-01T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Bitcoin Price Rebounds From Sub-$62,000 Low Ahead of Nvidia Earnings",
+   "sourceUrl": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week",
+   "publishedAt": "2026-11-16T10:09:10+00:00"
   },
   {
    "kind": "news",
    "text": "Gold falls to over one-year low below $3,900 amid inflation concerns, US PPI...",
    "sourceUrl": "https://www.fxstreet.com/news/gold-falls-to-over-one-year-low-below-3-900-amid-inflation-concerns-us-ppi-data-looms-202611122321",
-   "publishedAt": "2026-11-13T01:42:40+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-012244050.html",
-   "publishedAt": "2026-11-14T01:22:40+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "The Treasury Secretary Is Now Living on a Military Base After Iranian Threats",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/12/the-treasury-secretary-is-now-living-on-a-military-base-after-iranian-threats/",
-   "publishedAt": "2026-11-13T01:42:40+00:00"
+   "publishedAt": "2026-11-13T04:09:10+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.07968911468170159,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1477
+  "windows": 1478
  },
- "asOf": "2026-11-14T01:42:40+00:00",
- "priceAsOf": "2026-11-13",
+ "asOf": "2026-11-17T04:09:10+00:00",
+ "priceAsOf": "2026-11-16",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
