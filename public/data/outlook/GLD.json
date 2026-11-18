@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -11%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -15%; past 12 months: -6% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "price",
-   "text": "Trades -13% vs its 200-day average and -29% from its 52-week high.",
+   "text": "Trades -14% vs its 200-day average and -29% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "news",
-   "text": "VanEck Junior Gold Miners ETF (GDXJ) Stock Price, News & Analysis | 24/7 Wall...",
-   "sourceUrl": "https://247wallst.com/companies/gdxj/",
-   "publishedAt": "2026-11-12T04:09:09+00:00"
+   "text": "Gold Price Today: Gold Falls 3.76% on October 30, 2026",
+   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/30/gold-price-on-october-30-2026/92511721007/",
+   "publishedAt": "2026-10-30T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Scorpio Gold Corporation (SGLD) Stock Price, Quote, News & Analysis | Seeking...",
-   "sourceUrl": "https://seekingalpha.com/symbol/SGLD",
-   "publishedAt": "2026-11-16T04:09:09+00:00"
+   "text": "Gold price today, November 17, 2026: Gold rates fall, check 24K, 22K and 18K prices across major cities",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-november-17-2026-gold-rates-fall-check-24k-22k-and-18k-prices-across-major-cities/ar-AA2hDlnP?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-05T03:06:40+00:00"
   },
   {
    "kind": "news",
-   "text": "Sprott Gold Miners ETF (SGDM) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/SGDM",
-   "publishedAt": "2026-11-13T04:09:09+00:00"
+   "text": "What is the gold price outlook for November 16, 2026 week?",
+   "sourceUrl": "https://www.msn.com/en-in/money/economy/what-is-the-gold-price-outlook-for-november-16-2026-week/ar-AA2hvJWD?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-17T03:06:40+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07369369974402229,
-  "p50": 0.13001467228217445,
+  "p50": 0.1295971281020778,
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1478
+  "windows": 1479
  },
- "asOf": "2026-11-17T04:09:09+00:00",
- "priceAsOf": "2026-11-16",
+ "asOf": "2026-11-18T03:06:40+00:00",
+ "priceAsOf": "2026-11-17",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

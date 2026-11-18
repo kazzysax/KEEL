@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: -2%; past 12 months: -3% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "price",
    "text": "Trades -2% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
+  },
+  {
+   "kind": "news",
+   "text": "State Street SPDR S&P Bank ETF (KBE) Stock Price, News & Analysis | 24/7 Wall...",
+   "sourceUrl": "https://247wallst.com/companies/kbe/",
+   "publishedAt": "2026-11-13T03:06:41+00:00"
   },
   {
    "kind": "news",
    "text": "US producer prices rise moderately in October, but inflation broadens out",
    "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-producer-prices-rise-further-134401757.html",
-   "publishedAt": "2026-11-14T04:09:10+00:00"
+   "publishedAt": "2026-11-14T03:06:41+00:00"
   },
   {
    "kind": "news",
-   "text": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes...",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html",
-   "publishedAt": "2026-11-13T04:09:10+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Bitcoin Price Rebounds From Sub-$62,000 Low Ahead of Nvidia Earnings",
-   "sourceUrl": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week",
-   "publishedAt": "2026-11-16T10:09:10+00:00"
+   "text": "The average US 30-year mortgage rate falls to 7.11% this week, its fourth straig...",
+   "sourceUrl": "https://wtop.com/national/2026/11/freddie-mac-says-average-rate-on-a-30-year-mortgage-fell-to-7-11-this-week-its-fourth-consecutive-weekly-drop/",
+   "publishedAt": "2026-11-13T03:06:41+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.13605739053840615,
-  "p50": -0.015883529039857458,
+  "p50": -0.01599048558365157,
   "p95": 0.08152185886022045,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1478
+  "windows": 1479
  },
- "asOf": "2026-11-17T04:09:10+00:00",
- "priceAsOf": "2026-11-16",
+ "asOf": "2026-11-18T03:06:41+00:00",
+ "priceAsOf": "2026-11-17",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

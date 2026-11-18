@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +8%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: +5%; past 12 months: +0% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and -7% from its 52-week high.",
+   "text": "Trades +15% vs its 200-day average and -9% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock in focus as massive 365 outage hits Outlook, Teams and Copilot: What investors should know",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/microsoft-stock-in-focus-as-massive-365-outage-hits-outlook-teams-and-copilot-what-investors-should-know/ar-AA2ho2zW?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-14T04:09:06+00:00"
+   "text": "What Does Microsoft's Slide Mean for a 67-Year-Old With $700,000 of a $2.4 Million IRA in the Stock?",
+   "sourceUrl": "https://247wallst.com/investing/2026/11/13/what-does-microsofts-slide-mean-for-a-67-year-old-with-700000-of-a-2-4-million-ira-in-the-stock/",
+   "publishedAt": "2026-11-13T13:03:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft is off its record high. Next week could see the stock reignited.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-is-off-its-record-high-next-week-could-see-the-stock-reignited/ar-AA2hi3Lt?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-13T04:09:06+00:00"
+   "text": "Microsoft Stock Slips on Widespread Outage",
+   "sourceUrl": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026/card/Bov00V9K8D7MQ4VxwCYG",
+   "publishedAt": "2026-11-13T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock drops after Anthropic unveils tools to rival Office",
-   "sourceUrl": "https://www.msn.com/en-us/technology/tech-companies/microsoft-stock-drops-after-anthropic-unveils-tools-to-rival-office/ar-AA2ha4XM?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-11T04:09:06+00:00"
+   "text": "Bill Ackman cut his Microsoft stake. Your S&P 500 fund can't.",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/bill-ackman-cut-his-microsoft-stake-your-s-p-500-fund-cant/ar-AA2hDCj9?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-09T03:06:36+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22116915482446642,
-  "p50": 0.20465983422539535,
+  "p50": 0.20433632639113264,
   "p95": 0.5873783489393611,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1478
+  "windows": 1479
  },
- "asOf": "2026-11-17T04:09:06+00:00",
- "priceAsOf": "2026-11-16",
+ "asOf": "2026-11-18T03:06:36+00:00",
+ "priceAsOf": "2026-11-17",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

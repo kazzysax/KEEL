@@ -5,21 +5,21 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -8%; past 12 months: +9% (historical closes).",
+   "text": "Past 3 months: -8%; past 12 months: +8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "price",
-   "text": "Trades -3% vs its 200-day average and -13% from its 52-week high.",
+   "text": "Trades -4% vs its 200-day average and -14% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "news",
    "text": "Is First Trust NASDAQ-100-Technology Sector ETF (QTEC) a strong ETF right now?",
    "sourceUrl": "https://www.msn.com/en-us/news/other/is-first-trust-nasdaq-100-technology-sector-etf-qtec-a-strong-etf-right-now/ar-AA2h8Bze?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-11T04:09:09+00:00"
+   "publishedAt": "2026-11-11T03:06:39+00:00"
   },
   {
    "kind": "news",
@@ -29,21 +29,21 @@
   },
   {
    "kind": "news",
-   "text": "Forget the Nasdaq 100, Buy This ETF Instead",
-   "sourceUrl": "https://www.fool.com/investing/2024/05/26/forget-the-nasdaq-100-buy-this-etf-instead/",
-   "publishedAt": "2024-05-26T00:00:00+00:00"
+   "text": "Stock Market Today: Dow Jones, S&P 500, Nasdaq...",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq/ar-AA2hwUxh?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-17T03:06:39+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.243284433577154,
-  "p50": 0.2542241695675933,
+  "p50": 0.253708021501716,
   "p95": 0.503315847300692,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1478
+  "windows": 1479
  },
- "asOf": "2026-11-17T04:09:09+00:00",
- "priceAsOf": "2026-11-16",
+ "asOf": "2026-11-18T03:06:39+00:00",
+ "priceAsOf": "2026-11-17",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,27 +5,27 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +1%; past 12 months: +45% (historical closes).",
+   "text": "Past 3 months: +1%; past 12 months: +43% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
   },
   {
    "kind": "price",
    "text": "Trades +7% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-16"
+   "publishedAt": "2026-11-17"
+  },
+  {
+   "kind": "news",
+   "text": "What's going on with ExxonMobil stock Friday?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/what-s-going-on-with-exxonmobil-stock-friday/ar-AA2hnP55?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-14T03:06:38+00:00"
   },
   {
    "kind": "news",
    "text": "Exxon Mobil Holdings (XOM) Q3 earnings and revenues beat estimates",
    "sourceUrl": "https://www.msn.com/en-us/news/other/exxon-mobil-holdings-xom-q3-earnings-and-revenues-beat-estimates/ar-AA2gqcr6?ocid=BingNewsVerp",
    "publishedAt": "2026-10-30T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "What ExxonMobil Stock's Guyana Expansion Means For Shareholders",
-   "sourceUrl": "https://finance.yahoo.com/energy/articles/exxonmobil-stocks-guyana-expansion-means-232026527.html",
-   "publishedAt": "2026-11-13T04:09:08+00:00"
   },
   {
    "kind": "news",
@@ -40,10 +40,10 @@
   "p95": 0.826543282312888,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1478
+  "windows": 1479
  },
- "asOf": "2026-11-17T04:09:08+00:00",
- "priceAsOf": "2026-11-16",
+ "asOf": "2026-11-18T03:06:38+00:00",
+ "priceAsOf": "2026-11-17",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
