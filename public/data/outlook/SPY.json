@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -5%; past 12 months: +10% (historical closes).",
+   "text": "Past 3 months: -4%; past 12 months: +11% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-17"
+   "publishedAt": "2026-11-18"
   },
   {
    "kind": "price",
    "text": "Trades +0% vs its 200-day average and -6% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-17"
+   "publishedAt": "2026-11-18"
   },
   {
    "kind": "news",
-   "text": "Morgan Stanley sees Japan stocks outrunning the S&P 500 in 2027: These ETFs offer exposure",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/morgan-stanley-sees-japan-stocks-outrunning-the-s-p-500-in-2027-these-etfs-offer-exposure/ar-AA2hD083?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-07T03:06:39+00:00"
+   "text": "Is an equal-weight S&P 500 fund safer right now than the one you own?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-an-equal-weight-s-p-500-fund-safer-right-now-than-the-one-you-own/ar-AA2hyptX?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-17T02:46:05+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow drops 850 points as investors brace for Nvidia earnings; S&P 500, Nasdaq extend losing streak to four days",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-drops-850-points-as-investors-brace-for-nvidia-earnings-s-p-500-nasdaq-extend-losing-streak-to-four-days/ar-AA2hCfcP?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-13T03:06:39+00:00"
+   "text": "If the S&P 500 falls 20%, here's the 1 ETF I'd buy hand over fist",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/if-the-s-p-500-falls-20-here-s-the-1-etf-i-d-buy-hand-over-fist/ar-AA2gL7Mo?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-04T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market: Will S&P 500 open up or down today?",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-will-s-p-500-open-up-or-down-today/ar-AA2hAzi8?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-29T03:06:39+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures trade mixed ahead of FOMC minutes\u2014NVDA, AAOI, PANW in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-trade-mixed-ahead-of-fomc-minutes-nvda-aaoi-panw-in-focus-updated/ar-AA2hGBP8?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-06T02:46:05+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.12542029641457086,
+  "p5": -0.12528521710093932,
   "p50": 0.18384411288319447,
   "p95": 0.4052240631084356,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1479
+  "windows": 1480
  },
- "asOf": "2026-11-18T03:06:39+00:00",
- "priceAsOf": "2026-11-17",
+ "asOf": "2026-11-19T02:46:05+00:00",
+ "priceAsOf": "2026-11-18",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

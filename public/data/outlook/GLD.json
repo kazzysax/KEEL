@@ -5,15 +5,21 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -15%; past 12 months: -6% (historical closes).",
+   "text": "Past 3 months: -18%; past 12 months: -8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-17"
+   "publishedAt": "2026-11-18"
   },
   {
    "kind": "price",
-   "text": "Trades -14% vs its 200-day average and -29% from its 52-week high.",
+   "text": "Trades -16% vs its 200-day average and -31% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-17"
+   "publishedAt": "2026-11-18"
+  },
+  {
+   "kind": "news",
+   "text": "SD Bullion Publishes Long-Term Gold Price Analysis Examining Gold\u2019s 50-Year Record Against Inflation",
+   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/sd-bullion-publishes-long-term-165149971.html",
+   "publishedAt": "2026-11-18T02:46:06+00:00"
   },
   {
    "kind": "news",
@@ -23,15 +29,9 @@
   },
   {
    "kind": "news",
-   "text": "Gold price today, November 17, 2026: Gold rates fall, check 24K, 22K and 18K prices across major cities",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-november-17-2026-gold-rates-fall-check-24k-22k-and-18k-prices-across-major-cities/ar-AA2hDlnP?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-05T03:06:40+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "What is the gold price outlook for November 16, 2026 week?",
-   "sourceUrl": "https://www.msn.com/en-in/money/economy/what-is-the-gold-price-outlook-for-november-16-2026-week/ar-AA2hvJWD?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-17T03:06:40+00:00"
+   "text": "Gold price today, November 18, 2026: Gold gets cheaper ahead of weddings, check latest 24K, 22K and 18K rates",
+   "sourceUrl": "https://www.msn.com/en-in/money/investment/gold-price-today-november-18-2026-gold-gets-cheaper-ahead-of-weddings-check-latest-24k-22k-and-18k-rates/ar-AA2hFSo9?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T02:46:06+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5902481145266629,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1479
+  "windows": 1480
  },
- "asOf": "2026-11-18T03:06:40+00:00",
- "priceAsOf": "2026-11-17",
+ "asOf": "2026-11-19T02:46:06+00:00",
+ "priceAsOf": "2026-11-18",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
