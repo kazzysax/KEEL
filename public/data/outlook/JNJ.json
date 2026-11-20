@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +2%; past 12 months: +40% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: +37% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-18"
+   "publishedAt": "2026-11-19"
   },
   {
    "kind": "price",
-   "text": "Trades +9% vs its 200-day average and -5% from its 52-week high.",
+   "text": "Trades +7% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-18"
+   "publishedAt": "2026-11-19"
   },
   {
    "kind": "news",
    "text": "Johnson & Johnson Hits a New High After a 15% Month. Is There Room to Run?",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-hits-high-15-083115049.html",
-   "publishedAt": "2026-11-15T02:46:04+00:00"
+   "publishedAt": "2026-11-15T02:33:21+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Abiomed Stock Soars After $16.6 Billion Johnson & Johnson Takeover Amid Deeper Medical Devices Push",
+   "sourceUrl": "https://www.thestreet.com/markets/abiomed-stock-soars-after-16-6-billion-johnson-johnson-takeover",
+   "publishedAt": "2022-11-01T00:00:00+00:00"
   },
   {
    "kind": "news",
    "text": "Johnson & Johnson (JNJ) Stock Gets Fair Value Bump On Mixed Analyst Target Changes",
    "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-gets-141329999.html",
    "publishedAt": "2026-10-23T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Johnson & Johnson stock falls despite strong earnings as investors focus on medtech unit",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/johnson-johnson-stock-falls-despite-strong-earnings-as-investors-focus-on-medtech-unit/ar-AA2e9FbP?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08585704544293926,
   "p50": 0.08388788718403273,
-  "p95": 0.5646127190850889,
+  "p95": 0.5644587720164707,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1480
+  "windows": 1481
  },
- "asOf": "2026-11-19T02:46:04+00:00",
- "priceAsOf": "2026-11-18",
+ "asOf": "2026-11-20T02:33:21+00:00",
+ "priceAsOf": "2026-11-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -18%; past 12 months: -8% (historical closes).",
+   "text": "Past 3 months: -21%; past 12 months: -10% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-18"
+   "publishedAt": "2026-11-19"
   },
   {
    "kind": "price",
-   "text": "Trades -16% vs its 200-day average and -31% from its 52-week high.",
+   "text": "Trades -18% vs its 200-day average and -32% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-18"
+   "publishedAt": "2026-11-19"
+  },
+  {
+   "kind": "news",
+   "text": "Gold price crash November 16, 2026: Gold hits lowest level since October 2025, will prices fall further?",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-crash-november-16-2026-gold-hits-lowest-level-since-october-2025-will-prices-fall-further/ar-AA2hxP1C?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-17T02:33:23+00:00"
   },
   {
    "kind": "news",
    "text": "SD Bullion Publishes Long-Term Gold Price Analysis Examining Gold\u2019s 50-Year Record Against Inflation",
    "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/sd-bullion-publishes-long-term-165149971.html",
-   "publishedAt": "2026-11-18T02:46:06+00:00"
+   "publishedAt": "2026-11-18T02:33:23+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold Price Today: Gold Falls 3.76% on October 30, 2026",
-   "sourceUrl": "https://www.usatoday.com/story/money/personalfinance/2026/10/30/gold-price-on-october-30-2026/92511721007/",
-   "publishedAt": "2026-10-30T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Gold price today, November 18, 2026: Gold gets cheaper ahead of weddings, check latest 24K, 22K and 18K rates",
-   "sourceUrl": "https://www.msn.com/en-in/money/investment/gold-price-today-november-18-2026-gold-gets-cheaper-ahead-of-weddings-check-latest-24k-22k-and-18k-rates/ar-AA2hFSo9?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T02:46:06+00:00"
+   "text": "Gold-silver price ratio crosses 82: What does this indicate? Where should investors start ETF SIPs for 2027? Experts say",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-silver-price-ratio-crosses-82-what-does-this-indicate-where-should-investors-start-etf-sips-for-2027-experts-say/ar-AA2hK9LY?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-28T02:33:23+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07369369974402229,
-  "p50": 0.1295971281020778,
-  "p95": 0.5902481145266629,
+  "p5": -0.07379298199010287,
+  "p50": 0.12952321188416072,
+  "p95": 0.5884083775183933,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1480
+  "windows": 1481
  },
- "asOf": "2026-11-19T02:46:06+00:00",
- "priceAsOf": "2026-11-18",
+ "asOf": "2026-11-20T02:33:23+00:00",
+ "priceAsOf": "2026-11-19",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
