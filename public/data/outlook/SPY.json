@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -6%; past 12 months: +10% (historical closes).",
+   "text": "Past 3 months: -9%; past 12 months: +5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -8% from its 52-week high.",
+   "text": "Trades -6% vs its 200-day average and -12% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
-   "text": "If You Had Invested $10,000 in the Vanguard S&P 500 ETF (VOO) in 2016, Here's What You Would Have Today",
-   "sourceUrl": "https://www.fool.com/investing/2026/11/16/if-you-invested-10000-voo-2016-what-you-have-today/",
-   "publishedAt": "2026-11-17T02:33:22+00:00"
+   "text": "S&P 500 Faces Steep Weekly Decline as SPY ETF Shows 3.6% Underva",
+   "sourceUrl": "https://www.gurufocus.com/news/9212638/sp-500-faces-steep-weekly-decline-as-spy-etf-shows-36-undervaluation",
+   "publishedAt": "2026-11-20T14:46:37+00:00"
   },
   {
    "kind": "news",
-   "text": "If the S&P 500 falls 20%, here's the 1 ETF I'd buy hand over fist",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/if-the-s-p-500-falls-20-here-s-the-1-etf-i-d-buy-hand-over-fist/ar-AA2gL7Mo?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-04T00:00:00+00:00"
+   "text": "Invesco S&P 500 Equal Weight Energy ETF Overview (RSPG) | Barron's",
+   "sourceUrl": "https://www.barrons.com/market-data/funds/rspg",
+   "publishedAt": "2026-11-20T02:46:37+00:00"
   },
   {
    "kind": "news",
-   "text": "S&P 500 Breaks Critical Support: Is a Bigger Stock Market Crash Coming?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/p-500-breaks-critical-support-215643809.html",
-   "publishedAt": "2026-11-19T02:33:22+00:00"
+   "text": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's ...",
+   "sourceUrl": "https://www.benzinga.com/markets/equities/26/11/63419682/stock-market-today-dow-sp-500-futures-rise-as-wall-street-awaits-anthropics-listing-panw-ntes-sls-in-focus",
+   "publishedAt": "2026-11-19T02:46:37+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.4046160449889973,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:22+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:37+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

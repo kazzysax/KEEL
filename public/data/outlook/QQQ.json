@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -9%; past 12 months: +9% (historical closes).",
+   "text": "Past 3 months: -14%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades -5% vs its 200-day average and -15% from its 52-week high.",
+   "text": "Trades -11% vs its 200-day average and -20% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
-   "text": "iShares Nasdaq 100 ETF (IQQ) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/IQQ",
-   "publishedAt": "2026-11-18T02:33:22+00:00"
+   "text": "Every December the Nasdaq-100 Reshuffles. QQQ Holders Feel It Even If They Never Trade",
+   "sourceUrl": "https://247wallst.com/investing/etf/2026/11/11/every-december-the-nasdaq-100-reshuffles-qqq-holders-feel-it-even-if-they-never-trade/",
+   "publishedAt": "2026-11-12T02:46:37+00:00"
   },
   {
    "kind": "news",
-   "text": "State Street SPDR Portfolio Nasdaq 100 ETF (QNDX) Stock Price, Quote, News &...",
-   "sourceUrl": "https://www.benzinga.com/quote/QNDX",
-   "publishedAt": "2026-11-17T02:33:22+00:00"
+   "text": "Michael Burry's latest move puts the Nasdaq 100 under scrutiny",
+   "sourceUrl": "https://www.msn.com/en-us/news/money/michael-burrys-latest-move-puts-the-nasdaq-100-under-scrutiny/ar-AA2hDWZJ?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-18T02:46:37+00:00"
   },
   {
    "kind": "news",
-   "text": "Quantify Funds Launches IQQI, a Nasdaq-100\u00ae ETF Seeking Growth a",
-   "sourceUrl": "https://www.gurufocus.com/news/9210022/quantify-funds-launches-iqqi-a-nasdaq100-etf-seeking-growth-and-weekly-income-without-coveredcall-upside-caps",
-   "publishedAt": "2026-11-19T13:33:22+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures trade mixed ahead of FOMC minutes\u2014NVDA, AAOI, PANW in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-trade-mixed-ahead-of-fomc-minutes-nvda-aaoi-panw-in-focus-updated/ar-AA2hGBP8?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-19T02:46:37+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5029636310097276,
   "min": -0.3475838939819028,
   "max": 0.9043423510863611,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:22+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:37+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

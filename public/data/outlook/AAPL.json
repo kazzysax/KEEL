@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +13%; past 12 months: +31% (historical closes).",
+   "text": "Past 3 months: +10%; past 12 months: +28% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades +15% vs its 200-day average and -2% from its 52-week high.",
+   "text": "Trades +13% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
-  },
-  {
-   "kind": "news",
-   "text": "Apple's Longest-Serving Director Just Cashed Out $32 Million",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/19/apples-longest-serving-director-just-cashed-out-32-million/",
-   "publishedAt": "2026-11-19T17:04:00+00:00"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
    "text": "Apple stock stands out as Big Tech tumbles. Here's what's working",
    "sourceUrl": "https://www.usatoday.com/story/money/money-management/investing/2026/11/13/apple-stock-big-tech-market/92708432007/",
-   "publishedAt": "2026-11-13T20:11:00+00:00"
+   "publishedAt": "2026-11-14T02:46:34+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple Stock Fell After a Record iPhone Quarter. Here's the Margin Problem Investors Shouldn't Ignore.",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-stock-fell-after-a-record-iphone-quarter-here-s-the-margin-problem-investors-shouldn-t-ignore/ar-AA2gGCw4",
-   "publishedAt": "2026-11-03T18:48:55+00:00"
+   "text": "Apple cements its status as tech\u2019s biggest heavyweight with the stock\u2019s best day in over a year",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/apple-cements-its-status-as-tech-s-biggest-heavyweight-with-the-stock-s-best-day-in-over-a-year/ar-AA2gLJGn?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-04T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Apple's stock drops on weak margin forecast in Ternus\u2019 first earnings report",
+   "sourceUrl": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+   "publishedAt": "2026-11-03T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08005662557204063,
-  "p50": 0.23183056992737683,
+  "p50": 0.23188993669776625,
   "p95": 0.6768451882383497,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:19+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:34+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

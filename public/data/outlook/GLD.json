@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -21%; past 12 months: -10% (historical closes).",
+   "text": "Past 3 months: -24%; past 12 months: -14% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades -18% vs its 200-day average and -32% from its 52-week high.",
+   "text": "Trades -20% vs its 200-day average and -35% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
-   "text": "Gold price crash November 16, 2026: Gold hits lowest level since October 2025, will prices fall further?",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-crash-november-16-2026-gold-hits-lowest-level-since-october-2025-will-prices-fall-further/ar-AA2hxP1C?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-17T02:33:23+00:00"
+   "text": "Gold price today on November 20, 2026",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/gold-price-today-on-november-20-2026/ar-AA2hQdBO?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-06T02:46:37+00:00"
   },
   {
    "kind": "news",
-   "text": "SD Bullion Publishes Long-Term Gold Price Analysis Examining Gold\u2019s 50-Year Record Against Inflation",
-   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/sd-bullion-publishes-long-term-165149971.html",
-   "publishedAt": "2026-11-18T02:33:23+00:00"
+   "text": "Why is gold price down today? Gold futures slip 2.5% to September 2025 low",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/why-is-gold-price-down-today-gold-futures-slip-2-5-to-september-2025-low/ar-AA2hIwfM?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-19T02:46:37+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold-silver price ratio crosses 82: What does this indicate? Where should investors start ETF SIPs for 2027? Experts say",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-silver-price-ratio-crosses-82-what-does-this-indicate-where-should-investors-start-etf-sips-for-2027-experts-say/ar-AA2hK9LY?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-28T02:33:23+00:00"
+   "text": "Gold price today, November 19, 2026: Gold rates fall across Indian cities, check latest 22K and 24K prices",
+   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-november-19-2026-gold-rates-fall-across-indian-cities-check-latest-22k-and-24k-prices/ar-AA2hL9SV?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-20T02:46:37+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07379298199010287,
+  "p5": -0.07382095424781743,
   "p50": 0.12952321188416072,
   "p95": 0.5884083775183933,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:23+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:37+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: -3% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: -2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -5% from its 52-week high.",
+   "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
-   "text": "US producer prices rise moderately in October, but inflation broadens out",
-   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-producer-prices-rise-further-134401757.html",
-   "publishedAt": "2026-11-14T02:33:23+00:00"
+   "text": "Retirees weigh 10-year US treasuries at 5% yield",
+   "sourceUrl": "https://www.msn.com/en-xl/money/economy/retirees-weigh-10-year-us-treasuries-at-5-yield/ar-AA2gnPim?ocid=BingNewsVerp",
+   "publishedAt": "2026-10-30T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "US Dollar Price Forecast: DXY Holds 102.88 as EUR/USD Tests 1.1056, GBP/USD Eyes...",
-   "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-dxy-073156998.html",
-   "publishedAt": "2026-11-13T02:33:23+00:00"
+   "text": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
+   "sourceUrl": "https://www.morningstar.com/news/pr-newswire/20261019ln75030/treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it",
+   "publishedAt": "2026-10-19T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "The average US 30-year mortgage rate rises to 7.28% this week, ending a...",
-   "sourceUrl": "https://www.wxxv25.com/the-average-us-30-year-mortgage-rate-rises-to-7-28-this-week-ending-a-four-week-slide/",
-   "publishedAt": "2026-11-20T02:00:23+00:00"
+   "text": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
+   "sourceUrl": "https://247wallst.com/personal-finance/2026/10/18/dad-is-71-and-wants-to-sell-every-stock-put-his-1-1-million-in-10-year-treasuries-now-that-the-yield-is-above-5-and-live-on-the-interest-is-it-a-crazy-idea/",
+   "publishedAt": "2026-10-18T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.08130766822503688,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:23+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:38+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

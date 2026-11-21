@@ -1,49 +1,49 @@
 {
  "ticker": "WMT",
  "name": "Walmart",
- "outlook": "Neutral",
+ "outlook": "Positive",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +22%; past 12 months: +25% (historical closes).",
+   "text": "Past 3 months: +20%; past 12 months: +28% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades +6% vs its 200-day average and -6% from its 52-week high.",
+   "text": "Trades +8% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
-   "text": "What analysts are saying about Walmart after earnings",
-   "sourceUrl": "https://www.msn.com/en-us/money/other/what-analysts-are-saying-about-walmart-after-earnings/ar-AA2hMBGS?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-10T02:33:20+00:00"
+   "text": "Here\u2019s how much traders expect Walmart stock to move after earnings Thursday",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/here-s-how-much-traders-expect-walmart-stock-to-move-after-earnings-thursday/ar-AA2hDsql?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-18T02:46:35+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock market today: Dow rises as Walmart falls on earnings; Anthropic IPO to debut (live coverage)",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-rises-as-walmart-falls-on-earnings-anthropic-ipo-to-debut-live-coverage/ar-AA2hM8Xo?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-08T02:33:20+00:00"
+   "text": "Walmart's $179.5B Q3 revenue stuns Wall Street as high-income shoppers lead the charge",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/walmart-s-179-5b-q3-revenue-stuns-wall-street-as-high-income-shoppers-lead-the-charge/ar-AA2hS5CW?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-12T02:46:35+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart (WMT) Tops Q3 Earnings and Revenue Estimates",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-wmt-tops-q3-earnings-and-revenue-estimates/ar-AA2hMAOa?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-06T02:33:20+00:00"
+   "text": "Stock market today: Nasdaq turns negative for 2026 as fear gauge spikes; Walmart advances (live coverage)",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-turns-negative-for-2026-as-fear-gauge-spikes-walmart-advances-live-coverage/ar-AA2hQINu?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-15T02:46:35+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.0657683491818879,
-  "p50": 0.19943713096160298,
+  "p50": 0.2003061165820419,
   "p95": 0.643458915432273,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:20+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:35+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

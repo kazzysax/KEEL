@@ -1,37 +1,37 @@
 {
  "ticker": "MSFT",
  "name": "Microsoft",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +2% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: +0% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "price",
-   "text": "Trades +13% vs its 200-day average and -10% from its 52-week high.",
+   "text": "Trades +9% vs its 200-day average and -13% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-19"
+   "publishedAt": "2026-11-20"
   },
   {
    "kind": "news",
-   "text": "Vance on whether Americans should stock up on food, water: \u2018We don\u2019t see a crisi...",
-   "sourceUrl": "https://thehill.com/homenews/administration/6224270-jd-vance-trump-administration-tech-outages-crisis-response/",
-   "publishedAt": "2026-11-19T02:33:20+00:00"
+   "text": "Options Traders Show Slight Pessimism as Microsoft (MSFT) Stock",
+   "sourceUrl": "https://www.gurufocus.com/news/9213196/options-traders-show-slight-pessimism-as-microsoft-msft-stock-dips-amid-elevated-volatility",
+   "publishedAt": "2026-11-20T20:46:34+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock Market News for Nov 18, 2026",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-18-132500195.html",
-   "publishedAt": "2026-11-18T02:33:20+00:00"
+   "text": "Microsoft (MSFT) Launches Pay-for-Performance Strategy in Azure",
+   "sourceUrl": "https://www.gurufocus.com/news/9213144/microsoft-msft-launches-payforperformance-strategy-in-azure-amid-costcutting-drive",
+   "publishedAt": "2026-11-20T19:46:34+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Just Piled Onto the Bad News for CoreWeave, Oracle, and Nebius",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-just-piled-onto-bad-114002255.html",
-   "publishedAt": "2026-11-13T02:33:20+00:00"
+   "text": "Microsoft Corp (MSFT) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/MSFT/summary",
+   "publishedAt": "2026-11-17T02:46:34+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5868933193675474,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1481
+  "windows": 1482
  },
- "asOf": "2026-11-20T02:33:20+00:00",
- "priceAsOf": "2026-11-19",
+ "asOf": "2026-11-21T02:46:34+00:00",
+ "priceAsOf": "2026-11-20",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
