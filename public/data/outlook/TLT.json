@@ -5,27 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: -4% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: -5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
-   "text": "Trades -2% vs its 200-day average and -8% from its 52-week high.",
+   "text": "Trades -1% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "AI debt binge isn't crowding out Treasuries, TBAC says",
-   "sourceUrl": "https://www.msn.com/en-us/money/other/ai-debt-binge-isn-t-crowding-out-treasuries-tbac-says/ar-AA2gLtdp?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-04T00:00:00+00:00"
+   "text": "US Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets",
+   "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-treasuries-slump-hot-inflation-124425335.html",
+   "publishedAt": "2026-10-14T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "BlackRock Turns Bullish on Short-Term Bonds, Downgrades Stocks",
-   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-12/blackrock-turns-bullish-on-short-term-bonds-downgrades-stocks",
-   "publishedAt": "2026-10-12T00:00:00+00:00"
+   "text": "China's $2 billion bond draws large orders, prices in line with US Treasuries",
+   "sourceUrl": "https://www.reuters.com/markets/asia/chinas-2-billion-bond-draws-large-orders-prices-line-with-us-treasuries-2026-11-20/",
+   "publishedAt": "2026-11-20T05:29:12+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "US National Debt Interest Has Quadrupled as Share of Outlays - iShares 20+ Year...",
+   "sourceUrl": "https://www.benzinga.com/markets/economic-data/26/11/63330321/us-national-debt-interest-share-of-government-outlays-quadruples-record-october",
+   "publishedAt": "2026-11-17T05:29:12+00:00"
   }
  ],
  "historical12m": {
@@ -34,10 +40,10 @@
   "p95": 0.07878644179541117,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:39+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:12+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

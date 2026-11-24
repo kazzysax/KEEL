@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +10%; past 12 months: +28% (historical closes).",
+   "text": "Past 3 months: +13%; past 12 months: +31% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
-   "text": "Trades +13% vs its 200-day average and -4% from its 52-week high.",
+   "text": "Trades +15% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "Apple stock stands out as Big Tech tumbles. Here's what's working",
-   "sourceUrl": "https://www.usatoday.com/story/money/money-management/investing/2026/11/13/apple-stock-big-tech-market/92708432007/",
-   "publishedAt": "2026-11-14T02:46:34+00:00"
+   "text": "Why is Apple Stock Holding Strong While the Rest of the Market Falls?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/why-apple-stock-holding-strong-122531842.html",
+   "publishedAt": "2026-11-22T12:25:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple cements its status as tech\u2019s biggest heavyweight with the stock\u2019s best day in over a year",
-   "sourceUrl": "https://www.msn.com/en-us/money/general/apple-cements-its-status-as-tech-s-biggest-heavyweight-with-the-stock-s-best-day-in-over-a-year/ar-AA2gLJGn?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-04T00:00:00+00:00"
+   "text": "Apple vs. Broadcom: Comparing Revenue Trends Amid the Artificial Intelligence Boom",
+   "sourceUrl": "https://www.fool.com/coverage/charts/2026/11/23/apple-vs-broadcom-comparing-revenue-trends-amid-the-artificial-intelligence-boom/",
+   "publishedAt": "2026-11-23T19:56:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Apple's stock drops on weak margin forecast in Ternus\u2019 first earnings report",
-   "sourceUrl": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
-   "publishedAt": "2026-11-03T00:00:00+00:00"
+   "text": "Apple Hit an All-Time High While AI Stocks Sold Off. Here's the Big Tech Stock I'd Buy.",
+   "sourceUrl": "https://www.fool.com/investing/2026/11/23/apple-hit-an-all-time-high-while-ai-stocks-sold-off-here-s-the-big-tech-stock-i-d-buy/",
+   "publishedAt": "2026-11-23T16:12:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6768451882383497,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:34+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:07+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

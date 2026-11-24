@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -9%; past 12 months: +5% (historical closes).",
+   "text": "Past 3 months: -5%; past 12 months: +12% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
-   "text": "Trades -6% vs its 200-day average and -12% from its 52-week high.",
+   "text": "Trades -1% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "S&P 500 Faces Steep Weekly Decline as SPY ETF Shows 3.6% Underva",
-   "sourceUrl": "https://www.gurufocus.com/news/9212638/sp-500-faces-steep-weekly-decline-as-spy-etf-shows-36-undervaluation",
-   "publishedAt": "2026-11-20T14:46:37+00:00"
+   "text": "Markets News, Nov. 23, 2026: Stocks Skyrocket... 31% on Jensen Huang\u2019s Return to...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-stocks-skyrocket-132151010.html",
+   "publishedAt": "2026-11-23T13:29:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Invesco S&P 500 Equal Weight Energy ETF Overview (RSPG) | Barron's",
-   "sourceUrl": "https://www.barrons.com/market-data/funds/rspg",
-   "publishedAt": "2026-11-20T02:46:37+00:00"
+   "text": "XMax Stock Jumps 10.9% With No Company News on Nov. 23",
+   "sourceUrl": "https://www.gurufocus.com/news/9215404/xmax-stock-jumps-109-with-no-company-news-on-nov-23",
+   "publishedAt": "2026-11-23T17:29:10+00:00"
   },
   {
    "kind": "news",
-   "text": "Stock Market Today: Dow, S&P 500 Futures Rise as Wall Street Awaits Anthropic's ...",
-   "sourceUrl": "https://www.benzinga.com/markets/equities/26/11/63419682/stock-market-today-dow-sp-500-futures-rise-as-wall-street-awaits-anthropics-listing-panw-ntes-sls-in-focus",
-   "publishedAt": "2026-11-19T02:46:37+00:00"
+   "text": "Stock Market Today: Dow Jones, S&P 500, Nasdaq 100 Futures Rise After Friday\u2019s A...",
+   "sourceUrl": "https://www.benzinga.com/markets/equities/26/11/63520253/stock-market-today-dow-jones-sp-500-nasdaq-100-futures-rise-after-fridays-ai-rout-orcl-zs-zm-in-focus",
+   "publishedAt": "2026-11-23T10:29:10+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.12528521710093932,
-  "p50": 0.18380907130179214,
+  "p50": 0.18372671812734143,
   "p95": 0.4046160449889973,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:37+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:10+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

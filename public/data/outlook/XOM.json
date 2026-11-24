@@ -1,37 +1,37 @@
 {
  "ticker": "XOM",
  "name": "Exxon Mobil",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: +39% (historical closes).",
+   "text": "Past 3 months: -2%; past 12 months: +37% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
-   "text": "Trades +3% vs its 200-day average and -15% from its 52-week high.",
+   "text": "Trades +1% vs its 200-day average and -16% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "XOM stock is up 43% in 2026: Wall Street is split on the oil major following Q3 results",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/xom-stock-is-up-43-in-2026-wall-street-is-split-on-the-oil-major-following-q3-results/ar-AA2gN9sc?ocid=BingNewsVerp",
+   "text": "XOM Stock Is Up 43% In 2026: Wall Street Is Split On The Oil Major Following Q3 Results",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/xom-stock-43-2026-wall-042310069.html",
    "publishedAt": "2026-11-05T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "What's going on with ExxonMobil stock Monday?",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/whats-going-on-with-exxonmobil-stock-monday/ar-AA2hyMGu?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-17T02:46:36+00:00"
+   "text": "Exxon, Chevron and ConocoPhillips Are Down. Here\u2019s What Their Dividends Tell Investors",
+   "sourceUrl": "https://finance.yahoo.com/energy/articles/exxon-chevron-conocophillips-down-dividends-141705769.html",
+   "publishedAt": "2026-11-09T05:29:09+00:00"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil Stock Hits 52-Week High: Is XOM Still a Buy?",
-   "sourceUrl": "https://coinpedia.org/stock-market-news/exxon-mobil-stock-hits-52-week-high-is-xom-still-a-buy/",
-   "publishedAt": "2026-10-15T00:00:00+00:00"
+   "text": "Exxon Mobil to buy Pioneer Natural Resources, Walgreens names next CEO: Yahoo Finance Live",
+   "sourceUrl": "https://finance.yahoo.com/video/exxon-mobil-buy-pioneer-natural-113026032.html",
+   "publishedAt": "2023-10-11T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.8249799425007367,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:36+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:09+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

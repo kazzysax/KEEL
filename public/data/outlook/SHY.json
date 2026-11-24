@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
+   "text": "Past 3 months: -0%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
    "text": "Trades +1% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "BlackRock cools on US stocks, turns bullish on short-dated Treasuries",
-   "sourceUrl": "https://www.msn.com/en-us/money/companies/blackrock-cools-on-us-stocks-turns-bullish-on-short-dated-treasuries/ar-AA2e7m2x?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:00:00+00:00"
+   "text": "Vanguard Short-Term Treasury ETF (VGSH) Stock Price, Quote, News & History |...",
+   "sourceUrl": "https://www.benzinga.com/quote/VGSH",
+   "publishedAt": "2026-11-20T05:29:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Why is BlackRock cutting US stock exposure and upgrading Treasuries now",
-   "sourceUrl": "https://www.msn.com/en-us/money/economy/why-is-blackrock-cutting-us-stock-exposure-and-upgrading-treasuries-now/ar-AA2e9Ab2?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-13T00:00:00+00:00"
+   "text": "US Treasury 2 Year Note ETF (UTWO) Stock Price, Quote, News & History | Benzinga",
+   "sourceUrl": "https://www.benzinga.com/quote/UTWO",
+   "publishedAt": "2026-11-19T05:29:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Stablecoin demand for U.S. Treasuries to hit $400B by 2030: San Francisco Fed",
-   "sourceUrl": "https://seekingalpha.com/news/4648074-stablecoin-demand-for-us-treasuries-to-hit-400b-by-2030-san-francisco-fed",
-   "publishedAt": "2026-09-29T00:00:00+00:00"
+   "text": "Warren Buffett says bad news is an investor's best friend. History says he's...",
+   "sourceUrl": "https://www.fool.com/investing/2026/11/18/warren-buffett-says-bad-news-is-an-investors-best-friend-history-says-hes-right/",
+   "publishedAt": "2026-11-18T05:29:11+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.03967501369797699,
-  "p50": 0.023891770485649833,
+  "p50": 0.02388234846370496,
   "p95": 0.05683740053033537,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:38+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:11+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

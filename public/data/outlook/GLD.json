@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -24%; past 12 months: -14% (historical closes).",
+   "text": "Past 3 months: -22%; past 12 months: -11% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
-   "text": "Trades -20% vs its 200-day average and -35% from its 52-week high.",
+   "text": "Trades -18% vs its 200-day average and -33% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "Gold price today on November 20, 2026",
-   "sourceUrl": "https://www.msn.com/en-us/money/economy/gold-price-today-on-november-20-2026/ar-AA2hQdBO?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-06T02:46:37+00:00"
+   "text": "Gold Price Is Moving With the Stock Market, and That\u2019s Bad",
+   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-price-moving-stock-market-040000108.html",
+   "publishedAt": "2026-11-22T05:29:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Why is gold price down today? Gold futures slip 2.5% to September 2025 low",
-   "sourceUrl": "https://www.msn.com/en-us/money/economy/why-is-gold-price-down-today-gold-futures-slip-2-5-to-september-2025-low/ar-AA2hIwfM?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-19T02:46:37+00:00"
+   "text": "Gold price today: Gold rises 1.83% on November 23, 2026",
+   "sourceUrl": "https://www.msn.com/en-au/money/economy/gold-price-today-gold-rises-1-83-on-november-23-2026/ar-AA2i2coK?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-12T05:29:11+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, November 19, 2026: Gold rates fall across Indian cities, check latest 22K and 24K prices",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-november-19-2026-gold-rates-fall-across-indian-cities-check-latest-22k-and-24k-prices/ar-AA2hL9SV?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-20T02:46:37+00:00"
+   "text": "Gold price today, Friday, November 20, 2026: Gold prices continue to fall as rate hike expectations crystallize",
+   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-november-20-2026-gold-prices-continue-to-fall-as-rate-hike-expectations-crystallize-121116915.html",
+   "publishedAt": "2026-11-21T05:29:11+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07382095424781743,
-  "p50": 0.12952321188416072,
+  "p5": -0.0739130869482787,
+  "p50": 0.12936334128468285,
   "p95": 0.5884083775183933,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:37+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:11+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

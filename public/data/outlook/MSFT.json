@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -1%; past 12 months: +0% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: +4% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
-   "text": "Trades +9% vs its 200-day average and -13% from its 52-week high.",
+   "text": "Trades +11% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "Options Traders Show Slight Pessimism as Microsoft (MSFT) Stock",
-   "sourceUrl": "https://www.gurufocus.com/news/9213196/options-traders-show-slight-pessimism-as-microsoft-msft-stock-dips-amid-elevated-volatility",
-   "publishedAt": "2026-11-20T20:46:34+00:00"
+   "text": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+   "sourceUrl": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
+   "publishedAt": "2026-10-28T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft (MSFT) Launches Pay-for-Performance Strategy in Azure",
-   "sourceUrl": "https://www.gurufocus.com/news/9213144/microsoft-msft-launches-payforperformance-strategy-in-azure-amid-costcutting-drive",
-   "publishedAt": "2026-11-20T19:46:34+00:00"
+   "text": "Microsoft stock falls amid sector weakness and outages",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-falls-amid-sector-weakness-and-outages/ar-AA2hE7s4?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-18T05:29:08+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft Corp (MSFT) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/MSFT/summary",
-   "publishedAt": "2026-11-17T02:46:34+00:00"
+   "text": "What Does Microsoft\u2019s Slide Mean for a 67-Year-Old With $700,000 of a $2.4 Million IRA in the Stock?",
+   "sourceUrl": "https://247wallst.com/investing/2026/11/13/what-does-microsofts-slide-mean-for-a-67-year-old-with-700000-of-a-2-4-million-ira-in-the-stock/",
+   "publishedAt": "2026-11-14T05:29:08+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.22099679238567715,
-  "p50": 0.20407868020414832,
+  "p50": 0.2036611961530399,
   "p95": 0.5868933193675474,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:34+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:08+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

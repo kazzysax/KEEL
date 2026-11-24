@@ -7,43 +7,43 @@
    "kind": "price",
    "text": "Past 3 months: -1%; past 12 months: -2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
    "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "Retirees weigh 10-year US treasuries at 5% yield",
-   "sourceUrl": "https://www.msn.com/en-xl/money/economy/retirees-weigh-10-year-us-treasuries-at-5-yield/ar-AA2gnPim?ocid=BingNewsVerp",
-   "publishedAt": "2026-10-30T00:00:00+00:00"
+   "text": "Gold reclaims $3,650 as Nvidia news sparks rally ahead of US PCE | FXStreet",
+   "sourceUrl": "https://www.fxstreet.com/news/gold-reclaims-3-650-as-nvidia-news-sparks-rally-ahead-of-us-pce-202611231916",
+   "publishedAt": "2026-11-23T19:29:12+00:00"
   },
   {
    "kind": "news",
-   "text": "Treasuries Rallied as Tech Slid, and the Crowded Bet Against Bonds Felt It",
-   "sourceUrl": "https://www.morningstar.com/news/pr-newswire/20261019ln75030/treasuries-rallied-as-tech-slid-and-the-crowded-bet-against-bonds-felt-it",
-   "publishedAt": "2026-10-19T00:00:00+00:00"
+   "text": "The average US 30-year mortgage rate rises to 7.28% this week, ending four-week...",
+   "sourceUrl": "https://krcgtv.com/news/nation-world/the-average-us-30-year-mortgage-rate-rises-to-728-this-week-ending-four-week-slide",
+   "publishedAt": "2026-11-20T05:29:12+00:00"
   },
   {
    "kind": "news",
-   "text": "Dad Is 71 and Wants to Sell Every Stock, Put His $1.1 Million in 10-Year Treasuries Now That the Yield Is Above 5% and Live on the Interest. Is It a Crazy Idea?",
-   "sourceUrl": "https://247wallst.com/personal-finance/2026/10/18/dad-is-71-and-wants-to-sell-every-stock-put-his-1-1-million-in-10-year-treasuries-now-that-the-yield-is-above-5-and-live-on-the-interest-is-it-a-crazy-idea/",
-   "publishedAt": "2026-10-18T00:00:00+00:00"
+   "text": "US National Debt Interest Has Quadrupled as Share of Outlays - iShares 20+ Year...",
+   "sourceUrl": "https://www.benzinga.com/markets/economic-data/26/11/63330321/us-national-debt-interest-share-of-government-outlays-quadruples-record-october",
+   "publishedAt": "2026-11-17T05:29:12+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.13587692156845688,
-  "p50": -0.016543128468012647,
+  "p50": -0.016717878775013406,
   "p95": 0.08130766822503688,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:38+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:12+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

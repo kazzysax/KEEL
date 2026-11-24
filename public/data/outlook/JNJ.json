@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -0%; past 12 months: +37% (historical closes).",
+   "text": "Past 3 months: -1%; past 12 months: +36% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "price",
    "text": "Trades +8% vs its 200-day average and -5% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-20"
+   "publishedAt": "2026-11-23"
   },
   {
    "kind": "news",
-   "text": "Johnson & Johnson (JNJ) Stock Gets Fair Value Bump On Mixed Analyst Target Changes",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-gets-141329999.html",
-   "publishedAt": "2026-10-23T00:00:00+00:00"
+   "text": "Here is What to Know Beyond Why Johnson & Johnson (JNJ) is a Trending Stock",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/here-is-what-to-know-beyond-why-johnson-johnson-jnj-is-a-trending-stock/ar-AA2hCHEz?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-18T05:29:09+00:00"
   },
   {
    "kind": "news",
-   "text": "What Does Johnson & Johnson (JNJ) Appeal Loss Mean For Investors?",
-   "sourceUrl": "https://finance.yahoo.com/healthcare/articles/does-johnson-johnson-jnj-appeal-151745325.html",
-   "publishedAt": "2026-11-20T02:46:36+00:00"
+   "text": "Johnson & Johnson stock: Company agrees to buy Ollin for $2.2 billion",
+   "sourceUrl": "https://www.ad-hoc-news.de/boerse/news/corporate-news/johnson-und-johnson-stock-company-agrees-to-buy-ollin-for-2-2-billion/70547112",
+   "publishedAt": "2026-11-11T05:29:09+00:00"
   },
   {
    "kind": "news",
-   "text": "Amgen vs. Johnson & Johnson: Which Healthcare Giant Has the Better Stock to Buy?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/amgen-vs-johnson-johnson-healthcare-163101422.html",
-   "publishedAt": "2026-10-24T00:00:00+00:00"
+   "text": "3 Reasons Johnson & Johnson Is Still a Buy With Its Stock Near a Record High",
+   "sourceUrl": "https://www.fool.com/investing/2026/09/30/3-reasons-johnson-johnson-is-still-a-buy-with-its/",
+   "publishedAt": "2026-09-30T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5644587720164707,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1482
+  "windows": 1483
  },
- "asOf": "2026-11-21T02:46:36+00:00",
- "priceAsOf": "2026-11-20",
+ "asOf": "2026-11-24T05:29:09+00:00",
+ "priceAsOf": "2026-11-23",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
