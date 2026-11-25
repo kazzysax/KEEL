@@ -7,43 +7,31 @@
    "kind": "price",
    "text": "Past 3 months: -1%; past 12 months: -5% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "price",
-   "text": "Trades -1% vs its 200-day average and -7% from its 52-week high.",
+   "text": "Trades -2% vs its 200-day average and -7% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "news",
    "text": "US Treasuries Slump as Hot Inflation Lifts Fed Rate-Hike Bets",
    "sourceUrl": "https://finance.yahoo.com/economy/policy/articles/us-treasuries-slump-hot-inflation-124425335.html",
    "publishedAt": "2026-10-14T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "China's $2 billion bond draws large orders, prices in line with US Treasuries",
-   "sourceUrl": "https://www.reuters.com/markets/asia/chinas-2-billion-bond-draws-large-orders-prices-line-with-us-treasuries-2026-11-20/",
-   "publishedAt": "2026-11-20T05:29:12+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "US National Debt Interest Has Quadrupled as Share of Outlays - iShares 20+ Year...",
-   "sourceUrl": "https://www.benzinga.com/markets/economic-data/26/11/63330321/us-national-debt-interest-share-of-government-outlays-quadruples-record-october",
-   "publishedAt": "2026-11-17T05:29:12+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.2653597325769289,
-  "p50": -0.061880311430110746,
+  "p50": -0.06182774703576277,
   "p95": 0.07878644179541117,
   "min": -0.36207801740736567,
   "max": 0.1829550567318068,
-  "windows": 1483
+  "windows": 1484
  },
- "asOf": "2026-11-24T05:29:12+00:00",
- "priceAsOf": "2026-11-23",
+ "asOf": "2026-11-25T04:32:20+00:00",
+ "priceAsOf": "2026-11-24",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

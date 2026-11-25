@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +4% (historical closes).",
+   "text": "Past 3 months: -0%; past 12 months: +6% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "price",
-   "text": "Trades +11% vs its 200-day average and -11% from its 52-week high.",
+   "text": "Trades +12% vs its 200-day average and -11% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-   "sourceUrl": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "publishedAt": "2026-10-28T00:00:00+00:00"
+   "text": "What's going on with Microsoft stock?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/whats-going-on-with-microsoft-stock/ar-AA2gKcwc?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-04T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock falls amid sector weakness and outages",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/microsoft-stock-falls-amid-sector-weakness-and-outages/ar-AA2hE7s4?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-18T05:29:08+00:00"
+   "text": "Why the Microsoft outage came at the worst possible time for the stock",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/why-microsoft-outage-is-the-worst-possible-timing-for-the-stock/ar-AA2hlY2O?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-15T04:32:14+00:00"
   },
   {
    "kind": "news",
-   "text": "What Does Microsoft\u2019s Slide Mean for a 67-Year-Old With $700,000 of a $2.4 Million IRA in the Stock?",
-   "sourceUrl": "https://247wallst.com/investing/2026/11/13/what-does-microsofts-slide-mean-for-a-67-year-old-with-700000-of-a-2-4-million-ira-in-the-stock/",
-   "publishedAt": "2026-11-14T05:29:08+00:00"
+   "text": "Microsoft Stock Hits Seven-Week Low: Is a Bigger Drop Coming?",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/microsoft-stock-hits-seven-week-022643923.html",
+   "publishedAt": "2026-11-18T04:32:14+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.5868933193675474,
   "min": -0.35316074795396846,
   "max": 0.7731916500710374,
-  "windows": 1483
+  "windows": 1484
  },
- "asOf": "2026-11-24T05:29:08+00:00",
- "priceAsOf": "2026-11-23",
+ "asOf": "2026-11-25T04:32:15+00:00",
+ "priceAsOf": "2026-11-24",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

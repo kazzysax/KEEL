@@ -7,31 +7,31 @@
    "kind": "price",
    "text": "Past 3 months: -1%; past 12 months: -2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "price",
    "text": "Trades -1% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "news",
    "text": "Gold reclaims $3,650 as Nvidia news sparks rally ahead of US PCE | FXStreet",
    "sourceUrl": "https://www.fxstreet.com/news/gold-reclaims-3-650-as-nvidia-news-sparks-rally-ahead-of-us-pce-202611231916",
-   "publishedAt": "2026-11-23T19:29:12+00:00"
+   "publishedAt": "2026-11-24T04:32:19+00:00"
   },
   {
    "kind": "news",
-   "text": "The average US 30-year mortgage rate rises to 7.28% this week, ending four-week...",
-   "sourceUrl": "https://krcgtv.com/news/nation-world/the-average-us-30-year-mortgage-rate-rises-to-728-this-week-ending-four-week-slide",
-   "publishedAt": "2026-11-20T05:29:12+00:00"
+   "text": "NVIDIA (NVDA) Stock Price, News & Analysis \u2013 Page 2 | 24/7 Wall St.",
+   "sourceUrl": "https://247wallst.com/companies/nvda/page/2/",
+   "publishedAt": "2026-11-24T04:32:19+00:00"
   },
   {
    "kind": "news",
-   "text": "US National Debt Interest Has Quadrupled as Share of Outlays - iShares 20+ Year...",
-   "sourceUrl": "https://www.benzinga.com/markets/economic-data/26/11/63330321/us-national-debt-interest-share-of-government-outlays-quadruples-record-october",
-   "publishedAt": "2026-11-17T05:29:12+00:00"
+   "text": "The 10-Year Treasury Yield Just Jumped Back Above 5%",
+   "sourceUrl": "https://247wallst.com/investing/2026/10/29/the-10-year-treasury-yield-just-jumped-back-above-5/",
+   "publishedAt": "2026-10-29T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.08130766822503688,
   "min": -0.18228717258502647,
   "max": 0.12187064774468692,
-  "windows": 1483
+  "windows": 1484
  },
- "asOf": "2026-11-24T05:29:12+00:00",
- "priceAsOf": "2026-11-23",
+ "asOf": "2026-11-25T04:32:19+00:00",
+ "priceAsOf": "2026-11-24",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +14%; past 12 months: +23% (historical closes).",
+   "text": "Past 3 months: +14%; past 12 months: +22% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "price",
-   "text": "Trades +12% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +12% vs its 200-day average and -2% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
+  },
+  {
+   "kind": "news",
+   "text": "Costco just made a new all-time high after announcing a $30-per-share special dividend. Is the stock a buy before Dec. 10?",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/costco-just-made-a-new-all-time-high-after-announcing-a-30-per-share-special-dividend-is-the-stock-a-buy-before-dec-10/ar-AA2hRtQg?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-21T04:32:15+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "COST Stock Alert: What to Know as Costco Issues $30 Special Dividend",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/cost-stock-alert-know-costco-190916756.html",
+   "publishedAt": "2026-11-12T04:32:15+00:00"
   },
   {
    "kind": "news",
    "text": "Costco is paying out $13 billion in special dividends this year. Is the stock a buy?",
    "sourceUrl": "https://www.msn.com/en-us/news/other/costco-is-paying-out-13-billion-in-special-dividends-this-year-is-the-stock-a-buy/ar-AA2hu3RG?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-16T05:29:08+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "COST stock rises overnight: Costco\u2019s $30 special dividend has retail celebrating 'Santa coming early'",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/cost-stock-rises-overnight-costco-s-30-special-dividend-has-retail-celebrating-santa-coming-early/ar-AA2hbhCd?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-11T05:29:08+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Jim Cramer sends strong signal to Costco investors",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/jim-cramer-sends-strong-signal-to-costco-investors/ar-AA2hP7ae?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-20T05:29:08+00:00"
+   "publishedAt": "2026-11-16T04:32:15+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08430635289771304,
-  "p50": 0.21073081662037652,
+  "p50": 0.21225250389352168,
   "p95": 0.6611386612540642,
   "min": -0.1967779267526213,
   "max": 0.7517844965197293,
-  "windows": 1483
+  "windows": 1484
  },
- "asOf": "2026-11-24T05:29:08+00:00",
- "priceAsOf": "2026-11-23",
+ "asOf": "2026-11-25T04:32:16+00:00",
+ "priceAsOf": "2026-11-24",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

@@ -5,15 +5,15 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -2%; past 12 months: +37% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: +38% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "price",
-   "text": "Trades +1% vs its 200-day average and -16% from its 52-week high.",
+   "text": "Trades +1% vs its 200-day average and -15% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-23"
+   "publishedAt": "2026-11-24"
   },
   {
    "kind": "news",
@@ -23,27 +23,27 @@
   },
   {
    "kind": "news",
-   "text": "Exxon, Chevron and ConocoPhillips Are Down. Here\u2019s What Their Dividends Tell Investors",
-   "sourceUrl": "https://finance.yahoo.com/energy/articles/exxon-chevron-conocophillips-down-dividends-141705769.html",
-   "publishedAt": "2026-11-09T05:29:09+00:00"
+   "text": "Exxon Mobil Stock Hits 52-Week High: Is XOM Still a Buy?",
+   "sourceUrl": "https://coinpedia.org/stock-market-news/exxon-mobil-stock-hits-52-week-high-is-xom-still-a-buy/",
+   "publishedAt": "2026-10-15T00:00:00+00:00"
   },
   {
    "kind": "news",
-   "text": "Exxon Mobil to buy Pioneer Natural Resources, Walgreens names next CEO: Yahoo Finance Live",
-   "sourceUrl": "https://finance.yahoo.com/video/exxon-mobil-buy-pioneer-natural-113026032.html",
-   "publishedAt": "2023-10-11T00:00:00+00:00"
+   "text": "ExxonMobil Stock Hit a Record Close as Brent Topped $116. Here\u2019s Where the Stock Could Go by 2030",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/exxonmobil-stock-hit-record-close-012028642.html",
+   "publishedAt": "2026-10-26T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.07230976483000207,
-  "p50": 0.3001048042827179,
+  "p50": 0.3003362026733851,
   "p95": 0.8249799425007367,
   "min": -0.3721870299963359,
   "max": 1.1851240958603309,
-  "windows": 1483
+  "windows": 1484
  },
- "asOf": "2026-11-24T05:29:09+00:00",
- "priceAsOf": "2026-11-23",
+ "asOf": "2026-11-25T04:32:17+00:00",
+ "priceAsOf": "2026-11-24",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
