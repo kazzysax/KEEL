@@ -5,33 +5,33 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +13%; past 12 months: +31% (historical closes).",
+   "text": "Past 3 months: +13%; past 12 months: +29% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "price",
-   "text": "Trades +17% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +17% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
-  },
-  {
-   "kind": "news",
-   "text": "Apple Is Now the World's Largest Company. Time to Buy the Stock?",
-   "sourceUrl": "https://www.fool.com/investing/2026/11/17/apple-is-now-the-worlds-largest-company-time-to-buy-the-stock/",
-   "publishedAt": "2026-11-17T14:45:00+00:00"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "news",
    "text": "Apple is now worth over $5 trillion without betting big on AI data centers. AAPL stock now trades near Wall Street\u2019s targets",
    "sourceUrl": "https://www.msn.com/en-us/news/other/apple-is-now-worth-over-5-trillion-without-betting-big-on-ai-data-centers-aapl-stock-now-trades-near-wall-street-s-targets/ar-AA2hVGtp?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-22T04:32:14+00:00"
+   "publishedAt": "2026-11-22T03:44:47+00:00"
   },
   {
    "kind": "news",
-   "text": "I Will Keep Holding Apple Stock at New All-Time Highs as Long as It Stays Above This Key Level",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/keep-holding-apple-stock-time-164003455.html",
-   "publishedAt": "2026-11-17T04:32:14+00:00"
+   "text": "Tell Schwab to move $19,000 of Apple stock to your son on December 30 and if the shares land January 4 the IRS counts it as a 2027 gift. This year\u2019s exclusion is gone for good",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/tell-schwab-to-move-19-000-of-apple-stock-to-your-son-on-december-30-and-if-the-shares-land-january-4-the-irs-counts-it-as-a-2027-gift-this-year-s-exclusion-is-gone-for-good/ar-AA2idJko?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-15T03:44:47+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "How much Apple stock does CEO John Ternus actually own?",
+   "sourceUrl": "https://www.thestreet.com/personalities/how-much-apple-stock-does-john-ternus-own",
+   "publishedAt": "2026-10-22T00:00:00+00:00"
   }
  ],
  "historical12m": {
@@ -40,10 +40,10 @@
   "p95": 0.6768451882383497,
   "min": -0.3017231649837372,
   "max": 1.2015402862477123,
-  "windows": 1484
+  "windows": 1485
  },
- "asOf": "2026-11-25T04:32:14+00:00",
- "priceAsOf": "2026-11-24",
+ "asOf": "2026-11-26T03:44:47+00:00",
+ "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

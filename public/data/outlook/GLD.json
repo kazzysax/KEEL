@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -23%; past 12 months: -13% (historical closes).",
+   "text": "Past 3 months: -23%; past 12 months: -14% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "price",
-   "text": "Trades -20% vs its 200-day average and -34% from its 52-week high.",
+   "text": "Trades -19% vs its 200-day average and -34% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "news",
-   "text": "Gold price today on November 24, 2026",
-   "sourceUrl": "https://www.msn.com/en-us/money/investment/gold-price-today-on-november-24-2026/ar-AA2i7moo?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-08T04:32:18+00:00"
+   "text": "Gold price today: Gold falls 2.44% on November 25, 2026",
+   "sourceUrl": "https://www.msn.com/en-us/money/economy/gold-price-today-gold-falls-2-44-on-november-25-2026/ar-AA2icvGh?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-16T03:44:51+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold rate today in India at 14-month low; will it hit \u20b91 lakh? Experts list out 3 reasons for gold price drop in 2026",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-rate-today-in-india-at-14-month-low-will-it-hit-1-lakh-experts-list-out-3-reasons-for-gold-price-drop-in-2026/ar-AA2hWryf?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-22T04:32:18+00:00"
+   "text": "Gold Price Is Moving With the Stock Market, and That\u2019s Bad",
+   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-price-moving-stock-market-040000108.html",
+   "publishedAt": "2026-11-23T03:44:51+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold prices today, Monday, November 23, 2026: Gold prices opened at lowest point since 9/2/25",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-monday-november-23-2026-gold-prices-opened-at-lowest-point-since-9225-122415220.html",
-   "publishedAt": "2026-11-24T04:32:18+00:00"
+   "text": "Gold Falls to a 14-Month Low Near $3,760. Will 2027 Finally Bring a Recovery?",
+   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-14-month-low-124723754.html",
+   "publishedAt": "2026-11-19T03:44:51+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07394283884531139,
-  "p50": 0.12936334128468285,
+  "p5": -0.07405539423194696,
+  "p50": 0.12923450014975701,
   "p95": 0.5884083775183933,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1484
+  "windows": 1485
  },
- "asOf": "2026-11-25T04:32:18+00:00",
- "priceAsOf": "2026-11-24",
+ "asOf": "2026-11-26T03:44:51+00:00",
+ "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

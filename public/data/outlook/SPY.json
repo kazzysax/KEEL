@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -6%; past 12 months: +10% (historical closes).",
+   "text": "Past 3 months: -7%; past 12 months: +8% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "price",
    "text": "Trades -2% vs its 200-day average and -8% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "news",
-   "text": "Phoenix Asia (PHOE) Stock Is Up 18.9% Today Without Company News",
-   "sourceUrl": "https://www.gurufocus.com/news/9218148/phoenix-asia-phoe-stock-is-up-189-today-without-company-news",
-   "publishedAt": "2026-11-24T20:32:18+00:00"
+   "text": "Stock market today: Nasdaq, S&P 500 pare losses as AI stocks bounce off lows; Dow rises 300 points",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/stock-market-today-s-p-500-nasdaq-tumble-as-nvidia-paces-ai-sell-off-ahead-of-holiday-break/ar-AA2icWxW?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-14T03:44:50+00:00"
   },
   {
    "kind": "news",
-   "text": "Dow, S&P 500, Nasdaq Futures Edge Lower Amid Tech Selloff Ahead Of Key Inflation...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/dow-p-500-nasdaq-futures-032010769.html",
-   "publishedAt": "2026-11-25T03:32:18+00:00"
+   "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders bet on December Fed hike; Trump...",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-s-p-500-nasdaq-futures-fall-as-traders-bet-on-december-fed-hike-trump/vi-AA2id2Mg?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-14T03:44:50+00:00"
   },
   {
    "kind": "news",
-   "text": "Markets News, Nov. 23, 2026: Stocks Skyrocket... 31% on Jensen Huang\u2019s Return to...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-stocks-skyrocket-132151010.html",
-   "publishedAt": "2026-11-23T04:32:18+00:00"
+   "text": "Markets news, Nov. 24, 2026: S&P 500, Nasdaq fall after massive rally as Nvidia leads AI sell-off; Anthropic drops below IPO price",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-fall-after-monday-s-big-gains-as-nvidia-leads-ai-stock-sell-off/ar-AA2i893a?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-25T03:44:50+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.12528521710093932,
-  "p50": 0.18372671812734143,
+  "p50": 0.18292618400604033,
   "p95": 0.4046160449889973,
   "min": -0.19732690669469255,
   "max": 0.7750444604115636,
-  "windows": 1484
+  "windows": 1485
  },
- "asOf": "2026-11-25T04:32:18+00:00",
- "priceAsOf": "2026-11-24",
+ "asOf": "2026-11-26T03:44:50+00:00",
+ "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

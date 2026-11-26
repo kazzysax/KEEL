@@ -5,15 +5,21 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +0%; past 12 months: +1% (historical closes).",
+   "text": "Past 3 months: +0%; past 12 months: +2% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
   },
   {
    "kind": "price",
    "text": "Trades +1% vs its 200-day average and -0% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-24"
+   "publishedAt": "2026-11-25"
+  },
+  {
+   "kind": "news",
+   "text": "1NVEST ICE US Treasury Short Bond Index STANLIB Feeder ETF ()",
+   "sourceUrl": "https://www.moneyweb.co.za/tools-and-data/click-a-unit-trust/ETFUSD/",
+   "publishedAt": "2026-09-30T00:00:00+00:00"
   },
   {
    "kind": "news",
@@ -26,24 +32,18 @@
    "text": "BlackRock cools on US stocks, turns bullish on short-dated Treasuries",
    "sourceUrl": "https://www.reuters.com/business/blackrock-cools-us-stocks-turns-bullish-short-dated-treasuries-2026-10-13/",
    "publishedAt": "2026-10-13T00:00:00+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Vanguard Short-Term Treasury ETF (VGSH) Stock Price, Quote, News & History |...",
-   "sourceUrl": "https://www.benzinga.com/quote/VGSH",
-   "publishedAt": "2026-11-20T04:32:19+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.03967501369797699,
-  "p50": 0.02388234846370496,
+  "p50": 0.02386728868532928,
   "p95": 0.05683740053033537,
   "min": -0.0537058890793799,
   "max": 0.06956487375048614,
-  "windows": 1484
+  "windows": 1485
  },
- "asOf": "2026-11-25T04:32:19+00:00",
- "priceAsOf": "2026-11-24",
+ "asOf": "2026-11-26T03:44:51+00:00",
+ "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
