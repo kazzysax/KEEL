@@ -17,9 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "BlackRock Turns Bullish on Short-Term Bonds, Downgrades Stocks",
-   "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-12/blackrock-turns-bullish-on-short-term-bonds-downgrades-stocks",
-   "publishedAt": "2026-10-12T00:00:00+00:00"
+   "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+   "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+   "publishedAt": "2026-10-01T00:00:00+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "China's $2 billion bond draws large orders, prices in line with US Treasuries",
+   "sourceUrl": "https://www.reuters.com/markets/asia/chinas-2-billion-bond-draws-large-orders-prices-line-with-us-treasuries-2026-11-20/",
+   "publishedAt": "2026-11-20T03:45:38+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "U.S. Treasury Rally Boosts iShares 20+ Year Treasury Bond ETF (T",
+   "sourceUrl": "https://www.gurufocus.com/news/9220410/us-treasury-rally-boosts-ishares-20-year-treasury-bond-etf-tlt-amid-tech-selloff",
+   "publishedAt": "2026-11-26T03:45:38+00:00"
   }
  ],
  "historical12m": {
@@ -30,7 +42,7 @@
   "max": 0.1829550567318068,
   "windows": 1485
  },
- "asOf": "2026-11-26T03:44:52+00:00",
+ "asOf": "2026-11-27T03:45:38+00:00",
  "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

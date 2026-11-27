@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Apple is now worth over $5 trillion without betting big on AI data centers. AAPL stock now trades near Wall Street\u2019s targets",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/apple-is-now-worth-over-5-trillion-without-betting-big-on-ai-data-centers-aapl-stock-now-trades-near-wall-street-s-targets/ar-AA2hVGtp?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-22T03:44:47+00:00"
-  },
-  {
-   "kind": "news",
    "text": "Tell Schwab to move $19,000 of Apple stock to your son on December 30 and if the shares land January 4 the IRS counts it as a 2027 gift. This year\u2019s exclusion is gone for good",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/tell-schwab-to-move-19-000-of-apple-stock-to-your-son-on-december-30-and-if-the-shares-land-january-4-the-irs-counts-it-as-a-2027-gift-this-year-s-exclusion-is-gone-for-good/ar-AA2idJko?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-15T03:44:47+00:00"
+   "publishedAt": "2026-11-26T03:45:32+00:00"
   },
   {
    "kind": "news",
-   "text": "How much Apple stock does CEO John Ternus actually own?",
-   "sourceUrl": "https://www.thestreet.com/personalities/how-much-apple-stock-does-john-ternus-own",
-   "publishedAt": "2026-10-22T00:00:00+00:00"
+   "text": "Is Apple stock a buy right now?",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-apple-stock-a-buy-right-now/ar-AA2hpfRA?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-14T03:45:32+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/apple-executive-just-filed-sell-125755737.html",
+   "publishedAt": "2026-11-13T03:45:32+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 1.2015402862477123,
   "windows": 1485
  },
- "asOf": "2026-11-26T03:44:47+00:00",
+ "asOf": "2026-11-27T03:45:33+00:00",
  "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

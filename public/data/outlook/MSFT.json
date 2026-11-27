@@ -1,7 +1,7 @@
 {
  "ticker": "MSFT",
  "name": "Microsoft",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
@@ -17,21 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Why Is Microsoft Stock Rising 4% in Premarket Trading?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-stock-rising-4-115227839.html",
-   "publishedAt": "2026-10-29T11:52:00+00:00"
+   "text": "Bank of America sends strong signal to Microsoft stock investors",
+   "sourceUrl": "https://www.msn.com/en-us/money/general/bank-of-america-sends-strong-signal-to-microsoft-stock-investors/ar-AA2hYYao?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-23T03:45:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-   "sourceUrl": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "publishedAt": "2026-10-28T16:00:00+00:00"
+   "text": "3 things to watch after Microsoft\u2019s Cerebras deal",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/3-things-to-watch-after-microsoft-s-cerebras-deal/ar-AA2iif9u?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-16T03:45:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Under CEO Satya Nadella, Microsoft Stock Has Soared at a 23% Annualized Rate for 12 Years. Can the Tech Titan Keep Up the Pace?",
-   "sourceUrl": "https://www.fool.com/investing/2026/11/18/under-ceo-satya-nadella-microsoft-stock-has-soared-at-a-23-annualized-rate-for-12-years-can-the-tech-titan-keep-up-the-pace/",
-   "publishedAt": "2026-11-18T14:57:00+00:00"
+   "text": "Billionaire Bill Ackman sold 2 million shares of Microsoft stock. But here's why he says he's still bullish",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/billionaire-bill-ackman-sold-2-million-shares-of-microsoft-stock-but-here-s-why-he-says-he-s-still-bullish/ar-AA2hJhxs?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-19T03:45:33+00:00"
   }
  ],
  "historical12m": {
@@ -42,7 +42,7 @@
   "max": 0.7731916500710374,
   "windows": 1485
  },
- "asOf": "2026-11-26T03:44:47+00:00",
+ "asOf": "2026-11-27T03:45:33+00:00",
  "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

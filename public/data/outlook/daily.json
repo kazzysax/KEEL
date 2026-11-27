@@ -1,17 +1,17 @@
 {
  "schema": 1,
- "date": "2026-11-26",
- "generatedAt": "2026-11-26T03:44:52+00:00",
+ "date": "2026-11-27",
+ "generatedAt": "2026-11-27T03:45:38+00:00",
  "agent": "keel-outlook",
  "priceAsOf": "2026-11-25",
  "pricesRefreshed": true,
  "refreshFailed": [],
  "counts": {
-  "Positive": 6,
-  "Neutral": 2,
+  "Positive": 5,
+  "Neutral": 3,
   "Cautious": 5
  },
- "reportHash": "0xc25a3a2d9394f666c43a167debbed7cfb7d2e08815e4c49e4f8ea512af6c05b2",
+ "reportHash": "0x7e888e58bcb9f68feacd5c97b5e6be3b9a8e1cf2230abe1b8bb464ba164af218",
  "outlooks": [
   {
    "ticker": "AAPL",
@@ -32,21 +32,21 @@
     },
     {
      "kind": "news",
-     "text": "Apple is now worth over $5 trillion without betting big on AI data centers. AAPL stock now trades near Wall Street\u2019s targets",
-     "sourceUrl": "https://www.msn.com/en-us/news/other/apple-is-now-worth-over-5-trillion-without-betting-big-on-ai-data-centers-aapl-stock-now-trades-near-wall-street-s-targets/ar-AA2hVGtp?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-22T03:44:47+00:00"
-    },
-    {
-     "kind": "news",
      "text": "Tell Schwab to move $19,000 of Apple stock to your son on December 30 and if the shares land January 4 the IRS counts it as a 2027 gift. This year\u2019s exclusion is gone for good",
      "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/tell-schwab-to-move-19-000-of-apple-stock-to-your-son-on-december-30-and-if-the-shares-land-january-4-the-irs-counts-it-as-a-2027-gift-this-year-s-exclusion-is-gone-for-good/ar-AA2idJko?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-15T03:44:47+00:00"
+     "publishedAt": "2026-11-26T03:45:32+00:00"
     },
     {
      "kind": "news",
-     "text": "How much Apple stock does CEO John Ternus actually own?",
-     "sourceUrl": "https://www.thestreet.com/personalities/how-much-apple-stock-does-john-ternus-own",
-     "publishedAt": "2026-10-22T00:00:00+00:00"
+     "text": "Is Apple stock a buy right now?",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/is-apple-stock-a-buy-right-now/ar-AA2hpfRA?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-14T03:45:32+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "An Apple Executive Just Filed to Sell $19 Million of Apple Stock With Shares a Hair Below Their Record",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/apple-executive-just-filed-sell-125755737.html",
+     "publishedAt": "2026-11-13T03:45:32+00:00"
     }
    ],
    "historical12m": {
@@ -57,7 +57,7 @@
     "max": 1.2015402862477123,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:47+00:00",
+   "asOf": "2026-11-27T03:45:33+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -65,7 +65,7 @@
   {
    "ticker": "MSFT",
    "name": "Microsoft",
-   "outlook": "Positive",
+   "outlook": "Neutral",
    "reasons": [
     {
      "kind": "price",
@@ -81,21 +81,21 @@
     },
     {
      "kind": "news",
-     "text": "Why Is Microsoft Stock Rising 4% in Premarket Trading?",
-     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/why-microsoft-stock-rising-4-115227839.html",
-     "publishedAt": "2026-10-29T11:52:00+00:00"
+     "text": "Bank of America sends strong signal to Microsoft stock investors",
+     "sourceUrl": "https://www.msn.com/en-us/money/general/bank-of-america-sends-strong-signal-to-microsoft-stock-investors/ar-AA2hYYao?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-23T03:45:33+00:00"
     },
     {
      "kind": "news",
-     "text": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
-     "sourceUrl": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-     "publishedAt": "2026-10-28T16:00:00+00:00"
+     "text": "3 things to watch after Microsoft\u2019s Cerebras deal",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/3-things-to-watch-after-microsoft-s-cerebras-deal/ar-AA2iif9u?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-16T03:45:33+00:00"
     },
     {
      "kind": "news",
-     "text": "Under CEO Satya Nadella, Microsoft Stock Has Soared at a 23% Annualized Rate for 12 Years. Can the Tech Titan Keep Up the Pace?",
-     "sourceUrl": "https://www.fool.com/investing/2026/11/18/under-ceo-satya-nadella-microsoft-stock-has-soared-at-a-23-annualized-rate-for-12-years-can-the-tech-titan-keep-up-the-pace/",
-     "publishedAt": "2026-11-18T14:57:00+00:00"
+     "text": "Billionaire Bill Ackman sold 2 million shares of Microsoft stock. But here's why he says he's still bullish",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/billionaire-bill-ackman-sold-2-million-shares-of-microsoft-stock-but-here-s-why-he-says-he-s-still-bullish/ar-AA2hJhxs?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-19T03:45:33+00:00"
     }
    ],
    "historical12m": {
@@ -106,7 +106,7 @@
     "max": 0.7731916500710374,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:47+00:00",
+   "asOf": "2026-11-27T03:45:33+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -130,15 +130,21 @@
     },
     {
      "kind": "news",
-     "text": "Walmart stock falls as forecast leaves Wall Street asking for more",
-     "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-falls-as-forecast-leaves-wall-street-asking-for-more/ar-AA2hIZaH?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-20T03:44:48+00:00"
+     "text": "Walmart Inc (WMT) Stock Price, Trades & News | GuruFocus",
+     "sourceUrl": "https://www.gurufocus.com/stock/WMT/summary",
+     "publishedAt": "2026-11-26T03:45:33+00:00"
     },
     {
      "kind": "news",
-     "text": "Why is Walmart stock falling despite Q3 earnings beat, raised outlook?",
-     "sourceUrl": "https://www.msn.com/en-us/money/other/why-is-walmart-stock-falling-despite-q3-earnings-beat-raised-outlook/ar-AA2hNvv1?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-20T03:44:48+00:00"
+     "text": "Walmart (WMT) Stock May Be Fully Valued After Earnings News",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-may-fully-010939760.html",
+     "publishedAt": "2026-11-22T03:45:33+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "WMT Stock Ticks Higher Overnight: Analyst Says Walmart Deserves Rich Valuation, ...",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/wmt-stock-ticks-higher-overnight-063343263.html",
+     "publishedAt": "2026-11-20T03:45:33+00:00"
     }
    ],
    "historical12m": {
@@ -149,7 +155,7 @@
     "max": 0.9019919854400682,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:48+00:00",
+   "asOf": "2026-11-27T03:45:33+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -173,21 +179,21 @@
     },
     {
      "kind": "news",
-     "text": "COST Stock Alert: What to Know as Costco Issues $30 Special Dividend",
-     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/cost-stock-alert-know-costco-190916756.html",
-     "publishedAt": "2026-11-11T00:00:00+00:00"
+     "text": "Should you buy Costco stock for its special dividend?",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/should-you-buy-costco-stock-for-its-special-dividend/ar-AA2hD64d?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-18T03:45:34+00:00"
     },
     {
      "kind": "news",
      "text": "Costco is paying out $13 billion in special dividends this year. Is the stock a buy?",
      "sourceUrl": "https://www.msn.com/en-us/news/other/costco-is-paying-out-13-billion-in-special-dividends-this-year-is-the-stock-a-buy/ar-AA2hu3RG?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-16T03:44:48+00:00"
+     "publishedAt": "2026-11-16T03:45:34+00:00"
     },
     {
      "kind": "news",
      "text": "Costco just announced a special dividend for shareholders as of Nov. 24. Should you buy shares before then?",
-     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/costco-just-announced-a-special-dividend-for-shareholders-as-of-nov-24-should-you-buy-shares-before-then/ar-AA2hRBKx?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-21T03:44:48+00:00"
+     "sourceUrl": "https://www.msn.com/en-us/news/other/costco-just-announced-a-special-dividend-for-shareholders-as-of-nov-24-should-you-buy-shares-before-then/ar-AA2hRBKx?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-21T03:45:34+00:00"
     }
    ],
    "historical12m": {
@@ -198,7 +204,7 @@
     "max": 0.7517844965197293,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:48+00:00",
+   "asOf": "2026-11-27T03:45:34+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -222,21 +228,21 @@
     },
     {
      "kind": "news",
-     "text": "Prediction: Here's what $10,000 in Coca-Cola could pay you in dividends by 2036",
-     "sourceUrl": "https://www.msn.com/en-us/money/general/prediction-here-s-what-10-000-in-coca-cola-could-pay-you-in-dividends-by-2036/ar-AA2i9ymO?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-25T03:44:49+00:00"
+     "text": "Coca-Cola is the most boring stock I own. After 64 years of dividend raises, I'll never sell.",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/coca-cola-is-the-most-boring-stock-i-own-after-64-years-of-dividend-raises-i-ll-never-sell/ar-AA2iiiIu",
+     "publishedAt": "2026-11-26T13:39:02+00:00"
     },
     {
      "kind": "news",
-     "text": "Coca Cola (KO) Stock Looks Fully Priced After Its 109% Run",
-     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-ko-stock-looks-001242930.html",
-     "publishedAt": "2026-11-22T03:44:49+00:00"
+     "text": "Prediction: Here's What $10,000 in Coca-Cola Could Pay You in Dividends by 2036",
+     "sourceUrl": "https://www.fool.com/investing/2026/11/24/prediction-heres-what-10000-in-coca-cola-could-pay-you-in-dividends-by-2036/",
+     "publishedAt": "2026-11-24T22:13:00+00:00"
     },
     {
      "kind": "news",
-     "text": "Coca-Cola stock is a buy thanks to shelf space and habits",
-     "sourceUrl": "https://www.msn.com/en-us/news/other/coca-cola-stock-is-a-buy-thanks-to-shelf-space-and-habits/ar-AA2gU7Zz?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-06T00:00:00+00:00"
+     "text": "Prediction: Coca-Cola Stock Will Close 2026 Over $100 per Share. Here's Why It's a No-Brainer Buy for 2027.",
+     "sourceUrl": "https://www.fool.com/investing/2026/11/25/prediction-coca-cola-stock-will-close-2026-over-100-per-share-heres-why-its-a-no-brainer-buy-for-2027/",
+     "publishedAt": "2026-11-25T13:31:00+00:00"
     }
    ],
    "historical12m": {
@@ -247,7 +253,7 @@
     "max": 0.4469137429921173,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:49+00:00",
+   "asOf": "2026-11-27T03:45:34+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -271,21 +277,21 @@
     },
     {
      "kind": "news",
-     "text": "Johnson & Johnson (JNJ) Stock May Still Trade Below Fair Value Despite TREMFYA Trial News",
-     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-may-200856863.html",
-     "publishedAt": "2026-11-25T03:44:49+00:00"
+     "text": "Here's the 1 stock I'd most want to buy if the market crashes",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/here-s-the-1-stock-i-d-most-want-to-buy-if-the-market-crashes/ar-AA2i3WrK?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-24T03:45:35+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "Should You Be Worried About Johnson & Johnson Stock?",
+     "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/worried-johnson-johnson-stock-134713402.html",
+     "publishedAt": "2026-11-24T03:45:35+00:00"
     },
     {
      "kind": "news",
      "text": "Here is What to Know Beyond Why Johnson & Johnson (JNJ) is a Trending Stock",
      "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/here-is-what-to-know-beyond-why-johnson-johnson-jnj-is-a-trending-stock/ar-AA2hCHEz?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-18T03:44:49+00:00"
-    },
-    {
-     "kind": "news",
-     "text": "3 Reasons Johnson & Johnson Is Still a Buy With Its Stock Near a Record High",
-     "sourceUrl": "https://www.fool.com/investing/2026/09/30/3-reasons-johnson-johnson-is-still-a-buy-with-its/",
-     "publishedAt": "2026-09-30T00:00:00+00:00"
+     "publishedAt": "2026-11-18T03:45:35+00:00"
     }
    ],
    "historical12m": {
@@ -296,7 +302,7 @@
     "max": 0.7557674082585883,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:49+00:00",
+   "asOf": "2026-11-27T03:45:35+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -326,15 +332,15 @@
     },
     {
      "kind": "news",
-     "text": "ExxonMobil stock: $1.76 billion debt tender completed",
-     "sourceUrl": "https://www.ad-hoc-news.de/boerse/news/nebenwerte/exxonmobil-stock-1-76-billion-debt-tender-completed/70555491",
-     "publishedAt": "2026-11-25T03:44:50+00:00"
+     "text": "'Exxon Got Walloped': $340 Million Legal Blow Paves The Way For More",
+     "sourceUrl": "https://www.investors.com/news/exxonmobil-340-million-legal-verdict-louisiana/",
+     "publishedAt": "2026-11-25T03:45:35+00:00"
     },
     {
      "kind": "news",
      "text": "Exxon, Chevron and ConocoPhillips Are Down. Here\u2019s What Their Dividends Tell Investors",
      "sourceUrl": "https://247wallst.com/investing/2026/11/23/exxon-chevron-and-conocophillips-are-down-heres-what-their-dividends-tell-investors/",
-     "publishedAt": "2026-11-24T03:44:50+00:00"
+     "publishedAt": "2026-11-24T03:45:35+00:00"
     }
    ],
    "historical12m": {
@@ -345,7 +351,7 @@
     "max": 1.1851240958603309,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:50+00:00",
+   "asOf": "2026-11-27T03:45:35+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -369,21 +375,21 @@
     },
     {
      "kind": "news",
-     "text": "Stock market today: Nasdaq, S&P 500 pare losses as AI stocks bounce off lows; Dow rises 300 points",
-     "sourceUrl": "https://www.msn.com/en-us/money/general/stock-market-today-s-p-500-nasdaq-tumble-as-nvidia-paces-ai-sell-off-ahead-of-holiday-break/ar-AA2icWxW?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-14T03:44:50+00:00"
+     "text": "Uniti (UNIT) Stock Is Up 9.6% Today Without Company News",
+     "sourceUrl": "https://www.gurufocus.com/news/9218268/uniti-unit-stock-is-up-96-today-without-company-news",
+     "publishedAt": "2026-11-25T03:45:36+00:00"
     },
     {
      "kind": "news",
-     "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders bet on December Fed hike; Trump...",
-     "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-dow-s-p-500-nasdaq-futures-fall-as-traders-bet-on-december-fed-hike-trump/vi-AA2id2Mg?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-14T03:44:50+00:00"
+     "text": "Stock Futures Signal Rebound After S&P 500's Sharp 8.6% Drop; SP",
+     "sourceUrl": "https://www.gurufocus.com/news/9214224/stock-futures-signal-rebound-after-sp-500s-sharp-86-drop-spy-shows-7-undervaluation",
+     "publishedAt": "2026-11-23T03:45:36+00:00"
     },
     {
      "kind": "news",
-     "text": "Markets news, Nov. 24, 2026: S&P 500, Nasdaq fall after massive rally as Nvidia leads AI sell-off; Anthropic drops below IPO price",
-     "sourceUrl": "https://www.msn.com/en-us/news/other/stock-market-today-nasdaq-s-p-500-fall-after-monday-s-big-gains-as-nvidia-leads-ai-stock-sell-off/ar-AA2i893a?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-25T03:44:50+00:00"
+     "text": "Is The Stock Market Open on Thanksgiving 2026? Here\u2019s When Trading Resumes on Bl...",
+     "sourceUrl": "https://www.benzinga.com/markets/equities/26/11/63660105/is-the-stock-market-open-on-thanksgiving-2026-heres-when-trading-resumes-on-black-friday",
+     "publishedAt": "2026-11-26T06:45:36+00:00"
     }
    ],
    "historical12m": {
@@ -394,7 +400,7 @@
     "max": 0.7750444604115636,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:50+00:00",
+   "asOf": "2026-11-27T03:45:36+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -424,21 +430,21 @@
     },
     {
      "kind": "news",
-     "text": "Goldman Sachs Nasdaq-100 Premium Income ETF (GPIQ) Stock Price, Quote, News &...",
-     "sourceUrl": "https://www.benzinga.com/quote/GPIQ",
-     "publishedAt": "2026-11-23T03:44:50+00:00"
+     "text": "Nasdaq 100 flirts with bear market territory, drops 20% from October highs",
+     "sourceUrl": "https://www.msn.com/en-us/news/other/nasdaq-100-flirts-with-bear-market-territory-drops-20-from-october-highs/ar-AA2idSdl?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-26T03:45:36+00:00"
     },
     {
      "kind": "news",
-     "text": "State Street SPDR Portfolio Nasdaq 100 ETF (QNDX) Stock Price, Quote, News &...",
-     "sourceUrl": "https://www.benzinga.com/quote/QNDX",
-     "publishedAt": "2026-11-24T03:44:50+00:00"
+     "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders bet on December Fed hike; Trump tells Huang to just tell the truth",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-s-p-500-nasdaq-futures-fall-as-traders-bet-on-december-fed-hike-trump-tells-huang-to-just-tell-the-truth/vi-AA2icF88?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-26T03:45:36+00:00"
     },
     {
      "kind": "news",
-     "text": "Invesco NASDAQ 100 ETF (QQQM) Stock Price, Quote, News & History | Benzinga",
-     "sourceUrl": "https://www.benzinga.com/quote/QQQM",
-     "publishedAt": "2026-11-23T03:44:50+00:00"
+     "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures fall after Scott Bessent unveils fresh Iran sanctions, Hormuz warnings\u2014HPE, SMTC, DELL in focus (updated)",
+     "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus-updated/ar-AA2i7eNQ?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-25T03:45:36+00:00"
     }
    ],
    "historical12m": {
@@ -449,7 +455,7 @@
     "max": 0.9043423510863611,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:50+00:00",
+   "asOf": "2026-11-27T03:45:36+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -474,20 +480,20 @@
     {
      "kind": "news",
      "text": "Gold price today: Gold falls 2.44% on November 25, 2026",
-     "sourceUrl": "https://www.msn.com/en-us/money/economy/gold-price-today-gold-falls-2-44-on-november-25-2026/ar-AA2icvGh?ocid=BingNewsVerp",
-     "publishedAt": "2026-11-16T03:44:51+00:00"
+     "sourceUrl": "https://www.msn.com/en-us/money/investment/gold-price-today-gold-falls-2-44-on-november-25-2026/ar-AA2icvGh?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-26T03:45:36+00:00"
     },
     {
      "kind": "news",
-     "text": "Gold Price Is Moving With the Stock Market, and That\u2019s Bad",
-     "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-price-moving-stock-market-040000108.html",
-     "publishedAt": "2026-11-23T03:44:51+00:00"
+     "text": "Gold price today, Tuesday, November 17, 2026: Gold opens at lowest price since September 29, 2025",
+     "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-17-2026-gold-opens-at-lowest-price-since-september-29-2025-121421264.html",
+     "publishedAt": "2026-11-18T03:45:36+00:00"
     },
     {
      "kind": "news",
-     "text": "Gold Falls to a 14-Month Low Near $3,760. Will 2027 Finally Bring a Recovery?",
-     "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-falls-14-month-low-124723754.html",
-     "publishedAt": "2026-11-19T03:44:51+00:00"
+     "text": "Gold price today, November 25: Gold and silver rates fall, check 22K and 24K prices in your city",
+     "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-november-25-gold-and-silver-rates-fall-check-22k-and-24k-prices-in-your-city/ar-AA2ibv88?ocid=BingNewsVerp",
+     "publishedAt": "2026-11-26T03:45:36+00:00"
     }
    ],
    "historical12m": {
@@ -498,7 +504,7 @@
     "max": 0.9548598237884027,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:51+00:00",
+   "asOf": "2026-11-27T03:45:36+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -522,15 +528,15 @@
     },
     {
      "kind": "news",
-     "text": "1NVEST ICE US Treasury Short Bond Index STANLIB Feeder ETF ()",
-     "sourceUrl": "https://www.moneyweb.co.za/tools-and-data/click-a-unit-trust/ETFUSD/",
-     "publishedAt": "2026-09-30T00:00:00+00:00"
-    },
-    {
-     "kind": "news",
      "text": "Why is BlackRock cutting US stock exposure and upgrading Treasuries now",
      "sourceUrl": "https://www.msn.com/en-us/money/economy/why-is-blackrock-cutting-us-stock-exposure-and-upgrading-treasuries-now/ar-AA2e9Ab2?ocid=BingNewsVerp",
      "publishedAt": "2026-10-13T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "1NVEST ICE US Treasury Short Bond Index STANLIB Feeder ETF ()",
+     "sourceUrl": "https://www.moneyweb.co.za/tools-and-data/click-a-unit-trust/ETFUSD/",
+     "publishedAt": "2026-09-30T00:00:00+00:00"
     },
     {
      "kind": "news",
@@ -547,7 +553,7 @@
     "max": 0.06956487375048614,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:51+00:00",
+   "asOf": "2026-11-27T03:45:37+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -573,19 +579,19 @@
      "kind": "news",
      "text": "What Will 100,000 Hedera (HBAR) Be Worth in 10 Years?",
      "sourceUrl": "https://247wallst.com/investing/cryptocurrency/2026/11/23/what-will-100000-hedera-hbar-be-worth-in-10-years/",
-     "publishedAt": "2026-11-24T03:44:52+00:00"
+     "publishedAt": "2026-11-24T03:45:37+00:00"
     },
     {
      "kind": "news",
-     "text": "The average US 30-year mortgage rate rises to 7.28% this week, ending a...",
-     "sourceUrl": "https://www.therepublic.com/2026/11/19/the-average-us-30-year-mortgage-rate-rises-to-7-28-this-week-ending-a-four-week-slide/",
-     "publishedAt": "2026-11-20T03:44:52+00:00"
+     "text": "Gold reclaims $3,650 as Nvidia news sparks rally ahead of US PCE | FXStreet",
+     "sourceUrl": "https://www.fxstreet.com/news/gold-reclaims-3-650-as-nvidia-news-sparks-rally-ahead-of-us-pce-202611231916",
+     "publishedAt": "2026-11-24T03:45:37+00:00"
     },
     {
      "kind": "news",
-     "text": "The Weekly Spread: What Shaped US Treasury Yields And The Dollar This Week",
-     "sourceUrl": "https://finance.yahoo.com/markets/currencies/articles/weekly-spread-shaped-us-treasury-001615255.html",
-     "publishedAt": "2026-11-21T03:44:52+00:00"
+     "text": "5 Forecasters Called XRP's 2026 Price. Only the Most Pessimistic Scenario Is...",
+     "sourceUrl": "https://247wallst.com/investing/cryptocurrency/2026/11/20/5-forecasters-called-xrps-2026-price-only-the-most-pessimistic-scenario-is-still-in-play/",
+     "publishedAt": "2026-11-20T03:45:37+00:00"
     }
    ],
    "historical12m": {
@@ -596,7 +602,7 @@
     "max": 0.12187064774468692,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:52+00:00",
+   "asOf": "2026-11-27T03:45:37+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
@@ -620,9 +626,21 @@
     },
     {
      "kind": "news",
-     "text": "BlackRock Turns Bullish on Short-Term Bonds, Downgrades Stocks",
-     "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-12/blackrock-turns-bullish-on-short-term-bonds-downgrades-stocks",
-     "publishedAt": "2026-10-12T00:00:00+00:00"
+     "text": "Treasuries Surge as France\u2019s Fiscal Woes Boost Haven Demand",
+     "sourceUrl": "https://www.livemint.com/market/treasuries-surge-as-france-s-fiscal-woes-boost-haven-demand-11790882315885.html",
+     "publishedAt": "2026-10-01T00:00:00+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "China's $2 billion bond draws large orders, prices in line with US Treasuries",
+     "sourceUrl": "https://www.reuters.com/markets/asia/chinas-2-billion-bond-draws-large-orders-prices-line-with-us-treasuries-2026-11-20/",
+     "publishedAt": "2026-11-20T03:45:38+00:00"
+    },
+    {
+     "kind": "news",
+     "text": "U.S. Treasury Rally Boosts iShares 20+ Year Treasury Bond ETF (T",
+     "sourceUrl": "https://www.gurufocus.com/news/9220410/us-treasury-rally-boosts-ishares-20-year-treasury-bond-etf-tlt-amid-tech-selloff",
+     "publishedAt": "2026-11-26T03:45:38+00:00"
     }
    ],
    "historical12m": {
@@ -633,7 +651,7 @@
     "max": 0.1829550567318068,
     "windows": 1485
    },
-   "asOf": "2026-11-26T03:44:52+00:00",
+   "asOf": "2026-11-27T03:45:38+00:00",
    "priceAsOf": "2026-11-25",
    "method": "rules+headline-lexicon",
    "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

@@ -23,21 +23,21 @@
   },
   {
    "kind": "news",
-   "text": "Goldman Sachs Nasdaq-100 Premium Income ETF (GPIQ) Stock Price, Quote, News &...",
-   "sourceUrl": "https://www.benzinga.com/quote/GPIQ",
-   "publishedAt": "2026-11-23T03:44:50+00:00"
+   "text": "Nasdaq 100 flirts with bear market territory, drops 20% from October highs",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/nasdaq-100-flirts-with-bear-market-territory-drops-20-from-october-highs/ar-AA2idSdl?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-26T03:45:36+00:00"
   },
   {
    "kind": "news",
-   "text": "State Street SPDR Portfolio Nasdaq 100 ETF (QNDX) Stock Price, Quote, News &...",
-   "sourceUrl": "https://www.benzinga.com/quote/QNDX",
-   "publishedAt": "2026-11-24T03:44:50+00:00"
+   "text": "Stock market today: Dow, S&P 500, Nasdaq futures fall as traders bet on December Fed hike; Trump tells Huang to just tell the truth",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-s-p-500-nasdaq-futures-fall-as-traders-bet-on-december-fed-hike-trump-tells-huang-to-just-tell-the-truth/vi-AA2icF88?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-26T03:45:36+00:00"
   },
   {
    "kind": "news",
-   "text": "Invesco NASDAQ 100 ETF (QQQM) Stock Price, Quote, News & History | Benzinga",
-   "sourceUrl": "https://www.benzinga.com/quote/QQQM",
-   "publishedAt": "2026-11-23T03:44:50+00:00"
+   "text": "Stock market today: Dow Jones, S&P 500, Nasdaq 100 futures fall after Scott Bessent unveils fresh Iran sanctions, Hormuz warnings\u2014HPE, SMTC, DELL in focus (updated)",
+   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/stock-market-today-dow-jones-s-p-500-nasdaq-100-futures-fall-after-scott-bessent-unveils-fresh-iran-sanctions-hormuz-warnings-hpe-smtc-dell-in-focus-updated/ar-AA2i7eNQ?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-25T03:45:36+00:00"
   }
  ],
  "historical12m": {
@@ -48,7 +48,7 @@
   "max": 0.9043423510863611,
   "windows": 1485
  },
- "asOf": "2026-11-26T03:44:50+00:00",
+ "asOf": "2026-11-27T03:45:36+00:00",
  "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."

@@ -17,15 +17,21 @@
   },
   {
    "kind": "news",
-   "text": "Walmart stock falls as forecast leaves Wall Street asking for more",
-   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-falls-as-forecast-leaves-wall-street-asking-for-more/ar-AA2hIZaH?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-20T03:44:48+00:00"
+   "text": "Walmart Inc (WMT) Stock Price, Trades & News | GuruFocus",
+   "sourceUrl": "https://www.gurufocus.com/stock/WMT/summary",
+   "publishedAt": "2026-11-26T03:45:33+00:00"
   },
   {
    "kind": "news",
-   "text": "Why is Walmart stock falling despite Q3 earnings beat, raised outlook?",
-   "sourceUrl": "https://www.msn.com/en-us/money/other/why-is-walmart-stock-falling-despite-q3-earnings-beat-raised-outlook/ar-AA2hNvv1?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-20T03:44:48+00:00"
+   "text": "Walmart (WMT) Stock May Be Fully Valued After Earnings News",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-may-fully-010939760.html",
+   "publishedAt": "2026-11-22T03:45:33+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "WMT Stock Ticks Higher Overnight: Analyst Says Walmart Deserves Rich Valuation, ...",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/wmt-stock-ticks-higher-overnight-063343263.html",
+   "publishedAt": "2026-11-20T03:45:33+00:00"
   }
  ],
  "historical12m": {
@@ -36,7 +42,7 @@
   "max": 0.9019919854400682,
   "windows": 1485
  },
- "asOf": "2026-11-26T03:44:48+00:00",
+ "asOf": "2026-11-27T03:45:33+00:00",
  "priceAsOf": "2026-11-25",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
