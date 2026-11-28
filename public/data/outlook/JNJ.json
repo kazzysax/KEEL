@@ -1,49 +1,49 @@
 {
  "ticker": "JNJ",
  "name": "Johnson & Johnson",
- "outlook": "Positive",
+ "outlook": "Neutral",
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +3%; past 12 months: +36% (historical closes).",
+   "text": "Past 3 months: +3%; past 12 months: +35% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-25"
+   "publishedAt": "2026-11-27"
   },
   {
    "kind": "price",
    "text": "Trades +10% vs its 200-day average and -4% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-25"
-  },
-  {
-   "kind": "news",
-   "text": "Here's the 1 stock I'd most want to buy if the market crashes",
-   "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/here-s-the-1-stock-i-d-most-want-to-buy-if-the-market-crashes/ar-AA2i3WrK?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-24T03:45:35+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "Should You Be Worried About Johnson & Johnson Stock?",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/worried-johnson-johnson-stock-134713402.html",
-   "publishedAt": "2026-11-24T03:45:35+00:00"
+   "publishedAt": "2026-11-27"
   },
   {
    "kind": "news",
    "text": "Here is What to Know Beyond Why Johnson & Johnson (JNJ) is a Trending Stock",
    "sourceUrl": "https://www.msn.com/en-us/money/top-stocks/here-is-what-to-know-beyond-why-johnson-johnson-jnj-is-a-trending-stock/ar-AA2hCHEz?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-18T03:45:35+00:00"
+   "publishedAt": "2026-11-18T03:29:37+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "Johnson & Johnson (JNJ) Stock May Still Trade Below Fair Value Despite TREMFYA Trial News",
+   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/johnson-johnson-jnj-stock-may-200856863.html",
+   "publishedAt": "2026-11-25T03:29:37+00:00"
+  },
+  {
+   "kind": "news",
+   "text": "3 Reasons Johnson & Johnson Is Still a Buy With Its Stock Near a Record High",
+   "sourceUrl": "https://www.fool.com/investing/2026/09/30/3-reasons-johnson-johnson-is-still-a-buy-with-its/",
+   "publishedAt": "2026-09-30T00:00:00+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.08585704544293926,
-  "p50": 0.08467580985218137,
+  "p50": 0.08468853936662724,
   "p95": 0.5644587720164707,
   "min": -0.13020710595441287,
   "max": 0.7557674082585883,
-  "windows": 1485
+  "windows": 1486
  },
- "asOf": "2026-11-27T03:45:35+00:00",
- "priceAsOf": "2026-11-25",
+ "asOf": "2026-11-28T03:29:37+00:00",
+ "priceAsOf": "2026-11-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

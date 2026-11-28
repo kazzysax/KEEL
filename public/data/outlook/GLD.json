@@ -5,45 +5,45 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: -23%; past 12 months: -14% (historical closes).",
+   "text": "Past 3 months: -18%; past 12 months: -12% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-25"
+   "publishedAt": "2026-11-27"
   },
   {
    "kind": "price",
-   "text": "Trades -19% vs its 200-day average and -34% from its 52-week high.",
+   "text": "Trades -17% vs its 200-day average and -33% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-25"
+   "publishedAt": "2026-11-27"
   },
   {
    "kind": "news",
    "text": "Gold price today: Gold falls 2.44% on November 25, 2026",
    "sourceUrl": "https://www.msn.com/en-us/money/investment/gold-price-today-gold-falls-2-44-on-november-25-2026/ar-AA2icvGh?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-26T03:45:36+00:00"
+   "publishedAt": "2026-11-26T03:29:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, Tuesday, November 17, 2026: Gold opens at lowest price since September 29, 2025",
-   "sourceUrl": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-tuesday-november-17-2026-gold-opens-at-lowest-price-since-september-29-2025-121421264.html",
-   "publishedAt": "2026-11-18T03:45:36+00:00"
+   "text": "Gold's bad year is getting worse. Why its price keeps falling",
+   "sourceUrl": "https://www.msn.com/en-au/money/general/gold-s-bad-year-is-getting-worse-why-its-price-keeps-falling/ar-AA2hLWtr?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-20T03:29:39+00:00"
   },
   {
    "kind": "news",
-   "text": "Gold price today, November 25: Gold and silver rates fall, check 22K and 24K prices in your city",
-   "sourceUrl": "https://www.msn.com/en-in/news/other/gold-price-today-november-25-gold-and-silver-rates-fall-check-22k-and-24k-prices-in-your-city/ar-AA2ibv88?ocid=BingNewsVerp",
-   "publishedAt": "2026-11-26T03:45:36+00:00"
+   "text": "Gold Price Is Moving With the Stock Market, and That\u2019s Bad",
+   "sourceUrl": "https://finance.yahoo.com/markets/commodities/articles/gold-price-moving-stock-market-040000108.html",
+   "publishedAt": "2026-11-23T03:29:39+00:00"
   }
  ],
  "historical12m": {
-  "p5": -0.07405539423194696,
+  "p5": -0.07441830883446965,
   "p50": 0.12923450014975701,
   "p95": 0.5884083775183933,
   "min": -0.15245530480633074,
   "max": 0.9548598237884027,
-  "windows": 1485
+  "windows": 1486
  },
- "asOf": "2026-11-27T03:45:36+00:00",
- "priceAsOf": "2026-11-25",
+ "asOf": "2026-11-28T03:29:39+00:00",
+ "priceAsOf": "2026-11-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }

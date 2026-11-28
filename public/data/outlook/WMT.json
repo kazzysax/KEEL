@@ -5,45 +5,39 @@
  "reasons": [
   {
    "kind": "price",
-   "text": "Past 3 months: +29%; past 12 months: +28% (historical closes).",
+   "text": "Past 3 months: +29%; past 12 months: +25% (historical closes).",
    "sourceUrl": null,
-   "publishedAt": "2026-11-25"
+   "publishedAt": "2026-11-27"
   },
   {
    "kind": "price",
-   "text": "Trades +11% vs its 200-day average and -1% from its 52-week high.",
+   "text": "Trades +12% vs its 200-day average and -1% from its 52-week high.",
    "sourceUrl": null,
-   "publishedAt": "2026-11-25"
+   "publishedAt": "2026-11-27"
   },
   {
    "kind": "news",
-   "text": "Walmart Inc (WMT) Stock Price, Trades & News | GuruFocus",
-   "sourceUrl": "https://www.gurufocus.com/stock/WMT/summary",
-   "publishedAt": "2026-11-26T03:45:33+00:00"
+   "text": "Walmart Stock (WMT) Goes Flat as Coachella Music Festival Sues over Trademark Infringements",
+   "sourceUrl": "https://www.tipranks.com/news/walmart-stock-wmt-goes-flat-as-coachella-music-festival-sues-over-trademark-infringements",
+   "publishedAt": "2026-11-19T03:29:36+00:00"
   },
   {
    "kind": "news",
-   "text": "Walmart (WMT) Stock May Be Fully Valued After Earnings News",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/walmart-wmt-stock-may-fully-010939760.html",
-   "publishedAt": "2026-11-22T03:45:33+00:00"
-  },
-  {
-   "kind": "news",
-   "text": "WMT Stock Ticks Higher Overnight: Analyst Says Walmart Deserves Rich Valuation, ...",
-   "sourceUrl": "https://finance.yahoo.com/markets/stocks/articles/wmt-stock-ticks-higher-overnight-063343263.html",
-   "publishedAt": "2026-11-20T03:45:33+00:00"
+   "text": "Walmart stock falls as forecast leaves Wall Street asking for more",
+   "sourceUrl": "https://www.msn.com/en-us/news/other/walmart-stock-falls-as-forecast-leaves-wall-street-asking-for-more/ar-AA2hIZaH?ocid=BingNewsVerp",
+   "publishedAt": "2026-11-20T03:29:36+00:00"
   }
  ],
  "historical12m": {
   "p5": -0.0657683491818879,
-  "p50": 0.20040159287204773,
+  "p50": 0.20159275202577143,
   "p95": 0.643458915432273,
   "min": -0.1511637091502398,
   "max": 0.9019919854400682,
-  "windows": 1485
+  "windows": 1486
  },
- "asOf": "2026-11-27T03:45:33+00:00",
- "priceAsOf": "2026-11-25",
+ "asOf": "2026-11-28T03:29:36+00:00",
+ "priceAsOf": "2026-11-27",
  "method": "rules+headline-lexicon",
  "disclaimer": "Automated summary of linked sources and past prices. Not investment advice. Past returns do not predict future results."
 }
